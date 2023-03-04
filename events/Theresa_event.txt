@@ -1,0 +1,20 @@
+add_namespace = Theresa
+country_event = {
+	id = Theresa.1
+	title = Theresa.1.t
+	desc = Theresa.1.d
+    
+	fire_only_once = yes
+    is_triggered_only = yes
+
+	option = { 
+		name = Theresa.1.a
+		THA = {
+			transfer_state = 64
+			change_tag_from = ROOT
+		}
+		every_state = {
+			add_core_of = THA
+		}
+	}
+}

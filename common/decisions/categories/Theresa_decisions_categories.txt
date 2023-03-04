@@ -1,0 +1,6 @@
+Theresa_test_decision_category = {
+	visible = {
+		is_debug = yes
+	}
+	priority = 100
+}

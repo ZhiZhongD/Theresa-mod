@@ -1,0 +1,23 @@
+﻿l_english:
+#决议
+ Theresa_test_decision_category:0 "mod测试决议"
+
+
+
+
+
+
+
+
+
+
+
+
+#事件
+ Theresa.1.t:0 "一号事件"
+ Theresa.1.d:0 "我是描述"
+ Theresa.1.a:0 "OVO"
+#国名
+ THA:0 "德丽莎世界第一可爱"
+ THA_ADJ:0 "德丽莎世界第一可爱"
+ THA_DEF:0 "德丽莎世界第一可爱"

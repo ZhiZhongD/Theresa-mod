@@ -1,0 +1,23 @@
+Theresa_test_decision_category = {
+    Theresa_test_decision_0 = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            country_event = { id = Theresa.1 }
+        }
+        remove_effect = {
+            
+        }
+    }
+}
