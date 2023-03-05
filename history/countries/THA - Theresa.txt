@@ -133,15 +133,13 @@ THA_Theresa = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = Theresaism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 100
-	fascism = 0
-	communism = 0
+	Theresaism = 100
 }
 
 add_ideas = {

@@ -13,6 +13,12 @@ characters = {
         }
 
         country_leader = {
+            ideology = Theresaism_subtype
+            traits = { silent_workhorse }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
             ideology = socialism
             traits = { silent_workhorse }
             expire = "2023.2.3.1"
@@ -50,30 +56,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         advisor = {
             slot = political_advisor
             idea_token = THA_Theresa_0
@@ -102,30 +85,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -149,30 +109,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
     }
     THA_Theresa_3 = {
         name = THA_Theresa_3
@@ -187,30 +124,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -234,30 +148,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -281,30 +172,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -328,30 +196,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -375,30 +220,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -422,30 +244,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -469,30 +268,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -516,30 +292,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -563,30 +316,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -610,30 +340,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -657,30 +364,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -704,30 +388,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -751,30 +412,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -798,30 +436,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -845,30 +460,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -892,30 +484,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -939,30 +508,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
@@ -986,30 +532,7 @@ characters = {
             }
         }
 
-        country_leader = {
-            ideology = socialism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = marxism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = fascism_ideology
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
-        country_leader = {
-            ideology = despotism
-            traits = {  }
-            expire = "2023.2.3.1"
-            id = -1
-        }
+
         field_marshal={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
 	        skill = 2
