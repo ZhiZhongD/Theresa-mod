@@ -1,0 +1,1023 @@
+characters = {
+    THA_Theresa = {
+        name = THA_Theresa
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large
+               small = GFX_portrait_Theresa_small
+            }
+            army = {
+                large = GFX_portrait_Theresa_large
+                small = GFX_portrait_Theresa_small
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = { silent_workhorse }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = { silent_workhorse }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = { silent_workhorse }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { silent_workhorse }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+    }
+    THA_Theresa_0 = {
+        name = THA_Theresa_0
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_0
+               small = GFX_portrait_Theresa_small_0
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_0
+                small = GFX_portrait_Theresa_small_0
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = THA_Theresa_0
+            traits = { silent_workhorse }
+        }
+        field_marshal={
+		    traits = { trait_mountaineer offensive_doctrine inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_1 = {
+        name = THA_Theresa_1
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_1
+               small = GFX_portrait_Theresa_small_1
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_1
+                small = GFX_portrait_Theresa_small_1
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_2 = {
+        name = THA_Theresa_2
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_2
+               small = GFX_portrait_Theresa_small_2
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_2
+                small = GFX_portrait_Theresa_small_2
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+    }
+    THA_Theresa_3 = {
+        name = THA_Theresa_3
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_3
+               small = GFX_portrait_Theresa_small_3
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_3
+                small = GFX_portrait_Theresa_small_3
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_4 = {
+        name = THA_Theresa_4
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_4
+               small = GFX_portrait_Theresa_small_4
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_4
+                small = GFX_portrait_Theresa_small_4
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_5 = {
+        name = THA_Theresa_5
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_5
+               small = GFX_portrait_Theresa_small_5
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_5
+                small = GFX_portrait_Theresa_small_5
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_6 = {
+        name = THA_Theresa_6
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_6
+               small = GFX_portrait_Theresa_small_6
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_6
+                small = GFX_portrait_Theresa_small_6
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_7 = {
+        name = THA_Theresa_7
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_7
+               small = GFX_portrait_Theresa_small_7
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_7
+                small = GFX_portrait_Theresa_small_7
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_8 = {
+        name = THA_Theresa_8
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_8
+               small = GFX_portrait_Theresa_small_8
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_8
+                small = GFX_portrait_Theresa_small_8
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_9 = {
+        name = THA_Theresa_9
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_9
+               small = GFX_portrait_Theresa_small_9
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_9
+                small = GFX_portrait_Theresa_small_9
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_10 = {
+        name = THA_Theresa_10
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_10
+               small = GFX_portrait_Theresa_small_10
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_10
+                small = GFX_portrait_Theresa_small_10
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_11 = {
+        name = THA_Theresa_11
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_11
+               small = GFX_portrait_Theresa_small_11
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_11
+                small = GFX_portrait_Theresa_small_11
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_12 = {
+        name = THA_Theresa_12
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_12
+               small = GFX_portrait_Theresa_small_12
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_12
+                small = GFX_portrait_Theresa_small_12
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_13 = {
+        name = THA_Theresa_13
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_13
+               small = GFX_portrait_Theresa_small_13
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_13
+                small = GFX_portrait_Theresa_small_13
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_14 = {
+        name = THA_Theresa_14
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_14
+               small = GFX_portrait_Theresa_small_14
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_14
+                small = GFX_portrait_Theresa_small_14
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_15 = {
+        name = THA_Theresa_15
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_15
+               small = GFX_portrait_Theresa_small_15
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_15
+                small = GFX_portrait_Theresa_small_15
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_16 = {
+        name = THA_Theresa_16
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_16
+               small = GFX_portrait_Theresa_small_16
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_16
+                small = GFX_portrait_Theresa_small_16
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_17 = {
+        name = THA_Theresa_17
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_17
+               small = GFX_portrait_Theresa_small_17
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_17
+                small = GFX_portrait_Theresa_small_17
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_18 = {
+        name = THA_Theresa_18
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_18
+               small = GFX_portrait_Theresa_small_18
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_18
+                small = GFX_portrait_Theresa_small_18
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_19 = {
+        name = THA_Theresa_19
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_19
+               small = GFX_portrait_Theresa_small_19
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_19
+                small = GFX_portrait_Theresa_small_19
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+    THA_Theresa_20 = {
+        name = THA_Theresa_20
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_20
+               small = GFX_portrait_Theresa_small_20
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_20
+                small = GFX_portrait_Theresa_small_20
+            }
+        }
+
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        field_marshal={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 2
+	        attack_skill = 2
+	        defense_skill = 3
+	        planning_skill = 2
+	        logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+}

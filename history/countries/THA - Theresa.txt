@@ -105,7 +105,32 @@ set_war_support = 1
 
 set_convoys = 1145
 
-#recruit_character = SUD_Nahida
+recruit_character = THA_Theresa
+recruit_character = THA_Theresa_0
+recruit_character = THA_Theresa_1
+recruit_character = THA_Theresa_2
+recruit_character = THA_Theresa_3
+recruit_character = THA_Theresa_4
+recruit_character = THA_Theresa_5
+recruit_character = THA_Theresa_6
+recruit_character = THA_Theresa_7
+recruit_character = THA_Theresa_8
+recruit_character = THA_Theresa_9
+recruit_character = THA_Theresa_10
+recruit_character = THA_Theresa_11
+recruit_character = THA_Theresa_12
+recruit_character = THA_Theresa_13
+recruit_character = THA_Theresa_14
+recruit_character = THA_Theresa_15
+recruit_character = THA_Theresa_16
+recruit_character = THA_Theresa_17
+recruit_character = THA_Theresa_18
+recruit_character = THA_Theresa_19
+recruit_character = THA_Theresa_20
+
+THA_Theresa = {
+	promote_leader = yes
+}
 
 set_politics = {
 	ruling_party = democratic

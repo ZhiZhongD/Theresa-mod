@@ -17,6 +17,11 @@
  Theresa.1.t:0 "一号事件"
  Theresa.1.d:0 "我是描述"
  Theresa.1.a:0 "OVO"
+#角色名
+ THA_Theresa:0 "德丽莎"
+ THA_Theresa_0:0 "德丽莎"
+ THA_Theresa_1:0 "德丽莎"
+ THA_Theresa_2:0 "德丽莎"
 #国名
  THA:0 "德丽莎世界第一可爱"
  THA_ADJ:0 "德丽莎世界第一可爱"
