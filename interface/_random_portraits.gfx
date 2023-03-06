@@ -1,0 +1,191 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_0"
+		texturefile = "gfx/interface/Theresa_large_0.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_0_small"
+		texturefile = "gfx/interface/Theresa_small_0.png"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_1"
+		texturefile = "gfx/interface/Theresa_large_1.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_1_small"
+		texturefile = "gfx/interface/Theresa_small_1.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_2"
+		texturefile = "gfx/interface/Theresa_large_2.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_2_small"
+		texturefile = "gfx/interface/Theresa_small_2.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_3"
+		texturefile = "gfx/interface/Theresa_large_3.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_3_small"
+		texturefile = "gfx/interface/Theresa_small_3.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_4"
+		texturefile = "gfx/interface/Theresa_large_4.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_4_small"
+		texturefile = "gfx/interface/Theresa_small_4.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_5"
+		texturefile = "gfx/interface/Theresa_large_5.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_5_small"
+		texturefile = "gfx/interface/Theresa_small_5.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_6"
+		texturefile = "gfx/interface/Theresa_large_6.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_6_small"
+		texturefile = "gfx/interface/Theresa_small_6.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_7"
+		texturefile = "gfx/interface/Theresa_large_7.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_7_small"
+		texturefile = "gfx/interface/Theresa_small_7.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_8"
+		texturefile = "gfx/interface/Theresa_large_8.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_8_small"
+		texturefile = "gfx/interface/Theresa_small_8.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_9"
+		texturefile = "gfx/interface/Theresa_large_9.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_9_small"
+		texturefile = "gfx/interface/Theresa_small_9.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_10"
+		texturefile = "gfx/interface/Theresa_large_10.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_10_small"
+		texturefile = "gfx/interface/Theresa_small_10.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_11"
+		texturefile = "gfx/interface/Theresa_large_11.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_11_small"
+		texturefile = "gfx/interface/Theresa_small_11.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_12"
+		texturefile = "gfx/interface/Theresa_large_12.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_12_small"
+		texturefile = "gfx/interface/Theresa_small_12.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_13"
+		texturefile = "gfx/interface/Theresa_large_13.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_13_small"
+		texturefile = "gfx/interface/Theresa_small_13.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_14"
+		texturefile = "gfx/interface/Theresa_large_14.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_14_small"
+		texturefile = "gfx/interface/Theresa_small_14.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_15"
+		texturefile = "gfx/interface/Theresa_large_15.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_15_small"
+		texturefile = "gfx/interface/Theresa_small_15.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_16"
+		texturefile = "gfx/interface/Theresa_large_16.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_16_small"
+		texturefile = "gfx/interface/Theresa_small_16.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_17"
+		texturefile = "gfx/interface/Theresa_large_17.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_17_small"
+		texturefile = "gfx/interface/Theresa_small_17.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_18"
+		texturefile = "gfx/interface/Theresa_large_18.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_18_small"
+		texturefile = "gfx/interface/Theresa_small_18.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_19"
+		texturefile = "gfx/interface/Theresa_large_19.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_19_small"
+		texturefile = "gfx/interface/Theresa_small_19.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_20"
+		texturefile = "gfx/interface/Theresa_large_20.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Theresa_Generic_Male_20_small"
+		texturefile = "gfx/interface/Theresa_small_20.png"
+	}
+}

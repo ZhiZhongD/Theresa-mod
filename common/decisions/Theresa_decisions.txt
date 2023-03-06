@@ -20,7 +20,7 @@ Theresa_test_decision_category = {
             
         }
     }
-    Theresa_test_decision_1 = {
+    Theresa_test_decision_africa = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -42,49 +42,7 @@ Theresa_test_decision_category = {
                     }
                     transfer_state_to = THA
                     add_core_of = THA
-                    add_manpower = 1000000
-                    set_state_category = megalopolis
-                    add_extra_state_shared_building_slots = 20
-                    add_building_construction = {
-                        type = industrial_complex
-                        level = 11
-                        instant_build = yes
-                    }
-                    add_building_construction = {
-                        type = arms_factory
-                        level = 12
-                        instant_build = yes
-                    }
-                    add_building_construction = {
-                        type = rocket_site
-                        level = 1
-                        instant_build = yes
-                    }
-                    add_building_construction = {
-                        type = nuclear_reactor
-                        level = 1
-                        instant_build = yes
-                    }
-                    add_building_construction = {
-                        type = infrastructure
-                        level = 5
-                        instant_build = yes
-                    }
-                    add_building_construction = {
-                        type = air_base
-                        level = 10
-                        instant_build = yes
-                    }
-                    add_building_construction = {
-                        type = anti_air_building
-                        level = 5
-                        instant_build = yes
-                    }
-                    add_building_construction = {
-                        type = radar_station
-                        level = 6
-                        instant_build = yes
-                    }
+                    
                 }
                 every_state = {
                     add_core_of = THA
@@ -92,6 +50,272 @@ Theresa_test_decision_category = {
                 change_tag_from = ROOT
             }
             
+        }
+
+    }
+    Theresa_test_decision_europe = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            THA = {
+                every_state = {
+                    limit = {
+                        is_on_continent = europe
+                    }
+                    transfer_state_to = THA
+                    add_core_of = THA
+                    
+                }
+                every_state = {
+                    add_core_of = THA
+                }
+                change_tag_from = ROOT
+            }
+        }
+    }
+    Theresa_test_decision_north_america = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            THA = {
+                every_state = {
+                    limit = {
+                        is_on_continent = north_america
+                    }
+                    transfer_state_to = THA
+                    add_core_of = THA
+                    
+                }
+                every_state = {
+                    add_core_of = THA
+                }
+                change_tag_from = ROOT
+            }
+        }
+    }
+    Theresa_test_decision_south_america = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            THA = {
+                every_state = {
+                    limit = {
+                        is_on_continent = south_america
+                    }
+                    transfer_state_to = THA
+                    add_core_of = THA
+                    
+                }
+                every_state = {
+                    add_core_of = THA
+                }
+                change_tag_from = ROOT
+            }
+        }
+    }
+    Theresa_test_decision_australia = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            THA = {
+                every_state = {
+                    limit = {
+                        is_on_continent = australia
+                    }
+                    transfer_state_to = THA
+                    add_core_of = THA
+                    
+                }
+                every_state = {
+                    add_core_of = THA
+                }
+                change_tag_from = ROOT
+            }
+        }
+    }
+    Theresa_test_decision_asia = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            THA = {
+                every_state = {
+                    limit = {
+                        is_on_continent = asia
+                    }
+                    transfer_state_to = THA
+                    add_core_of = THA
+                    
+                }
+                every_state = {
+                    add_core_of = THA
+                }
+                change_tag_from = ROOT
+            }
+        }
+    }
+    Theresa_test_decision_middle_east = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            THA = {
+                every_state = {
+                    limit = {
+                        is_on_continent = middle_east
+                    }
+                    transfer_state_to = THA
+                    add_core_of = THA
+                    
+                }
+                every_state = {
+                    add_core_of = THA
+                }
+                change_tag_from = ROOT
+            }
+        }
+    }
+    Theresa_test_decision_1 = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            every_owned_state = {
+                add_manpower = 1000000
+                set_state_category = megalopolis
+                add_extra_state_shared_building_slots = 20
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 11
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = arms_factory
+                    level = 12
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = rocket_site
+                    level = 1
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = nuclear_reactor
+                    level = 1
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = infrastructure
+                    level = 5
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = air_base
+                    level = 10
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = anti_air_building
+                    level = 5
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = radar_station
+                    level = 6
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = bunker
+                    level = 10
+                    instant_build = yes
+					province = {
+						all_provinces = yes
+					}
+                }
+                add_building_construction = {
+                    type = coastal_bunker
+                    level = 10
+                    instant_build = yes
+					province = {
+						all_provinces = yes
+                        limit_to_coastal = yes
+					}
+                }
+            }
         }
         remove_effect = {
             
@@ -116,6 +340,29 @@ Theresa_test_decision_category = {
         }
         remove_effect = {
             
+        }
+    }
+    Theresa_test_decision_3 = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            every_state = {
+                add_core_of = THA
+            }
+        }
+        remove_effect = {
+
         }
     }
 }
