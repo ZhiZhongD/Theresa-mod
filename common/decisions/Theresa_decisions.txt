@@ -366,3 +366,53 @@ Theresa_test_decision_category = {
         }
     }
 }
+Theresa_decision_category = {
+    Theresa_decision_0 = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            always = yes
+        }
+        fire_only_once = yes
+        complete_effect = {
+            country_event = { id = Theresa.1 }
+        }
+        remove_effect = {
+
+        }
+    }
+    THA_annex_targeted_decision = {
+		target_root_trigger = {
+			tag = THA
+		}
+		targets_dynamic = yes
+		target_trigger = {
+			FROM = {
+				is_neighbor_of = THA
+			}
+		}
+		cost = 0
+		days_remove = 7
+		ai_will_do = {
+			base = 100
+		}
+		war_with_target_on_complete = yes
+		complete_effect = {
+			FROM = {
+				country_event = { id = Theresa.2 }
+			}
+		}
+		remove_effect = {
+            FROM = {
+                country_event = { id = Theresa.3 }
+            }
+		}
+	}
+}

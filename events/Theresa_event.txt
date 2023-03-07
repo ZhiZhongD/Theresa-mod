@@ -58,3 +58,54 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = Theresa.2
+	title = Theresa.2.t
+	desc = Theresa.2.d
+    
+	fire_only_once = yes
+    is_triggered_only = yes
+	option = {
+		name = Theresa.2.a
+	}
+}
+country_event = {
+	id = Theresa.3
+	title = Theresa.3.t
+	desc = Theresa.3.d
+     
+    is_triggered_only = yes
+	option = {
+		name = Theresa.3.a
+		ai_chance = {
+			base = 9
+		}
+		ROOT = {
+			THA = {
+				annex_country = {
+					target = PREV
+					transfer_troops = yes
+				}
+			}
+		}
+		
+	}
+	option = {
+		name = Theresa.3.b
+		ai_chance = {
+			base = 1	
+		}
+		ROOT = {
+			THA = {
+				declare_war_on = {
+					target = PREV
+					type = annex_everything
+				}
+			}
+		}
+		
+		add_stability = -0.25
+		add_war_support = -0.25
+		add_political_power = -100
+	}
+}

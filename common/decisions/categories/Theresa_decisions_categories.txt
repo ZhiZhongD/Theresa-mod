@@ -4,3 +4,10 @@ Theresa_test_decision_category = {
 	}
 	priority = 100
 }
+Theresa_decision_category = {
+	visible = {
+		always = yes
+		
+	}
+	priority = 100
+}

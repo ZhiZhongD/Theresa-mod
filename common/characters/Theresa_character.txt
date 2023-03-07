@@ -85,6 +85,11 @@ characters = {
             }
         }
 
+        advisor = {
+            slot = political_advisor
+            idea_token = communist_revolutionary
+            traits = { communist_revolutionary }
+        }
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
@@ -108,7 +113,11 @@ characters = {
                 small = GFX_portrait_Theresa_small_2
             }
         }
-
+        advisor = {
+            slot = political_advisor
+            idea_token = democratic_reformer
+            traits = { democratic_reformer }
+        }
 
     }
     THA_Theresa_3 = {
@@ -123,7 +132,11 @@ characters = {
                 small = GFX_portrait_Theresa_small_3
             }
         }
-
+        advisor = {
+            slot = political_advisor
+            idea_token = fascist_demagogue
+            traits = { fascist_demagogue }
+        }
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
@@ -148,6 +161,11 @@ characters = {
             }
         }
 
+        advisor = {
+            slot = political_advisor
+            idea_token = head_of_intelligence
+            traits = { head_of_intelligence }
+        }
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }

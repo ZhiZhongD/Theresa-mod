@@ -132,6 +132,8 @@ THA_Theresa = {
 	promote_leader = yes
 }
 
+create_faction = Theresa_faction
+
 set_politics = {
 	ruling_party = Theresaism
 	last_election = "1933.3.5"

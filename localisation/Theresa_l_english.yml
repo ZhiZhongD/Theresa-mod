@@ -1,8 +1,9 @@
 ﻿l_english:
 #决议
  Theresa_test_decision_category:0 "mod测试决议"
-
-
+ Theresa_decision_category:0 "德丽莎mod决议"
+ Theresa_decision_0:0 "召唤德丽莎"
+ THA_annex_targeted_decision:0 "§4和§!§Y[from.getname]§!领导人§Y[from.getleader]§!§4商讨合并事宜§!"
 
 
 
@@ -14,9 +15,29 @@
 
 
 #事件
- Theresa.1.t:0 "一号事件"
- Theresa.1.d:0 "我是描述"
- Theresa.1.a:0 "OVO"
+ Theresa.1.t:0 "奇怪的事情要发生了"
+ Theresa.1.d:0 "§t封印黑暗力量的超维之杖啊\n在此显现你真正的力量吧\n奇迹之力化为星辰\n光之魔法汇聚吾心\nDimension Sonata\n把你TeRiTeRi掉哟§!"
+ Theresa.1.a:0 "§4德丽莎世界第一可爱§!"
+
+ Theresa.2.t:0 "德丽莎联盟的德丽莎正在边界活动"
+ Theresa.2.d:0 "啥，她们都是从哪里过来的"
+ Theresa.2.a:0 "？？？"
+
+ Theresa.3.t:0 "来自德丽莎的正式消息"
+ Theresa.3.d:0 "德丽莎联盟的德丽莎们希望我们能够加入她们，否则将会对我们宣战"
+ Theresa.3.a:0 "德丽莎世界第一可爱"
+ Theresa.3.b:0 "寸土不让！"
+
+
+
+
+
+
+
+
+
+
+
 #角色名
  THA_Theresa:0 "德丽莎"
  THA_Theresa_0:0 "德丽莎-暮光骑士"
@@ -42,7 +63,9 @@
  THA_Theresa_20:0 "德丽莎-绿野青空"
 #意识形态
  Theresaism:0 "德丽莎主义"
+#阵营名字
+ Theresa_faction:0 "德丽莎联盟"
 #国名
- THA:0 "德丽莎"
- THA_ADJ:0 "德丽莎世界第一可爱"
- THA_DEF:0 "德丽莎世界第一可爱"
+ THA:0 "德丽莎联盟"
+ THA_ADJ:0 "德丽莎联盟"
+ THA_DEF:0 "德丽莎联盟"
