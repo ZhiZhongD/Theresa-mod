@@ -4,7 +4,7 @@
  Theresa_decision_category:0 "德丽莎mod决议"
  Theresa_decision_0:0 "召唤德丽莎"
  THA_annex_targeted_decision:0 "§4和§!§Y[from.getname]§!领导人§Y[from.getleader]§!§4商讨合并事宜§!"
-
+ THA_war_targeted_decision:0 "§4向§!§Y[from.getname]§!§4宣战§!"
 
 
 
@@ -18,6 +18,8 @@
  Theresa.1.t:0 "奇怪的事情要发生了"
  Theresa.1.d:0 "§t封印黑暗力量的超维之杖啊\n在此显现你真正的力量吧\n奇迹之力化为星辰\n光之魔法汇聚吾心\nDimension Sonata\n把你TeRiTeRi掉哟§!"
  Theresa.1.a:0 "§4德丽莎世界第一可爱§!"
+ Theresa.1.b:0 "什么鬼？？？"
+ Theresa_WTF:0 "德丽莎势力将由ai控制，会获得大量增强"
 
  Theresa.2.t:0 "德丽莎联盟的德丽莎正在边界活动"
  Theresa.2.d:0 "啥，她们都是从哪里过来的"

@@ -23,6 +23,7 @@ ideas = {
 				supply_factor = 10
 				supply_consumption_factor = -0.99
 				supply_node_range = 10
+				fuel_cost = -1.05
 			}
 		}
 		THA_idea_1 = {  

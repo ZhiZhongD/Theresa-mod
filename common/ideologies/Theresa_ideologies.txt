@@ -24,7 +24,7 @@ ideologies = {
 			airforce_intel_to_others = 0
 		}
 		
-		ai_communist = yes
+		ai_fascist = yes
 		can_collaborate = no
 		can_be_boosted = no
 		can_host_government_in_exile = yes

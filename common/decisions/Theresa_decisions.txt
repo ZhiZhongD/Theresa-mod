@@ -75,7 +75,6 @@ Theresa_test_decision_category = {
                     }
                     transfer_state_to = THA
                     add_core_of = THA
-                    
                 }
                 every_state = {
                     add_core_of = THA
@@ -378,19 +377,20 @@ Theresa_decision_category = {
 
         }
         visible = {
-            always = yes
+            NOT = {
+                has_global_flag = Theresa_is_coming
+            }
         }
         fire_only_once = yes
         complete_effect = {
             country_event = { id = Theresa.1 }
-        }
-        remove_effect = {
-
+            set_global_flag = Theresa_is_coming
         }
     }
     THA_annex_targeted_decision = {
 		target_root_trigger = {
 			tag = THA
+            is_ai = no
 		}
 		targets_dynamic = yes
 		target_trigger = {
@@ -412,6 +412,31 @@ Theresa_decision_category = {
 		remove_effect = {
             FROM = {
                 country_event = { id = Theresa.3 }
+            }
+		}
+	}
+    THA_war_targeted_decision = {
+		target_root_trigger = {
+			tag = THA
+#            is_ai = yes
+		}
+		targets_dynamic = yes
+		target_trigger = {
+			FROM = {
+				is_neighbor_of = THA
+			}
+		}
+		cost = 0
+		days_remove = 7
+        fire_only_once = yes
+		ai_will_do = {
+			base = 100
+		}
+		war_with_target_on_complete = yes
+		remove_effect = {
+            declare_war_on = {
+                target = FROM
+                type = annex_everything
             }
 		}
 	}

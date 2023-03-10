@@ -1,0 +1,14 @@
+on_actions = {
+    on_monthly_THA = {
+        effect = {
+            if = {
+                limit = {
+                    THA = {
+                        is_ai = yes
+                    }
+                }
+            }
+            Theresa_ai_eq = yes
+        }
+    }
+}

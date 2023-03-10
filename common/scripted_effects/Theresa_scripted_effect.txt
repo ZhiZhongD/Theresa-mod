@@ -1,0 +1,36 @@
+Theresa_ai_eq = {
+    add_equipment_to_stockpile = {
+        type = infantry_equipment
+        amount = 5000
+    }
+    add_equipment_to_stockpile = {
+        type = support_equipment
+        amount = 400
+    }
+    add_equipment_to_stockpile = {
+        type = artillery_equipment
+        amount = 500
+    }
+    add_equipment_to_stockpile = {
+        type = modern_tank_chassis_1
+        amount = 500
+        variant_name = "Main Tank"
+    }
+    add_equipment_to_stockpile = {
+        type = medium_tank_flame_chassis_3
+        amount = 100
+        variant_name = "Fire Tank"
+    }
+    add_equipment_to_stockpile = {
+        type = mechanized_equipment_3
+        amount = 400
+        variant_name = "Mechanize"
+    }
+    random_owned_state = {
+        create_unit = { 
+            division = "name = \"Theresa Apocalypse's Armor\" division_template = \"Theresa Tank\" start_experience_factor = 1"
+            owner = THA 
+            count = 4
+        }
+    }
+}
