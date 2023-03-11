@@ -1,7 +1,7 @@
-armored_THA = {
+armored_TEA = {
 
 	available_for = {
-		THA
+		TEA
 	}
 	
 	roles = {
@@ -30,7 +30,7 @@ armored_THA = {
 		}
 	}
 
-	light_armor_default_THA = {
+	light_armor_default_TEA = {
 	
 		upgrade_prio = {
 			factor = 1
@@ -109,11 +109,11 @@ armored_THA = {
 		}
 		
 		replace_at_match = 0.4
-		replace_with = medium_armor_default_THA
+		replace_with = medium_armor_default_TEA
 		target_min_match = 0.5
 	}
 
-	heavy_armor_default_THA = {
+	heavy_armor_default_TEA = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -211,11 +211,11 @@ armored_THA = {
 		}
 		
 		replace_at_match = 0.4
-		replace_with = modern_armor_default_THA
+		replace_with = modern_armor_default_TEA
 		target_min_match = 0.5
 	}
 
-	medium_armor_default_THA = {
+	medium_armor_default_TEA = {
 	
 		upgrade_prio = {
 			factor = 10
@@ -324,11 +324,11 @@ armored_THA = {
 		}
 		
 		replace_at_match = 0.6
-		replace_with = medium_armor_2_THA
+		replace_with = medium_armor_2_TEA
 		target_min_match = 0.5
 	}
 
-	medium_armor_2_THA = {
+	medium_armor_2_TEA = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -434,11 +434,11 @@ armored_THA = {
 		}
 		
 		replace_at_match = 0.95
-		replace_with = medium_armor_3_THA
+		replace_with = medium_armor_3_TEA
 		target_min_match = 0.5
 	}
 
-	medium_armor_3_THA = {
+	medium_armor_3_TEA = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -546,11 +546,11 @@ armored_THA = {
 		}
 		
 		replace_at_match = 0.95
-		replace_with = modern_armor_default_THA
+		replace_with = modern_armor_default_TEA
 		target_min_match = 0.5
 	}
 
-	modern_armor_default_THA = {
+	modern_armor_default_TEA = {
 
 		upgrade_prio = {
 			factor = 2
@@ -648,10 +648,10 @@ armored_THA = {
 	}
 }
 
-garrison_THA = {
+garrison_TEA = {
 
 	available_for = {
-		THA
+		TEA
 	}
 	
 	roles = {
@@ -681,7 +681,7 @@ garrison_THA = {
 	match_to_count = 0.5
 
 
-	garrison_THA = {
+	garrison_TEA = {
 	
 		reinforce_prio = 0
 		custom_icon = 7
@@ -756,10 +756,10 @@ garrison_THA = {
 	}
 }
 	
-infantry_THA = {
+infantry_TEA = {
 
 	available_for = {
-		THA
+		TEA
 	}
 	
 	roles = {
@@ -783,7 +783,7 @@ infantry_THA = {
 	match_to_count = 0.5
 
 
-	infantry_default_THA = {
+	infantry_default_TEA = {
 	
 		upgrade_prio = {
 			factor = 6
@@ -863,7 +863,7 @@ infantry_THA = {
 		}
 	}
 
-	infantry_Upgrade_THA = {
+	infantry_Upgrade_TEA = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -956,7 +956,7 @@ infantry_THA = {
 		}
 	}
 
-	infantry_Upgrade_2_THA = {
+	infantry_Upgrade_2_TEA = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -1047,10 +1047,10 @@ infantry_THA = {
 	}
 }
 
-marines_THA = {
+marines_TEA = {
 
 	available_for = {
-		THA
+		TEA
 	}
 	
 	roles = {
@@ -1070,7 +1070,7 @@ marines_THA = {
 	
 	match_to_count = 0.45
 
-	marine_default_THA = {
+	marine_default_TEA = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -1151,10 +1151,10 @@ marines_THA = {
 }
 
 
-paratroopers_THA = {
+paratroopers_TEA = {
 
 	available_for = {
-		THA
+		TEA
 	}
 	
 	roles = {
@@ -1174,7 +1174,7 @@ paratroopers_THA = {
 	
 	match_to_count = 0.45
 
-	paratrooper_default_THA = {
+	paratrooper_default_TEA = {
 	
 		upgrade_prio = {
 			factor = 2

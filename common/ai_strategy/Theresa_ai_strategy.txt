@@ -1,6 +1,6 @@
-THA_armored_production = {
+TEA_armored_production = {
 	allowed = {
-		tag = THA
+		tag = TEA
 	}
 	
 	enable = {	
@@ -16,9 +16,9 @@ THA_armored_production = {
 		value = 10
 	}
 }
-THA_unit_production = {
+TEA_unit_production = {
 	allowed = {
-		original_tag = THA
+		original_tag = TEA
 	}
 	enable = {
 		always = yes

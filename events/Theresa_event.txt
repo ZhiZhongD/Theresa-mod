@@ -9,7 +9,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			
-			THA = {
+			TEA = {
 				division_template = {
 					name = "Theresa Militia"
 					is_locked = no
@@ -147,23 +147,23 @@ country_event = {
 					}
 				}
 			}
-			THA = {
+			TEA = {
 				every_state = {
-					add_core_of = THA
+					add_core_of = TEA
 				}
 				random_state = {
 					limit = {
 						is_on_continent = europe
 					}
-					transfer_state_to = THA
+					transfer_state_to = TEA
 					create_unit = { 
 						division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
-						owner = THA 
+						owner = TEA 
 						count = 12
 					}
 					create_unit = { 
 						division = "name = \"Theresa Apocalypse's Armor\" division_template = \"Theresa Tank\" start_experience_factor = 1"
-						owner = THA 
+						owner = TEA 
 						count = 12
 					}
 				}
@@ -172,14 +172,14 @@ country_event = {
 	}
 	option = { 
 		name = Theresa.1.a
-		THA = {
+		TEA = {
 			change_tag_from = ROOT
 		}		
 	}
 	option = { 
 		name = Theresa.1.b
 		custom_effect_tooltip = Theresa_WTF		
-		THA = {
+		TEA = {
 			country_lock_all_division_template = yes
 		}
 	}
@@ -207,7 +207,7 @@ country_event = {
 			base = 9
 		}
 		ROOT = {
-			THA = {
+			TEA = {
 				annex_country = {
 					target = PREV
 				}
@@ -218,10 +218,10 @@ country_event = {
 	option = {
 		name = Theresa.3.b
 		ai_chance = {
-			base = 1	
+			base = 0	
 		}
 		ROOT = {
-			THA = {
+			TEA = {
 				declare_war_on = {
 					target = PREV
 					type = annex_everything

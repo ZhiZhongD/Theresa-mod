@@ -779,7 +779,7 @@ continent = {
 	}
 
 }
-THA = {
+TEA = {
     operative = {
 		male = {
             "GFX_Portrait_Theresa_Generic_Male_0"

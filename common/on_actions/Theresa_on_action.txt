@@ -1,9 +1,9 @@
 on_actions = {
-    on_monthly_THA = {
+    on_monthly_TEA = {
         effect = {
             if = {
                 limit = {
-                    THA = {
+                    TEA = {
                         is_ai = yes
                     }
                 }

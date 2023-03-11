@@ -29,7 +29,7 @@ Theresa_ai_eq = {
     random_owned_state = {
         create_unit = { 
             division = "name = \"Theresa Apocalypse's Armor\" division_template = \"Theresa Tank\" start_experience_factor = 1"
-            owner = THA 
+            owner = TEA 
             count = 4
         }
     }

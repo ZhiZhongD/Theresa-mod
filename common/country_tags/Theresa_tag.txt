@@ -1,1 +1,1 @@
-THA = "countries/Theresa.txt"
+TEA = "countries/Theresa.txt"

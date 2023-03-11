@@ -35,17 +35,17 @@ Theresa_test_decision_category = {
         }
     
         complete_effect = {
-            THA = {
+            TEA = {
                 every_state = {
                     limit = {
                         is_on_continent = africa
                     }
-                    transfer_state_to = THA
-                    add_core_of = THA
+                    transfer_state_to = TEA
+                    add_core_of = TEA
                     
                 }
                 every_state = {
-                    add_core_of = THA
+                    add_core_of = TEA
                 }
                 change_tag_from = ROOT
             }
@@ -68,16 +68,16 @@ Theresa_test_decision_category = {
         }
     
         complete_effect = {
-            THA = {
+            TEA = {
                 every_state = {
                     limit = {
                         is_on_continent = europe
                     }
-                    transfer_state_to = THA
-                    add_core_of = THA
+                    transfer_state_to = TEA
+                    add_core_of = TEA
                 }
                 every_state = {
-                    add_core_of = THA
+                    add_core_of = TEA
                 }
                 change_tag_from = ROOT
             }
@@ -98,17 +98,17 @@ Theresa_test_decision_category = {
         }
     
         complete_effect = {
-            THA = {
+            TEA = {
                 every_state = {
                     limit = {
                         is_on_continent = north_america
                     }
-                    transfer_state_to = THA
-                    add_core_of = THA
+                    transfer_state_to = TEA
+                    add_core_of = TEA
                     
                 }
                 every_state = {
-                    add_core_of = THA
+                    add_core_of = TEA
                 }
                 change_tag_from = ROOT
             }
@@ -129,17 +129,17 @@ Theresa_test_decision_category = {
         }
     
         complete_effect = {
-            THA = {
+            TEA = {
                 every_state = {
                     limit = {
                         is_on_continent = south_america
                     }
-                    transfer_state_to = THA
-                    add_core_of = THA
+                    transfer_state_to = TEA
+                    add_core_of = TEA
                     
                 }
                 every_state = {
-                    add_core_of = THA
+                    add_core_of = TEA
                 }
                 change_tag_from = ROOT
             }
@@ -160,17 +160,17 @@ Theresa_test_decision_category = {
         }
     
         complete_effect = {
-            THA = {
+            TEA = {
                 every_state = {
                     limit = {
                         is_on_continent = australia
                     }
-                    transfer_state_to = THA
-                    add_core_of = THA
+                    transfer_state_to = TEA
+                    add_core_of = TEA
                     
                 }
                 every_state = {
-                    add_core_of = THA
+                    add_core_of = TEA
                 }
                 change_tag_from = ROOT
             }
@@ -191,17 +191,17 @@ Theresa_test_decision_category = {
         }
     
         complete_effect = {
-            THA = {
+            TEA = {
                 every_state = {
                     limit = {
                         is_on_continent = asia
                     }
-                    transfer_state_to = THA
-                    add_core_of = THA
+                    transfer_state_to = TEA
+                    add_core_of = TEA
                     
                 }
                 every_state = {
-                    add_core_of = THA
+                    add_core_of = TEA
                 }
                 change_tag_from = ROOT
             }
@@ -222,17 +222,17 @@ Theresa_test_decision_category = {
         }
     
         complete_effect = {
-            THA = {
+            TEA = {
                 every_state = {
                     limit = {
                         is_on_continent = middle_east
                     }
-                    transfer_state_to = THA
-                    add_core_of = THA
+                    transfer_state_to = TEA
+                    add_core_of = TEA
                     
                 }
                 every_state = {
-                    add_core_of = THA
+                    add_core_of = TEA
                 }
                 change_tag_from = ROOT
             }
@@ -335,7 +335,7 @@ Theresa_test_decision_category = {
         }
     
         complete_effect = {
-            add_ideas = THA_idea_0
+            add_ideas = TEA_idea_0
         }
         remove_effect = {
             
@@ -357,11 +357,47 @@ Theresa_test_decision_category = {
     
         complete_effect = {
             every_state = {
-                add_core_of = THA
+                add_core_of = TEA
             }
         }
         remove_effect = {
 
+        }
+    }
+    Theresa_test_decision_4 = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            custom_effect_tooltip = TEA_ROMA_tooltip
+            set_cosmetic_tag = TEA_ROMA
+
+            set_capital = {
+                state = 2
+            }
+            
+        }
+        remove_effect = {
+            every_owned_state = {
+                set_state_name = Theresa_STATE
+            }
+            2 ={
+                set_state_name = Theresa_ROMA
+            }
+            set_province_name = {
+                id = 9904
+                name = Theresa_STATE
+            }
         }
     }
 }
@@ -387,15 +423,15 @@ Theresa_decision_category = {
             set_global_flag = Theresa_is_coming
         }
     }
-    THA_annex_targeted_decision = {
+    TEA_annex_targeted_decision = {
 		target_root_trigger = {
-			tag = THA
-            is_ai = no
+			tag = TEA
+#            is_ai = yes
 		}
 		targets_dynamic = yes
 		target_trigger = {
 			FROM = {
-				is_neighbor_of = THA
+				is_neighbor_of = TEA
 			}
 		}
 		cost = 0
@@ -415,15 +451,16 @@ Theresa_decision_category = {
             }
 		}
 	}
-    THA_war_targeted_decision = {
+    TEA_war_targeted_decision = {
 		target_root_trigger = {
-			tag = THA
+			tag = TEA
 #            is_ai = yes
+            always = no
 		}
 		targets_dynamic = yes
 		target_trigger = {
 			FROM = {
-				is_neighbor_of = THA
+				is_neighbor_of = TEA
 			}
 		}
 		cost = 0

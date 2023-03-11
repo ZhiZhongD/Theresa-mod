@@ -1,6 +1,6 @@
 characters = {
-    THA_Theresa = {
-        name = THA_Theresa
+    TEA_Theresa = {
+        name = TEA_Theresa
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large
@@ -43,8 +43,8 @@ characters = {
             id = -1
         }
     }
-    THA_Theresa_0 = {
-        name = THA_Theresa_0
+    TEA_Theresa_0 = {
+        name = TEA_Theresa_0
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_0
@@ -59,7 +59,7 @@ characters = {
 
         advisor = {
             slot = political_advisor
-            idea_token = THA_Theresa_0
+            idea_token = TEA_Theresa_0
             traits = { silent_workhorse }
         }
         field_marshal={
@@ -72,8 +72,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_1 = {
-        name = THA_Theresa_1
+    TEA_Theresa_1 = {
+        name = TEA_Theresa_1
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_1
@@ -101,8 +101,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_2 = {
-        name = THA_Theresa_2
+    TEA_Theresa_2 = {
+        name = TEA_Theresa_2
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_2
@@ -120,8 +120,8 @@ characters = {
         }
 
     }
-    THA_Theresa_3 = {
-        name = THA_Theresa_3
+    TEA_Theresa_3 = {
+        name = TEA_Theresa_3
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_3
@@ -148,8 +148,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_4 = {
-        name = THA_Theresa_4
+    TEA_Theresa_4 = {
+        name = TEA_Theresa_4
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_4
@@ -177,8 +177,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_5 = {
-        name = THA_Theresa_5
+    TEA_Theresa_5 = {
+        name = TEA_Theresa_5
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_5
@@ -201,8 +201,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_6 = {
-        name = THA_Theresa_6
+    TEA_Theresa_6 = {
+        name = TEA_Theresa_6
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_6
@@ -225,8 +225,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_7 = {
-        name = THA_Theresa_7
+    TEA_Theresa_7 = {
+        name = TEA_Theresa_7
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_7
@@ -249,8 +249,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_8 = {
-        name = THA_Theresa_8
+    TEA_Theresa_8 = {
+        name = TEA_Theresa_8
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_8
@@ -273,8 +273,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_9 = {
-        name = THA_Theresa_9
+    TEA_Theresa_9 = {
+        name = TEA_Theresa_9
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_9
@@ -297,8 +297,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_10 = {
-        name = THA_Theresa_10
+    TEA_Theresa_10 = {
+        name = TEA_Theresa_10
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_10
@@ -321,8 +321,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_11 = {
-        name = THA_Theresa_11
+    TEA_Theresa_11 = {
+        name = TEA_Theresa_11
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_11
@@ -345,8 +345,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_12 = {
-        name = THA_Theresa_12
+    TEA_Theresa_12 = {
+        name = TEA_Theresa_12
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_12
@@ -369,8 +369,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_13 = {
-        name = THA_Theresa_13
+    TEA_Theresa_13 = {
+        name = TEA_Theresa_13
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_13
@@ -393,8 +393,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_14 = {
-        name = THA_Theresa_14
+    TEA_Theresa_14 = {
+        name = TEA_Theresa_14
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_14
@@ -417,8 +417,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_15 = {
-        name = THA_Theresa_15
+    TEA_Theresa_15 = {
+        name = TEA_Theresa_15
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_15
@@ -441,8 +441,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_16 = {
-        name = THA_Theresa_16
+    TEA_Theresa_16 = {
+        name = TEA_Theresa_16
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_16
@@ -465,8 +465,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_17 = {
-        name = THA_Theresa_17
+    TEA_Theresa_17 = {
+        name = TEA_Theresa_17
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_17
@@ -489,8 +489,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_18 = {
-        name = THA_Theresa_18
+    TEA_Theresa_18 = {
+        name = TEA_Theresa_18
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_18
@@ -513,8 +513,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_19 = {
-        name = THA_Theresa_19
+    TEA_Theresa_19 = {
+        name = TEA_Theresa_19
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_19
@@ -537,8 +537,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    THA_Theresa_20 = {
-        name = THA_Theresa_20
+    TEA_Theresa_20 = {
+        name = TEA_Theresa_20
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_20
