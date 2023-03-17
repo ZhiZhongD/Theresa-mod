@@ -4,10 +4,17 @@
  Theresa_decision_category:0 "德丽莎mod决议"
  Theresa_decision_0:0 "召唤德丽莎"
  TEA_annex_targeted_decision:0 "§4和§!§Y[from.getname]§!领导人§Y[from.getleader]§!§4商讨合并事宜§!"
+ TEA_change_targeted_decision:0 "§4增加§!§Y[from.getname]§!§4德丽莎主义影响力§!"
  TEA_war_targeted_decision:0 "§4向§!§Y[from.getname]§!§4宣战§!"
  TEA_ROMA_tooltip:0 "成立罗马"
  Theresa_ROMA:0 "德丽莎罗马"
- Theresa_STATE:0 "德丽莎"
+ Theresa_decision_Theresania:0 "§4成立大德丽莎国§!"
+ Theresa_STATE:0 "§4德丽莎妮亚§!"
+
+ TEA_Theresania_tooltip:0 "成立大德丽莎国"
+ TEA_Theresania:0 "大德丽莎国"
+ TEA_Theresania_DEF:0 "大德丽莎国"
+ TEA_Theresania_ADJ:0 "大德丽莎国"
 
 
 
@@ -63,6 +70,8 @@
  TEA_Theresa_18:0 "德丽莎-星穹圣诗"
  TEA_Theresa_19:0 "德丽莎-天语贤者"
  TEA_Theresa_20:0 "德丽莎-绿野青空"
+#特质
+ Theresa_is_the_lovest:0 "德丽莎世界第一可爱"
 #意识形态
  Theresaism:0 "德丽莎主义"
 #阵营名字

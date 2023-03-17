@@ -149,13 +149,11 @@ country_event = {
 			}
 			TEA = {
 				every_state = {
-					add_core_of = TEA
+					add_state_claim = TEA
 				}
 				random_state = {
-					limit = {
-						is_on_continent = europe
-					}
 					transfer_state_to = TEA
+					add_core_of = TEA
 					create_unit = { 
 						division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
 						owner = TEA 
@@ -204,7 +202,7 @@ country_event = {
 	option = {
 		name = Theresa.3.a
 		ai_chance = {
-			base = 9
+			base = 10
 		}
 		ROOT = {
 			TEA = {
@@ -212,25 +210,14 @@ country_event = {
 					target = PREV
 				}
 			}
-		}
-		
-	}
-	option = {
-		name = Theresa.3.b
-		ai_chance = {
-			base = 0	
-		}
-		ROOT = {
-			TEA = {
-				declare_war_on = {
-					target = PREV
-					type = annex_everything
+			every_state = {
+				limit = {
+					is_core_of = PREV
 				}
+				add_core_of = TEA
+				remove_core_of = PREV
 			}
 		}
 		
-		add_stability = -0.25
-		add_war_support = -0.25
-		add_political_power = -100
 	}
 }

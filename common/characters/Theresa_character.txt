@@ -14,31 +14,31 @@ characters = {
 
         country_leader = {
             ideology = Theresaism_subtype
-            traits = { silent_workhorse }
+            traits = { popular_queen Theresa_is_the_lovest }
             expire = "2023.2.3.1"
             id = -1
         }
         country_leader = {
             ideology = socialism
-            traits = { silent_workhorse }
+            traits = { popular_queen Theresa_is_the_lovest }
             expire = "2023.2.3.1"
             id = -1
         }
         country_leader = {
             ideology = marxism
-            traits = { silent_workhorse }
+            traits = { popular_queen Theresa_is_the_lovest }
             expire = "2023.2.3.1"
             id = -1
         }
         country_leader = {
             ideology = fascism_ideology
-            traits = { silent_workhorse }
+            traits = { popular_queen Theresa_is_the_lovest }
             expire = "2023.2.3.1"
             id = -1
         }
         country_leader = {
             ideology = despotism
-            traits = { silent_workhorse }
+            traits = { popular_queen Theresa_is_the_lovest }
             expire = "2023.2.3.1"
             id = -1
         }
@@ -64,11 +64,11 @@ characters = {
         }
         field_marshal={
 		    traits = { trait_mountaineer offensive_doctrine inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -93,11 +93,11 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -140,11 +140,11 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -169,11 +169,11 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -190,14 +190,18 @@ characters = {
             }
         }
 
-
+        advisor = {
+            slot = theorist
+            idea_token = TEA_Theresa_5
+            traits = { blitzkrieg_theorist }
+        }
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -214,14 +218,18 @@ characters = {
             }
         }
 
-
+        advisor = {
+            slot = high_command
+            idea_token = TEA_Theresa_6
+            traits = { army_armored_3 }
+        }
         corps_commander={
-		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+		    traits = { panzer_leader adaptable trait_reckless inspirational_leader }
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -238,14 +246,18 @@ characters = {
             }
         }
 
-
+        advisor = {
+            slot = army_chief
+            idea_token = TEA_Theresa_7
+            traits = { army_chief_offensive_3 }
+        }
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -265,11 +277,11 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -289,11 +301,11 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -313,11 +325,11 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -337,11 +349,11 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -361,11 +373,11 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -385,11 +397,11 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -409,11 +421,11 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -433,11 +445,11 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -457,11 +469,11 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -481,11 +493,11 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -505,11 +517,11 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -529,11 +541,11 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }
@@ -553,11 +565,11 @@ characters = {
 
         field_marshal={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 2
-	        attack_skill = 2
-	        defense_skill = 3
-	        planning_skill = 2
-	        logistics_skill = 2
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
 			legacy_id=-1
 		}
     }

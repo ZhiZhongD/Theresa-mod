@@ -426,24 +426,25 @@ Theresa_decision_category = {
     TEA_annex_targeted_decision = {
 		target_root_trigger = {
 			tag = TEA
-#            is_ai = yes
 		}
 		targets_dynamic = yes
 		target_trigger = {
 			FROM = {
 				is_neighbor_of = TEA
+                is_puppet_of = TEA
+                
 			}
 		}
+        available = {
+            FROM = {
+                Theresaism > 0.6
+            }
+        }
 		cost = 0
 		days_remove = 7
+        priority = 11
 		ai_will_do = {
 			base = 100
-		}
-		war_with_target_on_complete = yes
-		complete_effect = {
-			FROM = {
-				country_event = { id = Theresa.2 }
-			}
 		}
 		remove_effect = {
             FROM = {
@@ -451,21 +452,60 @@ Theresa_decision_category = {
             }
 		}
 	}
-    TEA_war_targeted_decision = {
+    TEA_change_targeted_decision = {
 		target_root_trigger = {
 			tag = TEA
-#            is_ai = yes
-            always = no
 		}
 		targets_dynamic = yes
 		target_trigger = {
 			FROM = {
 				is_neighbor_of = TEA
+                is_puppet_of = TEA
+			}
+		}
+		cost = 0
+		days_remove = 7
+        priority = 12
+		ai_will_do = {
+			base = 100
+		}
+		remove_effect = {
+            FROM = {
+                add_popularity = {
+                    ideology = Theresaism
+                    popularity = 0.1
+                }
+                if = {
+                    limit = {
+                        Theresaism > 0.5
+                    }
+                    set_politics = {
+                        ruling_party = Theresaism   
+                        last_election = "1900.1.1"
+                        election_frequency = 72
+                        elections_allowed = no
+                    }
+                }
+            }
+		}
+	}
+    TEA_war_targeted_decision = {
+		target_root_trigger = {
+			tag = TEA
+		}
+		targets_dynamic = yes
+		target_trigger = {
+			FROM = {
+				is_neighbor_of = TEA
+                NOT = {
+                    is_puppet_of = TEA
+                }
 			}
 		}
 		cost = 0
 		days_remove = 7
         fire_only_once = yes
+        priority = 10
 		ai_will_do = {
 			base = 100
 		}
@@ -477,4 +517,33 @@ Theresa_decision_category = {
             }
 		}
 	}
+    Theresa_decision_Theresania = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        priority = 100
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+            controls_state = 64
+        }
+        visible = {
+            GER = {
+                exists = no
+            }
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = TEA_Theresania_tooltip
+            set_cosmetic_tag = TEA_Theresania
+            set_province_name = {
+                id = 6521
+                name = Theresa_STATE
+            }
+            64 ={
+                set_state_name = Theresa_STATE
+            }
+        }
+    }
 }
