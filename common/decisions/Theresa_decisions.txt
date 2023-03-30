@@ -537,26 +537,6 @@ Theresa_decision_category = {
         complete_effect = {
             custom_effect_tooltip = TEA_Theresania_tooltip
             set_cosmetic_tag = TEA_Theresania
-            
-            
-            if = {
-                limit = {
-                    EMP = {
-                        exists = yes
-                    }
-                }
-                set_province_name = {
-                    id = 12140
-                    name = Theresa_STATE
-                }
-                64 = {
-                    add_victory_points = {
-                        province = 12140
-                        value = 100
-                    }
-                }
-            }
-            else = {
                 64 ={
                     set_state_name = Theresa_STATE
                     add_victory_points = {
@@ -568,7 +548,7 @@ Theresa_decision_category = {
                     id = 6521
                     name = Theresa_STATE
                 }
-            }
+            
         }
     }
 }

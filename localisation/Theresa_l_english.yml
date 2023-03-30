@@ -1,6 +1,7 @@
 ﻿l_english:
 #决议
  Theresa_test_decision_category:0 "mod测试决议"
+ Theresa_test_decision_category_desc:0 "首都为[?Theresa_state]"
  Theresa_decision_category:0 "德丽莎mod决议"
  Theresa_decision_0:0 "召唤德丽莎"
  TEA_annex_targeted_decision:0 "§4和§!§Y[from.getname]§!领导人§Y[from.getleader]§!§4商讨合并事宜§!"
@@ -28,9 +29,9 @@
  Theresa.1.b:0 "什么鬼？？？"
  Theresa_WTF:0 "德丽莎势力将由ai控制，会获得大量增强"
 
- Theresa.2.t:0 "德丽莎联盟的德丽莎正在边界活动"
- Theresa.2.d:0 "啥，她们都是从哪里过来的"
- Theresa.2.a:0 "？？？"
+ Theresa.2.t:0 " "
+ Theresa.2.d:0 " "
+ Theresa.2.a:0 " "
 
  Theresa.3.t:0 "来自德丽莎的正式消息"
  Theresa.3.d:0 "德丽莎联盟的德丽莎们希望我们能够加入她们，否则将会对我们宣战"

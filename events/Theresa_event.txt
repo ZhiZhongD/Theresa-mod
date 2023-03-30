@@ -148,8 +148,9 @@ country_event = {
 				}
 			}
 			TEA = {
+				
 				every_state = {
-					add_state_claim = TEA
+					add_claim_by = TEA
 				}
 				random_state = {
 					transfer_state_to = TEA
@@ -172,7 +173,8 @@ country_event = {
 		name = Theresa.1.a
 		TEA = {
 			change_tag_from = ROOT
-		}		
+			country_event = { id = Theresa.2 days = 1 }	
+		}
 	}
 	option = { 
 		name = Theresa.1.b
@@ -186,11 +188,32 @@ country_event = {
 	id = Theresa.2
 	title = Theresa.2.t
 	desc = Theresa.2.d
-    
-	fire_only_once = yes
     is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		TEA = {
+			country_event = { id = Theresa.2001 days = 1 }
+		}
+	}
 	option = {
 		name = Theresa.2.a
+	}
+}
+country_event = {
+	id = Theresa.2001
+	title = Theresa.2001.t
+	desc = Theresa.2001.d
+    is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		capital_scope = {
+			ROOT = {
+				goto_state = PREV
+			}
+		}
+	}
+	option = {
+		name = Theresa.2001.a
 	}
 }
 country_event = {
