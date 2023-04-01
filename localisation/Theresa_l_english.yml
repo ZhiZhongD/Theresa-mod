@@ -1,16 +1,16 @@
 ﻿l_english:
 #决议
  Theresa_test_decision_category:0 "mod测试决议"
- Theresa_test_decision_category_desc:0 "首都为[?Theresa_state]"
  Theresa_decision_category:0 "德丽莎mod决议"
  Theresa_decision_0:0 "召唤德丽莎"
+ Theresa_decision_1:0 "简单模式"
  TEA_annex_targeted_decision:0 "§4和§!§Y[from.getname]§!领导人§Y[from.getleader]§!§4商讨合并事宜§!"
  TEA_change_targeted_decision:0 "§4增加§!§Y[from.getname]§!§4德丽莎主义影响力§!"
  TEA_war_targeted_decision:0 "§4向§!§Y[from.getname]§!§4宣战§!"
  TEA_ROMA_tooltip:0 "成立罗马"
  Theresa_ROMA:0 "德丽莎罗马"
  Theresa_decision_Theresania:0 "§4成立大德丽莎国§!"
- Theresa_STATE:0 "§4德丽莎妮亚§!"
+ Theresa_STATE:0 "§4德丽莎妮娅§!"
 
  TEA_Theresania_tooltip:0 "成立大德丽莎国"
  TEA_Theresania:0 "大德丽莎国"
@@ -18,7 +18,8 @@
  TEA_Theresania_ADJ:0 "大德丽莎国"
 
 
-
+#民族精神
+ TEA_idea_0:0 "德丽莎世界第一可爱！！！"
 
 
 
@@ -29,19 +30,18 @@
  Theresa.1.b:0 "什么鬼？？？"
  Theresa_WTF:0 "德丽莎势力将由ai控制，会获得大量增强"
 
- Theresa.2.t:0 " "
- Theresa.2.d:0 " "
- Theresa.2.a:0 " "
+ Theresa.2.t:0 "来自[from.getname]的消息"
+ Theresa.2.d:0 "[from.getname]已经被成功整合，正式加入了德丽莎大家庭"
+ Theresa.2.a:0 "让我们祝贺[from.getname]的德丽莎们！"
 
- Theresa.3.t:0 "来自德丽莎的正式消息"
- Theresa.3.d:0 "德丽莎联盟的德丽莎们希望我们能够加入她们，否则将会对我们宣战"
- Theresa.3.a:0 "德丽莎世界第一可爱"
- Theresa.3.b:0 "寸土不让！"
+ Theresa.3.t:0 "来自德丽莎联盟的消息"
+ Theresa.3.d:0 "德丽莎联盟的德丽莎们希望我们能够加入她们"
+ Theresa.3.a:0 "德丽莎世界第一可爱!"
 
-
-
-
-
+ Theresa.2001.t:0 "成立§4大德丽莎国§!"
+ Theresa.2001.d:0 "德意志地区已经被我们整合，现在我们可以选择一个地区来作为我们的首都"
+ Theresa.2001.a:0 "选择维也纳作为首都"
+ Theresa.2001.b:0 "选择柏林作为首都"
 
 
 
@@ -75,10 +75,12 @@
  Theresa_is_the_lovest:0 "德丽莎世界第一可爱"
 #意识形态
  Theresaism:0 "德丽莎主义"
+ Theresaism_noun:0 "德丽莎主义支持率"
+#占领区
+ Theresa_magic:0 "TeRiRi魔法"
 #阵营名字
  Theresa_faction:0 "德丽莎联盟"
 #国名
  TEA:0 "德丽莎联盟"
  TEA_ADJ:0 "德丽莎联盟"
  TEA_DEF:0 "德丽莎联盟"
- TEA_ROMA:0 "德丽莎联盟"

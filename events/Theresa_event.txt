@@ -8,151 +8,20 @@ country_event = {
     is_triggered_only = yes
 	immediate = {
 		hidden_effect = {
-			
 			TEA = {
-				division_template = {
-					name = "Theresa Militia"
-					is_locked = no
-					regiments = {
-						infantry = { x = 0 y = 0 }
-						infantry = { x = 0 y = 1 }
-						infantry = { x = 0 y = 2 }
-						infantry = { x = 0 y = 3 }
-						infantry = { x = 0 y = 4 }
-						infantry = { x = 1 y = 0 }
-						infantry = { x = 1 y = 1 }
-						infantry = { x = 1 y = 2 }
-						infantry = { x = 1 y = 3 }
-						infantry = { x = 1 y = 4 }
-						infantry = { x = 2 y = 0 }
-						infantry = { x = 2 y = 1 }
-						infantry = { x = 2 y = 2 }
-						infantry = { x = 2 y = 3 }
-						infantry = { x = 2 y = 4 }
-						artillery_brigade = { x = 3 y = 0 }
-						artillery_brigade = { x = 3 y = 1 }
-						artillery_brigade = { x = 3 y = 2 }
-						artillery_brigade = { x = 3 y = 3 }
-					}
-					support = {
-						engineer = { x = 0 y = 0 }
-						artillery = { x = 0 y = 1 }
-					}
-				}
-				division_template = {
-					name = "Theresa Tank"
-					is_locked = no
-					regiments = {
-						modern_armor = { x = 0 y = 0 }
-						modern_armor = { x = 0 y = 1 }
-						modern_armor = { x = 0 y = 2 }
-						modern_armor = { x = 0 y = 3 }
-						modern_armor = { x = 0 y = 4 }
-						modern_armor = { x = 1 y = 0 }
-						modern_armor = { x = 1 y = 1 }
-						modern_armor = { x = 1 y = 2 }
-						modern_armor = { x = 1 y = 3 }
-						modern_armor = { x = 1 y = 4 }
-						modern_armor = { x = 2 y = 0 }
-						modern_armor = { x = 2 y = 1 }
-						modern_armor = { x = 2 y = 2 }
-						modern_armor = { x = 2 y = 3 }
-						modern_armor = { x = 2 y = 4 }
-						mechanized = {x = 3 y = 0}
-						mechanized = {x = 3 y = 1}
-						mechanized = {x = 3 y = 2}
-						mechanized = {x = 3 y = 3}
-						mechanized = {x = 3 y = 4}
-						mechanized = {x = 4 y = 0}
-					}
-					support = {
-						engineer = { x = 0 y = 0 }
-						artillery = { x = 0 y = 1 }
-						medium_flame_tank = { x = 0 y = 2 }
-						logistics_company = { x = 0 y = 3 } 
-					}
-				}
-				set_technology = {
-					interwar_artillery = 1
-					artillery1 = 1
-					artillery2 = 1
-					artillery3 = 1
-					artillery4 = 1
-					artillery5 = 1
-					artillery6 = 1
-					artillery7 = 1
-					basic_medium_tank_chassis = 1
-					improved_medium_tank_chassis = 1
-					advanced_medium_tank_chassis = 1
-					main_battle_tank_chassis = 1
-					armor_tech_1 = 1
-					armor_tech_2 = 1
-					armor_tech_3 = 1
-					armor_tech_4 = 1
-					engine_tech_2 = 1
-					engine_tech_3 = 1
-					engine_tech_4 = 1
-					mechanised_infantry = 1
-					mechanised_infantry2 = 1
-					mechanised_infantry3 = 1
-				}
-				create_equipment_variant = {
-					name = "Main Tank"
-					type = modern_tank_chassis_1
-					parent_version = 0
-					modules = {
-						main_armament_slot = tank_heavy_howitzer
-						turret_type_slot = tank_modern_tank_turret
-						suspension_type_slot = tank_interleaved_suspension
-						armor_type_slot = tank_cast_armor
-						engine_type_slot = tank_petrol_electric_engine
-						special_type_slot_1 = tank_radio_3
-						special_type_slot_2 = additional_machine_guns
-						special_type_slot_3 = easy_maintenance
-						special_type_slot_2 = wet_ammo_storage
-					}
-					upgrades = {
-						tank_nsb_engine_upgrade = 12
-						tank_nsb_armor_upgrade = 10
-					}
-				}
-				create_equipment_variant = {
-					name = "Fire Tank"
-					type = medium_tank_flame_chassis_3
-					parent_version = 0
-					modules = {
-						main_armament_slot = flamethrower
-						turret_type_slot = tank_medium_three_man_tank_turret
-						suspension_type_slot = tank_interleaved_suspension
-						armor_type_slot = tank_cast_armor
-						engine_type_slot = tank_petrol_electric_engine
-						special_type_slot_1 = tank_radio_3
-						special_type_slot_2 = additional_machine_guns
-						special_type_slot_3 = easy_maintenance
-						special_type_slot_2 = wet_ammo_storage
-					}
-					upgrades = {
-						tank_nsb_engine_upgrade = 20
-						tank_nsb_armor_upgrade = 5
-					}
-				}
-				create_equipment_variant = {
-					name = "Mechanize"
-					type = mechanized_equipment_3
-					upgrades = {
-						mech_cost_upgrade = 5
-						tank_armor_upgrade = 5
-						tank_engine_upgrade = 5
-						tank_reliability_upgrade = 5
-					}
-				}
-			}
-			TEA = {
-				
 				every_state = {
 					add_claim_by = TEA
 				}
 				random_state = {
+					limit = {
+						OR = {
+							has_state_category = city
+							has_state_category = large_city
+							has_state_category = megalopolis
+							has_state_category = metropolis
+						}
+						
+					}
 					transfer_state_to = TEA
 					add_core_of = TEA
 					create_unit = { 
@@ -173,15 +42,79 @@ country_event = {
 		name = Theresa.1.a
 		TEA = {
 			change_tag_from = ROOT
-			country_event = { id = Theresa.2 days = 1 }	
 		}
 	}
 	option = { 
 		name = Theresa.1.b
 		custom_effect_tooltip = Theresa_WTF		
-		TEA = {
-			country_lock_all_division_template = yes
+		hidden_effect = {
+			TEA = {
+				country_lock_all_division_template = yes
+				every_owned_state = {
+					add_manpower = 1000000
+					set_state_category = megalopolis
+					add_extra_state_shared_building_slots = 20
+					add_building_construction = {
+						type = industrial_complex
+						level = 11
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 12
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = rocket_site
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = nuclear_reactor
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 5
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = air_base
+						level = 10
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 5
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = radar_station
+						level = 6
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 10
+						instant_build = yes
+						province = {
+							all_provinces = yes
+						}
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						level = 10
+						instant_build = yes
+						province = {
+							all_provinces = yes
+							limit_to_coastal = yes
+						}
+					}
+				}
+			}
 		}
+		
 	}
 }
 country_event = {
@@ -189,12 +122,6 @@ country_event = {
 	title = Theresa.2.t
 	desc = Theresa.2.d
     is_triggered_only = yes
-	hidden = yes
-	immediate = {
-		TEA = {
-			country_event = { id = Theresa.2001 days = 1 }
-		}
-	}
 	option = {
 		name = Theresa.2.a
 	}
@@ -204,8 +131,21 @@ country_event = {
 	title = Theresa.2001.t
 	desc = Theresa.2001.d
     is_triggered_only = yes
-	hidden = yes
-	immediate = {
+	option = {
+		name = Theresa.2001.a
+		4 = {
+			set_state_name = Theresa_STATE
+			set_state_category = megalopolis
+			add_victory_points = {
+				province = 11666
+				value = 100
+			}
+		}
+		set_province_name = {
+			id = 11666
+			name = Theresa_STATE
+		}
+		
 		capital_scope = {
 			ROOT = {
 				goto_state = PREV
@@ -213,7 +153,27 @@ country_event = {
 		}
 	}
 	option = {
-		name = Theresa.2001.a
+		name = Theresa.2001.b
+		64 ={
+			set_state_name = Theresa_STATE
+			set_state_category = megalopolis
+			add_victory_points = {
+				province = 6521
+				value = 100
+			}
+		}
+		set_province_name = {
+			id = 6521
+			name = Theresa_STATE
+		}
+		set_capital = {
+			state = 64
+		}		
+		capital_scope = {
+			ROOT = {
+				goto_state = PREV
+			}
+		}
 	}
 }
 country_event = {
@@ -228,17 +188,18 @@ country_event = {
 			base = 10
 		}
 		ROOT = {
-			TEA = {
-				annex_country = {
-					target = PREV
-				}
-			}
 			every_state = {
 				limit = {
 					is_core_of = PREV
 				}
 				add_core_of = TEA
 				remove_core_of = PREV
+			}
+			TEA = {
+				annex_country = {
+					target = PREV
+				}
+				country_event = { id = Theresa.2 }
 			}
 		}
 		

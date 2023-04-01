@@ -1,0 +1,27 @@
+Theresa_magic = {
+	icon = 2
+	sound_effect = "Martial_Law_Interface_Foreign_Cvilian_Oversight"
+
+	visible = {
+		tag = TEA
+	}
+	
+	available = {
+        always = yes
+	}
+	starting_law = yes
+	fallback_law = local_police_force_garrison 
+
+	state_modifier = {
+		resistance_target 				= -1
+		required_garrison_factor 		= -0.9
+		resistance_damage_to_garrison 	= -0.9
+		compliance_gain 				= 1
+		local_factories 				= 1
+		local_resources 				= 1
+	}
+
+	ai_will_do = {
+		base = 1000
+	}
+}

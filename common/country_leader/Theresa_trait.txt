@@ -1,20 +1,8 @@
 leader_traits = {
     Theresa_is_the_lovest ={
-        local_resources_factor = 10
-        industrial_capacity_factory = 100
-        industrial_capacity_dockyard = 100
-        production_speed_buildings_factor = 100
-        no_supply_grace = 360
-        experience_gain_army = 10
-        max_command_power = 1000
-        max_command_power_mult = 10
-        training_time_factor = -0.9
-        minimum_training_level = -0.2
-        justify_war_goal_time = -1.5
-        supply_factor = 10
-        supply_consumption_factor = -0.99
-        supply_node_range = 10
-        fuel_cost = -1.05
-        research_speed_factor = 1 
+        stability_factor = 0.25
+        war_support_factor = 0.25
+        political_power_gain = 1
+        political_power_factor = 1
     }
 }
