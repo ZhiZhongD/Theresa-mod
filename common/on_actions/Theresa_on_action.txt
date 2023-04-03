@@ -7,8 +7,46 @@ on_actions = {
                         is_ai = yes
                     }
                 }
+                Theresa_ai_eq = yes
             }
-            Theresa_ai_eq = yes
+        }
+    }
+
+    on_unit_leader_level_up = {
+		effect = {
+			if = { 
+				limit = { 
+					FROM = { 
+						has_idea = Theresa_academy_spirit 
+					} 
+				}
+				character = { 
+					IF = { 
+						limit = { is_army_leader = yes }
+                        add_attack = 1 
+						add_defense = 1
+						add_maneuver = 1
+						add_coordination = 1
+					} 
+					
+				}
+			}
+            if = { 
+				limit = { 
+					FROM = { 
+						has_idea = Theresa_naval_academy_spirit 
+					} 
+				}
+				character = { 
+					IF = { 
+						limit = { is_navy_leader = yes }
+                        add_attack = 1 
+						add_defense = 1
+						add_maneuver = 1
+						add_coordination = 1
+					} 
+				}
+			}
         }
     }
 }

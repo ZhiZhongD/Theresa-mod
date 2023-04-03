@@ -12,29 +12,23 @@ country_event = {
 				every_state = {
 					add_claim_by = TEA
 				}
-				random_state = {
-					limit = {
-						OR = {
-							has_state_category = city
-							has_state_category = large_city
-							has_state_category = megalopolis
-							has_state_category = metropolis
-						}
-						
-					}
+				4 = {
 					transfer_state_to = TEA
 					add_core_of = TEA
 					create_unit = { 
 						division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
 						owner = TEA 
-						count = 12
+						count = 4
 					}
 					create_unit = { 
 						division = "name = \"Theresa Apocalypse's Armor\" division_template = \"Theresa Tank\" start_experience_factor = 1"
 						owner = TEA 
-						count = 12
+						count = 2
 					}
 				}
+				air_experience = 100
+				army_experience = 100
+				navy_experience = 100
 			}
 		}
 	}
@@ -50,6 +44,7 @@ country_event = {
 		hidden_effect = {
 			TEA = {
 				country_lock_all_division_template = yes
+				add_ideas = TEA_idea_0
 				every_owned_state = {
 					add_manpower = 1000000
 					set_state_category = megalopolis
@@ -111,6 +106,18 @@ country_event = {
 							limit_to_coastal = yes
 						}
 					}
+				}
+			}
+			4 = {
+				create_unit = { 
+					division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
+					owner = TEA 
+					count = 24
+				}
+				create_unit = { 
+					division = "name = \"Theresa Apocalypse's Armor\" division_template = \"Theresa Tank\" start_experience_factor = 1"
+					owner = TEA 
+					count = 24
 				}
 			}
 		}

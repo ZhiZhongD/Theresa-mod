@@ -2,6 +2,9 @@
 #决议
  Theresa_test_decision_category:0 "mod测试决议"
  Theresa_decision_category:0 "德丽莎mod决议"
+ Theresa_country_decision_category:0 "附属国管理决议"
+ Theresa_annex_country_decision_category:0 "合并附属国决议"
+ Theresa_war_decision_category:0 "战争决议"
  Theresa_decision_0:0 "召唤德丽莎"
  Theresa_decision_1:0 "简单模式"
  TEA_annex_targeted_decision:0 "§4和§!§Y[from.getname]§!领导人§Y[from.getleader]§!§4商讨合并事宜§!"
@@ -21,7 +24,18 @@
 #民族精神
  TEA_idea_0:0 "德丽莎世界第一可爱！！！"
 
+ Theresa_academy_spirit:0 "德丽莎陆军学院精神"
+ Theresa_academy_spirit_tt:0 "陆军将领升级时§Y所有属性§!加§41§!"
+ Theresa_army_spirit:0 "德丽莎陆军精神"
+ Theresa_division_command_spirit:0 "德丽莎部队精神"
 
+ Theresa_naval_academy_spirit:0 "德丽莎海军学院精神"
+ Theresa_naval_academy_spirit_tt:0 "海军将领升级时§Y所有属性§!加§41§!"
+ Theresa_navy_spirit:0 "德丽莎海军精神"
+ Theresa_naval_command_spirit:0 "德丽莎海军指挥精神"
+
+ Theresa_air_force_spirit:0 "德丽莎空军精神"
+ Theresa_air_force_command_spirit:0 "德丽莎空军指挥精神"
 
 #事件
  Theresa.1.t:0 "奇怪的事情要发生了"

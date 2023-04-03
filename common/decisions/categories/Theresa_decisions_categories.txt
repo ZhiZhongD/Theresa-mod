@@ -11,3 +11,21 @@ Theresa_decision_category = {
 	}
 	priority = 100
 }
+Theresa_country_decision_category = {
+	visible = {
+		tag = TEA
+	}
+	priority = 99
+}
+Theresa_annex_country_decision_category = {
+	visible = {
+		tag = TEA
+	}
+	priority = 99
+}
+Theresa_war_decision_category = {
+	visible = {
+		tag = TEA
+	}
+	priority = 98
+}

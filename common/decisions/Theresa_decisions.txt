@@ -459,18 +459,31 @@ Theresa_decision_category = {
             }
         }
     }
-    Theresa_decision_2 = {
+
+    Theresa_decision_Theresania = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
+        priority = 100
         ai_will_do = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 64
+            has_full_control_of_state = 4
+            has_full_control_of_state = 8
+            has_full_control_of_state = 9
+            has_full_control_of_state = 28
+            has_full_control_of_state = 69
+            has_full_control_of_state = 74
+            has_full_control_of_state = 75
+            has_full_control_of_state = 85
+            has_full_control_of_state = 86
+            has_full_control_of_state = 102
+            has_full_control_of_state = 188
+            has_full_control_of_state = 807
         }
         visible = {
-            tag = TEA
             GER = {
                 exists = no
             }
@@ -480,9 +493,24 @@ Theresa_decision_category = {
         }
         fire_only_once = yes
         complete_effect = {
+            custom_effect_tooltip = TEA_Theresania_tooltip
             set_cosmetic_tag = TEA_Theresania
+                add_state_core = 8
+                add_state_core = 9
+                add_state_core = 28
+                add_state_core = 69
+                add_state_core = 74
+                add_state_core = 75
+                add_state_core = 85
+                add_state_core = 86
+                add_state_core = 102
+                add_state_core = 188
+                add_state_core = 807
+            country_event = { id = Theresa.2001 }
         }
     }
+}
+Theresa_annex_country_decision_category = {
     TEA_annex_targeted_decision = {
 		target_root_trigger = {
 			tag = TEA
@@ -512,6 +540,9 @@ Theresa_decision_category = {
             }
 		}
 	}
+    
+}
+Theresa_country_decision_category = {
     TEA_change_targeted_decision = {
 		target_root_trigger = {
 			tag = TEA
@@ -549,6 +580,8 @@ Theresa_decision_category = {
             }
 		}
 	}
+}
+Theresa_war_decision_category = {
     TEA_war_targeted_decision = {
 		target_root_trigger = {
 			tag = TEA
@@ -577,31 +610,4 @@ Theresa_decision_category = {
             }
 		}
 	}
-    Theresa_decision_Theresania = {
-        cost = 0
-        days_remove = 0
-        days_re_enable = 0
-        priority = 100
-        ai_will_do = {
-            base = 0
-        }
-        available = {
-            has_full_control_of_state = 64
-            has_full_control_of_state = 4
-        }
-        visible = {
-            GER = {
-                exists = no
-            }
-            AUS = {
-                exists = no
-            }
-        }
-        fire_only_once = yes
-        complete_effect = {
-            custom_effect_tooltip = TEA_Theresania_tooltip
-            
-            country_event = { id = Theresa.2001 }
-        }
-    }
 }
