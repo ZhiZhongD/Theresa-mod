@@ -295,9 +295,11 @@ Theresa_test_decision_category = {
         }
     
         complete_effect = {
-            every_state = {
-                add_core_of = TEA
+            set_power_balance = {
+                id = Theresa_test_balance
+                set_default = yes
             }
+
         }
         remove_effect = {
 
@@ -352,13 +354,106 @@ Theresa_test_decision_category = {
         }
     }
 }
+Theresa_bop_decision_test_category = {
+    Theresa_bop_test_decision_1 = {
+        cost = 0
+        days_remove = 0
+        fire_only_once = yes
+        ai_will_do = {
+            base = 100
+        }
+        available = {
+
+        }
+        visible = {
+            tag = TEA
+        }
+        complete_effect = {
+            add_ideas = TEA_idea_0
+            TEA = {
+                annex_country = {
+                    target = AUS
+                }
+                annex_country = {
+                    target = GER
+                }
+                transfer_state = 8
+                transfer_state = 9
+                transfer_state = 28
+                transfer_state = 69
+                transfer_state = 74
+                transfer_state = 75
+                transfer_state = 85
+                transfer_state = 86
+                transfer_state = 102
+                transfer_state = 188
+                transfer_state = 807
+                every_owned_state = {
+                    add_core_of = TEA
+                }
+                every_owned_state = {
+                    if = {
+                        limit = {
+                            is_demilitarized_zone = yes
+                        }
+                        set_demilitarized_zone = no
+                    }
+                }
+                change_tag_from = root
+            }
+            every_owned_state = {
+                add_manpower = 1000000
+                set_state_category = megalopolis
+                add_extra_state_shared_building_slots = 20
+                add_building_construction = {
+                    type = rocket_site
+                    level = 1
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = infrastructure
+                    level = 5
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = anti_air_building
+                    level = 5
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = bunker
+                    level = 10
+                    instant_build = yes
+					province = {
+						all_provinces = yes
+					}
+                }
+                add_building_construction = {
+                    type = coastal_bunker
+                    level = 10
+                    instant_build = yes
+					province = {
+						all_provinces = yes
+                        limit_to_coastal = yes
+					}
+                }
+            }
+        }
+    }
+}
 Theresa_decision_category = {
     Theresa_decision_0 = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
+        fire_only_once = yes
         ai_will_do = {
             base = 0
+        }
+        allowed = {
+            ROOT = {
+                is_ai = no
+            }
         }
         available = {
 
@@ -368,7 +463,7 @@ Theresa_decision_category = {
                 has_global_flag = Theresa_is_coming
             }
         }
-        fire_only_once = yes
+        
         complete_effect = {
             country_event = { id = Theresa.1 }
             set_global_flag = Theresa_is_coming

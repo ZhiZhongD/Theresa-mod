@@ -512,7 +512,6 @@ ideas = {
 				airforce_intel_to_others = -5
 				air_doctrine_cost_factor = -0.25
 				air_accidents_factor = -0.4
-				air_training_xp_gain = 0.5
 				air_training_xp_gain_factor = 0.25
 			}
 			ai_will_do = {

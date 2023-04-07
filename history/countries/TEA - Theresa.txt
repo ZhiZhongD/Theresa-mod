@@ -13,8 +13,6 @@ set_technology = {
 	artillery3 = 1
 	artillery4 = 1
 	artillery5 = 1
-	artillery6 = 1
-	artillery7 = 1
 
 
 	mechanised_infantry = 1
@@ -142,25 +140,6 @@ if = {
 }
 if = {
 	limit = {
-		not = { has_dlc = "Man the Guns" }
-	}
-	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		basic_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-		basic_heavy_cruiser = 1
-		early_battleship = 1
-		basic_battleship = 1
-		early_battlecruiser = 1
-		transport = 1
-	}
-}
-if = {
-	limit = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
@@ -181,10 +160,6 @@ if = {
 		basic_ship_hull_heavy = 1
 		improved_ship_hull_heavy = 1
 		advanced_ship_hull_heavy = 1
-
-		panzerschiffe = 1
-
-		pre_dreadnoughts = 1
 
 		early_ship_hull_carrier = 1
 		basic_ship_hull_carrier = 1
@@ -248,8 +223,6 @@ if = {
 		advanced_dp_light_battery = 1
 
 		basic_dp_medium_battery = 1
-		improved_dp_medium_battery = 1
-		advanced_dp_medium_battery = 1
 
 		basic_depth_charges = 1
 		improved_depth_charges = 1
@@ -397,7 +370,7 @@ create_equipment_variant = {
 		special_type_slot_1 = tank_radio_3
 		special_type_slot_2 = additional_machine_guns
 		special_type_slot_3 = easy_maintenance
-		special_type_slot_2 = wet_ammo_storage
+		special_type_slot_4 = wet_ammo_storage
 	}
 	upgrades = {
 		tank_nsb_engine_upgrade = 12
@@ -417,7 +390,7 @@ create_equipment_variant = {
 		special_type_slot_1 = tank_radio_3
 		special_type_slot_2 = additional_machine_guns
 		special_type_slot_3 = easy_maintenance
-		special_type_slot_2 = wet_ammo_storage
+		special_type_slot_4 = wet_ammo_storage
 	}
 	upgrades = {
 		tank_nsb_engine_upgrade = 20
