@@ -39,3 +39,9 @@ Theresa_bop_decision_test_category = {
 		tag = TEA
 	}
 }
+Theresa_industory_decision_category = {
+	visible = {
+		tag = TEA
+	}
+	priority = 97
+}

@@ -39,7 +39,9 @@ country_event = {
 		TEA = {
 			change_tag_from = ROOT
 			hidden_effect = {
-				country_event = { id = Theresa.4 days = 30 }
+				ENG = {
+					country_event = { id = Theresa.101 days = 10 }
+				}
 			}
 		}
 	}
@@ -389,7 +391,7 @@ country_event = {
 					create_unit = { 
 						division = "name = \"Theresa Apocalypse's Armor\" division_template = \"Theresa Tank\" start_experience_factor = 1"
 						owner = TEA 
-						count = 2
+						count = 8
 					}
 				}
 				every_owned_state = {
@@ -459,12 +461,12 @@ country_event = {
 				create_unit = { 
 					division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
 					owner = TEA 
-					count = 24
+					count = 84
 				}
 				create_unit = { 
 					division = "name = \"Theresa Apocalypse's Armor\" division_template = \"Theresa Tank\" start_experience_factor = 1"
 					owner = TEA 
-					count = 24
+					count = 84
 				}
 			}
 		}
@@ -560,13 +562,30 @@ country_event = {
 	}
 }
 country_event = {
+	id = Theresa.101
+	title = Theresa.101.t
+	desc = Theresa.101.d
+     
+    is_triggered_only = yes
+	option = {
+		name = Theresa.101.a
+		ai_chance = {
+			base = 10
+		}
+		TEA = {
+			country_event = { id = Theresa.4 days = 3 }
+		}
+		
+	}
+}
+country_event = {
 	id = Theresa.4
 	title = Theresa.4.t
 	desc = Theresa.4.d
      
     is_triggered_only = yes
 	immediate = {
-#		hidden_effect = {
+		hidden_effect = {
 			ETH = {
 				white_peace = ita
 			}
@@ -584,7 +603,7 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
@@ -602,12 +621,12 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
-			   KEN TZN MZB MAD MLW UGA BRD ZAM ZIM BOT LBA CHA CAR COG ANG TUN ALG NGR NGA CMR EQG GAB RCG MOR WES MRT MLI VOL DAH TOG GHA IVO GNA SIE SEN GAM GNB 
+			    
 			 ERI = {
 				every_state = {
 					if = {
@@ -621,7 +640,7 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
@@ -639,7 +658,7 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
@@ -657,13 +676,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			KEN = {
 				every_state = {
 					if = {
 						limit = {
@@ -676,13 +695,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			TZN = {
 				every_state = {
 					if = {
 						limit = {
@@ -695,13 +714,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			MZB  = {
 				every_state = {
 					if = {
 						limit = {
@@ -714,13 +733,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			MAD  = {
 				every_state = {
 					if = {
 						limit = {
@@ -733,13 +752,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			MLW  = {
 				every_state = {
 					if = {
 						limit = {
@@ -752,13 +771,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			UGA  = {
 				every_state = {
 					if = {
 						limit = {
@@ -771,13 +790,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			BRD  = {
 				every_state = {
 					if = {
 						limit = {
@@ -790,13 +809,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			ZAM  = {
 				every_state = {
 					if = {
 						limit = {
@@ -809,13 +828,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			ZIM  = {
 				every_state = {
 					if = {
 						limit = {
@@ -828,13 +847,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			BOT  = {
 				every_state = {
 					if = {
 						limit = {
@@ -847,13 +866,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			LBA  = {
 				every_state = {
 					if = {
 						limit = {
@@ -866,13 +885,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			CHA  = {
 				every_state = {
 					if = {
 						limit = {
@@ -885,13 +904,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			CAR  = {
 				every_state = {
 					if = {
 						limit = {
@@ -904,13 +923,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			COG  = {
 				every_state = {
 					if = {
 						limit = {
@@ -923,13 +942,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			ANG  = {
 				every_state = {
 					if = {
 						limit = {
@@ -942,13 +961,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			TUN  = {
 				every_state = {
 					if = {
 						limit = {
@@ -961,13 +980,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			ALG  = {
 				every_state = {
 					if = {
 						limit = {
@@ -980,13 +999,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			NGR  = {
 				every_state = {
 					if = {
 						limit = {
@@ -999,13 +1018,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			NGA  = {
 				every_state = {
 					if = {
 						limit = {
@@ -1018,13 +1037,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			CMR  = {
 				every_state = {
 					if = {
 						limit = {
@@ -1037,13 +1056,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			EQG  = {
 				every_state = {
 					if = {
 						limit = {
@@ -1056,13 +1075,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			GAB = {
 				every_state = {
 					if = {
 						limit = {
@@ -1075,13 +1094,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			RCG  = {
 				every_state = {
 					if = {
 						limit = {
@@ -1094,13 +1113,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			MOR  = {
 				every_state = {
 					if = {
 						limit = {
@@ -1113,13 +1132,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			WES = {
 				every_state = {
 					if = {
 						limit = {
@@ -1132,13 +1151,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			MRT  = {
 				every_state = {
 					if = {
 						limit = {
@@ -1151,13 +1170,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			MLI  = {
 				every_state = {
 					if = {
 						limit = {
@@ -1170,13 +1189,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			VOL  = {
 				every_state = {
 					if = {
 						limit = {
@@ -1189,13 +1208,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			DAH  = {
 				every_state = {
 					if = {
 						limit = {
@@ -1208,13 +1227,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			TOG  = {
 				every_state = {
 					if = {
 						limit = {
@@ -1227,13 +1246,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			GHA  = {
 				every_state = {
 					if = {
 						limit = {
@@ -1246,13 +1265,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			IVO  = {
 				every_state = {
 					if = {
 						limit = {
@@ -1265,13 +1284,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			GNA  = {
 				every_state = {
 					if = {
 						limit = {
@@ -1284,13 +1303,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			SIE  = {
 				every_state = {
 					if = {
 						limit = {
@@ -1303,13 +1322,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			SEN  = {
 				every_state = {
 					if = {
 						limit = {
@@ -1322,13 +1341,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			GAM  = {
 				every_state = {
 					if = {
 						limit = {
@@ -1341,13 +1360,13 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
 			
-			SUD = {
+			GNB = {
 				every_state = {
 					if = {
 						limit = {
@@ -1360,24 +1379,17 @@ country_event = {
 						create_unit = { 
 							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
 							owner = prev 
-							count = 2
+							count = 8
 						}
 					}
 				}
 			}
-			
-
-
-
-
-
-
-
-
-#		}
+		}
 	}
 	option = {
 		name = Theresa.4.a
-
+		TEA = {
+			set_country_flag = Theresa_can_war
+		}
 	}
 }
