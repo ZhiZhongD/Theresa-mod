@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_simp_chinese:
 #决议
  Theresa_test_decision_category:0 "mod测试决议"
  Theresa_decision_category:0 "德丽莎mod决议"
@@ -41,7 +41,10 @@
  Theresa.1.t:0 "奇怪的事情要发生了"
  Theresa.1.d:0 "§t封印黑暗力量的超维之杖啊\n在此显现你真正的力量吧\n奇迹之力化为星辰\n光之魔法汇聚吾心\nDimension Sonata\n把你TeRiTeRi掉哟§!"
  Theresa.1.a:0 "§4德丽莎世界第一可爱§!"
- Theresa.1.b:0 "什么鬼？？？"
+ Theresa.1.b:0 "§t德丽莎世界第一可爱§!"
+ Theresa.1.c:0 "我好像喝大了，她们从哪儿来的?"
+ Theresa_EU:0 "§4重生为欧皇§!"
+ Theresa_AF:0 "§t重生为非酋§!"
  Theresa_WTF:0 "德丽莎势力将由ai控制，会获得大量增强"
 
  Theresa.2.t:0 "来自[from.getname]的消息"

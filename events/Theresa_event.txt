@@ -12,6 +12,372 @@ country_event = {
 				every_state = {
 					add_claim_by = TEA
 				}
+				air_experience = 100
+				army_experience = 100
+				navy_experience = 100
+			}
+		}
+	}
+	option = { 
+		name = Theresa.1.a
+		custom_effect_tooltip = Theresa_EU	
+		4 = {
+			transfer_state_to = TEA
+			add_core_of = TEA
+		}
+		TEA = {
+			change_tag_from = ROOT
+		}
+	}
+	option = { 
+		name = Theresa.1.b
+		custom_effect_tooltip = Theresa_AF
+		768 = {
+			transfer_state_to = TEA
+			add_core_of = TEA
+		}
+		TEA = {
+			change_tag_from = ROOT
+			hidden_effect = {
+				country_event = { id = Theresa.4 days = 30 }
+			}
+		}
+	}
+	option = { 
+		name = Theresa.1.c
+		custom_effect_tooltip = Theresa_WTF		
+		hidden_effect = {
+			TEA = {
+				set_technology = {
+					infantry_weapons = 1
+					infantry_weapons1 = 1
+				
+					gw_artillery = 1
+					interwar_artillery = 1
+					artillery1 = 1
+					artillery2 = 1
+					artillery3 = 1
+					artillery4 = 1
+					artillery5 = 1
+				
+				
+					mechanised_infantry = 1
+					mechanised_infantry2 = 1
+					mechanised_infantry3 = 1
+				
+					tech_recon = 1
+				
+					tech_support = 1		
+				
+					tech_mountaineers = 1
+				
+					tech_engineers = 1
+					tech_engineers2 = 1
+					tech_engineers3 = 1
+					tech_engineers4 = 1
+				
+					tech_logistics_company = 1
+					tech_logistics_company2 = 1
+					tech_logistics_company3 = 1
+					tech_logistics_company4 = 1
+				
+					motorised_infantry = 1
+					
+					interwar_antiair = 1
+					antiair1 = 1
+					antiair2 = 1
+					antiair3 = 1
+					antiair4 = 1
+					antiair5 = 1
+				
+					interwar_antitank = 1
+					antitank1 = 1
+					antitank2 = 1
+					antitank3 = 1
+					antitank4 = 1
+					antitank5 = 1
+				
+					basic_train = 1
+				
+					electronic_mechanical_engineering = 1
+				
+					radio = 1
+					radio_detection = 1
+					decimetric_radar = 1
+					improved_decimetric_radar = 1
+					centimetric_radar = 1
+					improved_centimetric_radar = 1
+					advanced_centimetric_radar = 1
+				
+					mechanical_computing = 1
+					computing_machine = 1
+					improved_computing_machine = 1
+					advanced_computing_machine = 1
+				
+					basic_fire_control_system = 1
+					improved_fire_control_system = 1
+					advanced_fire_control_system = 1
+				
+					experimental_rockets = 1
+				
+					rocket_engines = 1
+					improved_rocket_engines = 1
+					advanced_rocket_engines = 1
+				
+					jet_engines = 1
+				
+					atomic_research = 1
+					nuclear_reactor = 1
+					nukes = 1
+				
+					synth_oil_experiments = 1
+				
+					fuel_silos = 1
+				
+					fuel_refining = 1
+				
+				
+					mobile_warfare = 1
+				
+					trade_interdiction = 1
+				
+					formation_flying = 1
+				}
+				set_technology = {
+					gwtank_chassis = 1
+			
+					basic_light_tank_chassis = 1
+					improved_light_tank_chassis = 1
+			
+					basic_medium_tank_chassis = 1
+					improved_medium_tank_chassis = 1
+					advanced_medium_tank_chassis = 1
+					main_battle_tank_chassis = 1
+					
+					basic_heavy_tank_chassis = 1
+					
+					armor_tech_1 = 1
+					armor_tech_2 = 1
+					armor_tech_3 = 1
+					armor_tech_4 = 1
+			
+					engine_tech_1 = 1
+					engine_tech_2 = 1
+					engine_tech_3 = 1
+					engine_tech_4 = 1
+				}
+				set_technology = {
+					basic_naval_mines = 1
+					submarine_mine_laying = 1
+					
+					early_ship_hull_light = 1
+					basic_ship_hull_light = 1
+					improved_ship_hull_light = 1
+					advanced_ship_hull_light = 1
+			
+					early_ship_hull_cruiser = 1
+					basic_ship_hull_cruiser = 1
+					improved_ship_hull_cruiser = 1
+					advanced_ship_hull_cruiser = 1
+			
+					early_ship_hull_heavy = 1
+					basic_ship_hull_heavy = 1
+					improved_ship_hull_heavy = 1
+					advanced_ship_hull_heavy = 1
+			
+					early_ship_hull_carrier = 1
+					basic_ship_hull_carrier = 1
+					improved_ship_hull_carrier = 1
+					advanced_ship_hull_carrier = 1
+			
+					early_ship_hull_submarine = 1
+					basic_ship_hull_submarine = 1
+					improved_ship_hull_submarine = 1
+					advanced_ship_hull_submarine =1
+			
+					basic_submarine_snorkel = 1
+					improved_submarine_snorkel = 1
+			
+					mtg_transport = 1
+					mtg_landing_craft = 1
+					mtg_tank_landing_craft = 1
+			
+					basic_torpedo = 1
+					improved_ship_torpedo_launcher = 1
+					advanced_ship_torpedo_launcher = 1
+					modern_ship_torpedo_launcher = 1
+			
+					magnetic_detonator = 1
+					homing_torpedo = 1
+					electric_torpedo = 1
+			
+					damage_control_1 = 1
+					damage_control_2 = 1
+					damage_control_3 = 1
+			
+					fire_control_methods_1 = 1
+					fire_control_methods_2 = 1
+					fire_control_methods_3 = 1
+			
+					basic_battery = 1
+			
+					basic_light_battery = 1
+					improved_light_battery = 1
+					advanced_light_battery = 1
+			
+					basic_light_shell = 1
+					improved_light_shell = 1
+			
+					basic_medium_battery = 1
+					improved_medium_battery = 1
+					advanced_medium_battery = 1
+			
+					basic_medium_shell = 1
+					improved_medium_shell = 1
+			
+					basic_heavy_battery = 1
+					improved_heavy_battery = 1
+					advanced_heavy_battery = 1
+			
+					basic_heavy_shell = 1
+					improved_heavy_shell = 1
+			
+					basic_dp_light_battery = 1
+					improved_dp_light_battery = 1
+					advanced_dp_light_battery = 1
+			
+					basic_dp_medium_battery = 1
+			
+					basic_depth_charges = 1
+					improved_depth_charges = 1
+					modern_depth_charges = 1
+					advanced_depth_charges = 1
+			
+					improved_airplane_launcher = 1
+			
+					smoke_generator = 1
+			
+					sonar = 1
+					improved_sonar = 1
+			
+					basic_cruiser_armor_scheme = 1
+					basic_heavy_armor_scheme = 1
+					improved_heavy_armor_scheme = 1
+				}
+				division_template = {
+					name = "Theresa Militia"
+					is_locked = no
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+						infantry = { x = 0 y = 4 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 1 y = 3 }
+						infantry = { x = 1 y = 4 }
+						infantry = { x = 2 y = 0 }
+						infantry = { x = 2 y = 1 }
+						infantry = { x = 2 y = 2 }
+						infantry = { x = 2 y = 3 }
+						infantry = { x = 2 y = 4 }
+						artillery_brigade = { x = 3 y = 0 }
+						artillery_brigade = { x = 3 y = 1 }
+						artillery_brigade = { x = 3 y = 2 }
+						artillery_brigade = { x = 3 y = 3 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						artillery = { x = 0 y = 1 }
+					}
+				}
+				division_template = {
+					name = "Theresa Tank"
+					is_locked = no
+					regiments = {
+						modern_armor = { x = 0 y = 0 }
+						modern_armor = { x = 0 y = 1 }
+						modern_armor = { x = 0 y = 2 }
+						modern_armor = { x = 0 y = 3 }
+						modern_armor = { x = 0 y = 4 }
+						modern_armor = { x = 1 y = 0 }
+						modern_armor = { x = 1 y = 1 }
+						modern_armor = { x = 1 y = 2 }
+						modern_armor = { x = 1 y = 3 }
+						modern_armor = { x = 1 y = 4 }
+						modern_armor = { x = 2 y = 0 }
+						modern_armor = { x = 2 y = 1 }
+						modern_armor = { x = 2 y = 2 }
+						modern_armor = { x = 2 y = 3 }
+						modern_armor = { x = 2 y = 4 }
+						mechanized = {x = 3 y = 0}
+						mechanized = {x = 3 y = 1}
+						mechanized = {x = 3 y = 2}
+						mechanized = {x = 3 y = 3}
+						mechanized = {x = 3 y = 4}
+						mechanized = {x = 4 y = 0}
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						artillery = { x = 0 y = 1 }
+						medium_flame_tank = { x = 0 y = 2 }
+						logistics_company = { x = 0 y = 3 } 
+					}
+				}
+				create_equipment_variant = {
+					name = "Main Tank"
+					type = modern_tank_chassis_1
+					parent_version = 0
+					modules = {
+						main_armament_slot = tank_heavy_howitzer
+						turret_type_slot = tank_modern_tank_turret
+						suspension_type_slot = tank_interleaved_suspension
+						armor_type_slot = tank_cast_armor
+						engine_type_slot = tank_petrol_electric_engine
+						special_type_slot_1 = tank_radio_3
+						special_type_slot_2 = additional_machine_guns
+						special_type_slot_3 = easy_maintenance
+						special_type_slot_4 = wet_ammo_storage
+					}
+					upgrades = {
+						tank_nsb_engine_upgrade = 12
+						tank_nsb_armor_upgrade = 10
+					}
+				}
+				create_equipment_variant = {
+					name = "Fire Tank"
+					type = medium_tank_flame_chassis_3
+					parent_version = 0
+					modules = {
+						main_armament_slot = flamethrower
+						turret_type_slot = tank_medium_three_man_tank_turret
+						suspension_type_slot = tank_interleaved_suspension
+						armor_type_slot = tank_cast_armor
+						engine_type_slot = tank_petrol_electric_engine
+						special_type_slot_1 = tank_radio_3
+						special_type_slot_2 = additional_machine_guns
+						special_type_slot_3 = easy_maintenance
+						special_type_slot_4 = wet_ammo_storage
+					}
+					upgrades = {
+						tank_nsb_engine_upgrade = 20
+						tank_nsb_armor_upgrade = 5
+					}
+				}
+				create_equipment_variant = {
+					name = "Mechanize"
+					type = mechanized_equipment_3
+					upgrades = {
+						mech_cost_upgrade = 5
+						tank_armor_upgrade = 5
+						tank_engine_upgrade = 5
+						tank_reliability_upgrade = 5
+					}
+				}
+				country_lock_all_division_template = yes
+				add_ideas = TEA_idea_0
 				4 = {
 					transfer_state_to = TEA
 					add_core_of = TEA
@@ -26,25 +392,6 @@ country_event = {
 						count = 2
 					}
 				}
-				air_experience = 100
-				army_experience = 100
-				navy_experience = 100
-			}
-		}
-	}
-	option = { 
-		name = Theresa.1.a
-		TEA = {
-			change_tag_from = ROOT
-		}
-	}
-	option = { 
-		name = Theresa.1.b
-		custom_effect_tooltip = Theresa_WTF		
-		hidden_effect = {
-			TEA = {
-				country_lock_all_division_template = yes
-				add_ideas = TEA_idea_0
 				every_owned_state = {
 					add_manpower = 1000000
 					set_state_category = megalopolis
@@ -210,5 +557,827 @@ country_event = {
 			}
 		}
 		
+	}
+}
+country_event = {
+	id = Theresa.4
+	title = Theresa.4.t
+	desc = Theresa.4.d
+     
+    is_triggered_only = yes
+	immediate = {
+#		hidden_effect = {
+			ETH = {
+				white_peace = ita
+			}
+
+			EGY = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			   KEN TZN MZB MAD MLW UGA BRD ZAM ZIM BOT LBA CHA CAR COG ANG TUN ALG NGR NGA CMR EQG GAB RCG MOR WES MRT MLI VOL DAH TOG GHA IVO GNA SIE SEN GAM GNB 
+			 ERI = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			AFA = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			SOM = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+			SUD = {
+				every_state = {
+					if = {
+						limit = {
+							is_core_of = prev
+							NOT = {
+								is_core_of = owner
+							}
+						}
+						transfer_state_to = prev
+						create_unit = { 
+							division = "name = \"Militia\" division_template = \"Infantry Division\" start_experience_factor = 1"
+							owner = prev 
+							count = 2
+						}
+					}
+				}
+			}
+			
+
+
+
+
+
+
+
+
+#		}
+	}
+	option = {
+		name = Theresa.4.a
+
 	}
 }

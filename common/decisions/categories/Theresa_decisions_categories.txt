@@ -6,7 +6,12 @@ Theresa_test_decision_category = {
 }
 Theresa_decision_category = {
 	visible = {
-		always = yes
+		OR = {
+			tag = TEA
+				TEA = {
+					exists = no
+				}
+		}
 		
 	}
 	priority = 100
