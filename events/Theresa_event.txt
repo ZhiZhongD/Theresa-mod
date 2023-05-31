@@ -27,6 +27,7 @@ country_event = {
 		}
 		TEA = {
 			change_tag_from = ROOT
+			set_country_flag = Theresa_in_EU
 		}
 	}
 	option = { 
@@ -38,10 +39,12 @@ country_event = {
 		}
 		TEA = {
 			change_tag_from = ROOT
+			set_country_flag = Theresa_in_AF
 			hidden_effect = {
 				ENG = {
 					country_event = { id = Theresa.101 days = 10 }
 				}
+
 			}
 		}
 	}
@@ -1389,7 +1392,7 @@ country_event = {
 	option = {
 		name = Theresa.4.a
 		TEA = {
-			set_country_flag = Theresa_can_war
+			
 		}
 	}
 }

@@ -14,37 +14,91 @@ characters = {
 
         country_leader = {
             ideology = Theresaism_subtype
-            traits = { popular_queen Theresa_is_the_lovest }
+            traits = { Theresa_is_the_lovest }
             expire = "2023.2.3.1"
             id = -1
         }
         country_leader = {
             ideology = socialism
-            traits = { popular_queen Theresa_is_the_lovest }
+            traits = { Theresa_is_the_lovest }
             expire = "2023.2.3.1"
             id = -1
         }
         country_leader = {
             ideology = marxism
-            traits = { popular_queen Theresa_is_the_lovest }
+            traits = { Theresa_is_the_lovest }
             expire = "2023.2.3.1"
             id = -1
         }
         country_leader = {
             ideology = fascism_ideology
-            traits = { popular_queen Theresa_is_the_lovest }
+            traits = { Theresa_is_the_lovest }
             expire = "2023.2.3.1"
             id = -1
         }
         country_leader = {
             ideology = despotism
-            traits = { popular_queen Theresa_is_the_lovest }
+            traits = { Theresa_is_the_lovest }
             expire = "2023.2.3.1"
             id = -1
         }
     }
-    TEA_Theresa_0 = {
-        name = TEA_Theresa_0
+    TEA_Theresa_communist_revolutionary = {
+        name = TEA_Theresa_communist_revolutionary
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large
+               small = GFX_portrait_Theresa_small
+            }
+            army = {
+                large = GFX_portrait_Theresa_large
+                small = GFX_portrait_Theresa_small
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = communist_revolutionary
+            traits = { communist_revolutionary }
+        }
+    }
+    TEA_Theresa_democratic_reformer = {
+        name = TEA_Theresa_democratic_reformer
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large
+               small = GFX_portrait_Theresa_small
+            }
+            army = {
+                large = GFX_portrait_Theresa_large
+                small = GFX_portrait_Theresa_small
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = democratic_reformer
+            traits = { democratic_reformer }
+        }
+    }
+    TEA_Theresa_fascist_demagogue = {
+        name = TEA_Theresa_fascist_demagogue
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large
+               small = GFX_portrait_Theresa_small
+            }
+            army = {
+                large = GFX_portrait_Theresa_large
+                small = GFX_portrait_Theresa_small
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = fascist_demagogue
+            traits = { fascist_demagogue }
+        }
+    }
+    Theresa_Twilight_Paladin = {
+        name = Theresa_Twilight_Paladin
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_0
@@ -59,8 +113,8 @@ characters = {
 
         advisor = {
             slot = political_advisor
-            idea_token = TEA_Theresa_0
-            traits = { silent_workhorse }
+            idea_token = Theresa_Twilight_Paladin
+            traits = { Theresa_Twilight_Paladin_Leader }
         }
         field_marshal={
 		    traits = { trait_mountaineer offensive_doctrine inspirational_leader }
@@ -72,8 +126,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    TEA_Theresa_1 = {
-        name = TEA_Theresa_1
+    Theresa_Starlit_Astrologos = {
+        name = Theresa_Starlit_Astrologos
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_1
@@ -86,9 +140,9 @@ characters = {
         }
 
         advisor = {
-            slot = political_advisor
-            idea_token = communist_revolutionary
-            traits = { compassionate_gentleman communist_revolutionary }
+            slot = theorist
+            idea_token = Theresa_Starlit_Astrologos
+            traits = { Theresa_Starlit_Astrologos_Leader }
         }
 
         corps_commander={
@@ -101,8 +155,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    TEA_Theresa_2 = {
-        name = TEA_Theresa_2
+    Theresa_Celestial_Hymn = {
+        name = Theresa_Celestial_Hymn
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_2
@@ -115,13 +169,13 @@ characters = {
         }
         advisor = {
             slot = political_advisor
-            idea_token = democratic_reformer
-            traits = { fortification_engineer democratic_reformer }
+            idea_token = Theresa_Celestial_Hymn
+            traits = { Theresa_Celestial_Hymn_Leader  }
         }
 
     }
-    TEA_Theresa_3 = {
-        name = TEA_Theresa_3
+    Theresa_Luna_Kindred = {
+        name = Theresa_Luna_Kindred
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_3
@@ -134,8 +188,8 @@ characters = {
         }
         advisor = {
             slot = political_advisor
-            idea_token = fascist_demagogue
-            traits = { war_industrialist fascist_demagogue }
+            idea_token = Theresa_Luna_Kindred
+            traits = { Theresa_Luna_Kindred_trait  }
         }
 
         corps_commander={
@@ -148,8 +202,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    TEA_Theresa_4 = {
-        name = TEA_Theresa_4
+    Theresa_Valkyrie_Pledge = {
+        name = Theresa_Valkyrie_Pledge
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_4
@@ -163,8 +217,8 @@ characters = {
 
         advisor = {
             slot = political_advisor
-            idea_token = head_of_intelligence
-            traits = { head_of_intelligence }
+            idea_token = Theresa_Valkyrie_Pledge
+            traits = { Theresa_Valkyrie_Pledge_trait }
         }
 
         corps_commander={
@@ -177,8 +231,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    TEA_Theresa_5 = {
-        name = TEA_Theresa_5
+    Theresa_Sakuno_Rondo = {
+        name = Theresa_Sakuno_Rondo
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_5
@@ -191,9 +245,9 @@ characters = {
         }
 
         advisor = {
-            slot = theorist
-            idea_token = TEA_Theresa_5
-            traits = { blitzkrieg_theorist }
+            slot = political_advisor
+            idea_token = Theresa_Sakuno_Rondo
+            traits = { Theresa_Sakuno_Rondo_trait }
         }
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
@@ -205,8 +259,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    TEA_Theresa_6 = {
-        name = TEA_Theresa_6
+    Theresa_Violet_Executer = {
+        name = Theresa_Violet_Executer
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_6
@@ -220,8 +274,8 @@ characters = {
 
         advisor = {
             slot = high_command
-            idea_token = TEA_Theresa_6
-            traits = { army_armored_3 }
+            idea_token = Theresa_Violet_Executer
+            traits = { Theresa_Violet_Executer_trait }
         }
         corps_commander={
 		    traits = { panzer_leader adaptable trait_reckless inspirational_leader }
@@ -233,8 +287,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    TEA_Theresa_7 = {
-        name = TEA_Theresa_7
+    Theresa_Wonderland_Trek = {
+        name = Theresa_Wonderland_Trek
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_7
@@ -245,11 +299,10 @@ characters = {
                 small = GFX_portrait_Theresa_small_7
             }
         }
-
         advisor = {
-            slot = army_chief
-            idea_token = TEA_Theresa_7
-            traits = { army_chief_offensive_3 }
+            slot = political_advisor
+            idea_token = political_advisor
+            traits = { Theresa_Wonderland_Trek_trait }
         }
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
@@ -261,8 +314,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    TEA_Theresa_8 = {
-        name = TEA_Theresa_8
+    Theresa_Blood_Knight = {
+        name = Theresa_Blood_Knight
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_8
@@ -274,10 +327,11 @@ characters = {
             }
         }
         advisor = {
-            slot = political_advisor
-            idea_token = captain_of_industry
-            traits = { captain_of_industry }
+            slot = army_chief
+            idea_token = Theresa_Wonderland_Trek
+            traits = { Theresa_Blood_Knight_trait }
         }
+        
 
         corps_commander={
 		    traits = { panzer_leader trait_reckless inspirational_leader fast_planner }
@@ -289,8 +343,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    TEA_Theresa_9 = {
-        name = TEA_Theresa_9
+    Theresa_Orchid_Night = {
+        name = Theresa_Orchid_Night
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_9
@@ -303,9 +357,9 @@ characters = {
         }
 
         advisor = {
-            slot = high_command
-            idea_token = TEA_Theresa_9
-            traits = { army_entrenchment_3 }
+            slot = political_advisor
+            idea_token = Theresa_Orchid_Night
+            traits = { Theresa_Orchid_Night_trait }
         }
 
         corps_commander={
@@ -318,8 +372,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    TEA_Theresa_10 = {
-        name = TEA_Theresa_10
+    Theresa_Herald_of_Spring = {
+        name = Theresa_Herald_of_Spring
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_10
@@ -333,8 +387,8 @@ characters = {
 
         advisor = {
             slot = high_command
-            idea_token = TEA_Theresa_10
-            traits = { army_infantry_3 }
+            idea_token = Theresa_Herald_of_Spring
+            traits = { Theresa_Herald_of_Spring_trait }
         }
 
         corps_commander={
@@ -347,8 +401,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    TEA_Theresa_11 = {
-        name = TEA_Theresa_11
+    Theresa_Sugar_Haw_Child = {
+        name = Theresa_Sugar_Haw_Child
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_11
@@ -360,6 +414,11 @@ characters = {
             }
         }
 
+        advisor = {
+            slot = high_command
+            idea_token = Theresa_Sugar_Haw_Child
+            traits = { Theresa_Sugar_Haw_Child_trait }
+        }
 
         corps_commander={
 		    traits = { organizer trait_reckless inspirational_leader }
@@ -371,8 +430,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    TEA_Theresa_12 = {
-        name = TEA_Theresa_12
+    Theresa_Campus_Detective = {
+        name = Theresa_Campus_Detective
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_12
@@ -383,7 +442,11 @@ characters = {
                 small = GFX_portrait_Theresa_small_12
             }
         }
-
+        advisor = {
+            slot = political_advisor
+            idea_token = head_of_intelligence
+            traits = { head_of_intelligence }
+        }
 
         corps_commander={
 		    traits = { expert_improviser trait_reckless inspirational_leader }
@@ -395,8 +458,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    TEA_Theresa_13 = {
-        name = TEA_Theresa_13
+    Theresa_Shallow_Sunset = {
+        name = Theresa_Shallow_Sunset
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_13
@@ -407,64 +470,14 @@ characters = {
                 small = GFX_portrait_Theresa_small_13
             }
         }
-
-
-        corps_commander={
-		    traits = { adaptable trait_reckless inspirational_leader }
-	        skill = 4
-	        attack_skill = 5
-	        defense_skill = 5
-	        planning_skill = 5
-	        logistics_skill = 5
-			legacy_id=-1
-		}
-    }
-    TEA_Theresa_14 = {
-        name = TEA_Theresa_14
-        portraits = {
-            civilian = {
-               large = GFX_portrait_Theresa_large_14
-               small = GFX_portrait_Theresa_small_14
-            }
-            army = {
-                large = GFX_portrait_Theresa_large_14
-                small = GFX_portrait_Theresa_small_14
-            }
-        }
-
-        
-
-        corps_commander={
-		    traits = { skilled_staffer trait_reckless inspirational_leader }
-	        skill = 4
-	        attack_skill = 5
-	        defense_skill = 5
-	        planning_skill = 5
-	        logistics_skill = 5
-			legacy_id=-1
-		}
-    }
-    TEA_Theresa_15 = {
-        name = TEA_Theresa_15
-        portraits = {
-            civilian = {
-               large = GFX_portrait_Theresa_large_15
-               small = GFX_portrait_Theresa_small_15
-            }
-            army = {
-                large = GFX_portrait_Theresa_large_15
-                small = GFX_portrait_Theresa_small_15
-            }
-        }
-            
         advisor = {
             slot = navy_chief
-            idea_token = TEA_Theresa_15
-            traits = { air_naval_strike_3 }
+            idea_token = Theresa_Shallow_Sunset
+            traits = { Theresa_Shallow_Sunset_trait }
         }
 
         corps_commander={
-		    traits = { trait_engineer guerilla_fighter trait_reckless inspirational_leader }
+		    traits = { adaptable trait_reckless inspirational_leader naval_invader }
 	        skill = 4
 	        attack_skill = 5
 	        defense_skill = 5
@@ -481,8 +494,73 @@ characters = {
             coordination_skill = 4
         }
     }
-    TEA_Theresa_16 = {
-        name = TEA_Theresa_16
+    Theresa_Morning_Sunshine = {
+        name = Theresa_Morning_Sunshine
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_14
+               small = GFX_portrait_Theresa_small_14
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_14
+                small = GFX_portrait_Theresa_small_14
+            }
+        }
+
+        advisor = {
+            slot = high_command
+            idea_token = Theresa_Morning_Sunshine
+            traits = { Theresa_Morning_Sunshine_trait }
+        }
+
+        corps_commander={
+		    traits = { skilled_staffer trait_reckless inspirational_leader naval_invader }
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
+			legacy_id=-1
+		}
+        navy_leader = {
+            traits = { inshore_fighter blue_water_expert arctic_water_expert lancer destroyer_leader cruiser_captain big_guns_expert ground_pounder flight_deck_manager}
+            skill = 4
+            attack_skill = 4
+            defense_skill = 4
+            maneuvering_skill = 4
+            coordination_skill = 4
+        }
+    }
+    Theresa_Magical_Teriri = {
+        name = Theresa_Magical_Teriri
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_15
+               small = GFX_portrait_Theresa_small_15
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_15
+                small = GFX_portrait_Theresa_small_15
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = Theresa_Magical_Teriri
+            traits = { Theresa_Magical_Teriri_trait }
+        }
+        corps_commander={
+		    traits = { trait_engineer guerilla_fighter trait_reckless inspirational_leader }
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
+			legacy_id=-1
+		}
+        
+    }
+    Theresa_Rosy_Bridesmaid = {
+        name = Theresa_Rosy_Bridesmaid
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_16
@@ -495,9 +573,9 @@ characters = {
         }
 
         advisor = {
-            slot = political_advisor
-            idea_token = economic_reformer
-            traits = { economic_reformer }
+            slot = high_command
+            idea_token = Theresa_Rosy_Bridesmaid
+            traits = { Theresa_Rosy_Bridesmaid_trait }
         }
         corps_commander={
 		    traits = { trait_engineer expert_improviser trait_reckless inspirational_leader }
@@ -509,8 +587,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    TEA_Theresa_17 = {
-        name = TEA_Theresa_17
+    Theresa_Before_the_Dawn = {
+        name = Theresa_Before_the_Dawn
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_17
@@ -524,8 +602,8 @@ characters = {
 
         advisor = {
             slot = air_chief
-            idea_token = TEA_Theresa_17
-            traits = { air_close_air_support_3 }
+            idea_token = Theresa_Before_the_Dawn
+            traits = { Theresa_Before_the_Dawn_trait }
         }
 
         corps_commander={
@@ -538,8 +616,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    TEA_Theresa_18 = {
-        name = TEA_Theresa_18
+    Theresa_Empyrean_Psalms = {
+        name = Theresa_Empyrean_Psalms
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_18
@@ -551,7 +629,11 @@ characters = {
             }
         }
 
-
+        advisor = {
+            slot = political_advisor
+            idea_token = Theresa_Empyrean_Psalms
+            traits = { Theresa_Empyrean_Psalms_trait }
+        }
         corps_commander={
 		    traits = { infantry_leader trait_engineer trait_reckless inspirational_leader }
 	        skill = 4
@@ -562,8 +644,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    TEA_Theresa_19 = {
-        name = TEA_Theresa_19
+    Theresa_Grand_Sage = {
+        name = Theresa_Grand_Sage
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_19
@@ -574,7 +656,11 @@ characters = {
                 small = GFX_portrait_Theresa_small_19
             }
         }
-
+        advisor = {
+            slot = high_command
+            idea_token = Theresa_Grand_Sage
+            traits = {Theresa_Grand_Sage_trait }
+        }
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
@@ -586,8 +672,8 @@ characters = {
 			legacy_id=-1
 		}
     }
-    TEA_Theresa_20 = {
-        name = TEA_Theresa_20
+    Theresa_Verdant_Sky = {
+        name = Theresa_Verdant_Sky
         portraits = {
             civilian = {
                large = GFX_portrait_Theresa_large_20
@@ -598,7 +684,11 @@ characters = {
                 small = GFX_portrait_Theresa_small_20
             }
         }
-
+        advisor = {
+            slot = political_advisor
+            idea_token = Theresa_Verdant_Sky
+            traits = { Theresa_Verdant_Sky_trait }
+        }
 
         field_marshal={
 		    traits = { cavalry_leader trait_engineer trait_reckless inspirational_leader }

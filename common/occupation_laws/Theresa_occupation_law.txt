@@ -9,7 +9,6 @@ Theresa_magic = {
 	available = {
         always = yes
 	}
-	starting_law = yes
 	fallback_law = local_police_force_garrison 
 
 	state_modifier = {

@@ -14,228 +14,10 @@ Theresa_test_decision_category = {
         }
     
         complete_effect = {
-            country_event = { id = Theresa.1 }
+            load_focus_tree = german_focus
         }
         remove_effect = {
             
-        }
-    }
-    Theresa_test_decision_africa = {
-        cost = 0
-        days_remove = 0
-        days_re_enable = 0
-        ai_will_do = {
-            base = 0
-        }
-        available = {
-
-        }
-        visible = {
-            is_debug = yes
-        }
-    
-        complete_effect = {
-            TEA = {
-                every_state = {
-                    limit = {
-                        is_on_continent = africa
-                    }
-                    transfer_state_to = TEA
-                    add_core_of = TEA
-                    
-                }
-                every_state = {
-                    add_core_of = TEA
-                }
-                change_tag_from = ROOT
-            }
-            
-        }
-
-    }
-    Theresa_test_decision_europe = {
-        cost = 0
-        days_remove = 0
-        days_re_enable = 0
-        ai_will_do = {
-            base = 0
-        }
-        available = {
-
-        }
-        visible = {
-            is_debug = yes
-        }
-    
-        complete_effect = {
-            TEA = {
-                every_state = {
-                    limit = {
-                        is_on_continent = europe
-                    }
-                    transfer_state_to = TEA
-                    add_core_of = TEA
-                }
-                every_state = {
-                    add_core_of = TEA
-                }
-                change_tag_from = ROOT
-            }
-        }
-    }
-    Theresa_test_decision_north_america = {
-        cost = 0
-        days_remove = 0
-        days_re_enable = 0
-        ai_will_do = {
-            base = 0
-        }
-        available = {
-
-        }
-        visible = {
-            is_debug = yes
-        }
-    
-        complete_effect = {
-            TEA = {
-                every_state = {
-                    limit = {
-                        is_on_continent = north_america
-                    }
-                    transfer_state_to = TEA
-                    add_core_of = TEA
-                    
-                }
-                every_state = {
-                    add_core_of = TEA
-                }
-                change_tag_from = ROOT
-            }
-        }
-    }
-    Theresa_test_decision_south_america = {
-        cost = 0
-        days_remove = 0
-        days_re_enable = 0
-        ai_will_do = {
-            base = 0
-        }
-        available = {
-
-        }
-        visible = {
-            is_debug = yes
-        }
-    
-        complete_effect = {
-            TEA = {
-                every_state = {
-                    limit = {
-                        is_on_continent = south_america
-                    }
-                    transfer_state_to = TEA
-                    add_core_of = TEA
-                    
-                }
-                every_state = {
-                    add_core_of = TEA
-                }
-                change_tag_from = ROOT
-            }
-        }
-    }
-    Theresa_test_decision_australia = {
-        cost = 0
-        days_remove = 0
-        days_re_enable = 0
-        ai_will_do = {
-            base = 0
-        }
-        available = {
-
-        }
-        visible = {
-            is_debug = yes
-        }
-    
-        complete_effect = {
-            TEA = {
-                every_state = {
-                    limit = {
-                        is_on_continent = australia
-                    }
-                    transfer_state_to = TEA
-                    add_core_of = TEA
-                    
-                }
-                every_state = {
-                    add_core_of = TEA
-                }
-                change_tag_from = ROOT
-            }
-        }
-    }
-    Theresa_test_decision_asia = {
-        cost = 0
-        days_remove = 0
-        days_re_enable = 0
-        ai_will_do = {
-            base = 0
-        }
-        available = {
-
-        }
-        visible = {
-            is_debug = yes
-        }
-    
-        complete_effect = {
-            TEA = {
-                every_state = {
-                    limit = {
-                        is_on_continent = asia
-                    }
-                    transfer_state_to = TEA
-                    add_core_of = TEA
-                    
-                }
-                every_state = {
-                    add_core_of = TEA
-                }
-                change_tag_from = ROOT
-            }
-        }
-    }
-    Theresa_test_decision_middle_east = {
-        cost = 0
-        days_remove = 0
-        days_re_enable = 0
-        ai_will_do = {
-            base = 0
-        }
-        available = {
-
-        }
-        visible = {
-            is_debug = yes
-        }
-    
-        complete_effect = {
-            TEA = {
-                every_state = {
-                    limit = {
-                        is_on_continent = middle_east
-                    }
-                    transfer_state_to = TEA
-                    add_core_of = TEA
-                    
-                }
-                every_state = {
-                    add_core_of = TEA
-                }
-                change_tag_from = ROOT
-            }
         }
     }
     Theresa_test_decision_1 = {
@@ -253,7 +35,7 @@ Theresa_test_decision_category = {
         }
     
         complete_effect = {
-            
+            load_focus_tree = soviet_focus
         }
         remove_effect = {
             
@@ -450,18 +232,14 @@ Theresa_decision_category = {
         ai_will_do = {
             base = 0
         }
-        allowed = {
-            ROOT = {
-                is_ai = no
-            }
-        }
         available = {
-
+            is_ai = no
         }
         visible = {
             NOT = {
                 has_global_flag = Theresa_is_coming
             }
+            is_ai = no
         }
         
         complete_effect = {
@@ -662,16 +440,37 @@ Theresa_industory_decision_category = {
             add_research_slot = 1            
         }
     }
+    TEA_res_decision_3 = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        priority = 100
+        ai_will_do = {
+            base = 0
+        }
+        visible = {
+            industrial_complex > 151
+        }
+        available = {
+            industrial_complex > 199
+        }
+        fire_only_once = yes
+        complete_effect = {
+            add_research_slot = 1            
+        }
+    }
     TEA_industory_targeted_decision = {
 		target_root_trigger = {
 			tag = TEA
 		}
-		targets_dynamic = yes
         state_target = yes
 		target_trigger = {
 			FROM = {
                 NOT = {
                     has_state_category = megalopolis
+                    has_state_category = metropolis
+                    has_state_category = large_city
+                    has_state_category = city
                 }
                 is_controlled_by = TEA
 			}

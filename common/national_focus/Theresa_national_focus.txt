@@ -8,4 +8,5 @@ focus_tree = {
 		}
 	}
     default = no
+	shared_focus = TEA_Beginning
 }

@@ -1,8 +1,112 @@
 leader_traits = {
     Theresa_is_the_lovest ={
-        stability_factor = 0.25
-        war_support_factor = 0.25
+        stability_factor = 0.2
+        war_support_factor = 0.2
+    }
+    Theresa_Twilight_Paladin_Leader ={
         political_power_gain = 1
         political_power_factor = 1
+    }
+    Theresa_Starlit_Astrologos_Leader = {
+        land_doctrine_cost_factor = -0.5
+        air_doctrine_cost_factor = -0.5
+        naval_doctrine_cost_factor = -0.5
+    }
+    Theresa_Celestial_Hymn_Leader = {
+        stability_factor = 0.2
+        war_support_factor = 0.2
+    }
+    Theresa_Luna_Kindred_trait = {
+        monthly_population = -0.05
+        min_export = -1
+        surrender_limit = 0.1
+    }
+    Theresa_Valkyrie_Pledge_trait = {
+        monthly_population = 0.2
+        minimum_training_level = -0.1
+        training_time_army_factor = -0.1
+        max_command_power = 200
+        command_power_gain_mult = 0.5
+    }
+    Theresa_Sakuno_Rondo_trait = {
+        repair_speed_factor = 1
+        trade_opinion_factor = 1
+    }
+    Theresa_Violet_Executer_trait = {
+        army_core_attack_factor = 0.2
+	    army_core_defence_factor = 0.2
+
+		command_cap = 10
+        ai_focus_aggressive_factor = 0.5
+    }
+    Theresa_Wonderland_Trek_trait = {
+        production_factory_efficiency_gain_factor = 0.5
+        production_factory_max_efficiency_factor = 0.5
+        production_speed_supply_node_factor = 1
+    }
+    Theresa_Blood_Knight_trait = {
+        army_attack_factor = 0.2
+	    army_defence_factor = 0.2
+        experience_gain_army = 1
+        experience_gain_army_unit = 1
+
+        ai_focus_aggressive_factor = 0.5
+    }
+    Theresa_Orchid_Night_trait = {
+        consumer_goods_factor = -0.1
+        stability_weekly = 0.005
+        war_support_weekly = 0.005
+    }
+    Theresa_Herald_of_Spring_trait = {
+        army_org_factor = 0.2
+        planning_speed = 0.5
+        max_planning = 0.5
+    }
+    Theresa_Sugar_Haw_Child_trait = {
+        land_reinforce_rate = 0.05
+        attrition = -0.5
+        mobilization_speed = 0.5
+    }
+    Theresa_Shallow_Sunset_trait = {
+        repair_speed_factor = 1
+        navy_screen_attack_factor = 0.5
+        navy_capital_ship_attack_factor = 0.5
+        experience_gain_navy = 1
+        
+    }
+    Theresa_Morning_Sunshine_trait = {
+        navy_org = 100
+    }
+    Theresa_Magical_Teriri_trait = {
+        industrial_capacity_factory = 1
+        local_building_slots_factor = 0.2
+    }
+    Theresa_Rosy_Bridesmaid_trait = {
+        army_infantry_attack_factor = 0.1
+        army_infantry_defence_factor = 0.1
+        land_night_attack = 0.5
+    }
+    Theresa_Before_the_Dawn_trait = {
+        air_accidents = -0.5
+        air_weather_penalty = -0.5
+        air_night_penalty = 1
+        experience_gain_air = 1
+    }
+    Theresa_Empyrean_Psalms_trait = {
+        drift_defence_factor = 1
+        Theresaism_drift = 0.1
+        political_advisor_cost_factor = -0.5
+    }
+    Theresa_Grand_Sage_trait = {
+        experience_gain_army = 1
+        experience_gain_navy = 1
+        experience_gain_air = 1
+        experience_gain_army_factor = 1
+        experience_gain_navy_factor = 1
+        experience_gain_air_factor = 1
+    }
+    Theresa_Verdant_Sky_trait = {
+        conscription = 0.05
+        non_core_manpower = 1
     }
 }
