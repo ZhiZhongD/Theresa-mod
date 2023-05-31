@@ -589,6 +589,22 @@ country_event = {
     is_triggered_only = yes
 	immediate = {
 		hidden_effect = {
+			every_state = {
+				limit = {
+					is_on_continent = africa
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 			ETH = {
 				white_peace = ita
 			}
