@@ -1,0 +1,23 @@
+spriteTypes = {
+	
+	SpriteType = {
+		name = "GFX_heavy_artillery_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/heavy_artillery/General/AXIS_heavy_artillery_sfh36.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_heavy_artillery_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/heavy_artillery/General/ALLIES_heavy_artillery_long_tom.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_heavy_artillery_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/heavy_artillery/General/GEN_heavy_artillery_8inch_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_heavy_artillery_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/heavy_artillery/General/GEN_heavy_artillery_8inch_1.dds"
+	}
+	
+}

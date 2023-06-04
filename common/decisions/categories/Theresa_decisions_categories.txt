@@ -1,6 +1,7 @@
 Theresa_test_decision_category = {
 	visible = {
 		is_debug = yes
+		is_ai = no
 	}
 	priority = 100
 }

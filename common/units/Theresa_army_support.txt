@@ -1,0 +1,84 @@
+sub_units = {
+
+	Theresa_army_support = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 120
+		ai_priority = 25
+		active = yes
+		special_forces = no
+		
+		type = {
+			infantry
+			support
+			flame
+		}
+
+		group = support
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+			category_support_battalions
+		}
+		
+		need = {
+			Theresa_army_eq = 100
+			support_equipment = 100
+		}
+		essential = {
+			support_equipment
+		}
+		combat_width = 0
+
+		manpower = 300
+
+		max_strength = 20
+		max_organisation = 50
+		default_morale = 0.7
+		training_time = 30
+		weight = 0.5
+		supply_consumption = 0.1
+		breakthrough = 1
+		initiative = 0.25
+
+		casualty_trickleback = 0.20
+		experience_loss_factor = -0.05
+		entrenchment  = 25
+
+		forest = {
+			attack = 0.25
+			movement = 0.25
+		}
+
+		mountain = {
+			movement = 0.25
+		}
+
+		jungle = {
+			attack = 0.25
+			movement = 0.25
+		}
+
+		marsh = {
+			attack = 0.25
+			movement = 0.25
+		}
+
+		fort = {
+			attack = 0.55
+		}
+
+		river = {
+			attack = 0.35
+			movement = 0.35
+		}
+
+		amphibious = {
+			attack = 0.5
+		}
+	}
+	
+}

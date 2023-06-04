@@ -1,0 +1,22 @@
+capital = 3
+set_research_slots = 3
+
+set_stability = 0.5
+set_war_support = 0.5
+
+recruit_character = TEA_Theresa
+
+set_politics = {
+	ruling_party = Theresaism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	Theresaism = 100
+}
+
+add_ideas = {
+	limited_exports
+}

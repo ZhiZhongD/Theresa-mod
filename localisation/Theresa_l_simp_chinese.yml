@@ -136,7 +136,8 @@
 #占领区
 
  Theresa_magic:0 "TeRiRi魔法"
-
+#傀儡国
+ Theresa_autonomy_state:0 "德丽莎管理区"
 #阵营名字
  Theresa_faction:0 "德丽莎联盟"
 
@@ -144,3 +145,99 @@
  TEA:0 "德丽莎联盟"
  TEA_ADJ:0 "德丽莎联盟"
  TEA_DEF:0 "德丽莎联盟"
+
+ THL:0 "低地联合"
+ THL_ADJ:0 "低地联合"
+ THL_DEF:0 "低地联合"
+
+ TBG:0 "勃艮第管理区"
+ TBG_ADJ:0 "勃艮第管理区"
+ TBG_DEF:0 "勃艮第管理区"
+
+ TFR:0 "法兰西管理区"
+ TFR_ADJ:0 "法兰西管理区"
+ TFR_DEF:0 "法兰西管理区"
+
+ TAS:0 "阿尔卑斯管理区"
+ TAS_ADJ:0 "阿尔卑斯管理区"
+ TAS_DEF:0 "阿尔卑斯管理区"
+
+ TYL:0 "伊利比亚管理区"
+ TYL_ADJ:0 "伊利比亚管理区"
+ TYL_DEF:0 "伊利比亚管理区"
+
+ TTA:0 "意大利管理区"
+ TTA_ADJ:0 "意大利管理区"
+ TTA_DEF:0 "意大利管理区"
+
+ THN:0 "匈牙利管理区"
+ THN_ADJ:0 "匈牙利管理区"
+ THN_DEF:0 "匈牙利管理区"
+
+ TBP:0 "巴尔干管理区"
+ TBP_ADJ:0 "巴尔干管理区"
+ TBP_DEF:0 "巴尔干管理区"
+
+ TER:0 "东罗马管理区"
+ TER_ADJ:0 "东罗马管理区"
+ TER_DEF:0 "东罗马管理区"
+
+ TPL:0 "波兰管理区"
+ TPL_ADJ:0 "波兰管理区"
+ TPL_DEF:0 "波兰管理区"
+
+ TNE:0 "北欧管理区"
+ TNE_ADJ:0 "北欧管理区"
+ TNE_DEF:0 "北欧管理区"
+
+ TBS:0 "波罗的海管理区"
+ TBS_ADJ:0 "波罗的海管理区"
+ TBS_DEF:0 "波罗的海管理区"
+
+ TBL:0 "白俄罗斯管理区"
+ TBL_ADJ:0 "白俄罗斯管理区"
+ TBL_DEF:0 "白俄罗斯管理区"
+
+ TUI:0 "乌克兰管理区"
+ TUI_ADJ:0 "乌克兰管理区"
+ TUI_DEF:0 "乌克兰管理区"
+
+ TBT:0 "不列颠管理区"
+ TBT_ADJ:0 "不列颠管理区"
+ TBT_DEF:0 "不列颠管理区"
+
+ TNF:0 "北非管理区"
+ TNF_ADJ:0 "北非管理区"
+ TNF_DEF:0 "北非管理区"
+
+ TWF:0 "西非管理区"
+ TWF_ADJ:0 "西非管理区"
+ TWF_DEF:0 "西非管理区"
+
+ TMF:0 "中非管理区"
+ TMF_ADJ:0 "中非管理区"
+ TMF_DEF:0 "中非管理区"
+
+ TEF:0 "东非管理区"
+ TEF_ADJ:0 "东非管理区"
+ TEF_DEF:0 "东非管理区"
+
+ TSF:0 "南非管理区"
+ TSF_ADJ:0 "南非管理区"
+ TSF_DEF:0 "南非管理区"
+
+ TAL:0 "阿拉伯管理区"
+ TAL_ADJ:0 "阿拉伯管理区"
+ TAL_DEF:0 "阿拉伯管理区"
+
+ TME:0 "中东管理区"
+ TME_ADJ:0 "中东管理区"
+ TME_DEF:0 "中东管理区"
+
+ TNA:0 "北美管理区"
+ TNA_ADJ:0 "北美管理区"
+ TNA_DEF:0 "北美管理区"
+
+ TSA:0 "南美管理区"
+ TSA_ADJ:0 "南美管理区"
+ TSA_DEF:0 "南美管理区"
