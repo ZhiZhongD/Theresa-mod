@@ -9,9 +9,9 @@ Theresa_decision_category = {
 	visible = {
 		OR = {
 			tag = TEA
-				TEA = {
-					exists = no
-				}
+			TEA = {
+				exists = no
+			}
 		}
 		
 	}

@@ -7,11 +7,12 @@
  Theresa_war_decision_category:0 "战争决议"
  Theresa_decision_0:0 "召唤德丽莎"
  Theresa_decision_1:0 "简单模式"
+
+
  TEA_annex_targeted_decision:0 "§4和§!§Y[from.getname]§!领导人§Y[from.getleader]§!§4商讨合并事宜§!"
  TEA_change_targeted_decision:0 "§4增加§!§Y[from.getname]§!§4德丽莎主义影响力§!"
  TEA_war_targeted_decision:0 "§4向§!§Y[from.getname]§!§4宣战§!"
- TEA_ROMA_tooltip:0 "成立罗马"
- Theresa_ROMA:0 "德丽莎罗马"
+
  Theresa_decision_Theresania:0 "§4成立大德丽莎国§!"
  Theresa_STATE:0 "§4德丽莎妮娅§!"
 
@@ -25,6 +26,7 @@
  TEA_res_decision_2:0 "提升科研水平"
  TEA_res_decision_3:0 "提升科研水平"
  TEA_industory_targeted_decision:0 "在§t[from.getname]§!进行工业化"
+
 
 #民族精神
  TEA_idea_0:0 "德丽莎世界第一可爱！！！"
@@ -241,3 +243,54 @@
  TSA:0 "南美管理区"
  TSA_ADJ:0 "南美管理区"
  TSA_DEF:0 "南美管理区"
+
+ TID:0 "南亚管理区"
+ TID_ADJ:0 "南亚管理区"
+ TID_DEF:0 "南亚管理区"
+
+ TES:0 "东南亚管理区"
+ TES_ADJ:0 "东南亚管理区"
+ TES_DEF:0 "东南亚管理区"
+
+ TAU:0 "澳大利亚管理区"
+ TAU_ADJ:0 "澳大利亚管理区"
+ TAU_DEF:0 "澳大利亚管理区"
+
+ TPO:0 "太平洋管理区"
+ TPO_ADJ:0 "太平洋管理区"
+ TPO_DEF:0 "太平洋管理区"
+
+ TMK:0 "俄罗斯管理区"
+ TMK_ADJ:0 "俄罗斯管理区"
+ TMK_DEF:0 "俄罗斯管理区"
+
+ TMA:0 "中亚管理区"
+ TMA_ADJ:0 "中亚管理区"
+ TMA_DEF:0 "中亚管理区"
+
+ TSB:0 "西伯利亚管理区"
+ TSB_ADJ:0 "西伯利亚管理区"
+ TSB_DEF:0 "西伯利亚管理区"
+
+ TFA:0 "远东管理区"
+ TFA_ADJ:0 "远东管理区"
+ TFA_DEF:0 "远东管理区"
+
+ TCH:0 "煌帝国管理区"
+ TCH_ADJ:0 "煌帝国管理区"
+ TCH_DEF:0 "煌帝国管理区"
+
+ TJP:0 "极东管理区"
+ TJP_ADJ:0 "极东管理区"
+ TJP_DEF:0 "极东管理区"
+
+#编制
+ Theresa_army_brigade:0 "德丽莎复制人"
+ Theresa_army_support:0 "德丽莎复制人支援连"
+#装备
+ Theresa_army_eq:0 "德丽莎单兵作战装甲"
+ Theresa_army_eq_0:0 "誓约单兵作战装甲"
+ Theresa_army_eq_1:0 "血骑士单兵作战装甲"
+ Theresa_army_eq_2:0 "神恩颂歌单兵作战装甲"
+ Theresa_army_eq_3:0 "暮光骑士单兵作战装甲"
+#科技

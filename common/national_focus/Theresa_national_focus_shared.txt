@@ -86,5 +86,16 @@ shared_focus = {
 			trade_interdiction = 1
 			base_strike = 1
 		}
+		unlock_decision_category_tooltip = Theresa_war_decision_category
+		unlock_decision_tooltip = TEA_war_targeted_decision
+		TEA_Theresa = {
+			add_advisor_role = {
+				advisor = { 
+					slot = political_advisor
+					idea_token = TEA_Theresa
+					traits = { popular_queen } 
+				}
+			}
+		}
 	}
 }

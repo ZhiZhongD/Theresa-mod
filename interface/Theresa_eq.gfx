@@ -20,4 +20,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/heavy_artillery/General/GEN_heavy_artillery_8inch_1.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_Theresa_army_eq_0_medium"
+		texturefile = "gfx/interface/technologies/Theresa_army_eq/Pledge.png"
+	}
 }

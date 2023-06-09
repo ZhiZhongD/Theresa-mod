@@ -155,6 +155,7 @@ Theresa_test_decision_category = {
         available = {
 
         }
+        
         visible = {
             is_debug = yes
         }
@@ -1030,6 +1031,7 @@ Theresa_test_decision_category = {
                 transfer_state = 885
                 transfer_state = 887
                 transfer_state = 548
+                transfer_state = 705
             }
             TMF = {
                 every_owned_state = {
@@ -1314,6 +1316,534 @@ Theresa_test_decision_category = {
             }
             set_autonomy = {
                 target = TSA
+                autonomous_state = Theresa_autonomy_state
+            }
+
+        }
+    }
+    Theresa_test_decision_TID = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            
+            TID = {
+                transfer_state = 439
+                transfer_state = 323
+                transfer_state = 324
+                transfer_state = 431
+                transfer_state = 430
+                transfer_state = 432
+                transfer_state = 433
+                transfer_state = 428
+                transfer_state = 438
+                transfer_state = 435
+                transfer_state = 437
+                transfer_state = 436
+                transfer_state = 426
+                transfer_state = 422
+                transfer_state = 423
+                transfer_state = 424
+                transfer_state = 425
+                transfer_state = 427
+                transfer_state = 428
+                transfer_state = 429
+                transfer_state = 320
+                transfer_state = 321
+                transfer_state = 281
+                transfer_state = 710
+            }
+            TID = {
+                every_owned_state = {
+                    add_core_of = TID
+                } 
+            }
+            set_autonomy = {
+                target = TID
+                autonomous_state = Theresa_autonomy_state
+            }
+
+        }
+    }
+    Theresa_test_decision_TES = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            
+            TES = {
+                transfer_state = 336
+                transfer_state = 333
+                transfer_state = 334
+                transfer_state = 335
+                transfer_state = 672
+                transfer_state = 724
+                transfer_state = 288
+                transfer_state = 733
+                transfer_state = 640
+                transfer_state = 289
+                transfer_state = 868
+                transfer_state = 869
+                transfer_state = 711
+                transfer_state = 712
+                transfer_state = 671
+                transfer_state = 670
+                transfer_state = 741
+                transfer_state = 286
+                transfer_state = 667
+                transfer_state = 673
+                transfer_state = 721
+                transfer_state = 738
+                transfer_state = 668
+            }
+            TES = {
+                every_owned_state = {
+                    add_core_of = TES
+                } 
+            }
+            set_autonomy = {
+                target = TES
+                autonomous_state = Theresa_autonomy_state
+            }
+
+        }
+    }
+    Theresa_test_decision_TAU = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            
+            every_state = {
+                limit = {
+                    is_on_continent = australia
+                }
+                transfer_state_to = TAU
+            }
+            TAU = {
+                every_owned_state = {
+                    add_core_of = TAU
+                } 
+            }
+            set_autonomy = {
+                target = TAU
+                autonomous_state = Theresa_autonomy_state
+            }
+
+        }
+    }
+    Theresa_Test_decision_TPO = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            
+            TPO = {
+                transfer_state = 327
+                transfer_state = 623
+                transfer_state = 624
+                transfer_state = 625
+                transfer_state = 626
+                transfer_state = 627
+                transfer_state = 628
+                transfer_state = 647
+                transfer_state = 684
+                transfer_state = 646
+                transfer_state = 638
+                transfer_state = 645
+                transfer_state = 646
+                transfer_state = 648
+                transfer_state = 633
+                transfer_state = 639
+                transfer_state = 725
+                transfer_state = 643
+                transfer_state = 636
+                transfer_state = 726
+                transfer_state = 630
+                transfer_state = 631
+                transfer_state = 632
+                transfer_state = 727
+                transfer_state = 641
+                transfer_state = 642
+                transfer_state = 270
+                transfer_state = 629
+            }
+            TPO = {
+                every_owned_state = {
+                    add_core_of = TPO
+                } 
+            }
+            set_autonomy = {
+                target = TPO
+                autonomous_state = Theresa_autonomy_state
+            }
+
+        }
+    }
+    Theresa_Test_decision_TMK = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            
+            TMK = {
+                annex_country = {
+                    target = SOV
+                }
+            }
+            TMK = {
+                every_owned_state = {
+                    add_core_of = TMK
+                } 
+            }
+            set_autonomy = {
+                target = TMK
+                autonomous_state = Theresa_autonomy_state
+            }
+
+        }
+    }
+    Theresa_Test_decision_TMA = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            
+            TMA = {
+                transfer_state = 405
+                transfer_state = 742
+                transfer_state = 732
+                transfer_state = 830
+                transfer_state = 584
+                transfer_state = 585
+                transfer_state = 586
+                transfer_state = 404
+                transfer_state = 832
+                transfer_state = 831
+                transfer_state = 823
+                transfer_state = 587
+                transfer_state = 402
+                transfer_state = 589
+                transfer_state = 881
+                transfer_state = 588
+                transfer_state = 882
+                transfer_state = 590
+                transfer_state = 583
+                transfer_state = 407
+                transfer_state = 406
+            }
+            TMA = {
+                every_owned_state = {
+                    add_core_of = TMA
+                } 
+            }
+            set_autonomy = {
+                target = TMA
+                autonomous_state = Theresa_autonomy_state
+            }
+
+        }
+    }
+    Theresa_Test_decision_TSB = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            
+            TSB = {
+                transfer_state = 653
+                transfer_state = 572
+                transfer_state = 579
+                transfer_state = 580
+                transfer_state = 824
+                transfer_state = 403
+                transfer_state = 577
+                transfer_state = 571
+                transfer_state = 516
+                transfer_state = 878
+                transfer_state = 876
+                transfer_state = 565
+                transfer_state = 564
+                transfer_state = 575
+                transfer_state = 576
+                transfer_state = 566
+                transfer_state = 567
+                transfer_state = 568
+                transfer_state = 569
+                transfer_state = 40
+                transfer_state = 578
+                transfer_state = 570
+                transfer_state = 654
+            }
+            TSB = {
+                every_owned_state = {
+                    add_core_of = TSB
+                } 
+            }
+            set_autonomy = {
+                target = TSB
+                autonomous_state = Theresa_autonomy_state
+            }
+
+        }
+    }
+    Theresa_Test_decision_TFA = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            
+            TFA = {
+                transfer_state = 408
+                transfer_state = 409
+                transfer_state = 560
+                transfer_state = 657
+                transfer_state = 561
+                transfer_state = 562
+                transfer_state = 874
+                transfer_state = 637
+                transfer_state = 822
+                transfer_state = 875
+                transfer_state = 650
+                transfer_state = 563
+                transfer_state = 574
+                transfer_state = 877
+                transfer_state = 644
+            }
+            TFA = {
+                every_owned_state = {
+                    add_core_of = TFA
+                } 
+            }
+            set_autonomy = {
+                target = TFA
+                autonomous_state = Theresa_autonomy_state
+            }
+
+        }
+    }
+    Theresa_Test_decision_TCH = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            
+            TCH = {
+                transfer_state = 608
+                transfer_state = 609
+                transfer_state = 610
+                transfer_state = 611
+                transfer_state = 612
+                transfer_state = 613
+                transfer_state = 715
+                transfer_state = 761
+                transfer_state = 714
+                transfer_state = 328
+                transfer_state = 716
+                transfer_state = 745
+                transfer_state = 717
+                transfer_state = 525
+                transfer_state = 527
+                transfer_state = 621
+                transfer_state = 615
+                transfer_state = 746
+                transfer_state = 622
+                transfer_state = 819
+                transfer_state = 817
+                transfer_state = 330
+                transfer_state = 820
+                transfer_state = 329
+                transfer_state = 818
+                transfer_state = 614
+                transfer_state = 597
+                transfer_state = 598
+                transfer_state = 606
+                transfer_state = 743
+                transfer_state = 607
+                transfer_state = 749
+                transfer_state = 596
+                transfer_state = 524
+                transfer_state = 595
+                transfer_state = 593
+                transfer_state = 594
+                transfer_state = 326
+                transfer_state = 729
+                transfer_state = 592
+                transfer_state = 728
+                transfer_state = 591
+                transfer_state = 434
+                transfer_state = 599
+                transfer_state = 325
+                transfer_state = 747
+                transfer_state = 601
+                transfer_state = 752
+                transfer_state = 322
+                transfer_state = 757
+                transfer_state = 758
+                transfer_state = 751
+                transfer_state = 603
+                transfer_state = 605
+                transfer_state = 748
+                transfer_state = 620
+                transfer_state = 744
+                transfer_state = 750
+                transfer_state = 600
+                transfer_state = 602
+                transfer_state = 756
+                transfer_state = 616
+                transfer_state = 283
+                transfer_state = 753
+                transfer_state = 754
+                transfer_state = 755
+                transfer_state = 604
+                transfer_state = 618
+                transfer_state = 760
+                transfer_state = 617
+                transfer_state = 759
+                transfer_state = 287
+                transfer_state = 619
+            }
+            TCH = {
+                every_owned_state = {
+                    add_core_of = TCH
+                } 
+            }
+            set_autonomy = {
+                target = TCH
+                autonomous_state = Theresa_autonomy_state
+            }
+
+        }
+    }
+    Theresa_Test_decision_TJP = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            
+            TJP = {
+                transfer_state = 282
+                transfer_state = 526
+                transfer_state = 528
+                transfer_state = 529
+                transfer_state = 530
+                transfer_state = 531
+                transfer_state = 532
+                transfer_state = 533
+                transfer_state = 534
+                transfer_state = 535
+                transfer_state = 536
+                transfer_state = 537
+                transfer_state = 555
+                transfer_state = 655
+            }
+            TJP = {
+                every_owned_state = {
+                    add_core_of = TJP
+                } 
+            }
+            set_autonomy = {
+                target = TJP
                 autonomous_state = Theresa_autonomy_state
             }
 
