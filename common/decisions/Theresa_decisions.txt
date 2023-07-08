@@ -2011,6 +2011,26 @@ Theresa_decision_category = {
             country_event = { id = Theresa.2001 }
         }
     }
+    Theresa_decision_HTE = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        priority = 100
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = TEA_Theresania_tooltip
+            set_cosmetic_tag = TEA_HTE
+        }
+    }
 }
 Theresa_annex_country_decision_category = {
     TEA_annex_targeted_decision = {

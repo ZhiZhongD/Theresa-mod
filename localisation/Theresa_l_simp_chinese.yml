@@ -17,10 +17,14 @@
  Theresa_STATE:0 "§4德丽莎妮娅§!"
 
  TEA_Theresania_tooltip:0 "成立大德丽莎国"
+
  TEA_Theresania:0 "大德丽莎国"
  TEA_Theresania_DEF:0 "大德丽莎国"
  TEA_Theresania_ADJ:0 "大德丽莎国"
- 
+ TEA_HTE:0 "神圣德丽莎帝国"
+ TEA_HTE_DEF:0 "神圣德丽莎帝国"
+ TEA_HTE_ADJ:0 "神圣德丽莎帝国"
+
  Theresa_industory_decision_category:0 "工业化决议"
  TEA_res_decision_1:0 "提升科研水平"
  TEA_res_decision_2:0 "提升科研水平"
