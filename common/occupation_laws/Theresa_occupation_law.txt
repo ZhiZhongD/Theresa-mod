@@ -12,12 +12,12 @@ Theresa_magic = {
 	fallback_law = local_police_force_garrison 
 
 	state_modifier = {
-		resistance_target 				= -1
+		resistance_target 				= -0.5
 		required_garrison_factor 		= -0.9
 		resistance_damage_to_garrison 	= -0.9
-		compliance_gain 				= 1
-		local_factories 				= 1
-		local_resources 				= 1
+		compliance_gain 				= 0.3
+		local_factories 				= 0.5
+		local_resources 				= 0.5
 	}
 
 	ai_will_do = {

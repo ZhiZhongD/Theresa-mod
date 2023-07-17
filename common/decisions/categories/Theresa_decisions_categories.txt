@@ -17,6 +17,12 @@ Theresa_decision_category = {
 	}
 	priority = 100
 }
+Theresa_puppet_decision_category = {
+	visible = {
+		tag = TEA
+	}
+	priority = 100
+}
 Theresa_country_decision_category = {
 	visible = {
 		tag = TEA

@@ -23,20 +23,21 @@ sub_units = {
 		}
 		
 		need = {
-			Theresa_army_eq = 1000
+			Theresa_army_eq = 100
 		}
 		essential = {
 			Theresa_army_eq
 		}
 		combat_width = 2
 
-		manpower = 1000
+		manpower = 100
 
 		max_strength = 50
 		max_organisation = 70
 		maximum_speed = 0.5
 		default_morale = 0.7
 		training_time = 30
+		suppression = 20
 		weight = 0.5
 		supply_consumption = 0.1
 		breakthrough = 1

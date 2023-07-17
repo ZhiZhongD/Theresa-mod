@@ -24,4 +24,16 @@ spriteTypes = {
 		name = "GFX_Theresa_army_eq_0_medium"
 		texturefile = "gfx/interface/technologies/Theresa_army_eq/Pledge.png"
 	}
+	SpriteType = {
+		name = "GFX_Theresa_army_eq_1_medium"
+		texturefile = "gfx/interface/technologies/Theresa_army_eq/Blood_Knight.png"
+	}
+	SpriteType = {
+		name = "GFX_Theresa_army_eq_2_medium"
+		texturefile = "gfx/interface/technologies/Theresa_army_eq/Celestial_Hymn.png"
+	}
+	SpriteType = {
+		name = "GFX_Theresa_army_eq_3_medium"
+		texturefile = "gfx/interface/technologies/Theresa_army_eq/Twilight_Paladin.png"
+	}
 }

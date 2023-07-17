@@ -32,6 +32,40 @@
  TEA_industory_targeted_decision:0 "在§t[from.getname]§!进行工业化"
 
 
+ Theresa_setup_decision_THL:0 "成立§4低地联合管理区§!"
+ Theresa_setup_decision_TBG:0 "成立§4勃艮第管理区§!"
+ Theresa_setup_decision_TFR:0 "成立§4法兰西管理区§!"
+ Theresa_setup_decision_TAS:0 "成立§4阿尔卑斯管理区§!"
+ Theresa_setup_decision_TYL:0 "成立§4伊利比亚管理区§!"
+ Theresa_setup_decision_TTA:0 "成立§4意大利管理区§!"
+ Theresa_setup_decision_THN:0 "成立§4匈牙利管理区§!"
+ Theresa_setup_decision_TBP:0 "成立§4巴尔干管理区§!"
+ Theresa_setup_decision_TER:0 "成立§4东罗马管理区§!"
+ Theresa_setup_decision_TPL:0 "成立§4波兰管理区§!"
+ Theresa_setup_decision_TNE:0 "成立§4北欧管理区§!"
+ Theresa_setup_decision_TBS:0 "成立§4波罗的海管理区§!"
+ Theresa_setup_decision_TBL:0 "成立§4白俄罗斯管理区§!"
+ Theresa_setup_decision_TUI:0 "成立§4乌克兰管理区§!"
+ Theresa_setup_decision_TBT:0 "成立§4不列颠管理区§!"
+ Theresa_setup_decision_TNF:0 "成立§4北非管理区§!"
+ Theresa_setup_decision_TWF:0 "成立§4西非管理区§!"
+ Theresa_setup_decision_TMF:0 "成立§4中非管理区§!"
+ Theresa_setup_decision_TEF:0 "成立§4东非管理区§!"
+ Theresa_setup_decision_TSF:0 "成立§4南非管理区§!"
+ Theresa_setup_decision_TAL:0 "成立§4阿拉伯管理区§!"
+ Theresa_setup_decision_TME:0 "成立§4中东管理区§!"
+ Theresa_setup_decision_TNA:0 "成立§4北美管理区§!"
+ Theresa_setup_decision_TSA:0 "成立§4南美管理区§!"
+ Theresa_setup_decision_TID:0 "成立§4南亚管理区§!"
+ Theresa_setup_decision_TES:0 "成立§4东南亚管理区§!"
+ Theresa_setup_decision_TAU:0 "成立§4澳大利亚管理区§!"
+ Theresa_setup_decision_TPO:0 "成立§4太平洋管理区§!"
+ Theresa_setup_decision_TMK:0 "成立§4俄罗斯管理区§!"
+ Theresa_setup_decision_TMA:0 "成立§4中亚管理区§!"
+ Theresa_setup_decision_TSB:0 "成立§4西伯利亚管理区§!"
+ Theresa_setup_decision_TFA:0 "成立§4远东管理区§!"
+ Theresa_setup_decision_TCH:0 "成立§4煌帝国管理区§!"
+ Theresa_setup_decision_TJP:0 "成立§4极东管理区§!"
 #民族精神
  TEA_idea_0:0 "德丽莎世界第一可爱！！！"
 
@@ -111,6 +145,13 @@
  TEA_Theresa_communist_revolutionary:0 "德丽莎"
  TEA_Theresa_democratic_reformer:0 "德丽莎"
  TEA_Theresa_fascist_demagogue:0 "德丽莎"
+
+
+
+
+
+
+
 #特质
  Theresa_is_the_lovest:0 "德丽莎世界第一可爱"
  Theresa_Twilight_Paladin_Leader:0 "天命的领导者"
@@ -152,9 +193,9 @@
  TEA_ADJ:0 "德丽莎联盟"
  TEA_DEF:0 "德丽莎联盟"
 
- THL:0 "低地联合"
- THL_ADJ:0 "低地联合"
- THL_DEF:0 "低地联合"
+ THL:0 "低地联合管理区"
+ THL_ADJ:0 "低地联合管理区"
+ THL_DEF:0 "低地联合管理区"
 
  TBG:0 "勃艮第管理区"
  TBG_ADJ:0 "勃艮第管理区"

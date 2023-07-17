@@ -178,7 +178,10 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_THL = {
+
+}
+Theresa_puppet_decision_category = {
+        Theresa_setup_decision_THL = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -186,10 +189,20 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 6
+            has_full_control_of_state = 7
+            has_full_control_of_state = 29
+            has_full_control_of_state = 34
+            has_full_control_of_state = 35
+            has_full_control_of_state = 36           
         }
         visible = {
-            is_debug = yes
+            controls_state = 6
+            controls_state = 7
+            controls_state = 29
+            controls_state = 34
+            controls_state = 35
+            controls_state = 36      
         }
     
         complete_effect = {
@@ -214,7 +227,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TBG = {
+    Theresa_setup_decision_TBG = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -222,10 +235,14 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 17
+            has_full_control_of_state = 18
+            has_full_control_of_state = 27
         }
         visible = {
-            is_debug = yes
+            controls_state = 17
+            controls_state = 18
+            controls_state = 27
         }
     
         complete_effect = {
@@ -233,7 +250,6 @@ Theresa_test_decision_category = {
             TBG = {
                 transfer_state = 17
                 transfer_state = 18
-                transfer_state = 20
                 transfer_state = 27
             }
             TBG = {
@@ -248,7 +264,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TFR = {
+    Theresa_setup_decision_TFR = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -256,10 +272,40 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 1
+            has_full_control_of_state = 14
+            has_full_control_of_state = 15
+            has_full_control_of_state = 16
+            has_full_control_of_state = 19
+            has_full_control_of_state = 22
+            has_full_control_of_state = 23
+            has_full_control_of_state = 24
+            has_full_control_of_state = 25
+            has_full_control_of_state = 26
+            has_full_control_of_state = 30
+            has_full_control_of_state = 31
+            has_full_control_of_state = 20
+            has_full_control_of_state = 33
+            has_full_control_of_state = 785
+            has_full_control_of_state = 806
         }
         visible = {
-            is_debug = yes
+            controls_state = 1
+            controls_state = 14
+            controls_state = 15
+            controls_state = 16
+            controls_state = 19
+            controls_state = 22
+            controls_state = 23
+            controls_state = 24
+            controls_state = 25
+            controls_state = 26
+            controls_state = 30
+            controls_state = 31
+            controls_state = 20
+            controls_state = 33
+            controls_state = 785
+            controls_state = 806
         }
     
         complete_effect = {
@@ -270,6 +316,7 @@ Theresa_test_decision_category = {
                 transfer_state = 15
                 transfer_state = 16
                 transfer_state = 19
+                transfer_state = 20
                 transfer_state = 22
                 transfer_state = 23
                 transfer_state = 24
@@ -293,7 +340,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TAS = {
+    Theresa_setup_decision_TAS = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -301,10 +348,36 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 3
+            has_full_control_of_state = 21
+            has_full_control_of_state = 32
+            has_full_control_of_state = 39
+            has_full_control_of_state = 151
+            has_full_control_of_state = 158
+            has_full_control_of_state = 159
+            has_full_control_of_state = 160
+            has_full_control_of_state = 735
+            has_full_control_of_state = 845
+            has_full_control_of_state = 846
+            has_full_control_of_state = 847
+            has_full_control_of_state = 850
+            has_full_control_of_state = 851
         }
         visible = {
-            is_debug = yes
+            controls_state = 3
+            controls_state = 21
+            controls_state = 32
+            controls_state = 39
+            controls_state = 151
+            controls_state = 158
+            controls_state = 159
+            controls_state = 160
+            controls_state = 735
+            controls_state = 845
+            controls_state = 846
+            controls_state = 847
+            controls_state = 850
+            controls_state = 851
         }
     
         complete_effect = {
@@ -337,7 +410,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TYL = {
+    Theresa_setup_decision_TYL = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -345,10 +418,64 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 41
+            has_full_control_of_state = 165
+            has_full_control_of_state = 167
+            has_full_control_of_state = 175
+            has_full_control_of_state = 177
+            has_full_control_of_state = 166
+            has_full_control_of_state = 168
+            has_full_control_of_state = 173
+            has_full_control_of_state = 789
+            has_full_control_of_state = 793
+            has_full_control_of_state = 794
+            has_full_control_of_state = 118
+            has_full_control_of_state = 169
+            has_full_control_of_state = 170
+            has_full_control_of_state = 788
+            has_full_control_of_state = 171
+            has_full_control_of_state = 174
+            has_full_control_of_state = 790
+            has_full_control_of_state = 172
+            has_full_control_of_state = 176
+            has_full_control_of_state = 791
+            has_full_control_of_state = 792
+            has_full_control_of_state = 180
+            has_full_control_of_state = 181
+            has_full_control_of_state = 112
+            has_full_control_of_state = 179
+            has_full_control_of_state = 795
+            has_full_control_of_state = 698
         }
         visible = {
-            is_debug = yes
+            controls_state = 41
+            controls_state = 165
+            controls_state = 167
+            controls_state = 175
+            controls_state = 177
+            controls_state = 166
+            controls_state = 168
+            controls_state = 173
+            controls_state = 789
+            controls_state = 793
+            controls_state = 794
+            controls_state = 118
+            controls_state = 169
+            controls_state = 170
+            controls_state = 788
+            controls_state = 171
+            controls_state = 174
+            controls_state = 790
+            controls_state = 172
+            controls_state = 176
+            controls_state = 791
+            controls_state = 792
+            controls_state = 180
+            controls_state = 181
+            controls_state = 112
+            controls_state = 179
+            controls_state = 795
+            controls_state = 698
         }
     
         complete_effect = {
@@ -396,7 +523,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TTA = {
+    Theresa_setup_decision_TTA = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -404,10 +531,26 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 161
+            has_full_control_of_state = 162
+            has_full_control_of_state = 2
+            has_full_control_of_state = 157
+            has_full_control_of_state = 117
+            has_full_control_of_state = 849
+            has_full_control_of_state = 156
+            has_full_control_of_state = 115
+            has_full_control_of_state = 114
         }
         visible = {
-            is_debug = yes
+            controls_state = 161
+            controls_state = 162
+            controls_state = 2
+            controls_state = 157
+            controls_state = 117
+            controls_state = 849
+            controls_state = 156
+            controls_state = 115
+            controls_state = 114
         }
     
         complete_effect = {
@@ -435,7 +578,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_THN = {
+    Theresa_setup_decision_THN = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -443,10 +586,34 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 155
+            has_full_control_of_state = 43
+            has_full_control_of_state = 154
+            has_full_control_of_state = 664
+            has_full_control_of_state = 70
+            has_full_control_of_state = 71
+            has_full_control_of_state = 73
+            has_full_control_of_state = 76
+            has_full_control_of_state = 83
+            has_full_control_of_state = 84
+            has_full_control_of_state = 82
+            has_full_control_of_state = 45
+            has_full_control_of_state = 764
         }
         visible = {
-            is_debug = yes
+            controls_state = 155
+            controls_state = 43
+            controls_state = 154
+            controls_state = 664
+            controls_state = 70
+            controls_state = 71
+            controls_state = 73
+            controls_state = 76
+            controls_state = 83
+            controls_state = 84
+            controls_state = 82
+            controls_state = 45
+            controls_state = 764
         }
     
         complete_effect = {
@@ -478,7 +645,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TBP = {
+    Theresa_setup_decision_TBP = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -486,10 +653,50 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 109
+            has_full_control_of_state = 107
+            has_full_control_of_state = 104
+            has_full_control_of_state = 103
+            has_full_control_of_state = 163
+            has_full_control_of_state = 108
+            has_full_control_of_state = 802
+            has_full_control_of_state = 105
+            has_full_control_of_state = 804
+            has_full_control_of_state = 106
+            has_full_control_of_state = 803
+            has_full_control_of_state = 44
+            has_full_control_of_state = 805
+            has_full_control_of_state = 81
+            has_full_control_of_state = 48
+            has_full_control_of_state = 212
+            has_full_control_of_state = 801
+            has_full_control_of_state = 211
+            has_full_control_of_state = 46
+            has_full_control_of_state = 77
+            has_full_control_of_state = 79
         }
         visible = {
-            is_debug = yes
+            controls_state = 109
+            controls_state = 107
+            controls_state = 104
+            controls_state = 103
+            controls_state = 163
+            controls_state = 108
+            controls_state = 802
+            controls_state = 105
+            controls_state = 804
+            controls_state = 106
+            controls_state = 803
+            controls_state = 44
+            controls_state = 805
+            controls_state = 81
+            controls_state = 48
+            controls_state = 212
+            controls_state = 801
+            controls_state = 211
+            controls_state = 46
+            controls_state = 77
+            controls_state = 79
         }
     
         complete_effect = {
@@ -529,7 +736,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TER = {
+    Theresa_setup_decision_TER = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -537,10 +744,70 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 797
+            has_full_control_of_state = 341
+            has_full_control_of_state = 184
+            has_full_control_of_state = 731
+            has_full_control_of_state = 185
+            has_full_control_of_state = 47
+            has_full_control_of_state = 186
+            has_full_control_of_state = 187
+            has_full_control_of_state = 182
+            has_full_control_of_state = 164
+            has_full_control_of_state = 183
+            has_full_control_of_state = 116
+            has_full_control_of_state = 340
+            has_full_control_of_state = 347
+            has_full_control_of_state = 356
+            has_full_control_of_state = 49
+            has_full_control_of_state = 343
+            has_full_control_of_state = 339
+            has_full_control_of_state = 355
+            has_full_control_of_state = 798
+            has_full_control_of_state = 346
+            has_full_control_of_state = 342
+            has_full_control_of_state = 354
+            has_full_control_of_state = 349
+            has_full_control_of_state = 348
+            has_full_control_of_state = 345
+            has_full_control_of_state = 353
+            has_full_control_of_state = 800
+            has_full_control_of_state = 344
+            has_full_control_of_state = 350
+            has_full_control_of_state = 352
         }
         visible = {
-            is_debug = yes
+            controls_state = 797
+            controls_state = 341
+            controls_state = 184
+            controls_state = 731
+            controls_state = 185
+            controls_state = 47
+            controls_state = 186
+            controls_state = 187
+            controls_state = 182
+            controls_state = 164
+            controls_state = 183
+            controls_state = 116
+            controls_state = 340
+            controls_state = 347
+            controls_state = 356
+            controls_state = 49
+            controls_state = 343
+            controls_state = 339
+            controls_state = 355
+            controls_state = 798
+            controls_state = 346
+            controls_state = 342
+            controls_state = 354
+            controls_state = 349
+            controls_state = 348
+            controls_state = 345
+            controls_state = 353
+            controls_state = 800
+            controls_state = 344
+            controls_state = 350
+            controls_state = 352
         }
     
         complete_effect = {
@@ -591,7 +858,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TPL = {
+    Theresa_setup_decision_TPL = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -599,10 +866,22 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 10
+            has_full_control_of_state = 98
+            has_full_control_of_state = 87
+            has_full_control_of_state = 90
+            has_full_control_of_state = 88
+            has_full_control_of_state = 92
+            has_full_control_of_state = 97
         }
         visible = {
-            is_debug = yes
+            controls_state = 10
+            controls_state = 98
+            controls_state = 87
+            controls_state = 90
+            controls_state = 88
+            controls_state = 92
+            controls_state = 97
         }
     
         complete_effect = {
@@ -628,7 +907,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TNE = {
+    Theresa_setup_decision_TNE = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -636,10 +915,60 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 141
+            has_full_control_of_state = 99
+            has_full_control_of_state = 37
+            has_full_control_of_state = 337
+            has_full_control_of_state = 100
+            has_full_control_of_state = 124
+            has_full_control_of_state = 138
+            has_full_control_of_state = 139
+            has_full_control_of_state = 140
+            has_full_control_of_state = 110
+            has_full_control_of_state = 142
+            has_full_control_of_state = 143
+            has_full_control_of_state = 144
+            has_full_control_of_state = 38
+            has_full_control_of_state = 666
+            has_full_control_of_state = 148
+            has_full_control_of_state = 149
+            has_full_control_of_state = 111
+            has_full_control_of_state = 146
+            has_full_control_of_state = 145
+            has_full_control_of_state = 213
+            has_full_control_of_state = 215
+            has_full_control_of_state = 216
+            has_full_control_of_state = 150
+            has_full_control_of_state = 147
+            has_full_control_of_state = 722
         }
         visible = {
-            is_debug = yes
+            controls_state = 141
+            controls_state = 99
+            controls_state = 37
+            controls_state = 337
+            controls_state = 100
+            controls_state = 124
+            controls_state = 138
+            controls_state = 139
+            controls_state = 140
+            controls_state = 110
+            controls_state = 142
+            controls_state = 143
+            controls_state = 144
+            controls_state = 38
+            controls_state = 666
+            controls_state = 148
+            controls_state = 149
+            controls_state = 111
+            controls_state = 146
+            controls_state = 145
+            controls_state = 213
+            controls_state = 215
+            controls_state = 216
+            controls_state = 150
+            controls_state = 147
+            controls_state = 722
         }
     
         complete_effect = {
@@ -684,7 +1013,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TBS = {
+    Theresa_setup_decision_TBS = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -692,10 +1021,38 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 808
+            has_full_control_of_state = 12
+            has_full_control_of_state = 810
+            has_full_control_of_state = 809
+            has_full_control_of_state = 190
+            has_full_control_of_state = 13
+            has_full_control_of_state = 191
+            has_full_control_of_state = 811
+            has_full_control_of_state = 812
+            has_full_control_of_state = 813
+            has_full_control_of_state = 11
+            has_full_control_of_state = 189
+            has_full_control_of_state = 815
+            has_full_control_of_state = 814
+            has_full_control_of_state = 784
         }
         visible = {
-            is_debug = yes
+            controls_state = 808
+            controls_state = 12
+            controls_state = 810
+            controls_state = 809
+            controls_state = 190
+            controls_state = 13
+            controls_state = 191
+            controls_state = 811
+            controls_state = 812
+            controls_state = 813
+            controls_state = 11
+            controls_state = 189
+            controls_state = 815
+            controls_state = 814
+            controls_state = 784
         }
     
         complete_effect = {
@@ -729,7 +1086,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TBL = {
+    Theresa_setup_decision_TBL = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -737,10 +1094,24 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 206
+            has_full_control_of_state = 204
+            has_full_control_of_state = 95
+            has_full_control_of_state = 96
+            has_full_control_of_state = 207
+            has_full_control_of_state = 241
+            has_full_control_of_state = 194
+            has_full_control_of_state = 94
         }
         visible = {
-            is_debug = yes
+            controls_state = 206
+            controls_state = 204
+            controls_state = 95
+            controls_state = 96
+            controls_state = 207
+            controls_state = 241
+            controls_state = 194
+            controls_state = 94
         }
     
         complete_effect = {
@@ -767,7 +1138,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TUI = {
+    Theresa_setup_decision_TUI = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -775,10 +1146,56 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 202
+            has_full_control_of_state = 201
+            has_full_control_of_state = 199
+            has_full_control_of_state = 93
+            has_full_control_of_state = 91
+            has_full_control_of_state = 89
+            has_full_control_of_state = 80
+            has_full_control_of_state = 78
+            has_full_control_of_state = 766
+            has_full_control_of_state = 193
+            has_full_control_of_state = 197
+            has_full_control_of_state = 203
+            has_full_control_of_state = 198
+            has_full_control_of_state = 192
+            has_full_control_of_state = 834
+            has_full_control_of_state = 196
+            has_full_control_of_state = 225
+            has_full_control_of_state = 226
+            has_full_control_of_state = 259
+            has_full_control_of_state = 137
+            has_full_control_of_state = 200
+            has_full_control_of_state = 227
+            has_full_control_of_state = 221
+            has_full_control_of_state = 228
         }
         visible = {
-            is_debug = yes
+            controls_state = 202
+            controls_state = 201
+            controls_state = 199
+            controls_state = 93
+            controls_state = 91
+            controls_state = 89
+            controls_state = 80
+            controls_state = 78
+            controls_state = 766
+            controls_state = 193
+            controls_state = 197
+            controls_state = 203
+            controls_state = 198
+            controls_state = 192
+            controls_state = 834
+            controls_state = 196
+            controls_state = 225
+            controls_state = 226
+            controls_state = 259
+            controls_state = 137
+            controls_state = 200
+            controls_state = 227
+            controls_state = 221
+            controls_state = 228
         }
     
         complete_effect = {
@@ -821,7 +1238,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TBT = {
+    Theresa_setup_decision_TBT = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -829,10 +1246,46 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 126
+            has_full_control_of_state = 125
+            has_full_control_of_state = 127
+            has_full_control_of_state = 123
+            has_full_control_of_state = 338
+            has_full_control_of_state = 122
+            has_full_control_of_state = 128
+            has_full_control_of_state = 129
+            has_full_control_of_state = 130
+            has_full_control_of_state = 132
+            has_full_control_of_state = 131
+            has_full_control_of_state = 133
+            has_full_control_of_state = 119
+            has_full_control_of_state = 120
+            has_full_control_of_state = 121
+            has_full_control_of_state = 136
+            has_full_control_of_state = 113
+            has_full_control_of_state = 134
+            has_full_control_of_state = 135
         }
         visible = {
-            is_debug = yes
+            controls_state = 126
+            controls_state = 125
+            controls_state = 127
+            controls_state = 123
+            controls_state = 338
+            controls_state = 122
+            controls_state = 128
+            controls_state = 129
+            controls_state = 130
+            controls_state = 132
+            controls_state = 131
+            controls_state = 133
+            controls_state = 119
+            controls_state = 120
+            controls_state = 121
+            controls_state = 136
+            controls_state = 113
+            controls_state = 134
+            controls_state = 135
         }
     
         complete_effect = {
@@ -870,7 +1323,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TNF = {
+    Theresa_setup_decision_TNF = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -878,10 +1331,70 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 446
+            has_full_control_of_state = 447
+            has_full_control_of_state = 907
+            has_full_control_of_state = 452
+            has_full_control_of_state = 663
+            has_full_control_of_state = 552
+            has_full_control_of_state = 456
+            has_full_control_of_state = 457
+            has_full_control_of_state = 449
+            has_full_control_of_state = 450
+            has_full_control_of_state = 451
+            has_full_control_of_state = 662
+            has_full_control_of_state = 661
+            has_full_control_of_state = 448
+            has_full_control_of_state = 273
+            has_full_control_of_state = 665
+            has_full_control_of_state = 458
+            has_full_control_of_state = 460
+            has_full_control_of_state = 513
+            has_full_control_of_state = 459
+            has_full_control_of_state = 514
+            has_full_control_of_state = 290
+            has_full_control_of_state = 461
+            has_full_control_of_state = 462
+            has_full_control_of_state = 178
+            has_full_control_of_state = 767
+            has_full_control_of_state = 551
+            has_full_control_of_state = 515
+            has_full_control_of_state = 775
+            has_full_control_of_state = 783
+            has_full_control_of_state = 697
         }
         visible = {
-            is_debug = yes
+            controls_state = 446
+            controls_state = 447
+            controls_state = 907
+            controls_state = 452
+            controls_state = 663
+            controls_state = 552
+            controls_state = 456
+            controls_state = 457
+            controls_state = 449
+            controls_state = 450
+            controls_state = 451
+            controls_state = 662
+            controls_state = 661
+            controls_state = 448
+            controls_state = 273
+            controls_state = 665
+            controls_state = 458
+            controls_state = 460
+            controls_state = 513
+            controls_state = 459
+            controls_state = 514
+            controls_state = 290
+            controls_state = 461
+            controls_state = 462
+            controls_state = 178
+            controls_state = 767
+            controls_state = 551
+            controls_state = 515
+            controls_state = 775
+            controls_state = 783
+            controls_state = 697
         }
     
         complete_effect = {
@@ -931,7 +1444,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TWF = {
+    Theresa_setup_decision_TWF = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -939,10 +1452,58 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 699
+            has_full_control_of_state = 786
+            has_full_control_of_state = 782
+            has_full_control_of_state = 557
+            has_full_control_of_state = 272
+            has_full_control_of_state = 701
+            has_full_control_of_state = 898
+            has_full_control_of_state = 899
+            has_full_control_of_state = 296
+            has_full_control_of_state = 780
+            has_full_control_of_state = 700
+            has_full_control_of_state = 298
+            has_full_control_of_state = 779
+            has_full_control_of_state = 556
+            has_full_control_of_state = 778
+            has_full_control_of_state = 274
+            has_full_control_of_state = 777
+            has_full_control_of_state = 776
+            has_full_control_of_state = 781
+            has_full_control_of_state = 558
+            has_full_control_of_state = 900
+            has_full_control_of_state = 901
+            has_full_control_of_state = 902
+            has_full_control_of_state = 703
+            has_full_control_of_state = 702
         }
         visible = {
-            is_debug = yes
+            controls_state = 699
+            controls_state = 786
+            controls_state = 782
+            controls_state = 557
+            controls_state = 272
+            controls_state = 701
+            controls_state = 898
+            controls_state = 899
+            controls_state = 296
+            controls_state = 780
+            controls_state = 700
+            controls_state = 298
+            controls_state = 779
+            controls_state = 556
+            controls_state = 778
+            controls_state = 274
+            controls_state = 777
+            controls_state = 776
+            controls_state = 781
+            controls_state = 558
+            controls_state = 900
+            controls_state = 901
+            controls_state = 902
+            controls_state = 703
+            controls_state = 702
         }
     
         complete_effect = {
@@ -986,7 +1547,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TMF = {
+    Theresa_setup_decision_TMF = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -994,10 +1555,66 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 295
+            has_full_control_of_state = 772
+            has_full_control_of_state = 796
+            has_full_control_of_state = 297
+            has_full_control_of_state = 539
+            has_full_control_of_state = 704
+            has_full_control_of_state = 773
+            has_full_control_of_state = 540
+            has_full_control_of_state = 891
+            has_full_control_of_state = 892
+            has_full_control_of_state = 774
+            has_full_control_of_state = 660
+            has_full_control_of_state = 538
+            has_full_control_of_state = 718
+            has_full_control_of_state = 888
+            has_full_control_of_state = 889
+            has_full_control_of_state = 890
+            has_full_control_of_state = 768
+            has_full_control_of_state = 769
+            has_full_control_of_state = 771
+            has_full_control_of_state = 546
+            has_full_control_of_state = 770
+            has_full_control_of_state = 897
+            has_full_control_of_state = 708
+            has_full_control_of_state = 549
+            has_full_control_of_state = 885
+            has_full_control_of_state = 887
+            has_full_control_of_state = 548
+            has_full_control_of_state = 705
         }
         visible = {
-            is_debug = yes
+            controls_state = 295
+            controls_state = 772
+            controls_state = 796
+            controls_state = 297
+            controls_state = 539
+            controls_state = 704
+            controls_state = 773
+            controls_state = 540
+            controls_state = 891
+            controls_state = 892
+            controls_state = 774
+            controls_state = 660
+            controls_state = 538
+            controls_state = 718
+            controls_state = 888
+            controls_state = 889
+            controls_state = 890
+            controls_state = 768
+            controls_state = 769
+            controls_state = 771
+            controls_state = 546
+            controls_state = 770
+            controls_state = 897
+            controls_state = 708
+            controls_state = 549
+            controls_state = 885
+            controls_state = 887
+            controls_state = 548
+            controls_state = 705
         }
     
         complete_effect = {
@@ -1045,7 +1662,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TEF = {
+    Theresa_setup_decision_TEF = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -1053,10 +1670,58 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 271
+            has_full_control_of_state = 835
+            has_full_control_of_state = 836
+            has_full_control_of_state = 268
+            has_full_control_of_state = 908
+            has_full_control_of_state = 550
+            has_full_control_of_state = 269
+            has_full_control_of_state = 559
+            has_full_control_of_state = 906
+            has_full_control_of_state = 844
+            has_full_control_of_state = 883
+            has_full_control_of_state = 842
+            has_full_control_of_state = 843
+            has_full_control_of_state = 841
+            has_full_control_of_state = 840
+            has_full_control_of_state = 886
+            has_full_control_of_state = 837
+            has_full_control_of_state = 838
+            has_full_control_of_state = 839
+            has_full_control_of_state = 903
+            has_full_control_of_state = 904
+            has_full_control_of_state = 905
+            has_full_control_of_state = 547
+            has_full_control_of_state = 884
+            has_full_control_of_state = 709
         }
         visible = {
-            is_debug = yes
+            controls_state = 271
+            controls_state = 835
+            controls_state = 836
+            controls_state = 268
+            controls_state = 908
+            controls_state = 550
+            controls_state = 269
+            controls_state = 559
+            controls_state = 906
+            controls_state = 844
+            controls_state = 883
+            controls_state = 842
+            controls_state = 843
+            controls_state = 841
+            controls_state = 840
+            controls_state = 886
+            controls_state = 837
+            controls_state = 838
+            controls_state = 839
+            controls_state = 903
+            controls_state = 904
+            controls_state = 905
+            controls_state = 547
+            controls_state = 884
+            controls_state = 709
         }
     
         complete_effect = {
@@ -1100,7 +1765,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TSF = {
+    Theresa_setup_decision_TSF = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -1108,10 +1773,38 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 681
+            has_full_control_of_state = 719
+            has_full_control_of_state = 275
+            has_full_control_of_state = 893
+            has_full_control_of_state = 894
+            has_full_control_of_state = 541
+            has_full_control_of_state = 895
+            has_full_control_of_state = 542
+            has_full_control_of_state = 545
+            has_full_control_of_state = 544
+            has_full_control_of_state = 896
+            has_full_control_of_state = 543
+            has_full_control_of_state = 706
+            has_full_control_of_state = 707
+            has_full_control_of_state = 713
         }
         visible = {
-            is_debug = yes
+            controls_state = 681
+            controls_state = 719
+            controls_state = 275
+            controls_state = 893
+            controls_state = 894
+            controls_state = 541
+            controls_state = 895
+            controls_state = 542
+            controls_state = 545
+            controls_state = 544
+            controls_state = 896
+            controls_state = 543
+            controls_state = 706
+            controls_state = 707
+            controls_state = 713
         }
     
         complete_effect = {
@@ -1145,7 +1838,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TAL = {
+    Theresa_setup_decision_TAL = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -1153,10 +1846,42 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 292
+            has_full_control_of_state = 678
+            has_full_control_of_state = 858
+            has_full_control_of_state = 859
+            has_full_control_of_state = 857
+            has_full_control_of_state = 854
+            has_full_control_of_state = 855
+            has_full_control_of_state = 856
+            has_full_control_of_state = 679
+            has_full_control_of_state = 453
+            has_full_control_of_state = 454
+            has_full_control_of_state = 455
+            has_full_control_of_state = 765
+            has_full_control_of_state = 658
+            has_full_control_of_state = 294
+            has_full_control_of_state = 659
+            has_full_control_of_state = 293
         }
         visible = {
-            is_debug = yes
+            controls_state = 292
+            controls_state = 678
+            controls_state = 858
+            controls_state = 859
+            controls_state = 857
+            controls_state = 854
+            controls_state = 855
+            controls_state = 856
+            controls_state = 679
+            controls_state = 453
+            controls_state = 454
+            controls_state = 455
+            controls_state = 765
+            controls_state = 658
+            controls_state = 294
+            controls_state = 659
+            controls_state = 293
         }
     
         complete_effect = {
@@ -1193,7 +1918,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TME = {
+    Theresa_setup_decision_TME = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -1201,10 +1926,68 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 291
+            has_full_control_of_state = 675
+            has_full_control_of_state = 656
+            has_full_control_of_state = 676
+            has_full_control_of_state = 677
+            has_full_control_of_state = 680
+            has_full_control_of_state = 799
+            has_full_control_of_state = 554
+            has_full_control_of_state = 553
+            has_full_control_of_state = 413
+            has_full_control_of_state = 421
+            has_full_control_of_state = 419
+            has_full_control_of_state = 412
+            has_full_control_of_state = 411
+            has_full_control_of_state = 417
+            has_full_control_of_state = 420
+            has_full_control_of_state = 410
+            has_full_control_of_state = 414
+            has_full_control_of_state = 418
+            has_full_control_of_state = 266
+            has_full_control_of_state = 416
+            has_full_control_of_state = 415
+            has_full_control_of_state = 267
+            has_full_control_of_state = 440
+            has_full_control_of_state = 441
+            has_full_control_of_state = 442
+            has_full_control_of_state = 443
+            has_full_control_of_state = 444
+            has_full_control_of_state = 445
+            has_full_control_of_state = 787
         }
         visible = {
-            is_debug = yes
+            controls_state = 291
+            controls_state = 675
+            controls_state = 656
+            controls_state = 676
+            controls_state = 677
+            controls_state = 680
+            controls_state = 799
+            controls_state = 554
+            controls_state = 553
+            controls_state = 413
+            controls_state = 421
+            controls_state = 419
+            controls_state = 412
+            controls_state = 411
+            controls_state = 417
+            controls_state = 420
+            controls_state = 410
+            controls_state = 414
+            controls_state = 418
+            controls_state = 266
+            controls_state = 416
+            controls_state = 415
+            controls_state = 267
+            controls_state = 440
+            controls_state = 441
+            controls_state = 442
+            controls_state = 443
+            controls_state = 444
+            controls_state = 445
+            controls_state = 787
         }
     
         complete_effect = {
@@ -1253,7 +2036,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TNA = {
+    Theresa_setup_decision_TNA = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -1261,10 +2044,23 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            any_state = {
+                is_on_continent = north_america
+                controller = {
+                    tag = TEA
+                }
+                owner = {
+                    tag = TEA
+                }
+            }
         }
         visible = {
-            is_debug = yes
+            any_state = {
+                is_on_continent = north_america
+                controller = {
+                    tag = TEA
+                }
+            }
         }
     
         complete_effect = {
@@ -1272,6 +2068,9 @@ Theresa_test_decision_category = {
             every_state = {
                 limit = {
                     is_on_continent = north_america
+                    controller = {
+                        tag = TEA
+                    }
                 }
                 transfer_state_to = TNA
             }
@@ -1287,7 +2086,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TSA = {
+    Theresa_setup_decision_TSA = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -1295,17 +2094,34 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            any_state = {
+                is_on_continent = south_america
+                controller = {
+                    tag = TEA
+                }
+                owner = {
+                    tag = TEA
+                }
+            }
         }
         visible = {
-            is_debug = yes
+            any_state = {
+                is_on_continent = south_america
+                controller = {
+                    tag = TEA
+                }
+            }
         }
+    }
     
         complete_effect = {
             
             every_state = {
                 limit = {
                     is_on_continent = south_america
+                    controller = {
+                        tag = TEA
+                    }
                 }
                 transfer_state_to = TSA
             }
@@ -1321,7 +2137,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TID = {
+    Theresa_setup_decision_TID = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -1329,10 +2145,56 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 439
+            has_full_control_of_state = 323
+            has_full_control_of_state = 324
+            has_full_control_of_state = 431
+            has_full_control_of_state = 430
+            has_full_control_of_state = 432
+            has_full_control_of_state = 433
+            has_full_control_of_state = 428
+            has_full_control_of_state = 438
+            has_full_control_of_state = 435
+            has_full_control_of_state = 437
+            has_full_control_of_state = 436
+            has_full_control_of_state = 426
+            has_full_control_of_state = 422
+            has_full_control_of_state = 423
+            has_full_control_of_state = 424
+            has_full_control_of_state = 425
+            has_full_control_of_state = 427
+            has_full_control_of_state = 428
+            has_full_control_of_state = 429
+            has_full_control_of_state = 320
+            has_full_control_of_state = 321
+            has_full_control_of_state = 281
+            has_full_control_of_state = 710
         }
         visible = {
-            is_debug = yes
+            controls_state = 439
+            controls_state = 323
+            controls_state = 324
+            controls_state = 431
+            controls_state = 430
+            controls_state = 432
+            controls_state = 433
+            controls_state = 428
+            controls_state = 438
+            controls_state = 435
+            controls_state = 437
+            controls_state = 436
+            controls_state = 426
+            controls_state = 422
+            controls_state = 423
+            controls_state = 424
+            controls_state = 425
+            controls_state = 427
+            controls_state = 428
+            controls_state = 429
+            controls_state = 320
+            controls_state = 321
+            controls_state = 281
+            controls_state = 710
         }
     
         complete_effect = {
@@ -1375,7 +2237,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TES = {
+    Theresa_setup_decision_TES = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -1383,10 +2245,54 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 336
+            has_full_control_of_state = 333
+            has_full_control_of_state = 334
+            has_full_control_of_state = 335
+            has_full_control_of_state = 672
+            has_full_control_of_state = 724
+            has_full_control_of_state = 288
+            has_full_control_of_state = 733
+            has_full_control_of_state = 640
+            has_full_control_of_state = 289
+            has_full_control_of_state = 868
+            has_full_control_of_state = 869
+            has_full_control_of_state = 711
+            has_full_control_of_state = 712
+            has_full_control_of_state = 671
+            has_full_control_of_state = 670
+            has_full_control_of_state = 741
+            has_full_control_of_state = 286
+            has_full_control_of_state = 667
+            has_full_control_of_state = 673
+            has_full_control_of_state = 721
+            has_full_control_of_state = 738
+            has_full_control_of_state = 668
         }
         visible = {
-            is_debug = yes
+            controls_state = 336
+            controls_state = 333
+            controls_state = 334
+            controls_state = 335
+            controls_state = 672
+            controls_state = 724
+            controls_state = 288
+            controls_state = 733
+            controls_state = 640
+            controls_state = 289
+            controls_state = 868
+            controls_state = 869
+            controls_state = 711
+            controls_state = 712
+            controls_state = 671
+            controls_state = 670
+            controls_state = 741
+            controls_state = 286
+            controls_state = 667
+            controls_state = 673
+            controls_state = 721
+            controls_state = 738
+            controls_state = 668
         }
     
         complete_effect = {
@@ -1428,7 +2334,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_test_decision_TAU = {
+    Theresa_setup_decision_TAU = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -1436,10 +2342,23 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            any_state = {
+                is_on_continent = australia
+                controller = {
+                    tag = TEA
+                }
+                owner = {
+                    tag = TEA
+                }
+            }
         }
         visible = {
-            is_debug = yes
+            any_state = {
+                is_on_continent = australia
+                controller = {
+                    tag = TEA
+                }
+            }
         }
     
         complete_effect = {
@@ -1447,6 +2366,9 @@ Theresa_test_decision_category = {
             every_state = {
                 limit = {
                     is_on_continent = australia
+                    controller = {
+                        tag = TEA
+                    }
                 }
                 transfer_state_to = TAU
             }
@@ -1462,7 +2384,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_Test_decision_TPO = {
+    Theresa_setup_decision_TPO = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -1470,10 +2392,64 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 327
+            has_full_control_of_state = 623
+            has_full_control_of_state = 624
+            has_full_control_of_state = 625
+            has_full_control_of_state = 626
+            has_full_control_of_state = 627
+            has_full_control_of_state = 628
+            has_full_control_of_state = 647
+            has_full_control_of_state = 684
+            has_full_control_of_state = 646
+            has_full_control_of_state = 638
+            has_full_control_of_state = 645
+            has_full_control_of_state = 646
+            has_full_control_of_state = 648
+            has_full_control_of_state = 633
+            has_full_control_of_state = 639
+            has_full_control_of_state = 725
+            has_full_control_of_state = 643
+            has_full_control_of_state = 636
+            has_full_control_of_state = 726
+            has_full_control_of_state = 630
+            has_full_control_of_state = 631
+            has_full_control_of_state = 632
+            has_full_control_of_state = 727
+            has_full_control_of_state = 641
+            has_full_control_of_state = 642
+            has_full_control_of_state = 270
+            has_full_control_of_state = 629
         }
         visible = {
-            is_debug = yes
+            controls_state = 327
+            controls_state = 623
+            controls_state = 624
+            controls_state = 625
+            controls_state = 626
+            controls_state = 627
+            controls_state = 628
+            controls_state = 647
+            controls_state = 684
+            controls_state = 646
+            controls_state = 638
+            controls_state = 645
+            controls_state = 646
+            controls_state = 648
+            controls_state = 633
+            controls_state = 639
+            controls_state = 725
+            controls_state = 643
+            controls_state = 636
+            controls_state = 726
+            controls_state = 630
+            controls_state = 631
+            controls_state = 632
+            controls_state = 727
+            controls_state = 641
+            controls_state = 642
+            controls_state = 270
+            controls_state = 629
         }
     
         complete_effect = {
@@ -1520,7 +2496,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_Test_decision_TMK = {
+    Theresa_setup_decision_TMK = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -1528,18 +2504,214 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 219
+            has_full_control_of_state = 205
+            has_full_control_of_state = 242
+            has_full_control_of_state = 243
+            has_full_control_of_state = 247
+            has_full_control_of_state = 264
+            has_full_control_of_state = 246
+            has_full_control_of_state = 195
+            has_full_control_of_state = 244
+            has_full_control_of_state = 208
+            has_full_control_of_state = 263
+            has_full_control_of_state = 209
+            has_full_control_of_state = 210
+            has_full_control_of_state = 223
+            has_full_control_of_state = 222
+            has_full_control_of_state = 220
+            has_full_control_of_state = 224
+            has_full_control_of_state = 240
+            has_full_control_of_state = 217
+            has_full_control_of_state = 265
+            has_full_control_of_state = 245
+            has_full_control_of_state = 218
+            has_full_control_of_state = 254
+            has_full_control_of_state = 257
+            has_full_control_of_state = 258
+            has_full_control_of_state = 260
+            has_full_control_of_state = 234
+            has_full_control_of_state = 236
+            has_full_control_of_state = 237
+            has_full_control_of_state = 238
+            has_full_control_of_state = 235
+            has_full_control_of_state = 232
+            has_full_control_of_state = 233
+            has_full_control_of_state = 231
+            has_full_control_of_state = 826
+            has_full_control_of_state = 827
+            has_full_control_of_state = 828
+            has_full_control_of_state = 821
+            has_full_control_of_state = 229
+            has_full_control_of_state = 230
+            has_full_control_of_state = 879
+            has_full_control_of_state = 351
+            has_full_control_of_state = 248
+            has_full_control_of_state = 253
+            has_full_control_of_state = 252
+            has_full_control_of_state = 255
+            has_full_control_of_state = 239
+            has_full_control_of_state = 829
+            has_full_control_of_state = 214
+            has_full_control_of_state = 825
+            has_full_control_of_state = 262
+            has_full_control_of_state = 581
+            has_full_control_of_state = 397
+            has_full_control_of_state = 880
+            has_full_control_of_state = 398
+            has_full_control_of_state = 400
+            has_full_control_of_state = 573
+            has_full_control_of_state = 582
+            has_full_control_of_state = 399
+            has_full_control_of_state = 652
+            has_full_control_of_state = 651
+            has_full_control_of_state = 249
+            has_full_control_of_state = 833
+            has_full_control_of_state = 256
+            has_full_control_of_state = 250
+            has_full_control_of_state = 251
+            has_full_control_of_state = 401
         }
         visible = {
-            is_debug = yes
+            controls_state = 219
+            controls_state = 205
+            controls_state = 242
+            controls_state = 243
+            controls_state = 247
+            controls_state = 264
+            controls_state = 246
+            controls_state = 195
+            controls_state = 244
+            controls_state = 208
+            controls_state = 263
+            controls_state = 209
+            controls_state = 210
+            controls_state = 223
+            controls_state = 222
+            controls_state = 220
+            controls_state = 224
+            controls_state = 240
+            controls_state = 217
+            controls_state = 265
+            controls_state = 245
+            controls_state = 218
+            controls_state = 254
+            controls_state = 257
+            controls_state = 258
+            controls_state = 260
+            controls_state = 234
+            controls_state = 236
+            controls_state = 237
+            controls_state = 238
+            controls_state = 235
+            controls_state = 232
+            controls_state = 233
+            controls_state = 231
+            controls_state = 826
+            controls_state = 827
+            controls_state = 828
+            controls_state = 821
+            controls_state = 229
+            controls_state = 230
+            controls_state = 879
+            controls_state = 351
+            controls_state = 248
+            controls_state = 253
+            controls_state = 252
+            controls_state = 255
+            controls_state = 239
+            controls_state = 829
+            controls_state = 214
+            controls_state = 825
+            controls_state = 262
+            controls_state = 581
+            controls_state = 397
+            controls_state = 880
+            controls_state = 398
+            controls_state = 400
+            controls_state = 573
+            controls_state = 582
+            controls_state = 399
+            controls_state = 652
+            controls_state = 651
+            controls_state = 249
+            controls_state = 833
+            controls_state = 256
+            controls_state = 250
+            controls_state = 251
+            controls_state = 401
         }
     
         complete_effect = {
             
             TMK = {
-                annex_country = {
-                    target = SOV
-                }
+                transfer_state = 219
+                transfer_state = 205
+                transfer_state = 242
+                transfer_state = 243
+                transfer_state = 247
+                transfer_state = 264
+                transfer_state = 246
+                transfer_state = 195
+                transfer_state = 244
+                transfer_state = 208
+                transfer_state = 263
+                transfer_state = 209
+                transfer_state = 210
+                transfer_state = 223
+                transfer_state = 222
+                transfer_state = 220
+                transfer_state = 224
+                transfer_state = 240
+                transfer_state = 217
+                transfer_state = 265
+                transfer_state = 245
+                transfer_state = 218
+                transfer_state = 254
+                transfer_state = 257
+                transfer_state = 258
+                transfer_state = 260
+                transfer_state = 234
+                transfer_state = 236
+                transfer_state = 237
+                transfer_state = 238
+                transfer_state = 235
+                transfer_state = 232
+                transfer_state = 233
+                transfer_state = 231
+                transfer_state = 826
+                transfer_state = 827
+                transfer_state = 828
+                transfer_state = 821
+                transfer_state = 229
+                transfer_state = 230
+                transfer_state = 879
+                transfer_state = 351
+                transfer_state = 248
+                transfer_state = 253
+                transfer_state = 252
+                transfer_state = 255
+                transfer_state = 239
+                transfer_state = 829
+                transfer_state = 214
+                transfer_state = 825
+                transfer_state = 262
+                transfer_state = 581
+                transfer_state = 397
+                transfer_state = 880
+                transfer_state = 398
+                transfer_state = 400
+                transfer_state = 573
+                transfer_state = 582
+                transfer_state = 399
+                transfer_state = 652
+                transfer_state = 651
+                transfer_state = 249
+                transfer_state = 833
+                transfer_state = 256
+                transfer_state = 250
+                transfer_state = 251
+                transfer_state = 401
             }
             TMK = {
                 every_owned_state = {
@@ -1553,7 +2725,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_Test_decision_TMA = {
+    Theresa_setup_decision_TMA = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -1561,10 +2733,50 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 405
+            has_full_control_of_state = 742
+            has_full_control_of_state = 732
+            has_full_control_of_state = 830
+            has_full_control_of_state = 584
+            has_full_control_of_state = 585
+            has_full_control_of_state = 586
+            has_full_control_of_state = 404
+            has_full_control_of_state = 832
+            has_full_control_of_state = 831
+            has_full_control_of_state = 823
+            has_full_control_of_state = 587
+            has_full_control_of_state = 402
+            has_full_control_of_state = 589
+            has_full_control_of_state = 881
+            has_full_control_of_state = 588
+            has_full_control_of_state = 882
+            has_full_control_of_state = 590
+            has_full_control_of_state = 583
+            has_full_control_of_state = 407
+            has_full_control_of_state = 406
         }
         visible = {
-            is_debug = yes
+            controls_state = 405
+            controls_state = 742
+            controls_state = 732
+            controls_state = 830
+            controls_state = 584
+            controls_state = 585
+            controls_state = 586
+            controls_state = 404
+            controls_state = 832
+            controls_state = 831
+            controls_state = 823
+            controls_state = 587
+            controls_state = 402
+            controls_state = 589
+            controls_state = 881
+            controls_state = 588
+            controls_state = 882
+            controls_state = 590
+            controls_state = 583
+            controls_state = 407
+            controls_state = 406
         }
     
         complete_effect = {
@@ -1604,7 +2816,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_Test_decision_TSB = {
+    Theresa_setup_decision_TSB = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -1612,10 +2824,54 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 653
+            has_full_control_of_state = 572
+            has_full_control_of_state = 579
+            has_full_control_of_state = 580
+            has_full_control_of_state = 824
+            has_full_control_of_state = 403
+            has_full_control_of_state = 577
+            has_full_control_of_state = 571
+            has_full_control_of_state = 516
+            has_full_control_of_state = 878
+            has_full_control_of_state = 876
+            has_full_control_of_state = 565
+            has_full_control_of_state = 564
+            has_full_control_of_state = 575
+            has_full_control_of_state = 576
+            has_full_control_of_state = 566
+            has_full_control_of_state = 567
+            has_full_control_of_state = 568
+            has_full_control_of_state = 569
+            has_full_control_of_state = 40
+            has_full_control_of_state = 578
+            has_full_control_of_state = 570
+            has_full_control_of_state = 654
         }
         visible = {
-            is_debug = yes
+            controls_state = 653
+            controls_state = 572
+            controls_state = 579
+            controls_state = 580
+            controls_state = 824
+            controls_state = 403
+            controls_state = 577
+            controls_state = 571
+            controls_state = 516
+            controls_state = 878
+            controls_state = 876
+            controls_state = 565
+            controls_state = 564
+            controls_state = 575
+            controls_state = 576
+            controls_state = 566
+            controls_state = 567
+            controls_state = 568
+            controls_state = 569
+            controls_state = 40
+            controls_state = 578
+            controls_state = 570
+            controls_state = 654
         }
     
         complete_effect = {
@@ -1657,7 +2913,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_Test_decision_TFA = {
+    Theresa_setup_decision_TFA = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -1665,10 +2921,38 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 408
+            has_full_control_of_state = 409
+            has_full_control_of_state = 560
+            has_full_control_of_state = 657
+            has_full_control_of_state = 561
+            has_full_control_of_state = 562
+            has_full_control_of_state = 874
+            has_full_control_of_state = 637
+            has_full_control_of_state = 822
+            has_full_control_of_state = 875
+            has_full_control_of_state = 650
+            has_full_control_of_state = 563
+            has_full_control_of_state = 574
+            has_full_control_of_state = 877
+            has_full_control_of_state = 644
         }
         visible = {
-            is_debug = yes
+            controls_state = 408
+            controls_state = 409
+            controls_state = 560
+            controls_state = 657
+            controls_state = 561
+            controls_state = 562
+            controls_state = 874
+            controls_state = 637
+            controls_state = 822
+            controls_state = 875
+            controls_state = 650
+            controls_state = 563
+            controls_state = 574
+            controls_state = 877
+            controls_state = 644
         }
     
         complete_effect = {
@@ -1702,7 +2986,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_Test_decision_TCH = {
+    Theresa_setup_decision_TCH = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -1710,10 +2994,154 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 608
+            has_full_control_of_state = 609
+            has_full_control_of_state = 610
+            has_full_control_of_state = 611
+            has_full_control_of_state = 612
+            has_full_control_of_state = 613
+            has_full_control_of_state = 715
+            has_full_control_of_state = 761
+            has_full_control_of_state = 714
+            has_full_control_of_state = 328
+            has_full_control_of_state = 716
+            has_full_control_of_state = 745
+            has_full_control_of_state = 717
+            has_full_control_of_state = 525
+            has_full_control_of_state = 527
+            has_full_control_of_state = 621
+            has_full_control_of_state = 615
+            has_full_control_of_state = 746
+            has_full_control_of_state = 622
+            has_full_control_of_state = 819
+            has_full_control_of_state = 817
+            has_full_control_of_state = 330
+            has_full_control_of_state = 820
+            has_full_control_of_state = 329
+            has_full_control_of_state = 818
+            has_full_control_of_state = 614
+            has_full_control_of_state = 597
+            has_full_control_of_state = 598
+            has_full_control_of_state = 606
+            has_full_control_of_state = 743
+            has_full_control_of_state = 607
+            has_full_control_of_state = 749
+            has_full_control_of_state = 596
+            has_full_control_of_state = 524
+            has_full_control_of_state = 595
+            has_full_control_of_state = 593
+            has_full_control_of_state = 594
+            has_full_control_of_state = 326
+            has_full_control_of_state = 729
+            has_full_control_of_state = 592
+            has_full_control_of_state = 728
+            has_full_control_of_state = 591
+            has_full_control_of_state = 434
+            has_full_control_of_state = 599
+            has_full_control_of_state = 325
+            has_full_control_of_state = 747
+            has_full_control_of_state = 601
+            has_full_control_of_state = 752
+            has_full_control_of_state = 322
+            has_full_control_of_state = 757
+            has_full_control_of_state = 758
+            has_full_control_of_state = 751
+            has_full_control_of_state = 603
+            has_full_control_of_state = 605
+            has_full_control_of_state = 748
+            has_full_control_of_state = 620
+            has_full_control_of_state = 744
+            has_full_control_of_state = 750
+            has_full_control_of_state = 600
+            has_full_control_of_state = 602
+            has_full_control_of_state = 756
+            has_full_control_of_state = 616
+            has_full_control_of_state = 283
+            has_full_control_of_state = 753
+            has_full_control_of_state = 754
+            has_full_control_of_state = 755
+            has_full_control_of_state = 604
+            has_full_control_of_state = 618
+            has_full_control_of_state = 760
+            has_full_control_of_state = 617
+            has_full_control_of_state = 759
+            has_full_control_of_state = 287
+            has_full_control_of_state = 619
         }
         visible = {
-            is_debug = yes
+            controls_state = 608
+            controls_state = 609
+            controls_state = 610
+            controls_state = 611
+            controls_state = 612
+            controls_state = 613
+            controls_state = 715
+            controls_state = 761
+            controls_state = 714
+            controls_state = 328
+            controls_state = 716
+            controls_state = 745
+            controls_state = 717
+            controls_state = 525
+            controls_state = 527
+            controls_state = 621
+            controls_state = 615
+            controls_state = 746
+            controls_state = 622
+            controls_state = 819
+            controls_state = 817
+            controls_state = 330
+            controls_state = 820
+            controls_state = 329
+            controls_state = 818
+            controls_state = 614
+            controls_state = 597
+            controls_state = 598
+            controls_state = 606
+            controls_state = 743
+            controls_state = 607
+            controls_state = 749
+            controls_state = 596
+            controls_state = 524
+            controls_state = 595
+            controls_state = 593
+            controls_state = 594
+            controls_state = 326
+            controls_state = 729
+            controls_state = 592
+            controls_state = 728
+            controls_state = 591
+            controls_state = 434
+            controls_state = 599
+            controls_state = 325
+            controls_state = 747
+            controls_state = 601
+            controls_state = 752
+            controls_state = 322
+            controls_state = 757
+            controls_state = 758
+            controls_state = 751
+            controls_state = 603
+            controls_state = 605
+            controls_state = 748
+            controls_state = 620
+            controls_state = 744
+            controls_state = 750
+            controls_state = 600
+            controls_state = 602
+            controls_state = 756
+            controls_state = 616
+            controls_state = 283
+            controls_state = 753
+            controls_state = 754
+            controls_state = 755
+            controls_state = 604
+            controls_state = 618
+            controls_state = 760
+            controls_state = 617
+            controls_state = 759
+            controls_state = 287
+            controls_state = 619
         }
     
         complete_effect = {
@@ -1805,7 +3233,7 @@ Theresa_test_decision_category = {
 
         }
     }
-    Theresa_Test_decision_TJP = {
+    Theresa_setup_decision_TJP = {
         cost = 0
         days_remove = 0
         days_re_enable = 0
@@ -1813,10 +3241,36 @@ Theresa_test_decision_category = {
             base = 0
         }
         available = {
-
+            has_full_control_of_state = 282
+            has_full_control_of_state = 526
+            has_full_control_of_state = 528
+            has_full_control_of_state = 529
+            has_full_control_of_state = 530
+            has_full_control_of_state = 531
+            has_full_control_of_state = 532
+            has_full_control_of_state = 533
+            has_full_control_of_state = 534
+            has_full_control_of_state = 535
+            has_full_control_of_state = 536
+            has_full_control_of_state = 537
+            has_full_control_of_state = 555
+            has_full_control_of_state = 655
         }
         visible = {
-            is_debug = yes
+            controls_state = 282
+            controls_state = 526
+            controls_state = 528
+            controls_state = 529
+            controls_state = 530
+            controls_state = 531
+            controls_state = 532
+            controls_state = 533
+            controls_state = 534
+            controls_state = 535
+            controls_state = 536
+            controls_state = 537
+            controls_state = 555
+            controls_state = 655
         }
     
         complete_effect = {
@@ -2008,100 +3462,90 @@ Theresa_decision_category = {
                 add_state_core = 102
                 add_state_core = 188
                 add_state_core = 807
+            every_state = {
+                limit = {
+                    OR = {
+                        is_core_of = GER
+                        is_core_of = AUS
+                    }
+                    
+                }
+                add_core_of = TEA
+            }
             country_event = { id = Theresa.2001 }
-        }
-    }
-    Theresa_decision_HTE = {
-        cost = 0
-        days_remove = 0
-        days_re_enable = 0
-        priority = 100
-        ai_will_do = {
-            base = 0
-        }
-        available = {
-
-        }
-        visible = {
-            is_debug = yes
-        }
-        fire_only_once = yes
-        complete_effect = {
-            custom_effect_tooltip = TEA_Theresania_tooltip
-            set_cosmetic_tag = TEA_HTE
         }
     }
 }
 Theresa_annex_country_decision_category = {
-    TEA_annex_targeted_decision = {
-		target_root_trigger = {
-			tag = TEA
-		}
-		targets_dynamic = yes
-		target_trigger = {
-			FROM = {
-				is_neighbor_of = TEA
-                is_puppet_of = TEA
+    # TEA_annex_targeted_decision = {
+	# 	target_root_trigger = {
+	# 		tag = TEA
+	# 	}
+	# 	targets_dynamic = yes
+	# 	target_trigger = {
+	# 		FROM = {
+	# 			is_neighbor_of = TEA
+    #             is_puppet_of = TEA
                 
-			}
-		}
-        available = {
-            FROM = {
-                Theresaism > 0.6
-            }
-        }
-		cost = 0
-		days_remove = 7
-        priority = 11
-		ai_will_do = {
-			base = 100
-		}
-		remove_effect = {
-            FROM = {
-                country_event = { id = Theresa.3 }
-            }
-		}
-	}
+	# 		}
+	# 	}
+    #     available = {
+    #         FROM = {
+    #             Theresaism > 0.6
+    #         }
+    #     }
+	# 	cost = 0
+	# 	days_remove = 7
+    #     priority = 11
+	# 	ai_will_do = {
+	# 		base = 100
+	# 	}
+	# 	remove_effect = {
+    #         FROM = {
+    #             country_event = { id = Theresa.3 }
+    #         }
+	# 	}
+	# }
     
 }
 Theresa_country_decision_category = {
-    TEA_change_targeted_decision = {
-		target_root_trigger = {
-			tag = TEA
-		}
-		targets_dynamic = yes
-		target_trigger = {
-			FROM = {
-				is_neighbor_of = TEA
-                is_puppet_of = TEA
-			}
-		}
-		cost = 0
-		days_remove = 7
-        priority = 12
-		ai_will_do = {
-			base = 100
-		}
-		remove_effect = {
-            FROM = {
-                add_popularity = {
-                    ideology = Theresaism
-                    popularity = 0.1
-                }
-                if = {
-                    limit = {
-                        Theresaism > 0.5
-                    }
-                    set_politics = {
-                        ruling_party = Theresaism   
-                        last_election = "1900.1.1"
-                        election_frequency = 72
-                        elections_allowed = no
-                    }
-                }
-            }
-		}
-	}
+    # TEA_change_targeted_decision = {
+	# 	target_root_trigger = {
+	# 		tag = TEA
+	# 	}
+	# 	targets_dynamic = yes
+	# 	target_trigger = {
+	# 		FROM = {
+	# 			is_neighbor_of = TEA
+    #             is_puppet_of = TEA
+	# 		}
+	# 	}
+	# 	cost = 0
+	# 	days_remove = 7
+    #     priority = 12
+	# 	ai_will_do = {
+	# 		base = 100
+	# 	}
+	# 	remove_effect = {
+    #         FROM = {
+    #             add_popularity = {
+    #                 ideology = Theresaism
+    #                 popularity = 0.1
+    #             }
+    #             if = {
+    #                 limit = {
+    #                     Theresaism > 0.5
+    #                 }
+    #                 set_politics = {
+    #                     ruling_party = Theresaism   
+    #                     last_election = "1900.1.1"
+    #                     election_frequency = 72
+    #                     elections_allowed = no
+    #                 }
+    #             }
+    #         }
+	# 	}
+	# }
 }
 Theresa_war_decision_category = {
     
