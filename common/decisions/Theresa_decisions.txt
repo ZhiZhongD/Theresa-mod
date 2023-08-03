@@ -178,6 +178,99 @@ Theresa_test_decision_category = {
 
         }
     }
+    Theresa_test_decision_6 = {
+        cost = 0
+        days_remove = 3
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            set_popularities = {
+                Theresaism = 100
+            }
+            set_politics = {
+                ruling_party = Theresaism
+            }
+            TEA = {
+                every_character = {
+                    set_nationality = ROOT
+                }
+            }
+            set_cosmetic_tag = TEA
+        }
+        remove_effect = {
+            Theresa_Twilight_Paladin = {
+                add_country_leader_role = {
+                    country_leader = {
+                        ideology = Theresaism_subtype
+                        traits = { Theresa_is_the_lovest }
+                        expire = "2023.2.3.1"
+                        id = -1
+                    }
+                }
+                promote_leader = yes
+                promote_character = yes
+            }
+            add_ideas = {
+                Theresa_Starlit_Astrologos
+                Theresa_Luna_Kindred
+                Theresa_Orchid_Night
+                Theresa_Magical_Teriri
+            }
+        }
+    }
+    Theresa_test_decision_7 = {
+        cost = 0
+        days_remove = 3
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            every_country = {
+                    limit = {
+                        OR = {
+                            is_puppet_of = ROOT
+                            is_in_faction_with = ROOT
+                        }
+                        is_ai = yes
+                    }
+                    ROOT = {
+                        set_autonomy = {
+                            target = PREV
+                            autonomous_state = Theresa_autonomy_state
+                        }
+                    }
+                    
+                    set_popularities = {
+                        Theresaism = 100
+                    }
+                    set_politics = {
+                        ruling_party = Theresaism
+                    }
+            }
+        }
+        remove_effect = {
+            
+        }
+    }
 
 }
 Theresa_puppet_decision_category = {

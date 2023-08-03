@@ -44,7 +44,7 @@ autonomy_state = {
 
 	allowed = {
 		has_dlc = "Together for Victory"
-		OVERLORD = { original_tag = TEA }
+		OVERLORD = { has_government = Theresaism }
 	}
 
 	use_for_peace_conference_weight = {
