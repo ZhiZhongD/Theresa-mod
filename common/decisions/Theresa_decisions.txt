@@ -15,7 +15,10 @@ Theresa_test_decision_category = {
     
         complete_effect = {
             set_technology = {
-                Theresa_army_tech = 1
+                Theresa_army_tech_0 = 1
+                Theresa_army_tech_1 = 1
+                Theresa_army_tech_2 = 1
+                Theresa_army_tech_3 = 1
             }
         }
         remove_effect = {
@@ -270,6 +273,30 @@ Theresa_test_decision_category = {
         remove_effect = {
             
         }
+    }
+    Theresa_test_decision_8 = {
+        cost = 0
+        days_remove = -1
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        modifier = {
+            research_speed_factor = 0.5
+            industrial_capacity_factory = 0.5
+            production_speed_buildings_factor = 0.5
+            production_speed_dockyard_factor = 0.5
+            industrial_capacity_dockyard = 100
+        }
+        
+
     }
 
 }
@@ -3644,20 +3671,33 @@ Theresa_war_decision_category = {
     
     TEA_war_targeted_decision = {
 		target_root_trigger = {
-			tag = TEA
-            has_country_flag = Theresa_can_war
+            OR = {
+                AND = {
+                    tag = TEA
+                    has_country_flag = Theresa_can_war
+                }
+                has_government = Theresaism
+            }
+			
 		}
 		targets_dynamic = yes
 		target_trigger = {
 			FROM = {
                 OR = {
                     AND = {
-                        is_neighbor_of = TEA
+                        is_neighbor_of = ROOT
                         NOT = {
-                            is_puppet_of = TEA
+                            is_puppet_of = ROOT
                         }
                     }
                     AND = {
+                        NOT = {
+                            OR = {
+                                is_puppet_of = ROOT
+                                is_in_faction_with = ROOT
+                            }
+
+                        }
                         THL = { exists = yes }
                         TBG = { exists = yes }
                         TAS = { exists = yes }
@@ -3743,7 +3783,7 @@ Theresa_industory_decision_category = {
     }
     TEA_industory_targeted_decision = {
 		target_root_trigger = {
-			tag = TEA
+			has_government = Theresaism
 		}
         state_target = yes
 		target_trigger = {
@@ -3754,7 +3794,7 @@ Theresa_industory_decision_category = {
                     has_state_category = large_city
                     has_state_category = city
                 }
-                is_controlled_by = TEA
+                is_controlled_by = ROOT
 			}
 		}
 		cost = 0
@@ -3773,8 +3813,95 @@ Theresa_industory_decision_category = {
                     level = 1
                     instant_build = yes
                 }
-                transfer_state_to = TEA
+                transfer_state_to = ROOT
             }
 		}
 	}
+
+}   
+Theresa_tech_decision_category = {
+    Theresa_get_tech_0 = {
+        cost = 100
+        days_remove = 0
+        days_re_enable = 0
+        priority = 100
+        visible = {
+            has_government = Theresaism
+        }
+        available = {
+
+        }
+        fire_only_once = yes
+        complete_effect = {
+       
+        }
+        remove_effect = {
+            set_technology = {
+                Theresa_army_tech_0 = 1
+            }
+        }
+    }
+    Theresa_get_tech_1 = {
+        cost = 100
+        days_remove = 90
+        days_re_enable = 0
+        priority = 99
+        visible = {
+            has_government = Theresaism
+        }
+        available = {
+            has_tech = Theresa_army_tech_0
+        }
+        fire_only_once = yes
+        complete_effect = {
+       
+        }
+        remove_effect = {
+            set_technology = {
+                Theresa_army_tech_1 = 1
+            }
+        }
+    }
+    Theresa_get_tech_2 = {
+        cost = 100
+        days_remove = 90
+        days_re_enable = 0
+        priority = 99
+        visible = {
+            has_government = Theresaism
+        }
+        available = {
+            has_tech = Theresa_army_tech_1
+        }
+        fire_only_once = yes
+        complete_effect = {
+       
+        }
+        remove_effect = {
+            set_technology = {
+                Theresa_army_tech_2 = 1
+            }
+        }
+    }
+    Theresa_get_tech_3 = {
+        cost = 100
+        days_remove = 90
+        days_re_enable = 0
+        priority = 99
+        visible = {
+            has_government = Theresaism
+        }
+        available = {
+            has_tech = Theresa_army_tech_2
+        }
+        fire_only_once = yes
+        complete_effect = {
+       
+        }
+        remove_effect = {
+            set_technology = {
+                Theresa_army_tech_3 = 1
+            }
+        }
+    }
 }

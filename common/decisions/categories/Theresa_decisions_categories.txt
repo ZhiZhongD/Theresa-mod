@@ -8,7 +8,7 @@ Theresa_test_decision_category = {
 Theresa_decision_category = {
 	visible = {
 		OR = {
-			tag = TEA
+			has_government = Theresaism
 			TEA = {
 				exists = no
 			}
@@ -37,7 +37,7 @@ Theresa_annex_country_decision_category = {
 }
 Theresa_war_decision_category = {
 	visible = {
-		tag = TEA
+		has_government = Theresaism
 	}
 	priority = 98
 }
@@ -48,7 +48,13 @@ Theresa_bop_decision_test_category = {
 }
 Theresa_industory_decision_category = {
 	visible = {
-		tag = TEA
+		has_government = Theresaism
 	}
 	priority = 97
+}
+Theresa_tech_decision_category = {
+	visible = {
+		has_government = Theresaism
+	}
+	priority = 99
 }

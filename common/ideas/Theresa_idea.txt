@@ -63,8 +63,8 @@ ideas = {
                 always = yes
             }
 
-			allowed = {
-				original_tag = TEA
+			visible = {
+				has_government = Theresaism
 			}
 			
 			cost = 150
@@ -106,8 +106,8 @@ ideas = {
 			
 		    picture = generic_naval_manufacturer_1
 
-			allowed = {
-				original_tag = TEA
+			visible = {
+				has_government = Theresaism
 			}
 
 			cost = 150
@@ -190,8 +190,8 @@ ideas = {
             name = Theresa_aircraft_manufacturer
 			picture = generic_air_manufacturer_3
 
-			allowed = {
-				original_tag = TEA
+			visible = {
+				has_government = Theresaism
 			}
 
 			ai_will_do = {
@@ -297,8 +297,8 @@ ideas = {
 
 			cost = 150
 
-			allowed = {
-				original_tag = TEA
+			visible = {
+				has_government = Theresaism
 			}
 
 			ai_will_do = {
@@ -358,9 +358,9 @@ ideas = {
 				always = yes
 			}
 
-			allowed = {
-                original_tag = TEA
-			}
+			visible = {
+				has_government = Theresaism
+			} 
 
 			cost = 150 
 			

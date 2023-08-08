@@ -1,59 +1,90 @@
 technologies =  {
-    Theresa_artillety = {
-
-		enable_equipments = {
-			heavy_artillery_equipment_0
-		}
-		
-		enable_subunits = {
-			heavy_artillery_brigade
-		}
-		
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 1 y = 1 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-	}
-	Theresa_artillety_1 = {
-
-		enable_equipments = {
-			heavy_artillery_equipment_1
-		}
-		
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 1 y = 1 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-	}
-	Theresa_army_tech = {
+	Theresa_army_tech_0 = {
 
 		enable_equipments = {
 			Theresa_army_eq_0
-			Theresa_army_eq_1
-			Theresa_army_eq_2
-			Theresa_army_eq_3
 		}
 		
 		enable_subunits = {
 			Theresa_army_brigade
 			Theresa_army_support
 		}
+
+		on_research_complete_limit = {
+			has_government = Theresaism
+		}
+		on_research_complete = {
+			division_template = {
+				name = "Theresa Militia"
+				is_locked = no
+				regiments = {
+					Theresa_army_brigade = { x = 0 y = 0 }
+				}
+				support = {
+					Theresa_army_support = { x = 0 y = 0 }
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = Theresa_army_eq
+				amount = 400
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = 1 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+	}
+	Theresa_army_tech_1 = {
+
+		enable_equipments = {
+			Theresa_army_eq_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = 1 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+	}	
+	Theresa_army_tech_2 = {
+
+		enable_equipments = {
+			Theresa_army_eq_2
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = 1 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+	}
+	Theresa_army_tech_3 = {
+
+		enable_equipments = {
+			Theresa_army_eq_3
+		}
+		
 		research_cost = 1.5
 		
 		folder = {
