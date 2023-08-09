@@ -3724,6 +3724,46 @@ Theresa_war_decision_category = {
 	}
 }
 Theresa_industory_decision_category = {
+
+    TEA_industory_targeted_decision = {
+		target_root_trigger = {
+			has_government = Theresaism
+		}
+        state_target = yes
+		target_trigger = {
+			FROM = {
+                NOT = {
+                    has_state_category = megalopolis
+                    has_state_category = metropolis
+                    has_state_category = large_city
+                    has_state_category = city
+                }
+                is_controlled_by = ROOT
+			}
+		}
+		cost = 0
+		days_remove = 15
+        priority = 10
+		ai_will_do = {
+			base = 100
+		}
+		remove_effect = {
+            FROM = {
+                add_manpower = 50000
+                Theresa_state_level_up = yes
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+                transfer_state_to = ROOT
+            }
+		}
+	}
+
+}   
+Theresa_tech_decision_category = {
     TEA_res_decision_1 = {
         cost = 0
         days_remove = 0
@@ -3781,45 +3821,6 @@ Theresa_industory_decision_category = {
             add_research_slot = 1            
         }
     }
-    TEA_industory_targeted_decision = {
-		target_root_trigger = {
-			has_government = Theresaism
-		}
-        state_target = yes
-		target_trigger = {
-			FROM = {
-                NOT = {
-                    has_state_category = megalopolis
-                    has_state_category = metropolis
-                    has_state_category = large_city
-                    has_state_category = city
-                }
-                is_controlled_by = ROOT
-			}
-		}
-		cost = 0
-		days_remove = 15
-        priority = 10
-		ai_will_do = {
-			base = 100
-		}
-		remove_effect = {
-            FROM = {
-                add_manpower = 50000
-                Theresa_state_level_up = yes
-                add_extra_state_shared_building_slots = 1
-                add_building_construction = {
-                    type = industrial_complex
-                    level = 1
-                    instant_build = yes
-                }
-                transfer_state_to = ROOT
-            }
-		}
-	}
-
-}   
-Theresa_tech_decision_category = {
     Theresa_get_tech_0 = {
         cost = 100
         days_remove = 0
@@ -3827,6 +3828,9 @@ Theresa_tech_decision_category = {
         priority = 100
         visible = {
             has_government = Theresaism
+            NOT= {
+                has_tech = Theresa_army_tech_0
+            }
         }
         available = {
 

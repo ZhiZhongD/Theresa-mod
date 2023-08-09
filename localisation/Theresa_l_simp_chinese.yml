@@ -31,6 +31,11 @@
  TEA_res_decision_3:0 "提升科研水平"
  TEA_industory_targeted_decision:0 "在§t[from.getname]§!进行工业化"
 
+ Theresa_tech_decision_category:0 "科技研究"
+ Theresa_get_tech_0:0 "研究誓约装甲"
+ Theresa_get_tech_1:0 "研究血骑士装甲"
+ Theresa_get_tech_2:0 "研究神恩颂歌装甲"
+ Theresa_get_tech_3:0 "研究暮光骑士装甲"
 
  Theresa_setup_decision_THL:0 "成立§4低地联合管理区§!"
  Theresa_setup_decision_TBG:0 "成立§4勃艮第管理区§!"
