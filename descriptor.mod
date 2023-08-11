@@ -1,15 +1,12 @@
-version="0.1"
+version="0.2"
 tags={
 	"Technologies"
 	"Ideologies"
 	"Events"
 	"National Focuses"
 	"Translation"
-} 
-dependencies={
-	"你的目标mod名称"
 }
 picture="thumbnail.png"
-name="Theresa_mod"
+name="德丽莎入侵"
 supported_version="1.12.*"
 remote_file_id="2956953855"

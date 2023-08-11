@@ -241,4 +241,16 @@ spriteTypes = {
 		name = "GFX_idea_Theresa_air_force_command_spirit"
 		texturefile = "gfx/interface/officer_corp/spirits/spirit_idea_heritage_of_accomplishment.dds"
 	}
+
+	spriteType = {
+		name = "GFX_medal_icon_TEA"
+		texturefile = "gfx/interface/medals/TEA_medal_strip.png"
+		noOfFrames = 4
+    }
+
+	spriteType = {
+		name = "GFX_medal_icon_TEA_large"
+		texturefile = "gfx/interface/medals/TEA_medal_strip_large.png"
+		noOfFrames = 4
+    }
 }

@@ -36,7 +36,6 @@ leader_traits = {
         army_core_attack_factor = 0.2
 	    army_core_defence_factor = 0.2
 
-		command_cap = 10
         ai_focus_aggressive_factor = 0.5
     }
     Theresa_Wonderland_Trek_trait = {
@@ -48,7 +47,7 @@ leader_traits = {
         army_attack_factor = 0.2
 	    army_defence_factor = 0.2
         experience_gain_army = 1
-        experience_gain_army_unit = 1
+        experience_gain_army_unit = 100
 
         ai_focus_aggressive_factor = 0.5
     }

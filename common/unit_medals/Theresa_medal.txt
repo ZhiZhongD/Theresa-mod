@@ -1,0 +1,121 @@
+# Valid unit modifiers are not exhaustive
+# Currently supported:
+# army_morale
+# army_morale_factor
+# army_org
+# army_org_factor
+# supply_consumption_factor
+# equipment_capture
+# equipment_capture_factor
+# army_fuel_capacity_factor
+# army_fuel_consumption_factor
+# recon_factor
+# recon_factor_while_entrenched
+# transport_capacity (?)
+# breakthrough_factor
+# armor_factor
+# army_strength_factor
+# experience_loss_factor
+# leader_modifier applies unit modifiers to all units under them as a general, similarly to traits.
+# army_attack_factor
+# army_defence_factor
+# max_dig_in
+# max_dig_in_factor
+
+unit_medals = {
+	
+	Theresa_medals_A = {
+		
+		available = { has_government = Theresaism }
+		frame = 1
+		icon = "GFX_medal_icon_TEA"
+		
+		cost = 0
+		
+		unit_modifiers = {
+            army_morale_factor = 0.5
+			army_org_factor = 0.5
+		}
+		
+		#leader_modifier = {
+		# transport_capacity = whatever
+		#}
+		
+		one_time_effect = {
+			add_divisional_commander_xp = 100
+		}
+		
+	}
+
+	Theresa_medals_S = {
+		
+		available = { has_government = Theresaism }
+		frame = 2
+		icon = "GFX_medal_icon_TEA"
+		
+		cost = 0
+		
+		unit_modifiers = {
+			army_org_factor = 0.5
+		}
+		
+		#leader_modifier = {
+		# transport_capacity = whatever
+		#}
+		
+		one_time_effect = {
+			add_divisional_commander_xp = 100
+		}
+		
+	}
+
+	Theresa_medals_SS = {
+		
+		available = { has_government = Theresaism }
+		frame = 3
+		icon = "GFX_medal_icon_TEA"
+		
+		cost = 0
+		
+		unit_modifiers = {
+            army_attack_factor = 0.5
+            army_defence_factor = 0.5
+		}
+		
+		#leader_modifier = {
+		# transport_capacity = whatever
+		#}
+		
+		one_time_effect = {
+			add_divisional_commander_xp = 100
+		}
+		
+	}
+
+	Theresa_medals_SSS = {
+		
+		available = { has_government = Theresaism }
+		frame = 4
+		icon = "GFX_medal_icon_TEA"
+		
+		cost = 100
+		
+		unit_modifiers = {
+			army_morale = 5
+			army_morale_factor = 0.5
+			army_org = 50
+			army_org_factor = 0.5
+			army_attack_factor = 0.5
+			army_defence_factor = 0.5
+		}
+		
+		#leader_modifier = {
+		# transport_capacity = whatever
+		#}
+		
+		one_time_effect = {
+			add_divisional_commander_xp = 100
+		}
+		
+	}
+}  

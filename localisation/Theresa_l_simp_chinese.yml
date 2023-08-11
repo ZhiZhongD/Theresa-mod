@@ -12,6 +12,7 @@
  TEA_annex_targeted_decision:0 "§4和§!§Y[from.getname]§!领导人§Y[from.getleader]§!§4商讨合并事宜§!"
  TEA_change_targeted_decision:0 "§4增加§!§Y[from.getname]§!§4德丽莎主义影响力§!"
  TEA_war_targeted_decision:0 "§4向§!§Y[from.getname]§!§4宣战§!"
+ TEA_war_targeted_decision_island:0 "§4向§!§Y[from.getname]§!§4宣战§!"
 
  Theresa_decision_Theresania:0 "§4成立大德丽莎国§!"
  Theresa_STATE:0 "§4德丽莎妮娅§!"

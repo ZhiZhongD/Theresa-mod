@@ -287,15 +287,34 @@ Theresa_test_decision_category = {
         visible = {
             is_debug = yes
         }
-    
-        modifier = {
-            research_speed_factor = 0.5
-            industrial_capacity_factory = 0.5
-            production_speed_buildings_factor = 0.5
-            production_speed_dockyard_factor = 0.5
-            industrial_capacity_dockyard = 100
+        complete_effect = {
+            set_capital = {
+                state = 382
+            }
         }
-        
+        remove_effect = {
+            add_research_slot = -1
+        }
+
+    }
+    Theresa_test_decision_9 = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+        complete_effect = {
+        }
+        remove_effect = {
+            add_research_slot = -1
+        }
 
     }
 
@@ -3678,6 +3697,10 @@ Theresa_war_decision_category = {
                 }
                 has_government = Theresaism
             }
+            NOT = {
+                has_country_flag = Theresa_war_island
+            }
+            is_subject = no
 			
 		}
 		targets_dynamic = yes
@@ -3704,6 +3727,20 @@ Theresa_war_decision_category = {
                         TTA = { exists = yes }
                         TPL = { exists = yes }
                     }
+                    AND = {
+                        ROOT = {
+                            capital_scope = {
+                                is_island_state = yes
+                            }
+                        }
+                        NOT = {
+                            OR = {
+                                is_puppet_of = ROOT
+                                is_in_faction_with = ROOT
+                            }
+
+                        }
+                    }
                 }
 			}
 		}
@@ -3712,7 +3749,7 @@ Theresa_war_decision_category = {
         fire_only_once = yes
         priority = 10
 		ai_will_do = {
-			base = 100
+			base = 0
 		}
 		war_with_target_on_complete = yes
 		remove_effect = {
@@ -3720,6 +3757,87 @@ Theresa_war_decision_category = {
                 target = FROM
                 type = annex_everything
             }
+		}
+	}
+    TEA_war_targeted_decision_island = {
+		target_root_trigger = {
+            OR = {
+                AND = {
+                    tag = TEA
+                    has_country_flag = Theresa_can_war
+                }
+                AND = {
+                    is_subject = no
+                    has_government = Theresaism
+                }
+            }
+            capital_scope = {
+                OR = {
+                    is_island_state = yes
+                    is_coastal = yes
+                }
+
+            }
+            NOT = {
+                any_country = {
+                    is_neighbor_of = ROOT
+                    NOT = {
+                        is_in_faction_with = ROOT
+                        is_subject_of = ROOT
+                    }
+                }
+            }
+
+		}
+        on_map_mode = map_and_decisions_view
+		targets_dynamic = yes
+		target_trigger = {
+			FROM = {
+                NOT = {
+                    AND = {
+                        is_puppet_of = ROOT
+                        is_in_faction_with = ROOT
+                    }
+                }
+                is_subject = no
+                OR = {
+                    is_faction_leader = yes   
+                    is_in_faction = no                 
+                }
+
+            }
+        }
+		cost = 0
+		days_remove = 7
+        fire_only_once = yes
+        priority = 10
+		ai_will_do = {
+			base = 0
+		}
+		war_with_target_on_complete = yes
+		remove_effect = {
+            declare_war_on = {
+                target = FROM
+                type = annex_everything
+            }
+            if = {
+                limit = {
+                    NOT = {
+                        any_country = {
+                            is_neighbor_of = ROOT
+                            NOT = {
+                                is_in_faction_with = ROOT
+                                is_subject_of = ROOT
+                            }
+                        }
+                    }
+                }
+                set_country_flag = Theresa_war_island
+            }
+            else = {
+                clr_country_flag = Theresa_war_island
+            }
+           
 		}
 	}
 }
