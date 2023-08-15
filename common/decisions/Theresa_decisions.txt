@@ -40,10 +40,7 @@ Theresa_test_decision_category = {
         }
     
         complete_effect = {
-            set_technology = {
-                Theresa_artillety = 1
-                Theresa_artillety_1 = 1
-            }
+
         }
         remove_effect = {
             
