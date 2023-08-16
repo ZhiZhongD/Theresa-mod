@@ -15,9 +15,7 @@ country_event = {
 				air_experience = 100
 				army_experience = 100
 				navy_experience = 100
-				set_technology = {
-					Theresa_army_tech_0 = 1
-				}
+				
 				add_equipment_to_stockpile = {
 					type = Theresa_army_eq_0
 					amount = 400
@@ -41,7 +39,9 @@ country_event = {
 						Theresa_army_support = { x = 0 y = 0 }
 					}
 				}
-				
+				set_technology = {
+					Theresa_army_tech_0 = 1
+				}
 			}
 		}
 	}
@@ -71,7 +71,7 @@ country_event = {
 	option = { 
 		name = Theresa.1.b
 		custom_effect_tooltip = Theresa_AF
-		768 = {
+		767 = {
 			transfer_state_to = TEA
 			add_core_of = TEA
 		}
@@ -82,7 +82,7 @@ country_event = {
 				ENG = {
 					country_event = { id = Theresa.101 days = 10 }
 				}
-				768 = {
+				767 = {
 					create_unit = { 
 						division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
 						owner = TEA 

@@ -43,60 +43,7 @@ characters = {
             id = -1
         }
     }
-    TEA_Theresa_communist_revolutionary = {
-        name = TEA_Theresa_communist_revolutionary
-        portraits = {
-            civilian = {
-               large = GFX_portrait_Theresa_large
-               small = GFX_portrait_Theresa_small
-            }
-            army = {
-                large = GFX_portrait_Theresa_large
-                small = GFX_portrait_Theresa_small
-            }
-        }
-        advisor = {
-            slot = political_advisor
-            idea_token = communist_revolutionary
-            traits = { communist_revolutionary }
-        }
-    }
-    TEA_Theresa_democratic_reformer = {
-        name = TEA_Theresa_democratic_reformer
-        portraits = {
-            civilian = {
-               large = GFX_portrait_Theresa_large
-               small = GFX_portrait_Theresa_small
-            }
-            army = {
-                large = GFX_portrait_Theresa_large
-                small = GFX_portrait_Theresa_small
-            }
-        }
-        advisor = {
-            slot = political_advisor
-            idea_token = democratic_reformer
-            traits = { democratic_reformer }
-        }
-    }
-    TEA_Theresa_fascist_demagogue = {
-        name = TEA_Theresa_fascist_demagogue
-        portraits = {
-            civilian = {
-               large = GFX_portrait_Theresa_large
-               small = GFX_portrait_Theresa_small
-            }
-            army = {
-                large = GFX_portrait_Theresa_large
-                small = GFX_portrait_Theresa_small
-            }
-        }
-        advisor = {
-            slot = political_advisor
-            idea_token = fascist_demagogue
-            traits = { fascist_demagogue }
-        }
-    }
+   
     Theresa_Twilight_Paladin = {
         name = Theresa_Twilight_Paladin
         portraits = {
@@ -699,5 +646,59 @@ characters = {
 	        logistics_skill = 5
 			legacy_id=-1
 		}
+    }
+    TEA_Theresa_communist_revolutionary = {
+        name = TEA_Theresa_communist_revolutionary
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large
+               small = GFX_portrait_Theresa_small
+            }
+            army = {
+                large = GFX_portrait_Theresa_large
+                small = GFX_portrait_Theresa_small
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = communist_revolutionary
+            traits = { communist_revolutionary }
+        }
+    }
+    TEA_Theresa_democratic_reformer = {
+        name = TEA_Theresa_democratic_reformer
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large
+               small = GFX_portrait_Theresa_small
+            }
+            army = {
+                large = GFX_portrait_Theresa_large
+                small = GFX_portrait_Theresa_small
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = democratic_reformer
+            traits = { democratic_reformer }
+        }
+    }
+    TEA_Theresa_fascist_demagogue = {
+        name = TEA_Theresa_fascist_demagogue
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large
+               small = GFX_portrait_Theresa_small
+            }
+            army = {
+                large = GFX_portrait_Theresa_large
+                small = GFX_portrait_Theresa_small
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = fascist_demagogue
+            traits = { fascist_demagogue }
+        }
     }
 }

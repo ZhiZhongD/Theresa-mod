@@ -284,13 +284,14 @@ Theresa_test_decision_category = {
         visible = {
             is_debug = yes
         }
+        modifier = {
+            industrial_capacity_dockyard = 100
+        }
         complete_effect = {
-            set_capital = {
-                state = 382
-            }
+
         }
         remove_effect = {
-            add_research_slot = -1
+
         }
 
     }
@@ -3692,7 +3693,13 @@ Theresa_war_decision_category = {
                     tag = TEA
                     has_country_flag = Theresa_can_war
                 }
-                has_government = Theresaism
+                AND = {
+                    has_government = Theresaism
+                    NOT = {
+                        tag = TEA
+                    }
+                }
+                
             }
             NOT = {
                 has_country_flag = Theresa_war_island
@@ -3962,7 +3969,7 @@ Theresa_tech_decision_category = {
     }
     Theresa_get_tech_1 = {
         cost = 100
-        days_remove = 90
+        days_remove = 360
         days_re_enable = 0
         priority = 99
         visible = {
@@ -3983,7 +3990,7 @@ Theresa_tech_decision_category = {
     }
     Theresa_get_tech_2 = {
         cost = 100
-        days_remove = 90
+        days_remove = 360
         days_re_enable = 0
         priority = 99
         visible = {
@@ -4004,7 +4011,7 @@ Theresa_tech_decision_category = {
     }
     Theresa_get_tech_3 = {
         cost = 100
-        days_remove = 90
+        days_remove = 360
         days_re_enable = 0
         priority = 99
         visible = {

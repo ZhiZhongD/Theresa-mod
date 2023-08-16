@@ -132,7 +132,7 @@ ideas = {
 			equipment_bonus = {
 				carrier = {
 					naval_range = 1
-					carrier_size = 100
+					carrier_size = 1
 					build_cost_ic = -0.9
 					instant = yes
 				}
