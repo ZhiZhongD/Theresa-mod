@@ -29,9 +29,11 @@ recruit_character = Theresa_Before_the_Dawn
 recruit_character = Theresa_Empyrean_Psalms
 recruit_character = Theresa_Grand_Sage
 recruit_character = Theresa_Verdant_Sky
+recruit_character = Theresa_Startold_Fortune
 recruit_character = TEA_Theresa_communist_revolutionary
 recruit_character = TEA_Theresa_democratic_reformer
 recruit_character = TEA_Theresa_fascist_demagogue
+
 
 TEA_Theresa = {
 	promote_leader = yes

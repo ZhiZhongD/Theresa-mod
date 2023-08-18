@@ -54,7 +54,7 @@ Theresa_industory_decision_category = {
 }
 Theresa_tech_decision_category = {
 	visible = {
-		has_government = Theresaism
+		is_ai = no
 	}
 	priority = 99
 }

@@ -647,6 +647,33 @@ characters = {
 			legacy_id=-1
 		}
     }
+    Theresa_Startold_Fortune = {
+        name = Theresa_Startold_Fortune
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_21
+               small = GFX_portrait_Theresa_small_21
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_21
+                small = GFX_portrait_Theresa_small_21
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = Theresa_Startold_Fortune
+            traits = {Theresa_Startold_Fortune_trait }
+        }
+        corps_commander={
+		    traits = { cavalry_leader trait_engineer trait_reckless inspirational_leader }
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
+			legacy_id=-1
+		}
+    }
     TEA_Theresa_communist_revolutionary = {
         name = TEA_Theresa_communist_revolutionary
         portraits = {

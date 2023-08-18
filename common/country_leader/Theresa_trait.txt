@@ -107,5 +107,13 @@ leader_traits = {
     Theresa_Verdant_Sky_trait = {
         conscription = 0.05
         non_core_manpower = 1
+        resistance_target = -0.5
+        resistance_decay = 0.5
+        compliance_growth = 0.5
+        compliance_starting_value = 0.5
+    }
+    Theresa_Startold_Fortune_trait = {
+        production_factory_efficiency_gain_factor = 1
+        production_factory_max_efficiency_factor = 0.5
     }
 }

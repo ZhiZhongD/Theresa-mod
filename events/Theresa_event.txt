@@ -71,7 +71,7 @@ country_event = {
 	option = { 
 		name = Theresa.1.b
 		custom_effect_tooltip = Theresa_AF
-		767 = {
+		768 = {
 			transfer_state_to = TEA
 			add_core_of = TEA
 		}
@@ -82,7 +82,7 @@ country_event = {
 				ENG = {
 					country_event = { id = Theresa.101 days = 10 }
 				}
-				767 = {
+				768 = {
 					create_unit = { 
 						division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
 						owner = TEA 

@@ -1,8 +1,8 @@
 sub_units = {
 
 	Theresa_army_brigade = {
-		abbreviation = "INFT"
-		sprite = infantry
+		abbreviation = "TA"
+		sprite = Theresa
 		map_icon_category = infantry
 		priority = 120
 		ai_priority = 25

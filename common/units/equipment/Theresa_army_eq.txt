@@ -2,7 +2,6 @@ equipments = {
 
 	Theresa_army_eq = {
 		year = 1933
-
 		is_archetype = yes
 		picture = archetype_artillery_equipment	
 		is_buildable = no

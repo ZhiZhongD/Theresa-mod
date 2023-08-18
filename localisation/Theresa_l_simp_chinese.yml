@@ -6,6 +6,7 @@
  Theresa_annex_country_decision_category:0 "合并附属国决议"
  Theresa_war_decision_category:0 "战争决议"
  Theresa_decision_0:0 "召唤德丽莎"
+ Theresa_decision_Root:0 "或者只召唤德丽莎将领"
  Theresa_decision_1:0 "简单模式"
 
 
@@ -72,6 +73,8 @@
  Theresa_setup_decision_TFA:0 "成立§4远东管理区§!"
  Theresa_setup_decision_TCH:0 "成立§4煌帝国管理区§!"
  Theresa_setup_decision_TJP:0 "成立§4极东管理区§!"
+
+
 #民族精神
  TEA_idea_0:0 "德丽莎世界第一可爱！！！"
 
@@ -147,6 +150,7 @@
  Theresa_Empyrean_Psalms:0 "星穹圣诗"
  Theresa_Grand_Sage:0 "天语贤者"
  Theresa_Verdant_Sky:0 "绿野青空"
+ Theresa_Startold_Fortune:0 "秤运司星"
 
  TEA_Theresa_communist_revolutionary:0 "德丽莎"
  TEA_Theresa_democratic_reformer:0 "德丽莎"
@@ -179,8 +183,8 @@
  Theresa_Before_the_Dawn_trait:0 "夜行吸血鬼"
  Theresa_Empyrean_Psalms_trait:0 "天穹偶像"
  Theresa_Grand_Sage_trait:0 "大贤者"
- Theresa_Verdant_Sky_trait:0 "小孩子"
-
+ Theresa_Verdant_Sky_trait:0 "“小孩子”"
+ Theresa_Startold_Fortune_trait:0 "秤运司星"
 #意识形态
  Theresaism:0 "德丽莎主义"
  Theresaism_noun:0 "德丽莎主义支持率"
@@ -335,6 +339,11 @@
  TJP_ADJ:0 "极东管理区"
  TJP_DEF:0 "极东管理区"
 
+#科技
+ Theresa_army_tech_0:0 "誓约单兵作战装甲"
+ Theresa_army_tech_1:0 "血骑士单兵作战装甲"
+ Theresa_army_tech_2:0 "神恩颂歌单兵作战装甲"
+ Theresa_army_tech_3:0 "暮光骑士单兵作战装甲"
 #编制
  Theresa_army_brigade:0 "德丽莎复制人"
  Theresa_army_support:0 "德丽莎复制人支援连"
