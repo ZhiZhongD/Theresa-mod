@@ -4,8 +4,8 @@ leader_traits = {
         war_support_factor = 0.2
     }
     Theresa_Twilight_Paladin_Leader ={
-        political_power_gain = 1
-        political_power_factor = 1
+        political_power_gain = 2
+        political_power_factor = 2
     }
     Theresa_Starlit_Astrologos_Leader = {
         land_doctrine_cost_factor = -0.5
@@ -13,8 +13,8 @@ leader_traits = {
         naval_doctrine_cost_factor = -0.5
     }
     Theresa_Celestial_Hymn_Leader = {
-        stability_factor = 0.2
-        war_support_factor = 0.2
+        stability_factor = 0.5
+        war_support_factor = 0.5
     }
     Theresa_Luna_Kindred_trait = {
         monthly_population = -0.05

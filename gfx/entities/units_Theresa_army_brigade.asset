@@ -50,10 +50,11 @@ entity = {
 	clone = "Theresa_army_eq_entity"
 	name = "Theresa_entity"
 }
-# entity = {
-# 	clone = "Theresa_army_eq_entity"
-# 	name = "Theresa_0_entity"
-# }
+entity = {
+	clone = "Theresa_army_eq_entity"
+	name = "Theresa_0_entity"
+	pdxmesh = "TEA_fuxuan_infantry_rifle_mesh"
+}
 # entity = {
 # 	clone = "Theresa_army_eq_entity"
 # 	name = "Theresa_1_entity"
