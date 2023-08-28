@@ -1238,3 +1238,30 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = Theresa.2023
+	title = Theresa.2023.t
+	desc = Theresa.2023.d
+    trigger = {
+		date > 2023.8.28
+	}
+	fire_only_once = yes
+	option = {
+		name = Theresa.2023.a
+		set_technology = {
+			FuXuan_tech = 1
+		}
+		hidden_effect = {
+			country_event = { id = theresa.2024 days = 2 }
+		}
+	}
+}
+country_event = {
+	id = Theresa.2024
+	title = Theresa.2024.t
+	desc = Theresa.2024.d
+    is_triggered_only = yes
+	option = {
+		name = Theresa.2024.a
+	}
+}

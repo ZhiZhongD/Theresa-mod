@@ -52,7 +52,7 @@ entity = {
 }
 entity = {
 	clone = "Theresa_army_eq_entity"
-	name = "Theresa_0_entity"
+	name = "FuXuan_entity"
 	pdxmesh = "TEA_fuxuan_infantry_rifle_mesh"
 }
 # entity = {

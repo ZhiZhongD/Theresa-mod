@@ -1,0 +1,82 @@
+sub_units = {
+
+	FuXuan_army = {
+		abbreviation = "FX"
+		sprite = FuXuan
+		map_icon_category = infantry
+		priority = 120
+		ai_priority = 25
+		active = yes
+		special_forces = no
+		
+		type = {
+			infantry
+		}
+
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		need = {
+			Theresa_army_eq = 100
+		}
+		essential = {
+			Theresa_army_eq
+		}
+		combat_width = 2
+
+		manpower = 100
+
+		max_strength = 50
+		max_organisation = 70
+		maximum_speed = 0.5
+		default_morale = 0.7
+		training_time = 30
+		suppression = 20
+		weight = 0.5
+		supply_consumption = 0.1
+		breakthrough = 1
+		initiative = 0.1
+
+		casualty_trickleback = 0.20
+		experience_loss_factor = -0.05
+		
+		forest = {
+			attack = 0.1
+			movement = 0.1
+		}
+
+		mountain = {
+			movement = 0.1
+		}
+
+		jungle = {
+			attack = 0.1
+			movement = 0.1
+		}
+
+		marsh = {
+			attack = 0.1
+			movement = 0.1
+		}
+
+		fort = {
+			attack = 0.5
+		}
+
+		river = {
+			attack = 0.3
+			movement = 0.3
+		}
+
+		amphibious = {
+			attack = 0.5
+		}
+	}
+	
+}
