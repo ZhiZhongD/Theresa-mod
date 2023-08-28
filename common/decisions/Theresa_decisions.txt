@@ -3447,7 +3447,7 @@ Theresa_bop_decision_test_category = {
         days_remove = 0
         fire_only_once = yes
         ai_will_do = {
-            base = 100
+            base = 0
         }
         available = {
 
@@ -3910,6 +3910,11 @@ Theresa_industory_decision_category = {
                     level = 1
                     instant_build = yes
                 }
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
                 transfer_state_to = ROOT
             }
 		}
@@ -3982,6 +3987,9 @@ Theresa_tech_decision_category = {
         days_remove = 0
         days_re_enable = 0
         priority = 100
+        ai_will_do = {
+            base = 0
+        }
         visible = {
             has_government = Theresaism
             NOT= {
