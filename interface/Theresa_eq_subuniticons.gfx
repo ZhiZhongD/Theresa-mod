@@ -13,15 +13,27 @@ spriteTypes = {
 	}
 	
 	spriteType = { 
-		name = "GFX_unit_Theresa_army_support_icon_medium"									
-		textureFile = "gfx/interface/counters/divisions_large/unit_Theresa_infantry_icon.dds" 
+		name = "GFX_unit_FuXuan_army_icon_medium"				
+		textureFile = "gfx/interface/counters/divisions_large/unit_Theresa_infantry_icon.png" 
 		noOfFrames = 2 
 	}
-	
+
 	spriteType = { 
-		name = "GFX_unit_Theresa_army_support_icon_medium_white"							
+		name = "GFX_unit_FuXuan_army_icon_medium_white"			
 		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_Theresa_infantry_icon.dds" 
-		noOfFrames = 2
+		noOfFrames = 2 
 	}
+
+	# spriteType = { 
+	# 	name = "GFX_unit_Theresa_army_support_icon_medium"									
+	# 	textureFile = "gfx/interface/counters/divisions_large/unit_Theresa_infantry_icon.dds" 
+	# 	noOfFrames = 2 
+	# }
+	
+	# spriteType = { 
+	# 	name = "GFX_unit_Theresa_army_support_icon_medium_white"							
+	# 	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_Theresa_infantry_icon.dds" 
+	# 	noOfFrames = 2
+	# }
 	
 }
