@@ -49,21 +49,32 @@ entity = {
 entity = {
 	clone = "Theresa_army_eq_entity"
 	name = "Theresa_entity"
+
+}
+entity = {
+	clone = "Theresa_entity"
+	name = "Theresa_0_entity"
+	pdxmesh = "Theresa_knight_infantry_mesh"
+}
+entity = {
+	clone = "Theresa_0_entity"
+	name = "Theresa_1_entity"
+	pdxmesh = "Theresa_knight_infantry_mesh"	
+}
+entity = {
+	clone = "Theresa_0_entity"
+	name = "Theresa_2_entity"
+}
+entity = {
+	clone = "Theresa_army_eq_entity"
+	name = "Theresa_3_entity"
+}
+entity = {
+	clone = "Theresa_army_eq_entity"
+	name = "Theresa_4_entity"
 }
 entity = {
 	clone = "Theresa_army_eq_entity"
 	name = "FuXuan_entity"
 	pdxmesh = "TEA_fuxuan_infantry_rifle_mesh"
 }
-# entity = {
-# 	clone = "Theresa_army_eq_entity"
-# 	name = "Theresa_1_entity"
-# }
-# entity = {
-# 	clone = "Theresa_army_eq_entity"
-# 	name = "Theresa_2_entity"
-# }
-# entity = {
-# 	clone = "Theresa_army_eq_entity"
-# 	name = "Theresa_3_entity"
-# }

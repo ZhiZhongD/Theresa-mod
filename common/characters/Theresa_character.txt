@@ -119,7 +119,15 @@ characters = {
             idea_token = Theresa_Celestial_Hymn
             traits = { Theresa_Celestial_Hymn_Leader  }
         }
-
+        corps_commander={
+		    traits = { trait_engineer trait_reckless inspirational_leader }
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
+			legacy_id=-1
+		}
     }
     Theresa_Luna_Kindred = {
         name = Theresa_Luna_Kindred

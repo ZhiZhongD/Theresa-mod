@@ -220,12 +220,12 @@ Theresa_test_decision_category = {
                 promote_leader = yes
                 promote_character = yes
             }
-            add_ideas = {
-                Theresa_Starlit_Astrologos
-                Theresa_Luna_Kindred
-                Theresa_Orchid_Night
-                Theresa_Magical_Teriri
-            }
+            # add_ideas = {
+            #     Theresa_Starlit_Astrologos
+            #     Theresa_Luna_Kindred
+            #     Theresa_Orchid_Night
+            #     Theresa_Magical_Teriri
+            # }
         }
     }
     Theresa_test_decision_7 = {
@@ -3581,6 +3581,65 @@ Theresa_decision_category = {
                 Theresa_army_tech_0 = 1
             }
             set_global_flag = Theresa_is_coming
+        }
+    }
+    Theresa_decision_play_as_TEA = {
+        cost = 0
+        days_remove = 3
+        days_re_enable = 0
+        fire_only_once = yes
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+            
+        }
+        
+        visible = {
+            NOT = {
+                is_ai = yes
+                tag = TEA
+                has_global_flag = Theresa_is_coming
+            }
+        }
+    
+        complete_effect = {
+            hidden_effect = {
+                set_popularities = {
+                    Theresaism = 100
+                }
+                set_politics = {
+                    ruling_party = Theresaism
+                }
+                TEA = {
+                    every_character = {
+                        set_nationality = ROOT
+                    }
+                }
+            }
+            custom_effect_tooltip = TEA_play_as_TEA
+            set_global_flag = Theresa_is_coming
+            set_cosmetic_tag = TEA
+        }
+        remove_effect = {
+            Theresa_Twilight_Paladin = {
+                add_country_leader_role = {
+                    country_leader = {
+                        ideology = Theresaism_subtype
+                        traits = { Theresa_is_the_lovest }
+                        expire = "2023.2.3.1"
+                        id = -1
+                    }
+                }
+                promote_leader = yes
+                promote_character = yes
+            }
+            # add_ideas = {
+            #     Theresa_Starlit_Astrologos
+            #     Theresa_Luna_Kindred
+            #     Theresa_Orchid_Night
+            #     Theresa_Magical_Teriri
+            # }
         }
     }
     Theresa_decision_Theresania = {
