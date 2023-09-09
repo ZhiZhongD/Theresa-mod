@@ -352,12 +352,15 @@
 #编制
  Theresa_army_brigade:0 "德丽莎复制人"
  Theresa_army_support:0 "德丽莎复制人支援连"
+ FuXuan_army:0 "符玄"
 #装备
  Theresa_army_eq:0 "德丽莎单兵作战装甲"
  Theresa_army_eq_0:0 "誓约单兵作战装甲"
  Theresa_army_eq_1:0 "血骑士单兵作战装甲"
  Theresa_army_eq_2:0 "神恩颂歌单兵作战装甲"
  Theresa_army_eq_3:0 "暮光骑士单兵作战装甲"
+ FuXuan_army_eq:0 "符玄作战装甲"
+ FuXuan_army_eq_0:0 "符玄作战装甲"
 
 
 

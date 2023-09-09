@@ -40,7 +40,9 @@ Theresa_test_decision_category = {
         }
     
         complete_effect = {
-
+            set_technology = {
+                FuXuan_tech = 1
+            }
         }
         remove_effect = {
             
@@ -3868,7 +3870,7 @@ Theresa_war_decision_category = {
             capital_scope = {
                 OR = {
                     is_island_state = yes
-                    is_coastal = yes
+                    # is_coastal = yes
                 }
 
             }

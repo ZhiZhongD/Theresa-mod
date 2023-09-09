@@ -99,13 +99,13 @@ technologies =  {
 	}
 
 	FuXuan_tech = {
-
+		enable_equipments = {
+			FuXuan_army_eq_0
+		}
 		enable_subunits = {
 			FuXuan_army
 		}
-		enable_equipments = {
-			Theresa_army_eq_0
-		}
+		
 		research_cost = 1.5
 		
 		folder = {

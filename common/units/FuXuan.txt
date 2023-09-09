@@ -7,7 +7,7 @@ sub_units = {
 		priority = 120
 		ai_priority = 25
 		active = yes
-		special_forces = no
+		special_forces = yes
 		
 		type = {
 			infantry
@@ -23,17 +23,17 @@ sub_units = {
 		}
 		
 		need = {
-			Theresa_army_eq = 100
+			FuXuan_army_eq = 100
 		}
 		essential = {
-			Theresa_army_eq
+			FuXuan_army_eq
 		}
 		combat_width = 2
 
 		manpower = 100
 
 		max_strength = 50
-		max_organisation = 70
+		max_organisation = 100
 		maximum_speed = 0.5
 		default_morale = 0.7
 		training_time = 30
@@ -47,31 +47,33 @@ sub_units = {
 		experience_loss_factor = -0.05
 		
 		forest = {
-			attack = 0.1
-			movement = 0.1
+			attack = 0.5
+			movement = 0.5
 		}
 
 		mountain = {
-			movement = 0.1
+			attack = 0.5
+			movement = 0.5
 		}
 
 		jungle = {
-			attack = 0.1
-			movement = 0.1
+			attack = 0.5
+			movement = 0.5
 		}
 
 		marsh = {
-			attack = 0.1
-			movement = 0.1
+			attack = 0.5
+			movement = 0.5
 		}
 
 		fort = {
 			attack = 0.5
+			movement = 0.5
 		}
 
 		river = {
-			attack = 0.3
-			movement = 0.3
+			attack = 0.5
+			movement = 0.5
 		}
 
 		amphibious = {
