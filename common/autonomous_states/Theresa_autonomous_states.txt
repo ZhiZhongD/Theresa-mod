@@ -24,8 +24,8 @@ autonomy_state = {
 		extra_trade_to_overlord_factor = 1
 		overlord_trade_cost_factor = -1
 
-        cic_to_overlord_factor = 0.9
-        mic_to_overlord_factor = 0.9
+        cic_to_overlord_factor = 0.75
+        mic_to_overlord_factor = 0.85
 
 		research_sharing_per_country_bonus_factor = -0.5
 	}

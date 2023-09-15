@@ -11,7 +11,10 @@ technologies =  {
 		}
 
 		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = Theresa_army_brigade }
+			NOT = {	
+				has_template_containing_unit = Theresa_army_brigade 
+			}
+			is_ai = no
 		}
 		on_research_complete = {
 			division_template = {
@@ -41,7 +44,9 @@ technologies =  {
 		categories = {
 			infantry_weapons
 		}
-		
+		ai_will_do = {
+			base = 0
+		}
 	}
 	Theresa_army_tech_1 = {
 

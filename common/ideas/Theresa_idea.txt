@@ -26,6 +26,7 @@ ideas = {
 				supply_consumption_factor = -0.99
 				supply_node_range = 10
 				fuel_cost = -1.05
+				surrender_limit = 0.2
 			}
 		}
 		TEA_idea_1 = {  
@@ -66,7 +67,13 @@ ideas = {
             }
 
 			visible = {
-				has_government = Theresaism
+				OR = {
+					has_government = Theresaism
+					has_idea = Theresa_Empyrean_Psalms
+					has_country_flag = Theresa_Empyrean_Psalms_flag
+				}
+				
+				
 			}
 			
 			cost = 150
@@ -109,7 +116,11 @@ ideas = {
 		    picture = generic_naval_manufacturer_1
 
 			visible = {
-				has_government = Theresaism
+				OR = {
+					has_government = Theresaism
+					has_idea = Theresa_Empyrean_Psalms
+					has_country_flag = Theresa_Empyrean_Psalms_flag
+				}
 			}
 
 			cost = 150
@@ -193,7 +204,11 @@ ideas = {
 			picture = generic_air_manufacturer_3
 
 			visible = {
-				has_government = Theresaism
+				OR = {
+					has_government = Theresaism
+					has_idea = Theresa_Empyrean_Psalms
+					has_country_flag = Theresa_Empyrean_Psalms_flag
+				}
 			}
 
 			ai_will_do = {
@@ -300,7 +315,11 @@ ideas = {
 			cost = 150
 
 			visible = {
-				has_government = Theresaism
+				OR = {
+					has_government = Theresaism
+					has_idea = Theresa_Empyrean_Psalms
+					has_country_flag = Theresa_Empyrean_Psalms_flag
+				}
 			}
 
 			ai_will_do = {
@@ -361,7 +380,11 @@ ideas = {
 			}
 
 			visible = {
-				has_government = Theresaism
+				OR = {
+					has_government = Theresaism
+					has_idea = Theresa_Empyrean_Psalms
+					has_country_flag = Theresa_Empyrean_Psalms_flag
+				}
 			} 
 
 			cost = 150 
@@ -373,9 +396,9 @@ ideas = {
 			traits = { industrial_concern }
 
 			research_bonus = {
-				industry = 0.5
-				electronics = 0.5
-				nuclear = 0.5
+				industry = 1
+				electronics = 1
+				nuclear = 1
 			}
 
 			modifier = {
@@ -398,7 +421,13 @@ ideas = {
 	academy_spirit = {
 		Theresa_academy_spirit = {
 			ledger = army
-			visible = { Theresaism > 0.5 }
+			visible = { 
+				OR = {
+					has_government = Theresaism
+					has_idea = Theresa_Empyrean_Psalms
+					has_country_flag = Theresa_Empyrean_Psalms_flag
+				}
+			}
 			modifier = {
 				custom_modifier_tooltip = Theresa_academy_spirit_tt
 			}
@@ -415,7 +444,13 @@ ideas = {
 	army_spirit = {
 		Theresa_army_spirit = {
 			ledger = army
-			visible = { Theresaism > 0.5 }
+			visible = { 
+				OR = {
+					has_government = Theresaism
+					has_idea = Theresa_Empyrean_Psalms
+					has_country_flag = Theresa_Empyrean_Psalms_flag
+				}
+			}
 			modifier = {
 				experience_gain_army = 0.2
 				experience_gain_army_factor = 0.25
@@ -435,7 +470,13 @@ ideas = {
 	division_command_spirit = {
 		Theresa_division_command_spirit = {
 			ledger = army
-			visible = { Theresaism > 0.5 }
+			visible = { 
+				OR = {
+					has_government = Theresaism
+					has_idea = Theresa_Empyrean_Psalms
+					has_country_flag = Theresa_Empyrean_Psalms_flag
+				}
+			}
 			modifier = {
 				army_speed_factor = 0.15
 				max_dig_in = 10
@@ -454,7 +495,13 @@ ideas = {
 	naval_academy_spirit = {
 		Theresa_naval_academy_spirit = {
 			ledger = navy
-			visible = { Theresaism > 0.5 }
+			visible = { 
+				OR = {
+					has_government = Theresaism
+					has_idea = Theresa_Empyrean_Psalms
+					has_country_flag = Theresa_Empyrean_Psalms_flag
+				}
+			}
 			modifier = {
 				custom_modifier_tooltip = Theresa_naval_academy_spirit_tt
 			}
@@ -470,7 +517,13 @@ ideas = {
 	navy_spirit = {
 		Theresa_navy_spirit = {
 			ledger = navy
-			visible = { Theresaism > 0.5 }
+			visible = { 
+				OR = {
+					has_government = Theresaism
+					has_idea = Theresa_Empyrean_Psalms
+					has_country_flag = Theresa_Empyrean_Psalms_flag
+				}
+			}
 			modifier = {
 				experience_gain_navy = 0.5
 				experience_gain_navy_factor = 0.25
@@ -488,7 +541,13 @@ ideas = {
 	naval_command_spirit = {
 		Theresa_naval_command_spirit = {
 			ledger = navy
-			visible = { Theresaism > 0.5 }
+			visible = { 
+				OR = {
+					has_government = Theresaism
+					has_idea = Theresa_Empyrean_Psalms
+					has_country_flag = Theresa_Empyrean_Psalms_flag
+				}
+			}
 			modifier = {
 				naval_hit_chance = 0.25
 				NAVAL_TORPEDO_SCREEN_PENETRATION_FACTOR = 0.25
@@ -507,7 +566,13 @@ ideas = {
 	air_force_spirit = {
 		Theresa_air_force_spirit = {
 			ledger = air
-			visible = { Theresaism > 0.5 }
+			visible = { 
+				OR = {
+					has_government = Theresaism
+					has_idea = Theresa_Empyrean_Psalms
+					has_country_flag = Theresa_Empyrean_Psalms_flag
+				}
+			}
 			modifier = {
 				experience_gain_air = 0.4
 				experience_gain_air_factor = 0.25
@@ -529,7 +594,13 @@ ideas = {
 	air_force_command_spirit = {
 		Theresa_air_force_command_spirit = {
 			ledger = air
-			visible = { Theresaism > 0.5 }
+			visible = { 
+				OR = {
+					has_government = Theresaism
+					has_idea = Theresa_Empyrean_Psalms
+					has_country_flag = Theresa_Empyrean_Psalms_flag
+				}
+			}
 			modifier = {
 				ground_attack_factor = 0.25
 				air_escort_efficiency = 0.25

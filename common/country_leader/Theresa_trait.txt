@@ -2,64 +2,67 @@ leader_traits = {
     Theresa_is_the_lovest ={
         stability_factor = 0.2
         war_support_factor = 0.2
+        political_power_gain = 1
     }
     Theresa_Twilight_Paladin_Leader ={
         political_power_gain = 2
         political_power_factor = 2
     }
     Theresa_Starlit_Astrologos_Leader = {
-        land_doctrine_cost_factor = -0.5
-        air_doctrine_cost_factor = -0.5
-        naval_doctrine_cost_factor = -0.5
+        land_doctrine_cost_factor = -0.95
+        air_doctrine_cost_factor = -0.95
+        naval_doctrine_cost_factor = -0.95
     }
     Theresa_Celestial_Hymn_Leader = {
-        stability_factor = 0.5
-        war_support_factor = 0.5
+        stability_factor = 0.75
+        war_support_factor = 0.75
     }
     Theresa_Luna_Kindred_trait = {
         monthly_population = -0.05
         min_export = -1
-        surrender_limit = 0.1
+        resistance_target = -0.5
+        resistance_decay = 0.5
+        surrender_limit = 0.15
     }
     Theresa_Valkyrie_Pledge_trait = {
-        monthly_population = 0.2
+        monthly_population = 1
         minimum_training_level = -0.1
-        training_time_army_factor = -0.1
+        training_time_army_factor = -0.5
         max_command_power = 200
-        command_power_gain_mult = 0.5
+        command_power_gain_mult = 1
     }
     Theresa_Sakuno_Rondo_trait = {
-        repair_speed_factor = 1
-        trade_opinion_factor = 1
+        repair_speed_factor = 5
+        trade_opinion_factor = 5
     }
     Theresa_Violet_Executer_trait = {
-        army_core_attack_factor = 0.2
-	    army_core_defence_factor = 0.2
+        army_core_attack_factor = 0.5
+	    army_core_defence_factor = 0.5
 
         ai_focus_aggressive_factor = 0.5
     }
     Theresa_Wonderland_Trek_trait = {
         production_factory_efficiency_gain_factor = 0.5
-        production_factory_max_efficiency_factor = 0.5
-        production_speed_supply_node_factor = 1
+        production_factory_max_efficiency_factor = 1
+        production_speed_supply_node_factor = 5
     }
     Theresa_Blood_Knight_trait = {
-        army_attack_factor = 0.2
-	    army_defence_factor = 0.2
+        army_attack_factor = 0.35
+	    army_defence_factor = 0.35
         experience_gain_army = 1
         experience_gain_army_unit = 100
 
         ai_focus_aggressive_factor = 0.5
     }
     Theresa_Orchid_Night_trait = {
-        consumer_goods_factor = -0.1
-        stability_weekly = 0.005
-        war_support_weekly = 0.005
+        consumer_goods_factor = -0.25
+        stability_weekly = 0.01
+        war_support_weekly = 0.01
     }
     Theresa_Herald_of_Spring_trait = {
-        army_org_factor = 0.2
-        planning_speed = 0.5
-        max_planning = 0.5
+        army_org_factor = 0.5
+        planning_speed = 1
+        max_planning = 1
     }
     Theresa_Sugar_Haw_Child_trait = {
         land_reinforce_rate = 0.05
@@ -67,22 +70,22 @@ leader_traits = {
         mobilization_speed = 0.5
     }
     Theresa_Shallow_Sunset_trait = {
-        repair_speed_factor = 1
+        repair_speed_factor = 2
         navy_screen_attack_factor = 0.5
         navy_capital_ship_attack_factor = 0.5
         experience_gain_navy = 1
-        
+        experience_gain_navy_unit = 100
     }
     Theresa_Morning_Sunshine_trait = {
         navy_org = 100
     }
     Theresa_Magical_Teriri_trait = {
-        industrial_capacity_factory = 1
-        local_building_slots_factor = 0.2
+        industrial_capacity_factory = 2
+        production_factory_start_efficiency_factor = 0.5
     }
     Theresa_Rosy_Bridesmaid_trait = {
-        army_infantry_attack_factor = 0.1
-        army_infantry_defence_factor = 0.1
+        army_infantry_attack_factor = 0.5
+        army_infantry_defence_factor = 0.5
         land_night_attack = 0.5
     }
     Theresa_Before_the_Dawn_trait = {
@@ -90,11 +93,13 @@ leader_traits = {
         air_weather_penalty = -0.5
         air_night_penalty = -1
         experience_gain_air = 1
+
     }
     Theresa_Empyrean_Psalms_trait = {
-        drift_defence_factor = 1
-        Theresaism_drift = 0.1
-        political_advisor_cost_factor = -0.5
+        drift_defence_factor = 2
+        Theresaism_drift = 0.5
+        political_advisor_cost_factor = -0.95
+        custom_modifier_tooltip = Theresa_Empyrean_Psalms_tt
     }
     Theresa_Grand_Sage_trait = {
         experience_gain_army = 1
@@ -107,13 +112,16 @@ leader_traits = {
     Theresa_Verdant_Sky_trait = {
         conscription = 0.05
         non_core_manpower = 1
-        resistance_target = -0.5
-        resistance_decay = 0.5
-        compliance_growth = 0.5
+
+        compliance_growth = 2
         compliance_starting_value = 0.5
     }
     Theresa_Startold_Fortune_trait = {
-        production_factory_efficiency_gain_factor = 1
-        production_factory_max_efficiency_factor = 0.5
+        production_factory_efficiency_gain_factor = 2
+        production_factory_max_efficiency_factor = 1
+        production_speed_buildings_factor = 0.5
+    }
+    Theresa_Luna_Kindred_big_trait = {
+        custom_modifier_tooltip = Theresa_Luna_Kindred_big_trait_tt
     }
 }

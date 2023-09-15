@@ -48,7 +48,9 @@ Theresa_bop_decision_test_category = {
 }
 Theresa_industory_decision_category = {
 	visible = {
-		has_government = Theresaism
+		OR = {
+			has_government = Theresaism
+		}
 	}
 	priority = 97
 }

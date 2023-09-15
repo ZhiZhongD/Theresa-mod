@@ -588,7 +588,11 @@ characters = {
             slot = political_advisor
             idea_token = Theresa_Empyrean_Psalms
             traits = { Theresa_Empyrean_Psalms_trait }
+            on_add = {
+                set_country_flag = Theresa_Empyrean_Psalms_flag
+            }
         }
+        
         corps_commander={
 		    traits = { infantry_leader trait_engineer trait_reckless inspirational_leader }
 	        skill = 4
@@ -681,6 +685,31 @@ characters = {
 	        logistics_skill = 5
 			legacy_id=-1
 		}
+    }
+    Theresa_Luna_Kindred_big = {
+        name = Theresa_Luna_Kindred_big
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_3
+               small = GFX_portrait_Theresa_small_3
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_3
+                small = GFX_portrait_Theresa_small_3
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = Theresa_Luna_Kindred_big
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = Theresa_Luna_Kindred_big_not_available_tt
+                    always = no
+                }
+            }
+            traits = { Theresa_Luna_Kindred_big_trait  }
+        }
+
     }
     TEA_Theresa_communist_revolutionary = {
         name = TEA_Theresa_communist_revolutionary

@@ -33,7 +33,7 @@ recruit_character = Theresa_Startold_Fortune
 recruit_character = TEA_Theresa_communist_revolutionary
 recruit_character = TEA_Theresa_democratic_reformer
 recruit_character = TEA_Theresa_fascist_demagogue
-
+recruit_character = Theresa_Luna_Kindred_big
 
 TEA_Theresa = {
 	promote_leader = yes

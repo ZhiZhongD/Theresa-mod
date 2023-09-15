@@ -27,7 +27,7 @@ Theresa_test_decision_category = {
     }
     Theresa_test_decision_1 = {
         cost = 0
-        days_remove = 0
+        days_remove = 3
         days_re_enable = 0
         ai_will_do = {
             base = 0
@@ -40,11 +40,28 @@ Theresa_test_decision_category = {
         }
     
         complete_effect = {
-            set_technology = {
-                FuXuan_tech = 1
-            }
+            set_cosmetic_tag = TEA_lunar_star
         }
         remove_effect = {
+            division_template = {
+                name = "Theresa Militia"
+                is_locked = no
+                regiments = {
+                    Theresa_army_brigade = { x = 0 y = 0 }
+                }
+                support = {
+                    Theresa_army_support = { x = 0 y = 0 }
+                }
+            }
+            TEA = {
+                every_owned_state = {
+                    create_unit = { 
+                        division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
+                        owner = TEA 
+                        count = 2
+                    }
+                }
+            }
             
         }
     }
@@ -204,6 +221,11 @@ Theresa_test_decision_category = {
             }
             TEA = {
                 every_character = {
+                    limit = {
+                        NOT = {
+                            is_character = Theresa_Luna_Kindred_big #抱歉，但是我实在是无法认同大月下是德丽莎
+                        }
+                    }
                     set_nationality = ROOT
                 }
             }
@@ -358,6 +380,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = THL
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = THL
@@ -395,6 +418,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TBG
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TBG
@@ -471,6 +495,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TFR
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TFR
@@ -541,6 +566,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TAS
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TAS
@@ -653,6 +679,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TYL
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TYL
@@ -709,6 +736,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TTA
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TTA
@@ -776,6 +804,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = THN
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = THN
@@ -867,6 +896,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TBP
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TBP
@@ -989,6 +1019,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TER
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TER
@@ -1038,6 +1069,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TPL
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TPL
@@ -1144,6 +1176,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TNE
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TNE
@@ -1217,6 +1250,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TBS
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TBS
@@ -1269,6 +1303,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TBL
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TBL
@@ -1369,6 +1404,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TUI
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TUI
@@ -1454,6 +1490,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TBT
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TBT
@@ -1575,6 +1612,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TNF
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TNF
@@ -1678,6 +1716,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TWF
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TWF
@@ -1793,6 +1832,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TMF
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TMF
@@ -1896,6 +1936,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TEF
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TEF
@@ -1969,6 +2010,7 @@ Theresa_puppet_decision_category = {
                 every_owned_state = {
                     add_core_of = TSF
                 } 
+                inherit_technology = TEA
             }
             set_autonomy = {
                 target = TSF
@@ -2046,6 +2088,7 @@ Theresa_puppet_decision_category = {
 
             }
             TAL = {
+                inherit_technology = TEA
                 every_owned_state = {
                     add_core_of = TAL
                 } 
@@ -2164,6 +2207,7 @@ Theresa_puppet_decision_category = {
                 transfer_state = 787
             }
             TME = {
+                inherit_technology = TEA
                 every_owned_state = {
                     add_core_of = TME
                 } 
@@ -2214,6 +2258,7 @@ Theresa_puppet_decision_category = {
                 transfer_state_to = TNA
             }
             TNA = {
+                inherit_technology = TEA
                 every_owned_state = {
                     add_core_of = TNA
                 } 
@@ -2265,6 +2310,7 @@ Theresa_puppet_decision_category = {
                 transfer_state_to = TSA
             }
             TSA = {
+                inherit_technology = TEA
                 every_owned_state = {
                     add_core_of = TSA
                 } 
@@ -2365,6 +2411,7 @@ Theresa_puppet_decision_category = {
                 transfer_state = 710
             }
             TID = {
+                inherit_technology = TEA
                 every_owned_state = {
                     add_core_of = TID
                 } 
@@ -2462,6 +2509,7 @@ Theresa_puppet_decision_category = {
                 transfer_state = 668
             }
             TES = {
+                inherit_technology = TEA
                 every_owned_state = {
                     add_core_of = TES
                 } 
@@ -2512,6 +2560,7 @@ Theresa_puppet_decision_category = {
                 transfer_state_to = TAU
             }
             TAU = {
+                inherit_technology = TEA
                 every_owned_state = {
                     add_core_of = TAU
                 } 
@@ -2624,6 +2673,7 @@ Theresa_puppet_decision_category = {
                 transfer_state = 629
             }
             TPO = {
+                inherit_technology = TEA
                 every_owned_state = {
                     add_core_of = TPO
                 } 
@@ -2853,6 +2903,7 @@ Theresa_puppet_decision_category = {
                 transfer_state = 401
             }
             TMK = {
+                inherit_technology = TEA
                 every_owned_state = {
                     add_core_of = TMK
                 } 
@@ -2944,6 +2995,7 @@ Theresa_puppet_decision_category = {
                 transfer_state = 406
             }
             TMA = {
+                inherit_technology = TEA
                 every_owned_state = {
                     add_core_of = TMA
                 } 
@@ -3041,6 +3093,7 @@ Theresa_puppet_decision_category = {
                 transfer_state = 654
             }
             TSB = {
+                inherit_technology = TEA
                 every_owned_state = {
                     add_core_of = TSB
                 } 
@@ -3114,6 +3167,7 @@ Theresa_puppet_decision_category = {
                 transfer_state = 644
             }
             TFA = {
+                inherit_technology = TEA
                 every_owned_state = {
                     add_core_of = TFA
                 } 
@@ -3361,6 +3415,7 @@ Theresa_puppet_decision_category = {
                 transfer_state = 619
             }
             TCH = {
+                inherit_technology = TEA
                 every_owned_state = {
                     add_core_of = TCH
                 } 
@@ -3431,6 +3486,7 @@ Theresa_puppet_decision_category = {
                 transfer_state = 655
             }
             TJP = {
+                inherit_technology = TEA
                 every_owned_state = {
                     add_core_of = TJP
                 } 
@@ -3440,6 +3496,34 @@ Theresa_puppet_decision_category = {
                 autonomous_state = Theresa_autonomy_state
             }
 
+        }
+    }
+    Theresa_pupet_ind_decision = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        visible = {
+            any_country = {
+                is_puppet_of = TEA
+                NOT = {
+                    has_idea = TEA_idea_0
+                }
+            }
+        }
+    
+        complete_effect = {
+            every_country = {
+                limit = {
+                    is_puppet_of = TEA
+                    NOT = {
+                        has_idea = TEA_idea_0
+                    }
+                }
+                add_ideas = TEA_idea_0
+            }
         }
     }
 }
@@ -3545,6 +3629,7 @@ Theresa_decision_category = {
         visible = {
             NOT = {
                 has_global_flag = Theresa_is_coming
+                tag = TEA
             }
             is_ai = no
         }
@@ -3576,6 +3661,11 @@ Theresa_decision_category = {
         complete_effect = {
             TEA = {
                 every_character = {
+                    limit = {
+                        NOT = {
+                            is_character = Theresa_Luna_Kindred_big #抱歉，但是我实在是无法认同大月下是德丽莎
+                        }
+                    }
                     set_nationality = ROOT
                 }
             }
@@ -3615,6 +3705,11 @@ Theresa_decision_category = {
                 }
                 TEA = {
                     every_character = {
+                        limit = {
+                            NOT = {
+                                is_character = Theresa_Luna_Kindred_big #抱歉，但是我实在是无法认同大月下是德丽莎
+                            }
+                        }
                         set_nationality = ROOT
                     }
                 }
@@ -3706,35 +3801,36 @@ Theresa_decision_category = {
     }
 }
 Theresa_annex_country_decision_category = {
-    # TEA_annex_targeted_decision = {
-	# 	target_root_trigger = {
-	# 		tag = TEA
-	# 	}
-	# 	targets_dynamic = yes
-	# 	target_trigger = {
-	# 		FROM = {
-	# 			is_neighbor_of = TEA
-    #             is_puppet_of = TEA
-                
-	# 		}
-	# 	}
-    #     available = {
-    #         FROM = {
-    #             Theresaism > 0.6
-    #         }
-    #     }
-	# 	cost = 0
-	# 	days_remove = 7
-    #     priority = 11
-	# 	ai_will_do = {
-	# 		base = 100
-	# 	}
-	# 	remove_effect = {
-    #         FROM = {
-    #             country_event = { id = Theresa.3 }
-    #         }
-	# 	}
-	# }
+    TEA_annex_targeted_decision = {
+		target_root_trigger = {
+			tag = TEA
+		}
+		targets_dynamic = yes
+		target_trigger = {
+			FROM = {
+                is_puppet_of = TEA
+                NOT = {
+                    has_government = Theresaism
+                }
+			}
+		}
+        available = {
+
+        }
+		cost = 0
+		days_remove = 7
+        priority = 11
+		ai_will_do = {
+			base = 100
+		}
+		remove_effect = {
+            ROOT = {
+                annex_country = {
+                    target = FROM
+                }
+            }
+		}
+	}
     
 }
 Theresa_country_decision_category = {
@@ -3941,7 +4037,10 @@ Theresa_industory_decision_category = {
 
     TEA_industory_targeted_decision = {
 		target_root_trigger = {
-			has_government = Theresaism
+            OR = {
+                has_government = Theresaism
+            }
+			
 		}
         state_target = yes
 		target_trigger = {
