@@ -217,6 +217,16 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_portrait_Theresa_large_22"
+		texturefile = "gfx/interface/Theresa_large_22.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_Theresa_small_22"
+		texturefile = "gfx/interface/Theresa_small_22.png"
+	}
+
+
+	spriteType = {
 		name = "GFX_idea_Theresa_army_spirit"
 		texturefile = "gfx/interface/officer_corp/spirits/spirit_idea_heritage_of_accomplishment.dds"
 	}

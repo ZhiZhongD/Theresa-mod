@@ -223,7 +223,7 @@ Theresa_test_decision_category = {
                 every_character = {
                     limit = {
                         NOT = {
-                            is_character = Theresa_Luna_Kindred_big #抱歉，但是我实在是无法认同大月下是德丽莎
+                            is_character = Lunar_Vow_Crimson_Love #抱歉，但是我实在是无法认同大月下是德丽莎
                         }
                     }
                     set_nationality = ROOT
@@ -333,9 +333,12 @@ Theresa_test_decision_category = {
             is_debug = yes
         }
         complete_effect = {
+            every_character = {
+                set_nationality = TEA
+            }
         }
         remove_effect = {
-            add_research_slot = -1
+            
         }
 
     }
@@ -3663,7 +3666,7 @@ Theresa_decision_category = {
                 every_character = {
                     limit = {
                         NOT = {
-                            is_character = Theresa_Luna_Kindred_big #抱歉，但是我实在是无法认同大月下是德丽莎
+                            is_character = Lunar_Vow_Crimson_Love #抱歉，但是我实在是无法认同大月下是德丽莎
                         }
                     }
                     set_nationality = ROOT
@@ -3707,7 +3710,7 @@ Theresa_decision_category = {
                     every_character = {
                         limit = {
                             NOT = {
-                                is_character = Theresa_Luna_Kindred_big #抱歉，但是我实在是无法认同大月下是德丽莎
+                                is_character = Lunar_Vow_Crimson_Love #抱歉，但是我实在是无法认同大月下是德丽莎
                             }
                         }
                         set_nationality = ROOT

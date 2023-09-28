@@ -93,7 +93,6 @@ leader_traits = {
         air_weather_penalty = -0.5
         air_night_penalty = -1
         experience_gain_air = 1
-
     }
     Theresa_Empyrean_Psalms_trait = {
         drift_defence_factor = 2
@@ -121,7 +120,7 @@ leader_traits = {
         production_factory_max_efficiency_factor = 1
         production_speed_buildings_factor = 0.5
     }
-    Theresa_Luna_Kindred_big_trait = {
-        custom_modifier_tooltip = Theresa_Luna_Kindred_big_trait_tt
+    Lunar_Vow_Crimson_Love_trait = {
+        custom_modifier_tooltip = Lunar_Vow_Crimson_Love_trait_tt
     }
 }

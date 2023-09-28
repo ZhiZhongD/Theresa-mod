@@ -686,28 +686,28 @@ characters = {
 			legacy_id=-1
 		}
     }
-    Theresa_Luna_Kindred_big = {
-        name = Theresa_Luna_Kindred_big
+    Lunar_Vow_Crimson_Love = {
+        name = Lunar_Vow_Crimson_Love
         portraits = {
             civilian = {
-               large = GFX_portrait_Theresa_large_3
-               small = GFX_portrait_Theresa_small_3
+               large = GFX_portrait_Theresa_large_22
+               small = GFX_portrait_Theresa_small_22
             }
             army = {
-                large = GFX_portrait_Theresa_large_3
-                small = GFX_portrait_Theresa_small_3
+                large = GFX_portrait_Theresa_large_22
+                small = GFX_portrait_Theresa_small_22
             }
         }
         advisor = {
             slot = political_advisor
-            idea_token = Theresa_Luna_Kindred_big
+            idea_token = Lunar_Vow_Crimson_Love
             available = {
                 custom_trigger_tooltip = {
-                    tooltip = Theresa_Luna_Kindred_big_not_available_tt
+                    tooltip = Lunar_Vow_Crimson_Love_not_available_tt
                     always = no
                 }
             }
-            traits = { Theresa_Luna_Kindred_big_trait  }
+            traits = { Lunar_Vow_Crimson_Love_trait  }
         }
 
     }
