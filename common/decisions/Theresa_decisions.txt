@@ -384,6 +384,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = THL
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = THL
@@ -422,6 +424,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TBG
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TBG
@@ -499,6 +503,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TFR
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TFR
@@ -570,6 +576,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TAS
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TAS
@@ -683,6 +691,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TYL
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TYL
@@ -740,6 +750,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TTA
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TTA
@@ -808,6 +820,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = THN
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = THN
@@ -900,6 +914,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TBP
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TBP
@@ -1023,6 +1039,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TER
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TER
@@ -1073,6 +1091,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TPL
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TPL
@@ -1180,6 +1200,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TNE
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TNE
@@ -1254,6 +1276,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TBS
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TBS
@@ -1307,6 +1331,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TBL
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TBL
@@ -1408,6 +1434,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TUI
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TUI
@@ -1494,6 +1522,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TBT
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TBT
@@ -1616,6 +1646,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TNF
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TNF
@@ -1720,6 +1752,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TWF
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TWF
@@ -1836,6 +1870,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TMF
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TMF
@@ -1940,6 +1976,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TEF
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TEF
@@ -2014,6 +2052,8 @@ Theresa_puppet_decision_category = {
                     add_core_of = TSF
                 } 
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
             }
             set_autonomy = {
                 target = TSF
@@ -2092,6 +2132,8 @@ Theresa_puppet_decision_category = {
             }
             TAL = {
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
                 every_owned_state = {
                     add_core_of = TAL
                 } 
@@ -2211,6 +2253,8 @@ Theresa_puppet_decision_category = {
             }
             TME = {
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
                 every_owned_state = {
                     add_core_of = TME
                 } 
@@ -2262,6 +2306,8 @@ Theresa_puppet_decision_category = {
             }
             TNA = {
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
                 every_owned_state = {
                     add_core_of = TNA
                 } 
@@ -2314,6 +2360,8 @@ Theresa_puppet_decision_category = {
             }
             TSA = {
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
                 every_owned_state = {
                     add_core_of = TSA
                 } 
@@ -2415,6 +2463,8 @@ Theresa_puppet_decision_category = {
             }
             TID = {
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
                 every_owned_state = {
                     add_core_of = TID
                 } 
@@ -2513,6 +2563,8 @@ Theresa_puppet_decision_category = {
             }
             TES = {
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
                 every_owned_state = {
                     add_core_of = TES
                 } 
@@ -2564,6 +2616,8 @@ Theresa_puppet_decision_category = {
             }
             TAU = {
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
                 every_owned_state = {
                     add_core_of = TAU
                 } 
@@ -2677,6 +2731,8 @@ Theresa_puppet_decision_category = {
             }
             TPO = {
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
                 every_owned_state = {
                     add_core_of = TPO
                 } 
@@ -2907,6 +2963,8 @@ Theresa_puppet_decision_category = {
             }
             TMK = {
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
                 every_owned_state = {
                     add_core_of = TMK
                 } 
@@ -2999,6 +3057,8 @@ Theresa_puppet_decision_category = {
             }
             TMA = {
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
                 every_owned_state = {
                     add_core_of = TMA
                 } 
@@ -3097,6 +3157,8 @@ Theresa_puppet_decision_category = {
             }
             TSB = {
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
                 every_owned_state = {
                     add_core_of = TSB
                 } 
@@ -3171,6 +3233,8 @@ Theresa_puppet_decision_category = {
             }
             TFA = {
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
                 every_owned_state = {
                     add_core_of = TFA
                 } 
@@ -3419,6 +3483,8 @@ Theresa_puppet_decision_category = {
             }
             TCH = {
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
                 every_owned_state = {
                     add_core_of = TCH
                 } 
@@ -3490,6 +3556,8 @@ Theresa_puppet_decision_category = {
             }
             TJP = {
                 inherit_technology = TEA
+                add_ideas = tot_economic_mobilisation
+                add_ideas = extensive_conscription
                 every_owned_state = {
                     add_core_of = TJP
                 } 
@@ -3512,7 +3580,7 @@ Theresa_puppet_decision_category = {
             any_country = {
                 is_puppet_of = TEA
                 NOT = {
-                    has_idea = TEA_idea_0
+                    has_idea = TEA_idea_2
                 }
             }
         }
@@ -3522,10 +3590,10 @@ Theresa_puppet_decision_category = {
                 limit = {
                     is_puppet_of = TEA
                     NOT = {
-                        has_idea = TEA_idea_0
+                        has_idea = TEA_idea_2
                     }
                 }
-                add_ideas = TEA_idea_0
+                add_ideas = TEA_idea_2
             }
         }
     }
@@ -3716,6 +3784,7 @@ Theresa_decision_category = {
                         set_nationality = ROOT
                     }
                 }
+                # load_focus_tree = Theresa_focus_tree
             }
             custom_effect_tooltip = TEA_play_as_TEA
             set_global_flag = Theresa_is_coming
@@ -3757,13 +3826,18 @@ Theresa_decision_category = {
             has_full_control_of_state = 9
             has_full_control_of_state = 28
             has_full_control_of_state = 69
+            has_full_control_of_state = 72
             has_full_control_of_state = 74
             has_full_control_of_state = 75
             has_full_control_of_state = 85
             has_full_control_of_state = 86
             has_full_control_of_state = 102
             has_full_control_of_state = 188
+            has_full_control_of_state = 736
+            has_full_control_of_state = 762
             has_full_control_of_state = 807
+            has_full_control_of_state = 852 
+            has_full_control_of_state = 853
         }
         visible = {
             GER = {
@@ -3782,13 +3856,18 @@ Theresa_decision_category = {
                 add_state_core = 9
                 add_state_core = 28
                 add_state_core = 69
+                add_state_core = 72
                 add_state_core = 74
                 add_state_core = 75
                 add_state_core = 85
                 add_state_core = 86
                 add_state_core = 102
                 add_state_core = 188
+                add_state_core = 736
+                add_state_core = 762
                 add_state_core = 807
+                add_state_core = 852
+                add_state_core = 853
             every_state = {
                 limit = {
                     OR = {

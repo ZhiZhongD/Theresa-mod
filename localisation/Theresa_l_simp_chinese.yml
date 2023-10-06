@@ -78,10 +78,34 @@
  Theresa_setup_decision_TFA:0 "成立§4远东管理区§!"
  Theresa_setup_decision_TCH:0 "成立§4煌帝国管理区§!"
  Theresa_setup_decision_TJP:0 "成立§4极东管理区§!"
+ Theresa_pupet_ind_decision:0 "提高附庸德丽莎浓度"
+
+#国策
+ TEA_Beginning:0 "这是哪儿？"
+ TEA_Beginning_desc:0 "我不到啊"
+
+ TEA_Beginning_1:0 "弄清现状"
+ TEA_Beginning_1_desc:0 "我不知道应该怎么回答你因为我只是一只德丽莎"
+
+ TEA_Beginning_2:0 "更多的德丽莎"
+ TEA_Beginning_2_desc:0 "德丽莎小小的，香香的，软软的。嘿嘿嘿"
+
+ TEA_Beginning_3:0 "更多的装备"
+ TEA_Beginning_3_desc:0 "德丽莎小小的，香香的，软软的。嘿嘿嘿"
+
+ TEA_Beginning_4:0 "着眼世界"
+ TEA_Beginning_4_desc:0 "这样的世界就应该被德丽莎征服"
+
+ TEA_industory_Beginning:0 "提升工业水平"
+ TEA_industory_Beginning_desc:0 ":)"
+
+ TEA_mil_Beginning:0 "建立军队" 
+ TEA_mil_Beginning_desc:0 ":)"
 
 
 #民族精神
  TEA_idea_0:0 "德丽莎世界第一可爱！！！"
+ TEA_idea_2:0 "德丽莎克隆设施"
 
  Theresa_academy_spirit:0 "德丽莎陆军学院精神"
  Theresa_academy_spirit_tt:0 "陆军将领升级时§Y所有属性§!加§41§!"
