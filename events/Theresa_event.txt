@@ -94,6 +94,28 @@ country_event = {
 	}
 	option = { 
 		name = Theresa.1.c
+		custom_effect_tooltip = Theresa_NB
+		
+		914 = {
+			transfer_state_to = TEA
+			add_core_of = TEA
+		}
+		TEA = {
+			change_tag_from = ROOT
+			set_country_flag = TEA_begin_in_north
+			hidden_effect = {
+				914 = {
+					create_unit = { 
+						division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
+						owner = TEA 
+						count = 2
+					}
+				}
+			}
+		}
+	}
+	option = { 
+		name = Theresa.1.e
 		custom_effect_tooltip = Theresa_WTF		
 		hidden_effect = {
 			TEA = {
@@ -124,89 +146,6 @@ country_event = {
 						Theresa_army_support = { x = 0 y = 1 }
 					}
 				}
-				# division_template = {
-				# 	name = "Theresa Tank"
-				# 	is_locked = no
-				# 	regiments = {
-				# 		modern_armor = { x = 0 y = 0 }
-				# 		modern_armor = { x = 0 y = 1 }
-				# 		modern_armor = { x = 0 y = 2 }
-				# 		modern_armor = { x = 0 y = 3 }
-				# 		modern_armor = { x = 0 y = 4 }
-				# 		modern_armor = { x = 1 y = 0 }
-				# 		modern_armor = { x = 1 y = 1 }
-				# 		modern_armor = { x = 1 y = 2 }
-				# 		modern_armor = { x = 1 y = 3 }
-				# 		modern_armor = { x = 1 y = 4 }
-				# 		modern_armor = { x = 2 y = 0 }
-				# 		modern_armor = { x = 2 y = 1 }
-				# 		modern_armor = { x = 2 y = 2 }
-				# 		modern_armor = { x = 2 y = 3 }
-				# 		modern_armor = { x = 2 y = 4 }
-				# 		mechanized = {x = 3 y = 0}
-				# 		mechanized = {x = 3 y = 1}
-				# 		mechanized = {x = 3 y = 2}
-				# 		mechanized = {x = 3 y = 3}
-				# 		mechanized = {x = 3 y = 4}
-				# 		mechanized = {x = 4 y = 0}
-				# 	}
-				# 	support = {
-				# 		engineer = { x = 0 y = 0 }
-				# 		artillery = { x = 0 y = 1 }
-				# 		medium_flame_tank = { x = 0 y = 2 }
-				# 		logistics_company = { x = 0 y = 3 } 
-				# 	}
-				# }
-				# create_equipment_variant = {
-				# 	name = "Main Tank"
-				# 	type = modern_tank_chassis_1
-				# 	parent_version = 0
-				# 	modules = {
-				# 		main_armament_slot = tank_heavy_howitzer
-				# 		turret_type_slot = tank_modern_tank_turret
-				# 		suspension_type_slot = tank_interleaved_suspension
-				# 		armor_type_slot = tank_cast_armor
-				# 		engine_type_slot = tank_petrol_electric_engine
-				# 		special_type_slot_1 = tank_radio_3
-				# 		special_type_slot_2 = additional_machine_guns
-				# 		special_type_slot_3 = easy_maintenance
-				# 		special_type_slot_4 = wet_ammo_storage
-				# 	}
-				# 	upgrades = {
-				# 		tank_nsb_engine_upgrade = 12
-				# 		tank_nsb_armor_upgrade = 10
-				# 	}
-				# }
-				# create_equipment_variant = {
-				# 	name = "Fire Tank"
-				# 	type = medium_tank_flame_chassis_3
-				# 	parent_version = 0
-				# 	modules = {
-				# 		main_armament_slot = flamethrower
-				# 		turret_type_slot = tank_medium_three_man_tank_turret
-				# 		suspension_type_slot = tank_interleaved_suspension
-				# 		armor_type_slot = tank_cast_armor
-				# 		engine_type_slot = tank_petrol_electric_engine
-				# 		special_type_slot_1 = tank_radio_3
-				# 		special_type_slot_2 = additional_machine_guns
-				# 		special_type_slot_3 = easy_maintenance
-				# 		special_type_slot_4 = wet_ammo_storage
-				# 	}
-				# 	upgrades = {
-				# 		tank_nsb_engine_upgrade = 20
-				# 		tank_nsb_armor_upgrade = 5
-				# 	}
-				# }
-				# create_equipment_variant = {
-				# 	name = "Mechanize"
-				# 	type = mechanized_equipment_3
-				# 	upgrades = {
-				# 		mech_cost_upgrade = 5
-				# 		tank_armor_upgrade = 5
-				# 		tank_engine_upgrade = 5
-				# 		tank_reliability_upgrade = 5
-				# 	}
-				# }
 				country_lock_all_division_template = yes
 				add_ideas = TEA_idea_0
 				4 = {
@@ -217,11 +156,6 @@ country_event = {
 						owner = TEA 
 						count = 24
 					}
-					# create_unit = { 
-					# 	division = "name = \"Theresa Apocalypse's Armor\" division_template = \"Theresa Tank\" start_experience_factor = 1"
-					# 	owner = TEA 
-					# 	count = 8
-					# }
 				}
 				every_owned_state = {
 					add_manpower = 1000000
@@ -330,7 +264,9 @@ country_event = {
 			id = 11666
 			name = Theresa_STATE
 		}
-		
+		set_capital = {
+			state = 4
+		}		
 		capital_scope = {
 			ROOT = {
 				goto_state = PREV

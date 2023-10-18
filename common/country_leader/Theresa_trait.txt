@@ -55,7 +55,7 @@ leader_traits = {
         ai_focus_aggressive_factor = 0.5
     }
     Theresa_Orchid_Night_trait = {
-        consumer_goods_factor = -0.25
+        consumer_goods_factor = -1
         stability_weekly = 0.01
         war_support_weekly = 0.01
     }

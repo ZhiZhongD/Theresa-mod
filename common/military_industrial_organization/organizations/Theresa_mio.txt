@@ -1,0 +1,328 @@
+Theresa_inf_MIO = {
+
+	equipment_type = { Theresa_army_eq }
+	research_categories = { infantry_weapons }
+
+	# allowed = { 
+	# 	tag = TEA
+	# }
+	visible = {
+		FROM = {
+			OR = {
+				has_government = Theresaism
+				has_idea = Theresa_Empyrean_Psalms
+				has_country_flag = Theresa_Empyrean_Psalms_flag
+			}
+		}
+	}
+	available = {
+
+	}
+	
+	tree_header_text = { #标题
+		text = "Theresa_inf_attack"
+		x = 0
+	}
+
+	tree_header_text = {
+		text = "Theresa_inf_build"
+		x = 4.1
+	}
+
+	tree_header_text = {
+		text = "Theresa_inf_MIO"
+		x = 8
+	}
+
+	initial_trait = { #默认特质
+		limit_to_equipment_type = { Theresa_army_eq }
+
+		equipment_bonus = {
+			soft_attack = 0.2
+			hard_attack = 0.2
+		}
+
+		production_bonus = {
+			production_cost_factor = -0.05
+			production_efficiency_cap_factor = 0.1
+		}
+
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+			military_industrial_organization_funds_gain = 0.1
+		}
+	}
+
+	trait = { #强化十字架
+		token = TEA_improve_attack
+		icon = GFX_industrial_org_trait_placeholder
+		limit_to_equipment_type = { Theresa_army_eq }
+
+		equipment_bonus = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+
+		position = { x = 2 y = 0 }
+		available = { owner = { has_tech = Theresa_army_tech_0 } }
+	}
+	trait = { #增设发射器
+		token = TEA_improve_attack_1
+		icon = GFX_industrial_org_trait_placeholder
+		limit_to_equipment_type = { Theresa_army_eq }
+
+		equipment_bonus = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		any_parent = { TEA_improve_attack }
+		position = { x = 2 y = 1 }
+		available = { owner = { has_tech = Theresa_army_tech_1 } }
+	}
+	trait = { #逆向魂钢
+		token = TEA_improve_attack_2
+		icon = GFX_industrial_org_trait_placeholder
+		limit_to_equipment_type = { Theresa_army_eq }
+
+		equipment_bonus = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		any_parent = { TEA_improve_attack_1 }
+		position = { x = 2 y = 2 }
+		available = { owner = { has_tech = Theresa_army_tech_2 } }
+	}
+	trait = { #研发仿犹大
+		token = TEA_improve_attack_3
+		icon = GFX_industrial_org_trait_placeholder
+		limit_to_equipment_type = { Theresa_army_eq }
+
+		equipment_bonus = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		any_parent = { TEA_improve_attack_2 }
+		position = { x = 2 y = 3 }
+		available = { owner = { has_tech = Theresa_army_tech_3 } }
+	}
+	trait = { #强化誓约服
+		token = TEA_improve_cloth
+		icon = GFX_industrial_org_trait_placeholder
+		equipment_bonus = {
+			armor_value = 0.15
+		}
+		position = { x = 0 y = 0 }
+	}
+
+	trait = { #改进血骑士
+		token = TEA_improve_cloth_1
+		icon = GFX_industrial_org_trait_placeholder
+		equipment_bonus = {
+			armor_value = 0.15
+		}
+		position = { x = 0 y = 1 }
+		any_parent = { TEA_improve_cloth }
+		available = { owner = { has_tech = Theresa_army_tech_1 } }
+	}
+	trait = { #完善神恩颂歌
+		token = TEA_improve_cloth_2
+		icon = GFX_industrial_org_trait_placeholder
+		equipment_bonus = {
+			armor_value = 0.15
+		}
+		position = { x = 0 y = 2 }
+		any_parent = { TEA_improve_cloth_1 }
+		available = { owner = { has_tech = Theresa_army_tech_2 } }
+	}
+	trait = { #暮光骑士
+		token = TEA_improve_cloth_3
+		icon = GFX_industrial_org_trait_placeholder
+		equipment_bonus = {
+			armor_value = 0.15
+		}
+		position = { x = 0 y = 3 }
+		any_parent = { TEA_improve_cloth_2 }
+		available = { owner = { has_tech = Theresa_army_tech_3 } }
+	}
+
+	trait = { #犹大
+		token = TEA_Judas_Pledge
+		icon = GFX_industrial_org_trait_placeholder
+		equipment_bonus = {
+			armor_value = 0.15
+			soft_attack = 0.2
+			hard_attack = 0.2
+			air_attack = 0.5
+		}
+		position = { x = 1 y = 4 }
+		all_parents = { TEA_improve_attack_3 TEA_improve_cloth_3 }
+		available = { owner = { has_tech = Theresa_army_tech_3 } }
+	}
+
+
+	trait = { #生产
+		token = TEA_industory
+		icon = GFX_industrial_org_trait_placeholder
+		production_bonus = {
+			production_cost_factor = -0.05
+			production_efficiency_cap_factor = 0.2
+		}
+		position = { x = 4 y = 0 }
+	}
+	trait = { #生产
+		token = TEA_industory_1
+		icon = GFX_industrial_org_trait_placeholder
+		production_bonus = {
+			production_cost_factor = -0.05
+			production_efficiency_cap_factor = 0.2
+		}
+		any_parent = { TEA_industory }
+		position = { x = 4 y = 1 }
+	}
+	trait = { #生产
+		token = TEA_industory_2
+		icon = GFX_industrial_org_trait_placeholder
+		production_bonus = {
+			production_cost_factor = -0.05
+			production_efficiency_cap_factor = 0.2
+		}
+		any_parent = { TEA_industory_1 }
+		position = { x = 4 y = 2 }
+	}
+	trait = { #生产
+		token = TEA_industory_3
+		icon = GFX_industrial_org_trait_placeholder
+		production_bonus = {
+			production_cost_factor = -0.05
+			production_efficiency_cap_factor = 0.2
+		}
+		any_parent = { TEA_industory_2 }
+		position = { x = 4 y = 3 }
+	}
+
+
+	
+	trait = { #MIO
+		token = TEA_MIO
+		icon = GFX_industrial_org_trait_placeholder
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.1
+			military_industrial_organization_funds_gain = 0.25
+		}
+		position = { x = 8 y = 0 }
+	}
+	trait = { #MIO
+		token = TEA_MIO_1
+		icon = GFX_industrial_org_trait_placeholder
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.1
+			military_industrial_organization_funds_gain = 0.25
+		}
+		any_parent = { TEA_MIO }
+		position = { x = 8 y = 1 }
+	}
+	trait = { #MIO
+		token = TEA_MIO_2
+		icon = GFX_industrial_org_trait_placeholder
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.1
+			military_industrial_organization_funds_gain = 0.25
+		}
+		any_parent = { TEA_MIO_1 }
+		position = { x = 8 y = 2 }
+	}
+	trait = { #MIO
+		token = TEA_MIO_3
+		icon = GFX_industrial_org_trait_placeholder
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.1
+			military_industrial_organization_funds_gain = 0.25
+		}
+		any_parent = { TEA_MIO_2 }
+		position = { x = 8 y = 3 }
+	}
+	trait = { #MIO
+		token = TEA_MIO_4
+		icon = GFX_industrial_org_trait_placeholder
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.1
+			military_industrial_organization_funds_gain = 0.25
+		}
+		any_parent = { TEA_MIO_3 }
+		position = { x = 8 y = 4 }
+	}
+	trait = { #MIO
+		token = TEA_MIO_5
+		icon = GFX_industrial_org_trait_placeholder
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.1
+			military_industrial_organization_funds_gain = 0.25
+		}
+		any_parent = { TEA_MIO_4 }
+		position = { x = 8 y = 5 }
+	}
+}
+
+Theresa_naval_MIO = {
+	equipment_type = { capital_ship screen_ship submarine carrier }
+	research_categories = { naval_equipment }
+	allowed = { always = yes }
+	# include = generic_escort_ship_organization
+	initial_trait = {
+		
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 99.5
+		}
+		equipment_bonus = {
+			build_cost_ic = -1
+		}
+		production_bonus = {
+			production_capacity_factor = 100 #蠢驴导致该修正无法正常生效
+		}
+	}
+
+	trait = {
+		token = custom_1
+		icon = GFX_industrial_org_trait_placeholder
+		equipment_bonus = {
+			hg_attack = 0.1
+			armor_value  = 0.2
+			lg_attack = 0.3
+		}
+		position = { x=0 y=0 }
+	}
+}
+
+my_task_decrease_mio = {
+	equipment_type = { artillery }
+	research_categories = { infantry_weapons }
+
+	allowed = { always = no }
+
+	initial_trait = {
+		equipment_bonus = {
+			soft_attack = 8
+		}
+		production_bonus = {
+			production_cost_factor = -0.3
+		}
+	}
+
+	trait = {
+		token = set_capacity_to_0
+		icon = GFX_industrial_org_trait_placeholder
+		position = { x=0 y=0 }
+		organization_modifier = {
+			military_industrial_organization_task_capacity = -50
+		}
+	}
+
+	trait = {
+		token = set_capacity_to_1
+		icon = GFX_industrial_org_trait_placeholder
+		position = { x=1 y=0 }
+		organization_modifier = {
+			military_industrial_organization_task_capacity = -49
+		}
+	}
+}

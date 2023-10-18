@@ -152,7 +152,7 @@ shared_focus = {
 			}
 		}
 		capital_scope = {
-			set_state_category = megalopolis
+			set_state_category = Theresa_city
 		}
 	}
 }

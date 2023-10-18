@@ -19,7 +19,7 @@
  TEA_change_targeted_decision:0 "§4增加§!§Y[from.getname]§!§4德丽莎主义影响力§!"
  TEA_war_targeted_decision:0 "§4向§!§Y[from.getname]§!§4宣战§!"
  TEA_war_targeted_decision_island:0 "§4向§!§Y[from.getname]§!§4宣战§!"
-
+ Theresa_test_decision_14:0 "月月，占领世界"
  Theresa_decision_Theresania:0 "§4成立大德丽莎国§!"
  Theresa_STATE:0 "§4德丽莎妮娅§!"
 
@@ -122,19 +122,54 @@
 
 #制造商
  Theresa_tank_manufacturer:0 "天命装甲制造厂"
+
+
  Theresa_naval_manufacturer:0 "天命船舶制造厂"
+
+
  Theresa_aircraft_manufacturer:0 "天命飞机制造厂"
+
+
  Theresa_materiel_manufacturer:0 "天命军需研究所"
+ Theresa_inf_MIO:0 "天命军需研究所"
+ Theresa_inf_MIO_initial_trait:0 "未来科技"
+ Theresa_inf_attack:0 "装备改装研究"
+ Theresa_inf_build:0 "装备制造加成"
+ Theresa_inf_MIO:0 "研究所加成"
+
+ Theresa_inf_MIO_TEA_improve_attack:0 "强化十字架"
+ Theresa_inf_MIO_TEA_improve_attack_1:0 "增设发射器"
+ Theresa_inf_MIO_TEA_improve_attack_2:0 "逆向魂钢"
+ Theresa_inf_MIO_TEA_improve_attack_3:0 "研发仿犹大"
+ Theresa_inf_MIO_TEA_improve_cloth:0 "强化誓约服"
+ Theresa_inf_MIO_TEA_improve_cloth_1:0 "改进血骑士"
+ Theresa_inf_MIO_TEA_improve_cloth_2:0 "完善神恩颂歌"
+ Theresa_inf_MIO_TEA_improve_cloth_3:0 "暮光骑士"
+ Theresa_inf_MIO_TEA_Judas_Pledge:0 "犹大的誓约"
+
+
  Theresa_industrial_concern:0 "天命工业研究所"
+
+
+
+
+
+
+
+
+
+
 
 #事件
  Theresa.1.t:0 "奇怪的事情要发生了"
  Theresa.1.d:0 "§t封印黑暗力量的超维之杖啊\n在此显现你真正的力量吧\n奇迹之力化为星辰\n光之魔法汇聚吾心\nDimension Sonata\n把你TeRiTeRi掉哟§!"
  Theresa.1.a:0 "§4德丽莎世界第一可爱§!"
  Theresa.1.b:0 "§t德丽莎世界第一可爱§!"
- Theresa.1.c:0 "我好像喝大了，她们从哪儿来的?"
+ Theresa.1.c:0 "§T德丽莎世界第一可爱§!"
+ Theresa.1.e:0 "我好像喝大了，她们从哪儿来的?"
  Theresa_EU:0 "§4重生为欧皇§!"
  Theresa_AF:0 "§t重生为非酋§!"
+ Theresa_NB:0 "§T重生为北极熊§!"
  Theresa_WTF:0 "德丽莎势力将由ai控制，会获得大量增强"
 
  Theresa.2.t:0 "来自[from.getname]的消息"
@@ -395,7 +430,8 @@
  FuXuan_army_eq:0 "符玄作战装甲"
  FuXuan_army_eq_0:0 "符玄作战装甲"
 
-
+#杂项
+ Theresa_city:0 "天命都市区"
 
 
 

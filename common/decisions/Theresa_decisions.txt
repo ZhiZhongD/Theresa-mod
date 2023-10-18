@@ -342,8 +342,137 @@ Theresa_test_decision_category = {
         }
 
     }
+    Theresa_test_decision_10 = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
 
+        }
+        visible = {
+            is_debug = yes
+        }
+        complete_effect = {
+            every_military_industrial_organization = {
+				add_mio_funds = 1919810
+			}
+            mio:Theresa_inf_MIO = {
+                add_mio_funds = 114514
+            }
+        }
+        remove_effect = {
+            
+        }
+
+    }
+    Theresa_test_decision_11 = {
+        cost = 0
+        days_remove = -1
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+        modifier = {
+            max_dig_in = 300
+            dig_in_speed_factor = 100
+        }
+        complete_effect = {
+
+        }
+        remove_effect = {
+            
+        }
+
+    }
+    Theresa_test_decision_12 = {
+        cost = 0
+        days_remove = -1
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+        modifier = {
+            industrial_capacity_factory = 100
+        }
+        complete_effect = {
+
+        }
+        remove_effect = {
+            
+        }
+
+    }
+    Theresa_test_decision_13 = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+        modifier = {
+            industrial_capacity_factory = 100
+        }
+        complete_effect = {
+            set_autonomy = {
+                target = VIC
+                autonomous_state = Theresa_autonomy_state
+            }
+        }
+        remove_effect = {
+            
+        }
+
+    }
+    Theresa_test_decision_14 = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+        modifier = {
+
+        }
+        complete_effect = {
+            every_state = {
+                transfer_state_to = TEA
+                add_core_of = TEA
+            }
+        }
+        remove_effect = {
+            
+        }
+
+    }
 }
+
 Theresa_puppet_decision_category = {
     Theresa_setup_decision_THL = {
         cost = 0
@@ -859,6 +988,7 @@ Theresa_puppet_decision_category = {
             has_full_control_of_state = 46
             has_full_control_of_state = 77
             has_full_control_of_state = 79
+            has_full_control_of_state = 934
         }
         visible = {
             controls_state = 109
@@ -882,6 +1012,7 @@ Theresa_puppet_decision_category = {
             controls_state = 46
             controls_state = 77
             controls_state = 79
+            controls_state = 934
         }
     
         complete_effect = {
@@ -908,6 +1039,7 @@ Theresa_puppet_decision_category = {
                 transfer_state = 46
                 transfer_state = 77
                 transfer_state = 79
+                transfer_state = 934
             }
             TBP = {
                 every_owned_state = {
@@ -1135,6 +1267,24 @@ Theresa_puppet_decision_category = {
             has_full_control_of_state = 150
             has_full_control_of_state = 147
             has_full_control_of_state = 722
+            has_full_control_of_state = 913
+            has_full_control_of_state = 914
+            has_full_control_of_state = 915
+            has_full_control_of_state = 916
+            has_full_control_of_state = 917
+            has_full_control_of_state = 918
+            has_full_control_of_state = 919
+            has_full_control_of_state = 920
+            has_full_control_of_state = 921
+            has_full_control_of_state = 922
+            has_full_control_of_state = 923
+            has_full_control_of_state = 924
+            has_full_control_of_state = 925
+            has_full_control_of_state = 926
+            has_full_control_of_state = 927
+            has_full_control_of_state = 928
+            has_full_control_of_state = 929
+            has_full_control_of_state = 930
         }
         visible = {
             controls_state = 141
@@ -1163,6 +1313,24 @@ Theresa_puppet_decision_category = {
             controls_state = 150
             controls_state = 147
             controls_state = 722
+            controls_state = 913
+            controls_state = 914
+            controls_state = 915
+            controls_state = 916
+            controls_state = 917
+            controls_state = 918
+            controls_state = 919
+            controls_state = 920
+            controls_state = 921
+            controls_state = 922
+            controls_state = 923
+            controls_state = 924
+            controls_state = 925
+            controls_state = 926
+            controls_state = 927
+            controls_state = 928
+            controls_state = 929
+            controls_state = 930
         }
     
         complete_effect = {
@@ -1194,6 +1362,24 @@ Theresa_puppet_decision_category = {
                 transfer_state = 150
                 transfer_state = 147
                 transfer_state = 722
+                transfer_state = 913
+                transfer_state = 914
+                transfer_state = 915
+                transfer_state = 916
+                transfer_state = 917
+                transfer_state = 918
+                transfer_state = 919
+                transfer_state = 920
+                transfer_state = 921
+                transfer_state = 922
+                transfer_state = 923
+                transfer_state = 924
+                transfer_state = 925
+                transfer_state = 926
+                transfer_state = 927
+                transfer_state = 928
+                transfer_state = 929
+                transfer_state = 930
             }
             TNE = {
                 every_owned_state = {
@@ -1492,6 +1678,7 @@ Theresa_puppet_decision_category = {
             controls_state = 113
             controls_state = 134
             controls_state = 135
+            controls_state = 931
         }
     
         complete_effect = {
@@ -1516,6 +1703,8 @@ Theresa_puppet_decision_category = {
                 transfer_state = 113
                 transfer_state = 134
                 transfer_state = 135
+                transfer_state = 931
+                transfer_state = 932
             }
             TBT = {
                 every_owned_state = {
@@ -3971,9 +4160,6 @@ Theresa_war_decision_category = {
                 }
                 
             }
-            NOT = {
-                has_country_flag = Theresa_war_island
-            }
             is_subject = no
 			
 		}
@@ -4001,20 +4187,6 @@ Theresa_war_decision_category = {
                         TTA = { exists = yes }
                         TPL = { exists = yes }
                     }
-                    AND = {
-                        ROOT = {
-                            capital_scope = {
-                                is_island_state = yes
-                            }
-                        }
-                        NOT = {
-                            OR = {
-                                is_puppet_of = ROOT
-                                is_in_faction_with = ROOT
-                            }
-
-                        }
-                    }
                 }
 			}
 		}
@@ -4035,50 +4207,15 @@ Theresa_war_decision_category = {
 	}
     TEA_war_targeted_decision_island = {
 		target_root_trigger = {
-            OR = {
-                AND = {
-                    tag = TEA
-                    has_country_flag = Theresa_can_war
-                }
-                AND = {
-                    is_subject = no
-                    has_government = Theresaism
-                }
-            }
-            capital_scope = {
-                OR = {
-                    is_island_state = yes
-                    # is_coastal = yes
-                }
-
-            }
-            NOT = {
-                any_country = {
-                    is_neighbor_of = ROOT
-                    NOT = {
-                        is_in_faction_with = ROOT
-                        is_subject_of = ROOT
-                    }
-                }
-            }
-
+            has_country_flag = TEA_begin_in_north
 		}
         on_map_mode = map_and_decisions_view
-		targets_dynamic = yes
-		target_trigger = {
-			FROM = {
-                NOT = {
-                    AND = {
-                        is_puppet_of = ROOT
-                        is_in_faction_with = ROOT
-                    }
-                }
-                is_subject = no
-                OR = {
-                    is_faction_leader = yes   
-                    is_in_faction = no                 
-                }
-
+        targets = {
+            NOR ICE DEN
+        }
+        target_trigger = {
+            NOT = {
+                is_subject_of = ROOT
             }
         }
 		cost = 0
@@ -4094,24 +4231,6 @@ Theresa_war_decision_category = {
                 target = FROM
                 type = annex_everything
             }
-            if = {
-                limit = {
-                    NOT = {
-                        any_country = {
-                            is_neighbor_of = ROOT
-                            NOT = {
-                                is_in_faction_with = ROOT
-                                is_subject_of = ROOT
-                            }
-                        }
-                    }
-                }
-                set_country_flag = Theresa_war_island
-            }
-            else = {
-                clr_country_flag = Theresa_war_island
-            }
-           
 		}
 	}
 }
@@ -4122,13 +4241,14 @@ Theresa_industory_decision_category = {
             OR = {
                 has_government = Theresaism
             }
-			
+			always =  no
 		}
         state_target = yes
 		target_trigger = {
 			FROM = {
                 NOT = {
-                    has_state_category = megalopolis
+                    # has_state_category = megalopolis
+                    has_state_category = Theresa_city
                     has_state_category = metropolis
                     has_state_category = large_city
                     has_state_category = city
@@ -4144,7 +4264,6 @@ Theresa_industory_decision_category = {
 		}
 		remove_effect = {
             FROM = {
-                add_manpower = 50000
                 Theresa_state_level_up = yes
                 add_extra_state_shared_building_slots = 1
                 add_building_construction = {

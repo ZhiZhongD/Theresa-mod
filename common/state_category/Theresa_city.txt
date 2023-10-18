@@ -1,0 +1,8 @@
+state_categories={
+	Theresa_city = {
+		local_building_slots = 25
+	
+			color = { 0 255 255 }
+
+	}
+}
