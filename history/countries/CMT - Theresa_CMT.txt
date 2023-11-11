@@ -1,4 +1,4 @@
-capital = 27
+capital = 292
 set_research_slots = 3
 
 set_stability = 0.5
@@ -16,9 +16,7 @@ set_politics = {
 set_popularities = {
 	Theresaism = 100
 }
-recruit_character = TBG_Theresa
+
 add_ideas = {
 	limited_exports
-	TBG_idea_0
-	TBG_idea_1
 }

@@ -7,7 +7,7 @@ sub_units = {
 		ai_priority = 25
 		active = yes
 		special_forces = no
-		
+		can_be_parachuted = yes
 		type = {
 			infantry
 			support

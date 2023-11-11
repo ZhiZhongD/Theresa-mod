@@ -266,7 +266,15 @@ Theresa_inf_MIO = {
 Theresa_naval_MIO = {
 	equipment_type = { capital_ship screen_ship submarine carrier }
 	research_categories = { naval_equipment }
-	allowed = { always = yes }
+	visible = {
+		FROM = {
+			OR = {
+				has_government = Theresaism
+				has_idea = Theresa_Empyrean_Psalms
+				has_country_flag = Theresa_Empyrean_Psalms_flag
+			}
+		}
+	}
 	# include = generic_escort_ship_organization
 	initial_trait = {
 		

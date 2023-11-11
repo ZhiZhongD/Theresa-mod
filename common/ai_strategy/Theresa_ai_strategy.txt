@@ -30,43 +30,31 @@ TEA_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = garrison
-		value = 4
+		value = -100
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = paratroopers
-		value = 4
+		value = -100
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = mountaineers
-		value = 4
+		value = -100
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = marines
-		value = 1
+		value = -100
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
 		value = -100
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = motorized
-		value = 5 
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = mechanized
-		value = 5 
 	}
 
 	ai_strategy = {
@@ -85,81 +73,66 @@ TEA_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = capital_ship
-		value = 15
+		value = 115
 	}
 
 	ai_strategy = {
 		type = unit_ratio
 		id = submarine
-		value = -50 #because doctrine this = 50
+		value = 50 #because doctrine this = 50
 	}
 
 	ai_strategy = {
 		type = unit_ratio
 		id = screen_ship
-		value = 20
+		value = 120
 	}
 
 	ai_strategy = {
 		type = unit_ratio
 		id = convoy
-		value = 20
+		value = 50
 	}
 
 	ai_strategy = {
-		type = equipment_production_factor
-		id = naval_bomber
-		value = -50
+		type = building_target
+		id = arms_factory
+		value = 30
+	}
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 50
+	}
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = Theresa_army_eq
+		value = 100
 	}
 
-	ai_strategy = {
-		type = equipment_production_factor
-		id = infantry
-		value = 5 #30 to 50
+}
+TEA_invade = {
+	allowed = {
+		tag = TEA
 	}
-
-	ai_strategy = {
-		type = equipment_production_factor
-		id = anti_tank
-		value = 20
+	enable = {	
+		always = yes
 	}
-
-	ai_strategy = {
-		type = equipment_production_factor
-		id = anti_air
-		value = 25
-	}
-
-	ai_strategy = {
-		type = equipment_production_factor
-		id = artillery
-		value = 100 #20 to 40
-	}
-
-	ai_strategy = {
-		type = equipment_production_factor
-		id = armor
-		value = 10
+	abort = {
+		always = no
 	}
 	ai_strategy = {
-		type = equipment_production_factor
-		id = motorized
-		value = 10
+		type = invade
+		id = ENG
+		value = 500
 	}
 	ai_strategy = {
-		type = equipment_production_min_factories #Build these up over time, don't stall
-		id = anti_air
-		value = 2
+		type = invade
+		id = USA
+		value = 500
 	}
 	ai_strategy = {
-		type = equipment_production_min_factories
-		id = artillery
-		value = 4
+		type = naval_invasion_focus
+		value = 100
 	}
-
-	ai_strategy = { #added to railway gun define (set to 0 by default, increased in default strategies)
-		type = railway_gun_divisions_ratio
-		value = 1
-	}
-
+	
 }

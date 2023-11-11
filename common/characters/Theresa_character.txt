@@ -65,7 +65,7 @@ characters = {
         }
         field_marshal={
 		    traits = { trait_mountaineer offensive_doctrine inspirational_leader }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -94,7 +94,7 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -121,7 +121,7 @@ characters = {
         }
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -149,7 +149,7 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -178,7 +178,7 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -206,7 +206,7 @@ characters = {
         }
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -234,7 +234,7 @@ characters = {
         }
         corps_commander={
 		    traits = { panzer_leader adaptable trait_reckless inspirational_leader }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -261,7 +261,7 @@ characters = {
         }
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -290,7 +290,7 @@ characters = {
 
         corps_commander={
 		    traits = { panzer_leader trait_reckless inspirational_leader fast_planner }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -319,7 +319,7 @@ characters = {
 
         corps_commander={
 		    traits = { winter_specialist trait_reckless inspirational_leader }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -348,7 +348,7 @@ characters = {
 
         corps_commander={
 		    traits = { naval_invader trait_reckless inspirational_leader }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -377,7 +377,7 @@ characters = {
 
         corps_commander={
 		    traits = { organizer trait_reckless inspirational_leader }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -400,12 +400,12 @@ characters = {
         advisor = {
             slot = political_advisor
             idea_token = head_of_intelligence
-            traits = { head_of_intelligence }
+            traits = { head_of_intelligence Theresa_Campus_Detective_traits }
         }
 
         corps_commander={
-		    traits = { expert_improviser trait_reckless inspirational_leader }
-	        skill = 4
+		    traits = { adaptable expert_improviser trait_reckless inspirational_leader }
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -431,22 +431,13 @@ characters = {
             traits = { Theresa_Shallow_Sunset_trait }
         }
 
-        corps_commander={
-		    traits = { adaptable trait_reckless inspirational_leader naval_invader }
-	        skill = 4
-	        attack_skill = 5
-	        defense_skill = 5
-	        planning_skill = 5
-	        logistics_skill = 5
-			legacy_id=-1
-		}
         navy_leader = {
             traits = { inshore_fighter blue_water_expert arctic_water_expert lancer destroyer_leader cruiser_captain big_guns_expert ground_pounder flight_deck_manager}
-            skill = 4
-            attack_skill = 4
-            defense_skill = 4
-            maneuvering_skill = 4
-            coordination_skill = 4
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            maneuvering_skill = 1
+            coordination_skill = 1
         }
     }
     Theresa_Morning_Sunshine = {
@@ -468,22 +459,13 @@ characters = {
             traits = { Theresa_Morning_Sunshine_trait }
         }
 
-        corps_commander={
-		    traits = { skilled_staffer trait_reckless inspirational_leader naval_invader }
-	        skill = 4
-	        attack_skill = 5
-	        defense_skill = 5
-	        planning_skill = 5
-	        logistics_skill = 5
-			legacy_id=-1
-		}
         navy_leader = {
             traits = { inshore_fighter blue_water_expert arctic_water_expert lancer destroyer_leader cruiser_captain big_guns_expert ground_pounder flight_deck_manager}
-            skill = 4
-            attack_skill = 4
-            defense_skill = 4
-            maneuvering_skill = 4
-            coordination_skill = 4
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            maneuvering_skill = 1
+            coordination_skill = 1
         }
     }
     Theresa_Magical_Teriri = {
@@ -504,8 +486,8 @@ characters = {
             traits = { Theresa_Magical_Teriri_trait }
         }
         corps_commander={
-		    traits = { trait_engineer guerilla_fighter trait_reckless inspirational_leader }
-	        skill = 4
+		    traits = { trait_mountaineer guerilla_fighter trait_reckless inspirational_leader }
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -534,7 +516,7 @@ characters = {
         }
         corps_commander={
 		    traits = { trait_engineer expert_improviser trait_reckless inspirational_leader }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -563,7 +545,7 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer aggressive_assaulter trait_reckless inspirational_leader }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -595,7 +577,7 @@ characters = {
         
         corps_commander={
 		    traits = { infantry_leader trait_engineer trait_reckless inspirational_leader }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -623,7 +605,7 @@ characters = {
 
         corps_commander={
 		    traits = { trait_engineer trait_reckless inspirational_leader }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -651,7 +633,7 @@ characters = {
 
         field_marshal={
 		    traits = { cavalry_leader trait_engineer trait_reckless inspirational_leader }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -678,7 +660,7 @@ characters = {
         }
         corps_commander={
 		    traits = { cavalry_leader trait_engineer trait_reckless inspirational_leader }
-	        skill = 4
+	        skill = 1
 	        attack_skill = 5
 	        defense_skill = 5
 	        planning_skill = 5
@@ -763,6 +745,52 @@ characters = {
             slot = political_advisor
             idea_token = fascist_demagogue
             traits = { fascist_demagogue }
+        }
+    }
+
+
+
+
+    TBG_Theresa = {
+        name = TEA_Theresa
+        portraits = {
+            civilian = {
+               large = GFX_portrait_TBG_Theresa_large
+            }
+            army = {
+                large = GFX_portrait_TBG_Theresa_large
+            }
+        }
+
+        country_leader = {
+            ideology = Theresaism_subtype
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = socialism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = {  }
+            expire = "2023.2.3.1"
+            id = -1
         }
     }
 }

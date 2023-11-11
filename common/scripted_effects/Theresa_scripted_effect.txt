@@ -11,7 +11,7 @@ Theresa_ai_eq = {
         create_unit = { 
             division = "name = \"Theresa Apocalypse's Armor\" division_template = \"Theresa Militia\" start_experience_factor = 1"
             owner = TEA 
-            count = 6
+            count = 12
         }
     }
 }

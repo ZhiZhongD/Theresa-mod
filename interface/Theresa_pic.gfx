@@ -225,6 +225,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/Theresa_small_22.png"
 	}
 
+	spriteType = {
+		name = "GFX_portrait_TBG_Theresa_large"
+		texturefile = "gfx/interface/TBG_Theresa_large_leader.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_TBG_idea_0"
+		texturefile = "gfx/interface/TBG_idea_0.png"
+	}
+	spriteType = {
+		name = "GFX_idea_TBG_idea_1"
+		texturefile = "gfx/interface/TBG_idea_1.png"
+	}
 
 	spriteType = {
 		name = "GFX_idea_Theresa_army_spirit"

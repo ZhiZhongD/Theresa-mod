@@ -49,7 +49,29 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				monthly_population = 100
+				monthly_population = 2
+			}
+		}
+
+		TBG_idea_0 = {
+			picture = TBG_idea_0
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				monthly_population = 10
+				local_resources_factor = 10
+			}
+		}
+		TBG_idea_1 = {
+			picture = TBG_idea_1
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				war_stability_factor = 1
+				war_support_factor = 1
+				war_support_weekly = 1
 			}
 		}
     }
@@ -406,11 +428,11 @@ ideas = {
 			}
 
 			modifier = {
-				research_speed_factor = 0.5
-				industrial_capacity_factory = 0.5
-				production_speed_buildings_factor = 0.5
-				local_resources_factor = 3
-				supply_node_range = 5
+				research_speed_factor = 0.25
+				industrial_capacity_factory = 0.25
+				production_speed_buildings_factor = 0.25
+				local_resources_factor = 0.3
+				supply_node_range = 2
 			}
 			
 		}

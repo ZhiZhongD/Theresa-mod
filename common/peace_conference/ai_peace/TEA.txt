@@ -1,0 +1,19 @@
+peace_ai_desires = {
+    TEA_annex = {
+        peace_action_type = take_states
+        enable = {
+            ROOT = { 
+                OR = {
+                    tag = TEA 
+                    tag = LKT
+                    tag = SAT
+                    tag = MGT
+                    tag = CMT
+                    tag = LVC
+                }
+                
+            }
+        }
+        ai_desire = 100
+    }
+}

@@ -136,19 +136,26 @@ Theresa_test_decision_category = {
                 transfer_state = 8
                 transfer_state = 9
                 transfer_state = 28
+                transfer_state = 39
                 transfer_state = 69
                 transfer_state = 72
                 transfer_state = 74
                 transfer_state = 75
                 transfer_state = 85
                 transfer_state = 86
+                transfer_state = 87
+                transfer_state = 97
+                transfer_state = 98
                 transfer_state = 102
                 transfer_state = 188
                 transfer_state = 736
                 transfer_state = 762
                 transfer_state = 807
+                transfer_state = 850
                 transfer_state = 852
                 transfer_state = 853
+                transfer_state = 912
+                
                 every_owned_state = {
                     add_core_of = TEA
                 }
@@ -471,6 +478,579 @@ Theresa_test_decision_category = {
         }
 
     }
+    Theresa_test_decision_15 = {
+        cost = 0
+        days_remove = 3
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+        modifier = {
+
+        }
+        complete_effect = {
+            Theresa_Luna_Kindred = {
+                set_nationality = LKT
+            }
+            Theresa_Rosy_Bridesmaid = {
+                set_nationality = LKT
+            }
+            Theresa_Before_the_Dawn = {
+                set_nationality = LKT
+            }
+
+            Theresa_Starlit_Astrologos = {
+                set_nationality = SAT
+            }
+            Theresa_Orchid_Night = {
+                set_nationality = SAT
+            }
+            Theresa_Herald_of_Spring = {
+                set_nationality = SAT
+            }
+            Theresa_Startold_Fortune = {
+                set_nationality = SAT
+            }
+
+            Theresa_Twilight_Paladin = {
+                set_nationality = CMT
+            }
+            Theresa_Violet_Executer = {
+                set_nationality = CMT
+            }
+            Theresa_Blood_Knight = {
+                set_nationality = CMT
+            }
+            Theresa_Wonderland_Trek = {
+                set_nationality = CMT
+            }
+            Theresa_Verdant_Sky = {
+                set_nationality = CMT
+            }
+
+            Theresa_Magical_Teriri = {
+                set_nationality = MGT
+            }
+            Theresa_Sakuno_Rondo = {
+                set_nationality = MGT
+            }
+
+            Lunar_Vow_Crimson_Love = {
+                set_nationality = LVC
+            }
+            hidden_effect = {
+                LKT= {
+                    set_technology = {
+                        Theresa_army_tech_0 = 1
+                        Theresa_army_tech_1 = 1
+                        Theresa_army_tech_2 = 1
+                        Theresa_army_tech_3 = 1
+                        tech_support = 1
+                    }
+
+                    transfer_state = 188
+                    transfer_state = 763
+                    transfer_state = 5
+                    transfer_state = 85
+                    transfer_state = 807
+                    transfer_state = 98
+                    transfer_state = 97
+                    transfer_state = 87
+                    transfer_state = 86
+                    transfer_state = 762
+                    transfer_state = 67
+                    transfer_state = 66
+
+                    division_template = {
+                        name = "Theresa Militia"
+                        is_locked = no
+                        regiments = {
+                            Theresa_army_brigade = { x = 0 y = 0 }
+                            Theresa_army_brigade = { x = 0 y = 1 }
+
+
+                        }
+                        support = {
+                            Theresa_army_support = { x = 0 y = 0 }
+                        }
+                    }
+                    division_template = {
+                        name = "INF Militia"
+                        is_locked = no
+                        regiments = {
+                            infantry = { x = 0 y = 0 }
+                            infantry = { x = 0 y = 1 }
+                            infantry = { x = 0 y = 2 }
+                            infantry = { x = 0 y = 3 }
+                            infantry = { x = 1 y = 0 }
+                            infantry = { x = 1 y = 1 }
+                        }
+                        support = {
+                            
+                        }
+                    }
+
+                    every_owned_state = {
+                        add_core_of = LKT
+                        create_unit = { 
+                            division = "name = \"Theresa Apocalypse's Militia\" division_template = \"INF Militia\" start_experience_factor = 0.25"
+                            owner = LKT 
+                            count = 2
+                        }
+                    }
+                    set_capital = {
+                        state = 763
+                    }
+                    capital_scope = {
+                        create_unit = { 
+                            division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
+                            owner = LKT
+                            count = 1
+                        }
+                    }
+                }
+                SAT = {
+                    set_technology = {
+                        Theresa_army_tech_0 = 1
+                        Theresa_army_tech_1 = 1
+                        Theresa_army_tech_2 = 1
+                        Theresa_army_tech_3 = 1
+                        tech_support = 1
+                    }
+
+                    transfer_state = 912
+                    transfer_state = 909
+                    transfer_state = 58
+                    transfer_state = 61
+                    transfer_state = 62
+                    transfer_state = 63
+                    transfer_state = 64
+                    transfer_state = 65
+                    transfer_state = 68
+                    transfer_state = 60
+                    transfer_state = 59
+                    transfer_state = 56
+                    transfer_state = 57
+                    transfer_state = 55
+
+                    division_template = {
+                        name = "Theresa Militia"
+                        is_locked = no
+                        regiments = {
+                            Theresa_army_brigade = { x = 0 y = 0 }
+                            Theresa_army_brigade = { x = 0 y = 1 }
+
+
+                        }
+                        support = {
+                            Theresa_army_support = { x = 0 y = 0 }
+                        }
+                    }
+                    division_template = {
+                        name = "INF Militia"
+                        is_locked = no
+                        regiments = {
+                            infantry = { x = 0 y = 0 }
+                            infantry = { x = 0 y = 1 }
+                            infantry = { x = 0 y = 2 }
+                            infantry = { x = 0 y = 3 }
+                            infantry = { x = 1 y = 0 }
+                            infantry = { x = 1 y = 1 }
+                        }
+                        support = {
+                            
+                        }
+                    }
+
+                    every_owned_state = {
+                        add_core_of = SAT
+                        create_unit = { 
+                            division = "name = \"Theresa Apocalypse's Militia\" division_template = \"INF Militia\" start_experience_factor = 0.25"
+                            owner = SAT 
+                            count = 2
+                        }
+                    }
+                    set_capital = {
+                        state = 64
+                    }
+                    capital_scope = {
+                        create_unit = { 
+                            division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
+                            owner = SAT
+                            count = 1
+                        }
+                    }
+
+                }
+                CMT = {
+                    set_technology = {
+                        Theresa_army_tech_0 = 1
+                        Theresa_army_tech_1 = 1
+                        Theresa_army_tech_2 = 1
+                        Theresa_army_tech_3 = 1
+                        tech_support = 1
+                    }
+
+                    transfer_state = 54
+                    transfer_state = 53
+                    transfer_state = 50
+                    transfer_state = 52
+                    transfer_state = 848
+                    transfer_state = 153
+                    transfer_state = 39
+                    transfer_state = 850
+
+                    division_template = {
+                        name = "Theresa Militia"
+                        is_locked = no
+                        regiments = {
+                            Theresa_army_brigade = { x = 0 y = 0 }
+                            Theresa_army_brigade = { x = 0 y = 1 }
+
+
+                        }
+                        support = {
+                            Theresa_army_support = { x = 0 y = 0 }
+                        }
+                    }
+                    division_template = {
+                        name = "INF Militia"
+                        is_locked = no
+                        regiments = {
+                            infantry = { x = 0 y = 0 }
+                            infantry = { x = 0 y = 1 }
+                            infantry = { x = 0 y = 2 }
+                            infantry = { x = 0 y = 3 }
+                            infantry = { x = 1 y = 0 }
+                            infantry = { x = 1 y = 1 }
+                        }
+                        support = {
+                            
+                        }
+                    }
+
+                    every_owned_state = {
+                        add_core_of = CMT
+                        create_unit = { 
+                            division = "name = \"Theresa Apocalypse's Militia\" division_template = \"INF Militia\" start_experience_factor = 0.25"
+                            owner = CMT 
+                            count = 2
+                        }
+                    }
+                    set_capital = {
+                        state = 52
+                    }
+                    capital_scope = {
+                        create_unit = { 
+                            division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
+                            owner = CMT
+                            count = 1
+                        }
+                    }
+
+                }
+                MGT = {
+                    set_technology = {
+                        Theresa_army_tech_0 = 1
+                        Theresa_army_tech_1 = 1
+                        Theresa_army_tech_2 = 1
+                        Theresa_army_tech_3 = 1
+                        tech_support = 1
+                    }
+
+                    transfer_state = 9
+                    transfer_state = 75
+                    transfer_state = 69
+                    transfer_state = 74
+                    transfer_state = 72
+
+                    division_template = {
+                        name = "Theresa Militia"
+                        is_locked = no
+                        regiments = {
+                            Theresa_army_brigade = { x = 0 y = 0 }
+                            Theresa_army_brigade = { x = 0 y = 1 }
+
+
+                        }
+                        support = {
+                            Theresa_army_support = { x = 0 y = 0 }
+                        }
+                    }
+                    division_template = {
+                        name = "INF Militia"
+                        is_locked = no
+                        regiments = {
+                            infantry = { x = 0 y = 0 }
+                            infantry = { x = 0 y = 1 }
+                            infantry = { x = 0 y = 2 }
+                            infantry = { x = 0 y = 3 }
+                            infantry = { x = 1 y = 0 }
+                            infantry = { x = 1 y = 1 }
+                        }
+                        support = {
+                            
+                        }
+                    }
+
+                    every_owned_state = {
+                        add_core_of = MGT
+                        create_unit = { 
+                            division = "name = \"Theresa Apocalypse's Militia\" division_template = \"INF Militia\" start_experience_factor = 0.25"
+                            owner = MGT 
+                            count = 3
+                        }
+                    }
+                    set_capital = {
+                        state = 9
+                    }
+                    capital_scope = {
+                        create_unit = { 
+                            division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
+                            owner = MGT
+                            count = 1
+                        }
+                    }
+
+                }
+                LVC = {
+                    set_technology = {
+                        Theresa_army_tech_0 = 1
+                        Theresa_army_tech_1 = 1
+                        Theresa_army_tech_2 = 1
+                        Theresa_army_tech_3 = 1
+                        tech_support = 1
+                    }
+                    
+                    transfer_state = 51
+                    transfer_state = 42
+                    transfer_state = 8
+                    transfer_state = 28
+
+                    division_template = {
+                        name = "Theresa Militia"
+                        is_locked = no
+                        regiments = {
+                            Theresa_army_brigade = { x = 0 y = 0 }
+                            Theresa_army_brigade = { x = 0 y = 1 }
+
+
+                        }
+                        support = {
+                            Theresa_army_support = { x = 0 y = 0 }
+                        }
+                    }
+                    division_template = {
+                        name = "INF Militia"
+                        is_locked = no
+                        regiments = {
+                            infantry = { x = 0 y = 0 }
+                            infantry = { x = 0 y = 1 }
+                            infantry = { x = 0 y = 2 }
+                            infantry = { x = 0 y = 3 }
+                            infantry = { x = 1 y = 0 }
+                            infantry = { x = 1 y = 1 }
+                        }
+                        support = {
+                            
+                        }
+                    }
+
+                    every_owned_state = {
+                        add_core_of = LVC
+                        create_unit = { 
+                            division = "name = \"Theresa Apocalypse's Militia\" division_template = \"INF Militia\" start_experience_factor = 0.25"
+                            owner = LVC 
+                            count = 3
+                        }
+                    }
+                    set_capital = {
+                        state = 28
+                    }
+                    capital_scope = {
+                        create_unit = { 
+                            division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
+                            owner = LVC
+                            count = 1
+                        }
+                    }
+                }
+            }
+            
+        }
+        remove_effect = {
+            Theresa_Twilight_Paladin = {
+                add_country_leader_role = {
+                    country_leader = {
+                        ideology = Theresaism_subtype
+                        traits = { Theresa_is_the_lovest }
+                        expire = "2023.3.28.1"
+                        id = -1
+                    }
+                }
+                promote_character = yes
+                promote_leader = yes
+            }
+            Theresa_Rosy_Bridesmaid = {
+                add_country_leader_role = {
+                    country_leader = {
+                        ideology = Theresaism_subtype
+                        traits = { Theresa_is_the_lovest }
+                        expire = "2023.3.28.1"
+                        id = -1
+                    }
+                }
+                promote_character = yes
+                promote_leader = yes
+            }
+            Theresa_Orchid_Night = {
+                add_country_leader_role = {
+                    country_leader = {
+                        ideology = Theresaism_subtype
+                        traits = { Theresa_is_the_lovest }
+                        expire = "2023.3.28.1"
+                        id = -1
+                    }
+                }
+                promote_character = yes
+                promote_leader = yes
+            }
+            Theresa_Magical_Teriri = {
+                add_country_leader_role = {
+                    country_leader = {
+                        ideology = Theresaism_subtype
+                        traits = { Theresa_is_the_lovest }
+                        expire = "2023.3.28.1"
+                        id = -1
+                    }
+                }
+                promote_character = yes
+                promote_leader = yes
+            }
+            Lunar_Vow_Crimson_Love = {
+                add_country_leader_role = {
+                    country_leader = {
+                        ideology = Theresaism_subtype
+                        traits = { Theresa_is_the_lovest }
+                        expire = "2023.3.28.1"
+                        id = -1
+                    }
+                }
+                promote_character = yes
+                promote_leader = yes
+            }
+        }
+    }
+    Theresa_test_decision_16 = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            LKT = {
+                declare_war_on = {
+                    target = SAT
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = CMT
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = MGT
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = LVC
+                    type = annex_everything
+                }
+            }
+            SAT = {
+                declare_war_on = {
+                    target = LKT
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = CMT
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = MGT
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = LVC
+                    type = annex_everything
+                }
+            }
+            CMT = {
+                declare_war_on = {
+                    target = SAT
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = LKT
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = MGT
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = LVC
+                    type = annex_everything
+                }
+            }
+            LVC = {
+                declare_war_on = {
+                    target = SAT
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = CMT
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = MGT
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = LKT
+                    type = annex_everything
+                }
+            }
+            MGT = {
+                declare_war_on = {
+                    target = SAT
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = CMT
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = LKT
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = LVC
+                    type = annex_everything
+                }
+            }
+        }
+    }
 }
 
 Theresa_puppet_decision_category = {
@@ -653,7 +1233,6 @@ Theresa_puppet_decision_category = {
             has_full_control_of_state = 3
             has_full_control_of_state = 21
             has_full_control_of_state = 32
-            has_full_control_of_state = 39
             has_full_control_of_state = 151
             has_full_control_of_state = 158
             has_full_control_of_state = 159
@@ -662,14 +1241,12 @@ Theresa_puppet_decision_category = {
             has_full_control_of_state = 845
             has_full_control_of_state = 846
             has_full_control_of_state = 847
-            has_full_control_of_state = 850
             has_full_control_of_state = 851
         }
         visible = {
             controls_state = 3
             controls_state = 21
             controls_state = 32
-            controls_state = 39
             controls_state = 151
             controls_state = 158
             controls_state = 159
@@ -678,7 +1255,6 @@ Theresa_puppet_decision_category = {
             controls_state = 845
             controls_state = 846
             controls_state = 847
-            controls_state = 850
             controls_state = 851
         }
     
@@ -688,7 +1264,6 @@ Theresa_puppet_decision_category = {
                 transfer_state = 3
                 transfer_state = 21
                 transfer_state = 32
-                transfer_state = 39
                 transfer_state = 151
                 transfer_state = 158
                 transfer_state = 159
@@ -697,7 +1272,6 @@ Theresa_puppet_decision_category = {
                 transfer_state = 845
                 transfer_state = 846
                 transfer_state = 847
-                transfer_state = 850
                 transfer_state = 851
             }
             TAS = {
@@ -1190,33 +1764,24 @@ Theresa_puppet_decision_category = {
         }
         available = {
             has_full_control_of_state = 10
-            has_full_control_of_state = 98
-            has_full_control_of_state = 87
             has_full_control_of_state = 90
             has_full_control_of_state = 88
             has_full_control_of_state = 92
-            has_full_control_of_state = 97
         }
         visible = {
             controls_state = 10
-            controls_state = 98
-            controls_state = 87
             controls_state = 90
             controls_state = 88
             controls_state = 92
-            controls_state = 97
         }
     
         complete_effect = {
             
             TPL = {
                 transfer_state = 10
-                transfer_state = 98
-                transfer_state = 87
                 transfer_state = 90
                 transfer_state = 88
                 transfer_state = 92
-                transfer_state = 97
             }
             TPL = {
                 every_owned_state = {
@@ -1285,6 +1850,7 @@ Theresa_puppet_decision_category = {
             has_full_control_of_state = 928
             has_full_control_of_state = 929
             has_full_control_of_state = 930
+            has_full_control_of_state = 911
         }
         visible = {
             controls_state = 141
@@ -1331,6 +1897,7 @@ Theresa_puppet_decision_category = {
             controls_state = 928
             controls_state = 929
             controls_state = 930
+            controls_state = 911
         }
     
         complete_effect = {
@@ -1380,6 +1947,7 @@ Theresa_puppet_decision_category = {
                 transfer_state = 928
                 transfer_state = 929
                 transfer_state = 930
+                transfer_state = 911
             }
             TNE = {
                 every_owned_state = {
@@ -3923,7 +4491,11 @@ Theresa_decision_category = {
                 every_character = {
                     limit = {
                         NOT = {
-                            is_character = Lunar_Vow_Crimson_Love #抱歉，但是我实在是无法认同大月下是德丽莎
+                            is_character = Lunar_Vow_Crimson_Love 
+                            is_character = TEA_Theresa_communist_revolutionary
+                            is_character = TEA_Theresa_democratic_reformer
+                            is_character = TEA_Theresa_fascist_demagogue
+                            is_character = TEA_Theresa
                         }
                     }
                     set_nationality = ROOT
@@ -3968,6 +4540,9 @@ Theresa_decision_category = {
                         limit = {
                             NOT = {
                                 is_character = Lunar_Vow_Crimson_Love #抱歉，但是我实在是无法认同大月下是德丽莎
+                                is_character = TEA_Theresa_communist_revolutionary
+                                is_character = TEA_Theresa_democratic_reformer
+                                is_character = TEA_Theresa_fascist_demagogu
                             }
                         }
                         set_nationality = ROOT
@@ -4009,24 +4584,31 @@ Theresa_decision_category = {
             base = 0
         }
         available = {
-            has_full_control_of_state = 64
+            
             has_full_control_of_state = 4
             has_full_control_of_state = 8
             has_full_control_of_state = 9
+            has_full_control_of_state = 39
             has_full_control_of_state = 28
             has_full_control_of_state = 69
+            has_full_control_of_state = 64
             has_full_control_of_state = 72
             has_full_control_of_state = 74
             has_full_control_of_state = 75
             has_full_control_of_state = 85
             has_full_control_of_state = 86
+            has_full_control_of_state = 87
+            has_full_control_of_state = 97
+            has_full_control_of_state = 98
             has_full_control_of_state = 102
             has_full_control_of_state = 188
             has_full_control_of_state = 736
             has_full_control_of_state = 762
             has_full_control_of_state = 807
+            has_full_control_of_state = 850
             has_full_control_of_state = 852 
             has_full_control_of_state = 853
+            has_full_control_of_state = 912
         }
         visible = {
             GER = {
@@ -4044,19 +4626,25 @@ Theresa_decision_category = {
                 add_state_core = 8
                 add_state_core = 9
                 add_state_core = 28
+                add_state_core = 39
                 add_state_core = 69
                 add_state_core = 72
                 add_state_core = 74
                 add_state_core = 75
                 add_state_core = 85
                 add_state_core = 86
+                add_state_core = 87
+                add_state_core = 97
+                add_state_core = 98
                 add_state_core = 102
                 add_state_core = 188
                 add_state_core = 736
                 add_state_core = 762
+                add_state_core = 850
                 add_state_core = 807
                 add_state_core = 852
                 add_state_core = 853
+                add_state_core = 912
             every_state = {
                 limit = {
                     OR = {
@@ -4196,6 +4784,10 @@ Theresa_war_decision_category = {
         priority = 10
 		ai_will_do = {
 			base = 0
+            modifier = {
+                add = 100
+                tag = TEA
+            }
 		}
 		war_with_target_on_complete = yes
 		remove_effect = {
@@ -4235,17 +4827,54 @@ Theresa_war_decision_category = {
 	}
 }
 Theresa_industory_decision_category = {
+    TEA_industory_open_decision = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        priority = 100
+        ai_will_do = {
+            base = 0
+        }
+        visible = {
+            has_government = Theresaism
+            has_country_flag = TEA_industory_close
+        }
+        complete_effect = {
+            clr_country_flag = TEA_industory_close         
+        }
+    }
+    TEA_industory_close_decision = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        priority = 100
+        ai_will_do = {
+            base = 0
+        }
+        visible = {
+            has_government = Theresaism
 
+        }
+        complete_effect = {
+            set_country_flag = TEA_industory_close         
+        }
+    }
     TEA_industory_targeted_decision = {
 		target_root_trigger = {
-            OR = {
-                has_government = Theresaism
+            has_government = Theresaism
+            NOT = {
+                has_country_flag = TEA_industory_close
             }
-			always =  no
 		}
         state_target = yes
 		target_trigger = {
+            
 			FROM = {
+                controller = {
+                    NOT = {
+                        has_country_flag = TEA_industory_close
+                    }
+                }
                 NOT = {
                     # has_state_category = megalopolis
                     has_state_category = Theresa_city
@@ -4277,6 +4906,9 @@ Theresa_industory_decision_category = {
                     instant_build = yes
                 }
                 transfer_state_to = ROOT
+                add_state_modifier = {
+                    modifier = { }
+                }
             }
 		}
 	}

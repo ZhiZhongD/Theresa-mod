@@ -14,13 +14,13 @@ equipments = {
 		
 		defense = 25
 		breakthrough = 25
-		soft_attack = 55
+		soft_attack = 45
 		hard_attack = 25
 		ap_attack = 10
 		air_attack = 10
 		armor_value = 25
 		reliability = 1.2
-		maximum_speed = 18
+		maximum_speed = 12
 		#Space taken in convoy
 		lend_lease_cost = 1
 
@@ -49,9 +49,9 @@ equipments = {
 		is_convertable = yes
 
 		defense = 35
-		breakthrough = 35
-		soft_attack = 75
-		hard_attack = 45
+		breakthrough = 30
+		soft_attack = 55
+		hard_attack = 30
 		ap_attack = 20
 		air_attack = 20
 		armor_value = 45
@@ -76,9 +76,9 @@ equipments = {
 		is_convertable = yes
 		
 		defense = 50
-		breakthrough = 50
-		soft_attack = 100
-		hard_attack = 60
+		breakthrough = 35
+		soft_attack = 75
+		hard_attack = 45
 		ap_attack = 30
 		air_attack = 30
 		armor_value = 60
@@ -104,9 +104,9 @@ equipments = {
 		is_convertable = yes
 		
 		defense = 75
-		breakthrough = 60
-		soft_attack = 120
-		hard_attack = 80
+		breakthrough = 40
+		soft_attack = 90
+		hard_attack = 50
 		ap_attack = 45
 		air_attack = 45
 		armor_value = 100
@@ -122,8 +122,5 @@ equipments = {
 			Theresa_army_eq_1
 			Theresa_army_eq_2
 		}
-		
 	}
-
-
 }
