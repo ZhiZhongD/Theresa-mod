@@ -563,9 +563,6 @@ Theresa_test_decision_category = {
                     transfer_state = 97
                     transfer_state = 87
                     transfer_state = 86
-                    transfer_state = 762
-                    transfer_state = 67
-                    transfer_state = 66
 
                     division_template = {
                         name = "Theresa Militia"
@@ -608,6 +605,26 @@ Theresa_test_decision_category = {
                         state = 763
                     }
                     capital_scope = {
+                        add_victory_points = {
+                            province = 6332
+                            value = 30
+                        }
+                        set_state_category = Theresa_city
+                        add_building_construction = {
+                            type = infrastructure
+                            level = 5
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = arms_factory
+                            level = 4
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = industrial_complex
+                            level = 4
+                            instant_build = yes
+                        }
                         create_unit = { 
                             division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
                             owner = LKT
@@ -680,6 +697,22 @@ Theresa_test_decision_category = {
                         state = 64
                     }
                     capital_scope = {
+                        set_state_category = Theresa_city
+                        add_building_construction = {
+                            type = infrastructure
+                            level = 5
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = arms_factory
+                            level = 4
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = industrial_complex
+                            level = 4
+                            instant_build = yes
+                        }
                         create_unit = { 
                             division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
                             owner = SAT
@@ -747,6 +780,26 @@ Theresa_test_decision_category = {
                         state = 52
                     }
                     capital_scope = {
+                        add_victory_points = {
+                            province = 692
+                            value = 20
+                        }
+                        set_state_category = Theresa_city
+                        add_building_construction = {
+                            type = infrastructure
+                            level = 5
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = arms_factory
+                            level = 4
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = industrial_complex
+                            level = 4
+                            instant_build = yes
+                        }
                         create_unit = { 
                             division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
                             owner = CMT
@@ -769,6 +822,9 @@ Theresa_test_decision_category = {
                     transfer_state = 69
                     transfer_state = 74
                     transfer_state = 72
+                    transfer_state = 66
+                    transfer_state = 67
+                    transfer_state = 762
 
                     division_template = {
                         name = "Theresa Militia"
@@ -800,6 +856,7 @@ Theresa_test_decision_category = {
                     }
 
                     every_owned_state = {
+
                         add_core_of = MGT
                         create_unit = { 
                             division = "name = \"Theresa Apocalypse's Militia\" division_template = \"INF Militia\" start_experience_factor = 0.25"
@@ -811,6 +868,26 @@ Theresa_test_decision_category = {
                         state = 9
                     }
                     capital_scope = {
+                        add_victory_points = {
+                            province = 11542
+                            value = 20
+                        }
+                        set_state_category = Theresa_city
+                        add_building_construction = {
+                            type = infrastructure
+                            level = 5
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = arms_factory
+                            level = 4
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = industrial_complex
+                            level = 4
+                            instant_build = yes
+                        }
                         create_unit = { 
                             division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
                             owner = MGT
@@ -874,6 +951,26 @@ Theresa_test_decision_category = {
                         state = 28
                     }
                     capital_scope = {
+                        add_victory_points = {
+                            province = 9559
+                            value = 30
+                        }
+                        set_state_category = Theresa_city
+                        add_building_construction = {
+                            type = infrastructure
+                            level = 5
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = arms_factory
+                            level = 4
+                            instant_build = yes
+                        }
+                        add_building_construction = {
+                            type = industrial_complex
+                            level = 4
+                            instant_build = yes
+                        }
                         create_unit = { 
                             division = "name = \"Theresa Apocalypse's Militia\" division_template = \"Theresa Militia\" start_experience_factor = 1"
                             owner = LVC
@@ -1047,6 +1144,63 @@ Theresa_test_decision_category = {
                 declare_war_on = {
                     target = LVC
                     type = annex_everything
+                }
+            }
+        }
+    }
+    Theresa_test_decision_17 = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            LKT = {
+                every_character = {
+                    set_nationality = TEA
+                }
+
+            }
+            SAT = {
+                every_character = {
+                    set_nationality = TEA
+                }
+            }
+            CMT = {
+                every_character = {
+                    set_nationality = TEA
+                }
+            }
+            LVC = {
+                every_character = {
+                    set_nationality = TEA
+                }
+            }
+            MGT = {
+                every_character = {
+                    set_nationality = TEA
+                }
+            }
+            TEA = {
+                annex_country = {
+                    target = LKT
+                }
+                annex_country = {
+                    target = SAT
+                }
+                annex_country = {
+                    target = CMT
+                }
+                annex_country = {
+                    target = MGT
+                }
+                annex_country = {
+                    target = LVC
                 }
             }
         }
@@ -4802,6 +4956,7 @@ Theresa_war_decision_category = {
             has_country_flag = TEA_begin_in_north
 		}
         on_map_mode = map_and_decisions_view
+        targets_dynamic = yes
         targets = {
             NOR ICE DEN
         }

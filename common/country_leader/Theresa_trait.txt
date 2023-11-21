@@ -70,8 +70,8 @@ leader_traits = {
         mobilization_speed = 0.25
     }
     Theresa_Campus_Detective_traits = {
-        operative_slot = 10
-		agency_upgrade_time = -0.9
+        operative_slot = 9
+		agency_upgrade_time = -0.85
     }
     Theresa_Shallow_Sunset_trait = {
         repair_speed_factor = 2

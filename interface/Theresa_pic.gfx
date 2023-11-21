@@ -1,14 +1,31 @@
 spriteTypes = {
 
-	#模型
-
-
-
-
 	spriteType = {
 		name = "GFX_ideology_Theresaism_subtype"
 		texturefile = "gfx/interface/Theresaism_subtype.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_Theresa_communism"
+		texturefile = "gfx/interface/Theresa_communism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_Theresa_liberalism"
+		texturefile = "gfx/interface/Theresa_liberalism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_Theresa_socialism"
+		texturefile = "gfx/interface/Theresa_socialism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_Theresa_fascism"
+		texturefile = "gfx/interface/Theresa_fascism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_Theresa_despotism"
+		texturefile = "gfx/interface/Theresa_despotism.png"
+	}
+
+	
     spriteType = {
 		name = "GFX_portrait_Theresa_large"
 		texturefile = "gfx/interface/Theresa_large.png"

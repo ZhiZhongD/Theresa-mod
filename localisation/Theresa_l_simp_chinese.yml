@@ -246,6 +246,7 @@
  Theresa_Blood_Knight_trait:0 "血骑士-月煌"
  Theresa_Orchid_Night_trait:0 "命中注定的少女"
  Theresa_Herald_of_Spring_trait:0 "卦象阵法"
+ Theresa_Campus_Detective_traits:0 ""
  Theresa_Sugar_Haw_Child_trait:0 "糖色少女"
  Theresa_Shallow_Sunset_trait:0 "沙滩旅行"
  Theresa_Morning_Sunshine_trait:0 "浅海鸭鸭"
@@ -261,9 +262,23 @@
  Lunar_Vow_Crimson_Love_trait_tt:0 "§R:(§!"
 #意识形态
  Theresaism:0 "德丽莎主义"
+ Theresaism_desc:0 "德丽莎主义"
+ Theresaism_subtype:0 "德丽莎主义"
+ Theresaism_subtype_desc:0 "德丽莎主义"
+ Theresa_communism:0 "共产德丽莎主义"
+ Theresa_communism_desc:0 "共产德丽莎主义"
+ Theresa_liberalism:0 "自由德丽莎主义"
+ Theresa_liberalism_desc:0 "自由德丽莎主义"
+ Theresa_socialism:0 "社会德丽莎主义"
+ Theresa_socialism_desc:0 "社会德丽莎主义"
+ Theresa_fascism:0 "霸权德丽莎主义"
+ Theresa_fascism_desc:0 "霸权德丽莎主义"
+ Theresa_despotism:0 "威权德丽莎主义"
+ Theresa_despotism_desc:0 "威权德丽莎主义"
  Theresaism_noun:0 "德丽莎主义支持率"
  Theresaism_acceptance:0 "德丽莎主义接受度"
  Theresaism_drift:0 "德丽莎主义增长"
+ 
 #占领区
 
  Theresa_magic:0 "TeRiRi魔法"

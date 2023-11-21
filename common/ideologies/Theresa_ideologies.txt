@@ -2,6 +2,11 @@ ideologies = {
 	Theresaism = {
 		types = {
 		    Theresaism_subtype = { }
+			Theresa_communism = { }
+			Theresa_liberalism = { }
+			Theresa_socialism = { }
+			Theresa_fascism = { }
+			Theresa_despotism = { }
 		}
 		
 		dynamic_faction_names = {}
