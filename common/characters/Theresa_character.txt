@@ -256,7 +256,7 @@ characters = {
         }
         advisor = {
             slot = political_advisor
-            idea_token = political_advisor
+            idea_token = Theresa_Wonderland_Trek
             traits = { Theresa_Wonderland_Trek_trait }
         }
         corps_commander={
@@ -283,7 +283,7 @@ characters = {
         }
         advisor = {
             slot = army_chief
-            idea_token = Theresa_Wonderland_Trek
+            idea_token = Theresa_Blood_Knight
             traits = { Theresa_Blood_Knight_trait }
         }
         

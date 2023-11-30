@@ -1205,6 +1205,44 @@ Theresa_test_decision_category = {
             }
         }
     }
+    Theresa_test_decision_18 = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        visible = {
+            is_debug = yes
+        }
+    
+        complete_effect = {
+            add_ideas = {
+                Theresa_Twilight_Paladin 
+                Theresa_Starlit_Astrologos
+                Theresa_Celestial_Hymn
+                Theresa_Luna_Kindred
+                Theresa_Valkyrie_Pledge
+                Theresa_Sakuno_Rondo
+                Theresa_Violet_Executer
+                Theresa_Wonderland_Trek
+                Theresa_Blood_Knight
+                Theresa_Orchid_Night
+                Theresa_Herald_of_Spring
+                Theresa_Sugar_Haw_Child
+                head_of_intelligence
+                Theresa_Shallow_Sunset
+                Theresa_Morning_Sunshine
+                Theresa_Magical_Teriri
+                Theresa_Rosy_Bridesmaid
+                Theresa_Before_the_Dawn
+                Theresa_Empyrean_Psalms
+                Theresa_Grand_Sage
+                Theresa_Verdant_Sky
+                Theresa_Startold_Fortune
+            }
+        }
+    }
 }
 
 Theresa_puppet_decision_category = {
@@ -4513,7 +4551,6 @@ Theresa_bop_decision_test_category = {
     Theresa_bop_test_decision_1 = {
         cost = 0
         days_remove = 0
-        fire_only_once = yes
         ai_will_do = {
             base = 0
         }
@@ -4521,78 +4558,95 @@ Theresa_bop_decision_test_category = {
 
         }
         visible = {
-            tag = TEA
+            is_debug = yes
         }
         complete_effect = {
-            add_ideas = TEA_idea_0
-            TEA = {
-                annex_country = {
-                    target = AUS
-                }
-                annex_country = {
-                    target = GER
-                }
-                transfer_state = 8
-                transfer_state = 9
-                transfer_state = 28
-                transfer_state = 69
-                transfer_state = 74
-                transfer_state = 75
-                transfer_state = 85
-                transfer_state = 86
-                transfer_state = 102
-                transfer_state = 188
-                transfer_state = 807
-                every_owned_state = {
-                    add_core_of = TEA
-                }
-                every_owned_state = {
-                    if = {
-                        limit = {
-                            is_demilitarized_zone = yes
-                        }
-                        set_demilitarized_zone = no
-                    }
-                }
-                change_tag_from = root
+            add_power_balance_value = {
+                id = Theresa_test_balance
+                value = -1
+                tooltip_side = my_bop_side
             }
-            every_owned_state = {
-                add_manpower = 1000000
-                set_state_category = megalopolis
-                add_extra_state_shared_building_slots = 20
-                add_building_construction = {
-                    type = rocket_site
-                    level = 1
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = infrastructure
-                    level = 5
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = anti_air_building
-                    level = 5
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = bunker
-                    level = 10
-                    instant_build = yes
-					province = {
-						all_provinces = yes
-					}
-                }
-                add_building_construction = {
-                    type = coastal_bunker
-                    level = 10
-                    instant_build = yes
-					province = {
-						all_provinces = yes
-                        limit_to_coastal = yes
-					}
-                }
+            
+        }
+    }
+    Theresa_bop_test_decision_2 = {
+        cost = 0
+        days_remove = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                id = Theresa_test_balance
+                value = 1
+                tooltip_side = my_bop_side
             }
+            
+        }
+    }
+    Theresa_bop_test_decision_3 = {
+        cost = 0
+        days_remove = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+        complete_effect = {
+            add_power_balance_modifier = {
+                id = Theresa_test_balance
+                modifier = Theresa_bop_modifier
+            }
+            
+        }
+    }
+    Theresa_bop_test_decision_4 = {
+        cost = 0
+        days_remove = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+        complete_effect = {
+            add_power_balance_modifier = {
+                id = Theresa_test_balance
+                modifier = Theresa_bop_modifier_1
+            }
+            
+        }
+    }
+    Theresa_bop_test_decision_5 = {
+        cost = 0
+        days_remove = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+        }
+        complete_effect = {
+            remove_all_power_balance_modifiers = {
+                id = Theresa_test_balance
+            }
+            
         }
     }
 }
