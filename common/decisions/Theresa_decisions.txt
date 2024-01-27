@@ -1,4 +1,44 @@
 Theresa_test_decision_category = {
+    Theresa_test_decision_open= {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+            NOT = {
+                has_country_flag = Theresa_debug_open
+            }
+        }
+    
+        complete_effect = {
+            set_country_flag = Theresa_debug_open
+        }
+    }
+    Theresa_test_decision_close= {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            is_debug = yes
+            has_country_flag = Theresa_debug_open
+        }
+    
+        complete_effect = {
+            clr_country_flag = Theresa_debug_open
+        }
+    }
     Theresa_test_decision_0 = {
         cost = 0
         days_remove = 0
@@ -11,6 +51,7 @@ Theresa_test_decision_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
     
         complete_effect = {
@@ -37,6 +78,7 @@ Theresa_test_decision_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
     
         complete_effect = {
@@ -77,6 +119,7 @@ Theresa_test_decision_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
     
         complete_effect = {
@@ -98,6 +141,7 @@ Theresa_test_decision_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
     
         complete_effect = {
@@ -123,6 +167,7 @@ Theresa_test_decision_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
     
         complete_effect = {
@@ -184,6 +229,7 @@ Theresa_test_decision_category = {
         
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
     
         complete_effect = {
@@ -217,6 +263,7 @@ Theresa_test_decision_category = {
         
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
     
         complete_effect = {
@@ -272,6 +319,7 @@ Theresa_test_decision_category = {
         
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
     
         complete_effect = {
@@ -314,6 +362,7 @@ Theresa_test_decision_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
         modifier = {
             industrial_capacity_dockyard = 100
@@ -338,6 +387,7 @@ Theresa_test_decision_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
         complete_effect = {
             every_character = {
@@ -361,6 +411,7 @@ Theresa_test_decision_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
         complete_effect = {
             every_military_industrial_organization = {
@@ -387,6 +438,7 @@ Theresa_test_decision_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
         modifier = {
             max_dig_in = 300
@@ -412,6 +464,7 @@ Theresa_test_decision_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
         modifier = {
             industrial_capacity_factory = 100
@@ -436,6 +489,7 @@ Theresa_test_decision_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
         modifier = {
             industrial_capacity_factory = 100
@@ -463,6 +517,7 @@ Theresa_test_decision_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
         modifier = {
 
@@ -490,6 +545,7 @@ Theresa_test_decision_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
         modifier = {
 
@@ -1053,6 +1109,7 @@ Theresa_test_decision_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
     
         complete_effect = {
@@ -1157,6 +1214,7 @@ Theresa_test_decision_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
     
         complete_effect = {
@@ -1214,6 +1272,7 @@ Theresa_test_decision_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
     
         complete_effect = {
@@ -4559,6 +4618,7 @@ Theresa_bop_decision_test_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
         complete_effect = {
             add_power_balance_value = {
@@ -4580,6 +4640,7 @@ Theresa_bop_decision_test_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
         complete_effect = {
             add_power_balance_value = {
@@ -4601,6 +4662,7 @@ Theresa_bop_decision_test_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
         complete_effect = {
             add_power_balance_modifier = {
@@ -4621,6 +4683,7 @@ Theresa_bop_decision_test_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
         complete_effect = {
             add_power_balance_modifier = {
@@ -4641,6 +4704,7 @@ Theresa_bop_decision_test_category = {
         }
         visible = {
             is_debug = yes
+            has_country_flag = Theresa_debug_open
         }
         complete_effect = {
             remove_all_power_balance_modifiers = {

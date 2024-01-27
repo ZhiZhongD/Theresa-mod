@@ -26,7 +26,14 @@ unit_medals = {
 	
 	Theresa_medals_A = {
 		
-		available = { has_government = Theresaism }
+		available = {
+			OR = {
+				has_government = Theresaism
+				has_idea = Theresa_Empyrean_Psalms
+				has_country_flag = Theresa_Empyrean_Psalms_flag
+			}
+		}
+						
 		frame = 1
 		icon = "GFX_medal_icon_TEA"
 		
@@ -49,7 +56,13 @@ unit_medals = {
 
 	Theresa_medals_S = {
 		
-		available = { has_government = Theresaism }
+		available = {
+			OR = {
+				has_government = Theresaism
+				has_idea = Theresa_Empyrean_Psalms
+				has_country_flag = Theresa_Empyrean_Psalms_flag
+			}
+		}
 		frame = 2
 		icon = "GFX_medal_icon_TEA"
 		
@@ -71,7 +84,13 @@ unit_medals = {
 
 	Theresa_medals_SS = {
 		
-		available = { has_government = Theresaism }
+		available = {
+			OR = {
+				has_government = Theresaism
+				has_idea = Theresa_Empyrean_Psalms
+				has_country_flag = Theresa_Empyrean_Psalms_flag
+			}
+		}
 		frame = 3
 		icon = "GFX_medal_icon_TEA"
 		
@@ -94,7 +113,13 @@ unit_medals = {
 
 	Theresa_medals_SSS = {
 		
-		available = { has_government = Theresaism }
+		available = {
+			OR = {
+				has_government = Theresaism
+				has_idea = Theresa_Empyrean_Psalms
+				has_country_flag = Theresa_Empyrean_Psalms_flag
+			}
+		}
 		frame = 4
 		icon = "GFX_medal_icon_TEA"
 		

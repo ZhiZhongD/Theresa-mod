@@ -14,6 +14,15 @@ Theresa_ai_eq = {
             count = 12
         }
     }
+    every_country = {
+        limit = {
+            exists = yes
+        }
+    }
+    every_owned_state = {
+
+        set_state_flag = is_china
+    }
 }
 Theresa_state_level_up = {
     if = {
