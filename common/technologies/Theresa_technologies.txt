@@ -10,6 +10,7 @@ technologies =  {
 			Theresa_army_support
 		}
 
+		allow = { is_ai = no }
 		on_research_complete_limit = {
 			NOT = {	
 				has_template_containing_unit = Theresa_army_brigade 
@@ -64,6 +65,9 @@ technologies =  {
 		categories = {
 			infantry_weapons
 		}
+		ai_will_do = {
+			base = 0
+		}
 		
 	}	
 	Theresa_army_tech_2 = {
@@ -82,7 +86,9 @@ technologies =  {
 		categories = {
 			infantry_weapons
 		}
-		
+		ai_will_do = {
+			base = 0
+		}
 	}
 	Theresa_army_tech_3 = {
 
@@ -100,7 +106,9 @@ technologies =  {
 		categories = {
 			infantry_weapons
 		}
-		
+		ai_will_do = {
+			base = 0
+		}
 	}
 
 	FuXuan_tech = {
@@ -110,7 +118,7 @@ technologies =  {
 		enable_subunits = {
 			FuXuan_army
 		}
-		
+		allow = { is_ai = no }
 		research_cost = 1.5
 		
 		folder = {
@@ -121,6 +129,8 @@ technologies =  {
 		categories = {
 			infantry_weapons
 		}
-		
+		ai_will_do = {
+			base = 0
+		}
 	}
 }
