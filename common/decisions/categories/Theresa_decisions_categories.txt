@@ -50,11 +50,16 @@ Theresa_industory_decision_category = {
 	visible = {
 		OR = {
 			has_government = Theresaism
+			has_idea = Theresa_Empyrean_Psalms
+			has_country_flag = Theresa_Empyrean_Psalms_flag
 		}
 	}
 	priority = 97
 }
 Theresa_tech_decision_category = {
+	allowed = {
+		is_ai = no
+	}
 	visible = {
 		is_ai = no
 	}

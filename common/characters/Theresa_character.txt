@@ -43,6 +43,50 @@ characters = {
             id = -1
         }
     }
+    TEA_Theresa_1 = {
+        name = TEA_Theresa
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large
+               small = GFX_portrait_Theresa_small
+            }
+            army = {
+                large = GFX_portrait_Theresa_large
+                small = GFX_portrait_Theresa_small
+            }
+        }
+
+        country_leader = {
+            ideology = Theresaism_subtype
+            traits = { Theresa_is_the_lovest }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = socialism
+            traits = { Theresa_is_the_lovest }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = marxism
+            traits = { Theresa_is_the_lovest }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = { Theresa_is_the_lovest }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { Theresa_is_the_lovest }
+            expire = "2023.2.3.1"
+            id = -1
+        }
+    }
    
     Theresa_Twilight_Paladin = {
         name = Theresa_Twilight_Paladin

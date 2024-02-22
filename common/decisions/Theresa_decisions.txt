@@ -4800,7 +4800,7 @@ Theresa_decision_category = {
         }
     
         complete_effect = {
-            hidden_effect = {
+            # hidden_effect = {
                 set_popularities = {
                     Theresaism = 100
                 }
@@ -4821,7 +4821,7 @@ Theresa_decision_category = {
                     }
                 }
                 # load_focus_tree = Theresa_focus_tree
-            }
+            # }
             custom_effect_tooltip = TEA_play_as_TEA
             set_global_flag = Theresa_is_coming
             set_cosmetic_tag = TEA
@@ -4845,6 +4845,57 @@ Theresa_decision_category = {
             #     Theresa_Orchid_Night
             #     Theresa_Magical_Teriri
             # }
+        }
+    }
+    Theresa_decision_Leader = {
+        cost = 0
+        days_remove = 3 
+        fire_only_once = yes
+        visible = {
+            has_global_flag = Theresa_is_coming
+        }
+        complete_effect = {
+            recruit_character = TEA_Theresa_1
+        }
+        remove_effect = {
+            hidden_effect = {
+                retire_country_leader = yes 
+            }
+            add_country_leader_role = {
+                character = TEA_Theresa_1  # Must be recruited
+                promote_leader = yes
+                country_leader = {
+                    ideology = socialism
+                }
+            }
+            add_country_leader_role = {
+                character = TEA_Theresa_1  # Must be recruited
+                promote_leader = yes
+                country_leader = {
+                    ideology = marxism
+                }
+            }
+            add_country_leader_role = {
+                character = TEA_Theresa_1  # Must be recruited
+                promote_leader = yes
+                country_leader = {
+                    ideology = fascism_ideology
+                }
+            }
+            add_country_leader_role = {
+                character = TEA_Theresa_1  # Must be recruited
+                promote_leader = yes
+                country_leader = {
+                    ideology = anarchism
+                }
+            }
+            add_country_leader_role = {
+                character = TEA_Theresa_1  # Must be recruited
+                promote_leader = yes
+                country_leader = {
+                    ideology = Theresaism_subtype
+                }
+            }
         }
     }
     Theresa_decision_Theresania = {
@@ -5134,14 +5185,17 @@ Theresa_industory_decision_category = {
     }
     TEA_industory_targeted_decision = {
 		target_root_trigger = {
-            has_government = Theresaism
+			OR = {
+				has_government = Theresaism
+				has_idea = Theresa_Empyrean_Psalms
+				has_country_flag = Theresa_Empyrean_Psalms_flag
+			}
             NOT = {
                 has_country_flag = TEA_industory_close
             }
 		}
         state_target = yes
 		target_trigger = {
-            
 			FROM = {
                 controller = {
                     NOT = {
@@ -5155,30 +5209,62 @@ Theresa_industory_decision_category = {
                     has_state_category = large_city
                     has_state_category = city
                 }
-                is_controlled_by = ROOT
+                is_owned_and_controlled_by = ROOT
 			}
 		}
-		cost = 0
+        available = {
+            ROOT = {
+                num_of_civilian_factories_available_for_projects > 1
+            }
+        }
+		cost = 15
 		days_remove = 15
         priority = 10
 		ai_will_do = {
 			base = 100
 		}
+        modifier = {
+            civilian_factory_use = 1
+        }
 		remove_effect = {
             FROM = {
                 Theresa_state_level_up = yes
-                add_extra_state_shared_building_slots = 1
-                add_building_construction = {
-                    type = industrial_complex
-                    level = 1
-                    instant_build = yes
+                if = {
+                    limit = {
+                        FROM = {
+                            has_state_category = town
+                        }
+                    }
+                    add_extra_state_shared_building_slots = 1
+                    add_building_construction = {
+                        type = industrial_complex
+                        level = 1
+                        instant_build = yes
+                    }
+                    add_building_construction = {
+                        type = infrastructure
+                        level = 1
+                        instant_build = yes
+                    }
                 }
-                add_building_construction = {
-                    type = infrastructure
-                    level = 1
-                    instant_build = yes
+                if = {
+                    limit = {
+                        FROM = {
+                            has_state_category = large_town
+                        }
+                    }
+                    add_extra_state_shared_building_slots = 1
+                    add_building_construction = {
+                        type = arms_factory
+                        level = 1
+                        instant_build = yes
+                    }
+                    add_building_construction = {
+                        type = infrastructure
+                        level = 1
+                        instant_build = yes
+                    }
                 }
-                transfer_state_to = ROOT
                 add_state_modifier = {
                     modifier = { }
                 }

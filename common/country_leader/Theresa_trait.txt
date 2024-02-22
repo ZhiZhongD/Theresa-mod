@@ -3,10 +3,14 @@ leader_traits = {
         stability_factor = 0.2
         war_support_factor = 0.2
         political_power_gain = 1
+        generate_wargoal_tension = -1
+        justify_war_goal_time = -1
     }
     Theresa_Twilight_Paladin_Leader ={
         political_power_gain = 1
         political_power_factor = 1
+        generate_wargoal_tension = -1
+        justify_war_goal_time = -1
     }
     Theresa_Starlit_Astrologos_Leader = {
         land_doctrine_cost_factor = -0.95
