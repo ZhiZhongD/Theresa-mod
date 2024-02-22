@@ -4897,7 +4897,7 @@ Theresa_decision_category = {
                 }
             }
         }
-    }
+    } 
     Theresa_decision_Theresania = {
         cost = 0
         days_remove = 0
