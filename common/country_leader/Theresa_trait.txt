@@ -48,6 +48,7 @@ leader_traits = {
     Theresa_Wonderland_Trek_trait = {
         production_factory_efficiency_gain_factor = 0.25
         production_factory_max_efficiency_factor = 0.25
+        production_lack_of_resource_penalty_factor = -1
         production_speed_supply_node_factor = 5
     }
     Theresa_Blood_Knight_trait = {

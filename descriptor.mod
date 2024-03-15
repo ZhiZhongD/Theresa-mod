@@ -11,5 +11,5 @@ dependencies={
 	"The New Order: Last Days of Europe"
 }
 name="德丽莎入侵"
-supported_version="1.13.*"
+supported_version="1.14.*"
 remote_file_id="2956953855"

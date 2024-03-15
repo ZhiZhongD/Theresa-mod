@@ -4529,19 +4529,6 @@ Theresa_puppet_decision_category = {
         }
         visible = {
             controls_state = 282
-            controls_state = 526
-            controls_state = 528
-            controls_state = 529
-            controls_state = 530
-            controls_state = 531
-            controls_state = 532
-            controls_state = 533
-            controls_state = 534
-            controls_state = 535
-            controls_state = 536
-            controls_state = 537
-            controls_state = 555
-            controls_state = 655
         }
     
         complete_effect = {
@@ -5209,7 +5196,7 @@ Theresa_industory_decision_category = {
                     has_state_category = large_city
                     has_state_category = city
                 }
-                is_owned_and_controlled_by = ROOT
+                is_controlled_by = ROOT
 			}
 		}
         available = {
@@ -5343,9 +5330,9 @@ Theresa_tech_decision_category = {
             base = 0
         }
         visible = {
-            has_government = Theresaism
-            NOT= {
-                has_tech = Theresa_army_tech_0
+            is_ai = no
+            AND = {
+                has_government = Theresaism
             }
         }
         available = {
