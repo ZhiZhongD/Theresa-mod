@@ -47,8 +47,8 @@ Theresa_inf_MIO = {
 		}
 
 		organization_modifier = {
-			military_industrial_organization_research_bonus = 0.05
-			military_industrial_organization_funds_gain = 0.1
+			military_industrial_organization_research_bonus = 1.05
+			military_industrial_organization_funds_gain = 0.5
 		}
 	}
 
@@ -291,7 +291,7 @@ Theresa_naval_MIO = {
 	initial_trait = {
 		
 		organization_modifier = {
-			military_industrial_organization_research_bonus = 1.5
+			military_industrial_organization_research_bonus = 0.25
 		}
 		equipment_bonus = {
 			hg_attack = 0.1
@@ -366,7 +366,7 @@ Theresa_artillery_mio = {
 
 	initial_trait = {
 		organization_modifier = {
-			military_industrial_organization_research_bonus = 1.45
+			military_industrial_organization_research_bonus = 0.25
 		}
 		equipment_bonus = {
 			soft_attack = 0.15
@@ -442,7 +442,7 @@ Theresa_tank_mio = {
 
 	initial_trait = {
 		organization_modifier = {
-			military_industrial_organization_research_bonus = 1.45
+			military_industrial_organization_research_bonus = 0.25
 		}
 		equipment_bonus = {
 			soft_attack = 0.15
@@ -479,7 +479,7 @@ Theresa_tank_mio = {
 			super_heavy_tank_chassis
 		}
 		equipment_bonus = {
-			reliability = 0.5
+			reliability = 1.5
 			build_cost_ic = -0.95
 			maximum_speed = 1
 			armor_value = 1
@@ -505,7 +505,7 @@ Theresa_plane_mio = {
 
 	initial_trait = {
 		organization_modifier = {
-			military_industrial_organization_research_bonus = 1.45
+			military_industrial_organization_research_bonus = 0.25
 		}
 		equipment_bonus = {
 			air_attack = 1
@@ -536,20 +536,11 @@ Theresa_plane_mio = {
 		}
 		position = { x = 1 y = 0 }
 	}
-	trait = {
-		token = Future_Tank_reliability_upgrade
-		icon = GFX_industrial_org_trait_placeholder
-		equipment_bonus = {
-			
-		}
-		any_parent = { Future_plane }
-		position = { x = 0 y = 1 }
-	}
 }
 
 Theresa_support_mio = {
 	equipment_type = { support_equipment }
-	research_categories = { support_tech }
+	research_categories = { support_tech train_equipment }
 
 	visible = {
 		FROM = {
@@ -563,7 +554,7 @@ Theresa_support_mio = {
 
 	initial_trait = {
 		organization_modifier = {
-			military_industrial_organization_research_bonus = 1.45
+			military_industrial_organization_research_bonus = 0.25
 		}
 		equipment_bonus = {
 			build_cost_ic = -0.5
@@ -586,7 +577,7 @@ Theresa_support_mio = {
 
 Theresa_moto_mio = {
 	equipment_type = { motorized_equipment mechanized_equipment motorized_rocket_equipment }
-	research_categories = { motorized_equipment }
+	research_categories = { motorized_equipment amphibious_mechanized_equipment }
 
 	visible = {
 		FROM = {
@@ -600,7 +591,7 @@ Theresa_moto_mio = {
 
 	initial_trait = {
 		organization_modifier = {
-			military_industrial_organization_research_bonus = 1.45
+			military_industrial_organization_research_bonus = 0.25
 		}
 		equipment_bonus = {
 			build_cost_ic = -0.5
@@ -616,6 +607,10 @@ Theresa_moto_mio = {
 		equipment_bonus = {
 			build_cost_ic = -0.45
 			reliability = 0.5
+			hard_attack = 0.5
+			soft_attack = 0.5
+			armor_value = 0.5
+			fuel_consumption_factor = -0.5
 		}
 		position = { x = 1 y = 0 }
 	}

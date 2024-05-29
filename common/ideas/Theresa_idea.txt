@@ -422,17 +422,16 @@ ideas = {
 			traits = { industrial_concern }
 
 			research_bonus = {
-				industry = 1
-				electronics = 1
-				nuclear = 1
+				industry = 0.35
+				electronics = 0.35
+				nuclear = 0.35
 			}
 
 			modifier = {
-				research_speed_factor = 0.25
 				industrial_capacity_factory = 0.25
-				production_speed_buildings_factor = 0.25
+				production_speed_buildings_factor = 0.15
 				local_resources_factor = 0.3
-				supply_node_range = 2
+				supply_node_range = 0.35
 			}
 			
 		}
@@ -480,8 +479,9 @@ ideas = {
 			modifier = {
 				experience_gain_army = 0.2
 				experience_gain_army_factor = 0.25
-				pocket_penalty = -0.5
-				weekly_manpower = 2000
+				army_attack_factor = 0.1
+				pocket_penalty = -0.75
+				weekly_manpower = 3000
 			}
 			ai_will_do = {
 				factor = 1
@@ -504,8 +504,8 @@ ideas = {
 				}
 			}
 			modifier = {
-				army_speed_factor = 0.15
-				max_dig_in = 10
+				army_speed_factor = 0.25
+				max_dig_in = 20
 			}
 			ai_will_do = {
 				factor = 1

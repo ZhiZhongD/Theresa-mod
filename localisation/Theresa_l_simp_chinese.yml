@@ -39,7 +39,7 @@
  TEA_res_decision_2:0 "提升科研水平"
  TEA_res_decision_3:0 "提升科研水平"
  TEA_industory_targeted_decision:0 "在§t[from.getname]§!进行工业化"
-
+ Theresa_decision_Leader:0 "替换领导人"
  Theresa_tech_decision_category:0 "科技研究"
  Theresa_get_tech_0:0 "研究誓约装甲"
  Theresa_get_tech_1:0 "研究血骑士装甲"
@@ -152,6 +152,38 @@
  Theresa_inf_MIO_TEA_improve_cloth_3:0 "暮光骑士"
  Theresa_inf_MIO_TEA_Judas_Pledge:0 "犹大的誓约"
 
+ Theresa_naval_MIO:0 "天命海军研究所"
+ Theresa_naval_MIO_initial_trait:0 "未来海军"
+ Theresa_naval_MIO_Naval_range_upgrade:0 "航程升级"
+ Theresa_naval_MIO_Naval_Artillery_upgrade:0 "舰炮升级"
+ Theresa_naval_MIO_Naval_Cost_savings:0 "节省成本"
+ Theresa_naval_MIO_Naval_armor_upgrade:0 "装甲升级"
+ Theresa_naval_MIO_Naval_torpedo_upgrade:0 "鱼雷升级"
+
+ Theresa_artillery_mio:0 "天命火炮研究所"
+ Theresa_artillery_mio_initial_trait:0 "天命火炮"
+ Theresa_artillery_mio_Future_Weapon:0 "未来武器"
+ Theresa_artillery_mio_Artillery_upgrade:0 "火炮升级"
+ Theresa_artillery_mio_AA_upgrade:0 "防空炮升级"
+ Theresa_artillery_mio_AT_upgrade:0 "反坦克炮升级"
+
+ Theresa_tank_mio:0 "天命坦克研究所"
+ Theresa_tank_mio_initial_trait:0 "坦克升级"
+ Theresa_tank_mio_Future_Tank:0 "未来坦克"
+ Theresa_tank_mio_Future_Tank_reliability_upgrade:0 "可靠性升级"
+ Theresa_tank_mio_Super_heavy_Tank_upgrade:0 "超重型坦克升级"
+
+ Theresa_plane_mio:0 "天命飞行器研究所"
+ Theresa_plane_mio_initial_trait:0 "飞行器升级"
+ Theresa_plane_mio_Future_plane:0 "未来飞机"
+
+ Theresa_support_mio:0 "天命支援装备研究所"
+ Theresa_support_mio_initial_trait:0 "未来装备"
+ Theresa_support_mio_Future_support_equipment:0 "节约成本"
+
+ Theresa_moto_mio:0 "天命摩托化装备研究所"
+ Theresa_moto_mio_initial_trait:0 "未来装备"
+ Theresa_moto_mio_Future_support_equipment:0 "节约成本"
 
  Theresa_industrial_concern:0 "天命工业研究所"
 

@@ -20,6 +20,7 @@ equipments = {
 		air_attack = 10
 		armor_value = 25
 		reliability = 1.2
+		hardness = 0.8
 		maximum_speed = 12
 		#Space taken in convoy
 		lend_lease_cost = 1

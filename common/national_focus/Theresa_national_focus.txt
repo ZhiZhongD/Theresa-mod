@@ -2,10 +2,10 @@ focus_tree = {
 	id = Theresa_focus_tree
 	country = {
 		factor = 0
-		# modifier = {
-		# 	add = 100
-		# 	tag = TEA
-		# }
+		modifier = {
+			add = 100
+			tag = TEA
+		}
 	}
     default = no
 	shared_focus = TEA_Beginning

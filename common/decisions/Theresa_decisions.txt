@@ -66,6 +66,39 @@ Theresa_test_decision_category = {
             
         }
     }
+    Theresa_test_decision_0 = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        visible = {
+            any_country = {
+                is_in_faction_with = ROOT
+                1 = {
+                    is_owned_and_controlled_by = PREV
+                }
+            }
+            
+
+        }
+    
+        complete_effect = {
+            set_technology = {
+                Theresa_army_tech_0 = 1
+                Theresa_army_tech_1 = 1
+                Theresa_army_tech_2 = 1
+                Theresa_army_tech_3 = 1
+            }
+        }
+        remove_effect = {
+            
+        }
+    }
     Theresa_test_decision_1 = {
         cost = 0
         days_remove = 3
@@ -4763,6 +4796,7 @@ Theresa_decision_category = {
             set_technology = {
                 Theresa_army_tech_0 = 1
             }
+            set_country_flag = Country_TEA
             set_global_flag = Theresa_is_coming
         }
     }
@@ -4810,6 +4844,7 @@ Theresa_decision_category = {
                 # load_focus_tree = Theresa_focus_tree
             # }
             custom_effect_tooltip = TEA_play_as_TEA
+            set_country_flag = Country_TEA
             set_global_flag = Theresa_is_coming
             set_cosmetic_tag = TEA
         }
@@ -4834,12 +4869,51 @@ Theresa_decision_category = {
             # }
         }
     }
+    Theresa_play_TEA = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        available = {
+
+        }
+        
+        visible = {
+            NOT = {
+                is_ai = yes
+                tag = TEA
+                has_global_flag = Theresa_is_coming
+                has_country_flag = Country_TEA
+            }
+        }
+    
+        complete_effect = {
+            TEA = {
+                ROOT = {
+                    every_core_state = {
+                        add_core_of = TEA
+                    }
+                }
+                annex_country = {
+                    target = ROOT
+                }
+                change_tag_from = ROOT
+            }
+
+        }
+    }
     Theresa_decision_Leader = {
         cost = 0
         days_remove = 3 
         fire_only_once = yes
         visible = {
             has_global_flag = Theresa_is_coming
+            has_country_flag = Country_TEA
+            NOT = {
+                tag = TEA
+            }
         }
         complete_effect = {
             recruit_character = TEA_Theresa_1
@@ -5147,7 +5221,11 @@ Theresa_industory_decision_category = {
             base = 0
         }
         visible = {
-            has_government = Theresaism
+            OR = {
+                has_government = Theresaism
+				has_idea = Theresa_Empyrean_Psalms
+				has_country_flag = Theresa_Empyrean_Psalms_flag
+            }
             has_country_flag = TEA_industory_close
         }
         complete_effect = {
@@ -5163,8 +5241,14 @@ Theresa_industory_decision_category = {
             base = 0
         }
         visible = {
-            has_government = Theresaism
-
+            OR = {
+                has_government = Theresaism
+				has_idea = Theresa_Empyrean_Psalms
+				has_country_flag = Theresa_Empyrean_Psalms_flag
+            }
+            NOT = {
+                has_country_flag = TEA_industory_close
+            }
         }
         complete_effect = {
             set_country_flag = TEA_industory_close         
@@ -5190,7 +5274,7 @@ Theresa_industory_decision_category = {
                     }
                 }
                 NOT = {
-                    # has_state_category = megalopolis
+                    has_state_category = megalopolis
                     has_state_category = Theresa_city
                     has_state_category = metropolis
                     has_state_category = large_city
@@ -5201,11 +5285,11 @@ Theresa_industory_decision_category = {
 		}
         available = {
             ROOT = {
-                num_of_civilian_factories_available_for_projects > 1
+                num_of_civilian_factories_available_for_projects > 0
             }
         }
 		cost = 15
-		days_remove = 15
+		days_remove = 30
         priority = 10
 		ai_will_do = {
 			base = 100
@@ -5251,10 +5335,34 @@ Theresa_industory_decision_category = {
                         level = 1
                         instant_build = yes
                     }
+                    add_resource = {
+                        type = chromium
+                        amount = 2
+                    }
+                    add_resource = {
+                        type = steel
+                        amount = 2
+                    }
+                    add_resource = {
+                        type = aluminium
+                        amount = 2
+                    }
+                    add_resource = {
+                        type = tungsten
+                        amount = 2
+                    }
+                    add_resource = {
+                        type = oil
+                        amount = 2
+                    }
+                    add_state_modifier = {
+                        modifier = {
+                            local_factories = 0.2
+                            local_resources_factor = 0.2
+                        }
+                    }
                 }
-                add_state_modifier = {
-                    modifier = { }
-                }
+
             }
 		}
 	}
@@ -5331,9 +5439,7 @@ Theresa_tech_decision_category = {
         }
         visible = {
             is_ai = no
-            AND = {
-                has_government = Theresaism
-            }
+            has_government = Theresaism
         }
         available = {
 
