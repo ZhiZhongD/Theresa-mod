@@ -428,7 +428,7 @@ Theresa_test_decision_category = {
             }
         }
         remove_effect = {
-            
+            country_lock_all_division_template = yes
         }
 
     }
@@ -1332,6 +1332,52 @@ Theresa_test_decision_category = {
                 Theresa_Grand_Sage
                 Theresa_Verdant_Sky
                 Theresa_Startold_Fortune
+            }
+        }
+    }
+    Theresa_test_decision_19 = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        visible = {
+            is_debug = yes
+            has_country_flag = Theresa_debug_open
+        }
+    
+        complete_effect = {
+            TFR = {
+                set_cosmetic_tag = TFR_Furinania
+                set_popularities = {
+                    Theresaism = 100
+                }
+                set_province_name = {
+                    id = 11506
+                    name = TFR_Furinania_name
+                }
+            }
+        }
+    }
+    Theresa_test_decision_20 = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        ai_will_do = {
+            base = 0
+        }
+        visible = {
+            is_debug = yes
+            has_country_flag = Theresa_debug_open
+        }
+    
+        complete_effect = {
+            every_country = {
+                limit = {
+                    is_puppet_of = TEA
+                }
+                set_cosmetic_tag = Overlord
             }
         }
     }
@@ -4916,11 +4962,18 @@ Theresa_decision_category = {
             }
         }
         complete_effect = {
-            recruit_character = TEA_Theresa_1
+            TEA = {
+                TEA_Theresa_1 = {
+                    set_nationality = ROOT
+                }
+            }
         }
         remove_effect = {
-            hidden_effect = {
-                retire_country_leader = yes 
+            ROOT = {
+                TEA_Theresa_1 = {
+                    promote_character = yes
+                    promote_leader = yes
+                }
             }
             add_country_leader_role = {
                 character = TEA_Theresa_1  # Must be recruited

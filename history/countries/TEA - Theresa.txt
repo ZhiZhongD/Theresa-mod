@@ -34,6 +34,7 @@ recruit_character = TEA_Theresa_communist_revolutionary
 recruit_character = TEA_Theresa_democratic_reformer
 recruit_character = TEA_Theresa_fascist_demagogue
 recruit_character = Lunar_Vow_Crimson_Love
+recruit_character = TEA_Theresa_1
 
 TEA_Theresa = {
 	promote_leader = yes

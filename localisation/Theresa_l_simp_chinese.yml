@@ -28,6 +28,7 @@
  TEA_Theresania:0 "大德丽莎国"
  TEA_Theresania_DEF:0 "大德丽莎国"
  TEA_Theresania_ADJ:0 "大德丽莎国"
+ 
  TEA_HTE:0 "神圣德丽莎帝国"
  TEA_HTE_DEF:0 "神圣德丽莎帝国"
  TEA_HTE_ADJ:0 "神圣德丽莎帝国"
@@ -259,8 +260,8 @@
  TEA_Theresa_democratic_reformer:0 "德丽莎"
  TEA_Theresa_fascist_demagogue:0 "德丽莎"
 
-
-
+ FON_Furina: "芙宁娜"
+ 
 
 
 
@@ -335,6 +336,10 @@
  TFR:0 "法兰西德丽莎应援会"
  TFR_ADJ:0 "法兰西德丽莎应援会"
  TFR_DEF:0 "法兰西德丽莎应援会"
+ TFR_Furinania: "芙宁娜妮娅"
+ TFR_Furinania_name: "§4芙宁娜妮娅§!"
+ TFR_Furinania_ADJ: "芙宁娜妮娅"
+ TFR_Furinania_DEF: "芙宁娜妮娅"
 
  TAS:0 "阿尔卑斯德丽莎应援会"
  TAS_ADJ:0 "阿尔卑斯德丽莎应援会"

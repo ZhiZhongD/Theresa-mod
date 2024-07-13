@@ -837,4 +837,24 @@ characters = {
             id = -1
         }
     }
+
+    FON_Furina = {
+        name = FON_Furina
+        portraits = {
+            civilian = {
+                large = "gfx/interface/FON_funingna.png"
+            }
+            army = {
+                large = "gfx/interface/FON_funingna.png"
+            }
+        }
+
+        country_leader = {
+            ideology = Theresa_despotism
+            traits = {  }
+            expire = "2022.10.20.1"
+            id = -1
+			
+        }
+    }
 }

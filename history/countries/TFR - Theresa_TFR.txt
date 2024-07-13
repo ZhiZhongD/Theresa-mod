@@ -16,7 +16,7 @@ set_politics = {
 set_popularities = {
 	Theresaism = 100
 }
-
+recruit_character = FON_Furina
 add_ideas = {
 	limited_exports
 }
