@@ -5010,6 +5010,7 @@ Theresa_decision_category = {
                     ideology = Theresaism_subtype
                 }
             }
+            retire_country_leader = yes
         }
     } 
     Theresa_decision_Theresania = {

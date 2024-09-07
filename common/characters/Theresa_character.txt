@@ -712,6 +712,28 @@ characters = {
 			legacy_id=-1
 		}
     }
+    Theresa_23 = {
+        name = Theresa_23_name
+        portraits = {
+            civilian = {
+               large = GFX_portrait_Theresa_large_23
+               small = GFX_portrait_Theresa_small_23
+            }
+            army = {
+                large = GFX_portrait_Theresa_large_23
+                small = GFX_portrait_Theresa_small_23
+            }
+        }
+        corps_commander={
+		    traits = { cavalry_leader trait_engineer trait_reckless inspirational_leader }
+	        skill = 1
+	        attack_skill = 5
+	        defense_skill = 5
+	        planning_skill = 5
+	        logistics_skill = 5
+			legacy_id=-1
+		}
+    }
     Lunar_Vow_Crimson_Love = {
         name = Lunar_Vow_Crimson_Love
         portraits = {
